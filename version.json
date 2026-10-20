@@ -1,12 +1,23 @@
 {
- "version": "V22.56",
- "date": "2026-10-20",
+ "version": "V22.57",
+ "date": "2026-10-21",
  "notes": [
-  "Thẻ Lưu trữ chuyển vào Quản trị tài khoản (thẻ 🗂️ Lưu trữ dữ liệu) – chỉ Admin xem và thao tác.",
-  "Người dùng thường không còn bị hỏi chọn nơi lưu khi mở chương trình.",
-  "Cập nhật toàn bộ hướng dẫn trong Trợ giúp: đăng ký mã PIN, nút con mắt, Nhật ký CT, điện thoại, cập nhật phiên bản, quản trị."
+  "Toàn bộ dữ liệu (hồ sơ, danh mục, tệp đính kèm, văn bản Word, sao lưu, nhật ký công trình) lưu tập trung trên Google Drive của Admin – mọi thiết bị dùng chung.",
+  "Mất mạng vẫn làm việc: thay đổi chờ gửi và tự đồng bộ khi có mạng.",
+  "Lần đầu đăng nhập tự chuyển hồ sơ đang lưu trên máy lên Drive của Admin.",
+  "Admin: hướng dẫn cập nhật máy chủ ngay trong chương trình, có nút sao chép mã máy chủ."
  ],
  "history": [
+  {
+   "version": "V22.57",
+   "date": "2026-10-21",
+   "notes": [
+    "Toàn bộ dữ liệu (hồ sơ, danh mục, tệp đính kèm, văn bản Word, sao lưu, nhật ký công trình) lưu tập trung trên Google Drive của Admin – mọi thiết bị dùng chung.",
+    "Mất mạng vẫn làm việc: thay đổi chờ gửi và tự đồng bộ khi có mạng.",
+    "Lần đầu đăng nhập tự chuyển hồ sơ đang lưu trên máy lên Drive của Admin.",
+    "Admin: hướng dẫn cập nhật máy chủ ngay trong chương trình, có nút sao chép mã máy chủ."
+   ]
+  },
   {
    "version": "V22.56",
    "date": "2026-10-20",
