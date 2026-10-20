@@ -7778,6 +7778,14 @@ function phrBusy(btn, on, label) {
   if (on) { btn.dataset.lbl = btn.innerHTML; btn.disabled = true; btn.innerHTML = '<span class="lg-spin"></span>' + (label || 'Đang xử lý…'); }
   else { btn.disabled = false; if (btn.dataset.lbl) btn.innerHTML = btn.dataset.lbl; }
 }
+/* "Muối" mật khẩu: dạng P + 32 ký tự hex (bắt đầu bằng chữ, Google Sheet không hiểu nhầm thành công thức/số). */
+function phrSaltNew() { const b = crypto.getRandomValues(new Uint8Array(16)); return { bytes: b, str: 'P' + [...b].map(x => x.toString(16).padStart(2, '0')).join('') }; }
+function phrSaltBytes(v) {
+  const s = String(v == null ? '' : v).trim();
+  if (/^P[0-9a-f]{32}$/.test(s)) return Uint8Array.from(s.slice(1).match(/../g), h => parseInt(h, 16));
+  if (s && /^[A-Za-z0-9+/]+={0,2}$/.test(s) && s.length % 4 === 0) return fromB64(s);
+  const e = new Error('Dữ liệu mật khẩu của tài khoản này trên máy chủ bị lỗi định dạng. Vui lòng đặt lại mật khẩu bằng mã PIN gửi qua email (đã mở sẵn màn hình bên dưới).'); e.code = 'badsalt'; throw e;
+}
 const phrEmailOk = e => /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(e);
 
 /* Vào chương trình sau khi máy chủ xác nhận */
@@ -7809,7 +7817,10 @@ async function loginWithGoogle() {
     try { s = await phrApi('salt', { email }); }
     catch (e) { if (e.code === 'net') return await phrOfflineLogin(email, password); throw e; }
     if (!s.ok) { if (s.code === 'nouser') phrShowPane('reg', email); phrMsg(s.msg); return; }
-    const hash = await derivePassword(password, fromB64(s.salt));
+    let saltBytes;
+    try { saltBytes = phrSaltBytes(s.salt); }
+    catch (e) { phrShowPane('reset', email); phrMsg(e.message); return; }
+    const hash = await derivePassword(password, saltBytes);
     const r = await phrApi('login', { email, hash });
     if (!r.ok) { phrMsg(r.msg); passEl && passEl.select(); return; }
     await phrEnter(email, password, s.salt, hash, r);
@@ -7819,7 +7830,8 @@ async function loginWithGoogle() {
 async function phrOfflineLogin(email, password) {
   let rec = null; try { rec = JSON.parse(localStorage.getItem(PHR_SRV_PWD_PREFIX + email) || 'null'); } catch (_) { }
   if (!rec) { phrMsg('Không kết nối được máy chủ xác thực và thiết bị này chưa từng đăng nhập tài khoản ' + email + '. Vui lòng kiểm tra mạng.'); return; }
-  const hash = await derivePassword(password, fromB64(rec.salt));
+  let sb; try { sb = phrSaltBytes(rec.salt); } catch (e) { phrMsg('Không kết nối được máy chủ xác thực. Vui lòng kiểm tra mạng.'); return; }
+  const hash = await derivePassword(password, sb);
   if (await phrSha(hash) !== rec.h) { phrMsg('Mật khẩu không đúng.'); return; }
   toastLater('Đang mất mạng: đăng nhập bằng thông tin đã lưu trên thiết bị này.');
   await phrEnter(email, password, rec.salt, hash, { role: rec.role });
@@ -7886,7 +7898,7 @@ async function phrVerifyPin() {
   if (p1.value !== p2.value) { phrMsg('Hai lần nhập mật khẩu chưa khớp.'); p2.focus(); return; }
   phrBusy(btn, true, 'Đang xác thực…'); phrMsg('');
   try {
-    const saltBytes = crypto.getRandomValues(new Uint8Array(16)), salt = toB64(saltBytes);
+    const ns = phrSaltNew(), saltBytes = ns.bytes, salt = ns.str;
     const hash = await derivePassword(p1.value, saltBytes);
     const r = await phrApi('verifyPin', { email, pin, salt, hash, purpose: phrRegPurpose });
     if (!r.ok) { phrMsg(r.msg); pinEl.select(); return; }
