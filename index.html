@@ -2909,7 +2909,7 @@ function phrReopenLogin(){const card=document.querySelector('#login-screen .logi
 
 // Dữ liệu tài khoản được chuẩn hóa Gmail; không tự xóa hồ sơ dự án hay dữ liệu nghiệp vụ khi làm sạch tài khoản.
 // Có máy chủ xác thực: đăng ký bằng mã PIN gửi qua email (xem module phr-email-auth). Không có: hàng đợi cục bộ chờ Admin phê duyệt.
-const PHR_AUTH_API_URL = ''; // ← URL Web App Google Apps Script (máy chủ gửi mã PIN). Để trống = cơ chế cũ, tài khoản lưu trên từng trình duyệt.
+const PHR_AUTH_API_URL = 'https://script.google.com/macros/s/AKfycbwwhWYlyQHzNussNTiMOXy0fbOFsXHeXKedQE4zAz_i-20gWh0q_0KFm5grr-xGoBj_Gg/exec'; // ← URL Web App Google Apps Script (máy chủ gửi mã PIN). Để trống = cơ chế cũ, tài khoản lưu trên từng trình duyệt.
 const DEVICE_SESSION_ID = (crypto && crypto.randomUUID) ? crypto.randomUUID() : String(Date.now()) + '-' + Math.random().toString(36).slice(2);
 let appStartedAfterLogin = false;
 let sessionHeartbeat = null;
