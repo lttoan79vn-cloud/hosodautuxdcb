@@ -1,13 +1,21 @@
 {
- "version": "V22.57",
+ "version": "V22.58",
  "date": "2026-10-21",
  "notes": [
-  "Toàn bộ dữ liệu (hồ sơ, danh mục, tệp đính kèm, văn bản Word, sao lưu, nhật ký công trình) lưu tập trung trên Google Drive của Admin – mọi thiết bị dùng chung.",
-  "Mất mạng vẫn làm việc: thay đổi chờ gửi và tự đồng bộ khi có mạng.",
-  "Lần đầu đăng nhập tự chuyển hồ sơ đang lưu trên máy lên Drive của Admin.",
-  "Admin: hướng dẫn cập nhật máy chủ ngay trong chương trình, có nút sao chép mã máy chủ."
+  "Logo VRG Phước Hòa thay chữ PHR ở góc trái màn hình, màn hình đăng nhập và biểu tượng ứng dụng.",
+  "Nhật ký CT – Hồ sơ công trình: địa chỉ mới Xã Phước Hòa, TP. Hồ Chí Minh; đơn vị TVGS mặc định Phòng PT&QLKCN - Công ty CP Cao su Phước Hòa; Giám sát trưởng chỉ gợi ý.",
+  "Số hiệu hợp đồng trong Nhật ký tự lấy từ hồ sơ PHR cùng công trình (chưa có thì để trống); chọn được hồ sơ PHR liên kết."
  ],
  "history": [
+  {
+   "version": "V22.58",
+   "date": "2026-10-21",
+   "notes": [
+    "Logo VRG Phước Hòa thay chữ PHR ở góc trái màn hình, màn hình đăng nhập và biểu tượng ứng dụng.",
+    "Nhật ký CT – Hồ sơ công trình: địa chỉ mới Xã Phước Hòa, TP. Hồ Chí Minh; đơn vị TVGS mặc định Phòng PT&QLKCN - Công ty CP Cao su Phước Hòa; Giám sát trưởng chỉ gợi ý.",
+    "Số hiệu hợp đồng trong Nhật ký tự lấy từ hồ sơ PHR cùng công trình (chưa có thì để trống); chọn được hồ sơ PHR liên kết."
+   ]
+  },
   {
    "version": "V22.57",
    "date": "2026-10-21",
