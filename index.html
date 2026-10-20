@@ -585,7 +585,7 @@ button,.btn,#tabs button,.nav-i{min-height:38px}
 
 <div id="topbar">
   <span class="logo">PHR</span>
-  <div class="appname">HỒ SƠ ĐẦU TƯ XÂY DỰNG CƠ BẢN<small>PHÒNG PT&amp;QLKCN · PHIÊN BẢN V22 · <span id="dev-mark">© 2026 Lê Thanh Toàn</span></small></div>
+  <div class="appname">HỒ SƠ ĐẦU TƯ XÂY DỰNG CƠ BẢN<small>PHÒNG PT&amp;QLKCN · PHIÊN BẢN V22.55 · <span id="dev-mark">© 2026 Lê Thanh Toàn</span></small></div>
   <nav id="tabs">
     <button data-view="work" class="on">Soạn hồ sơ</button>
     <button data-view="dash">Tổng quan</button>
@@ -8399,6 +8399,185 @@ async function phrEslOpen(force) {
   // Đăng xuất: đóng khung nhật ký để người đăng nhập sau mở lại với phiên mới
   const baseLogout = logoutToLogin;
   logoutToLogin = function () { phrEslLoaded = false; const h = document.getElementById('esl-host'); if (h) h.innerHTML = ''; document.body.classList.remove('esl-on', 'esl-full'); return baseLogout.apply(this, arguments); };
+})();
+</script>
+
+<style id="phr-update-style">
+/* Nút con mắt hiện/ẩn mật khẩu */
+.pw-wrap{position:relative}
+.pw-wrap>input{padding-right:48px!important}
+.pw-eye{position:absolute;right:6px;top:50%;transform:translateY(-50%);width:38px;height:38px;display:grid;place-items:center;border:0;background:transparent;color:#64748b;border-radius:9px;cursor:pointer;padding:0}
+.pw-eye:hover{background:#eef3f8;color:#145c91}.pw-eye:focus-visible{outline:2px solid #83c5f4}
+.pw-eye.on{color:#145c91}
+/* Thanh báo phiên bản mới */
+#phr-upd{position:fixed;left:50%;transform:translateX(-50%);top:58px;z-index:100500;width:min(640px,calc(100vw - 20px));background:#0f2f52;color:#fff;border-radius:14px;box-shadow:0 14px 40px rgba(0,0,0,.35);padding:12px 14px;display:flex;gap:12px;align-items:center;flex-wrap:wrap;font:14px/1.45 "Segoe UI",Arial,sans-serif}
+#phr-upd b{color:#ffd166}
+#phr-upd .tx{flex:1 1 260px;min-width:0}
+#phr-upd button{border:0;border-radius:9px;padding:8px 12px;font:inherit;font-weight:700;cursor:pointer}
+#phr-upd .go{background:#22c55e;color:#06260f}#phr-upd .nt{background:rgba(255,255,255,.14);color:#fff}#phr-upd .lt{background:transparent;color:#cbd5e1}
+#phr-upd-modal{position:fixed;inset:0;z-index:100600;background:rgba(10,20,35,.55);display:grid;place-items:center;padding:16px}
+#phr-upd-modal .bx{background:#fff;border-radius:16px;max-width:560px;width:100%;max-height:85vh;overflow:auto;padding:20px 22px;font:14.5px/1.55 "Segoe UI",Arial,sans-serif;color:#1e293b;box-shadow:0 24px 70px rgba(0,0,0,.35)}
+#phr-upd-modal h3{margin:0 0 6px;color:#0b4f8a;font-size:19px}
+#phr-upd-modal .v{margin-top:12px;font-weight:800;color:#0e3f6e}#phr-upd-modal .v small{color:#64748b;font-weight:600}
+#phr-upd-modal ul{margin:6px 0 0;padding-left:20px}
+#phr-upd-modal .ac{display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap;margin-top:16px}
+#phr-upd-modal .ac button{border:0;border-radius:10px;padding:10px 14px;font:inherit;font-weight:700;cursor:pointer;background:#eef3f8;color:#0f3b63}
+#phr-upd-modal .ac .pri{background:#145c91;color:#fff}
+.phr-ver-card{background:#fff;border:1px solid #dbe4ee;border-radius:12px;padding:14px 16px;margin:0 0 14px}
+.phr-ver-card h4{margin:0 0 6px;color:#0b4f8a;font-size:16px}
+.phr-ver-card button{border:0;border-radius:9px;padding:8px 12px;font:inherit;font-weight:700;cursor:pointer;background:#145c91;color:#fff;margin-top:8px}
+@media (max-width:760px){#phr-upd{top:auto;bottom:calc(84px + env(safe-area-inset-bottom))}}
+</style>
+<script id="phr-update-module">
+/* PHR – PHIÊN BẢN & TỰ ĐỘNG CẬP NHẬT
+   - Mỗi bản phát hành có số phiên bản; bản mới nhất công bố tại version.json trên trang GitHub của chương trình.
+   - Mở trên web (GitHub Pages): ở màn hình đăng nhập tự cập nhật ngay; đang làm việc thì báo, bấm "Cập nhật ngay"
+     (lưu hồ sơ đang mở trước rồi tải lại). Dữ liệu (trình duyệt / thư mục / Drive) giữ nguyên.
+   - Mở từ tệp HTML trên máy: báo có bản mới, tải tệp mới về để lưu đè tệp cũ.
+   - Sau khi cập nhật: hiện "Có gì mới". */
+const PHR_VERSION = 'V22.55', PHR_VERSION_DATE = '2026-10-20', PHR_VERSION_HIST = [{"version": "V22.55", "date": "2026-10-20", "notes": ["Tự động cập nhật: chương trình tự nhận biết phiên bản mới và cập nhật, giữ nguyên dữ liệu.", "Màn hình đăng nhập: nút con mắt để hiện/ẩn mật khẩu."]}, {"version": "V22.54", "date": "2026-10-20", "notes": ["Thêm tab 📒 Nhật ký CT (nhật ký công trình điện tử), đồng bộ Google Drive qua máy chủ PHR."]}, {"version": "V22.53", "date": "2026-10-20", "notes": ["Đăng ký tài khoản bằng mã PIN gửi qua email; đăng nhập trên mọi thiết bị.", "Giao diện điện thoại: chữ lớn, menu dưới đáy, thu gọn danh sách bước."]}];
+const PHR_UPDATE_BASE_DEFAULT = 'https://lttoan79vn-cloud.github.io/hosodautuxdcb/';
+function phrUpdBase() { try { return localStorage.getItem('phr_update_base') || PHR_UPDATE_BASE_DEFAULT; } catch (_) { return PHR_UPDATE_BASE_DEFAULT; } }
+function phrVerNum(v) { return String(v || '').replace(/^V/i, '').split('.').map(n => parseInt(n, 10) || 0); }
+function phrVerNewer(a, b) { const x = phrVerNum(a), y = phrVerNum(b); for (let i = 0; i < Math.max(x.length, y.length); i++) { if ((x[i] || 0) !== (y[i] || 0)) return (x[i] || 0) > (y[i] || 0); } return false; }
+function phrOnWeb() { return location.href.indexOf(phrUpdBase()) === 0; }
+function phrFmtDate(d) { const m = /^(\d{4})-(\d\d)-(\d\d)/.exec(d || ''); return m ? m[3] + '/' + m[2] + '/' + m[1] : (d || ''); }
+const phrUpdEsc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+let phrLatest = null, phrUpdLastCheck = 0;
+
+async function phrFetchLatest() {
+  const r = await fetch(phrUpdBase() + 'version.json?t=' + Date.now(), { cache: 'no-store' });
+  if (!r.ok) throw new Error('HTTP ' + r.status);
+  const j = await r.json();
+  if (!j || !j.version) throw new Error('version.json không hợp lệ');
+  return j;
+}
+async function phrCheckUpdate(manual) {
+  phrUpdLastCheck = Date.now();
+  let j;
+  try { j = await phrFetchLatest(); }
+  catch (e) { if (manual) phrUpdModal('Không kiểm tra được cập nhật', '<p>Không kết nối được trang phát hành chương trình. Vui lòng kiểm tra mạng rồi thử lại.</p>', [['Đóng']]); return null; }
+  phrLatest = j;
+  if (!phrVerNewer(j.version, PHR_VERSION)) { if (manual) phrUpdModal('Đang dùng phiên bản mới nhất', `<p>Phiên bản <b>${PHR_VERSION}</b> (${phrFmtDate(PHR_VERSION_DATE)}) là bản mới nhất.</p>`, [['Đóng']]); return j; }
+  const loggedOut = !document.getElementById('login-screen') || !document.getElementById('login-screen').classList.contains('hidden') ? true : false;
+  let tried = ''; try { tried = sessionStorage.getItem('phr_upd_try') || ''; } catch (_) { }
+  if (phrOnWeb() && loggedOut && !manual && tried !== j.version) {           // chưa đăng nhập: không có gì đang soạn → cập nhật luôn
+    try { sessionStorage.setItem('phr_upd_try', j.version); } catch (_) { }
+    return phrApplyUpdate(true);
+  }
+  phrUpdBanner(j);
+  if (manual) phrShowNotes(j);
+  return j;
+}
+function phrUpdBanner(j) {
+  let b = document.getElementById('phr-upd');
+  if (!b) { b = document.createElement('div'); b.id = 'phr-upd'; b.setAttribute('role', 'status'); document.body.appendChild(b); }
+  b.innerHTML = `<span class="tx">🔔 Có phiên bản mới <b>${phrUpdEsc(j.version)}</b>${j.date ? ' (' + phrFmtDate(j.date) + ')' : ''}. Bạn đang dùng ${PHR_VERSION}.</span>`
+    + '<button class="nt" type="button" data-u="notes">Có gì mới?</button><button class="go" type="button" data-u="go">' + (phrOnWeb() ? 'Cập nhật ngay' : 'Tải bản mới') + '</button><button class="lt" type="button" data-u="later" title="Để sau">✕</button>';
+  b.querySelector('[data-u=notes]').onclick = () => phrShowNotes(j);
+  b.querySelector('[data-u=go]').onclick = () => phrApplyUpdate(false);
+  b.querySelector('[data-u=later]').onclick = () => b.remove();
+}
+function phrNotesHTML(list) {
+  return list.map(v => `<div class="v">${phrUpdEsc(v.version)} <small>· ${phrFmtDate(v.date)}</small></div><ul>${(v.notes || []).map(n => '<li>' + phrUpdEsc(n) + '</li>').join('')}</ul>`).join('');
+}
+function phrShowNotes(j) {
+  const list = (j.history && j.history.length ? j.history : [j]).filter(v => phrVerNewer(v.version, PHR_VERSION));
+  phrUpdModal('Có gì mới trong ' + j.version, phrNotesHTML(list.length ? list : [j]) + '<p style="margin-top:12px;color:#475569">Dữ liệu hồ sơ, nhật ký, tài khoản được giữ nguyên khi cập nhật.</p>',
+    [['Để sau'], [phrOnWeb() ? 'Cập nhật ngay' : 'Tải bản mới', () => phrApplyUpdate(false), 'pri']]);
+}
+function phrUpdModal(title, html, buttons) {
+  document.getElementById('phr-upd-modal')?.remove();
+  const m = document.createElement('div'); m.id = 'phr-upd-modal';
+  m.innerHTML = `<div class="bx" role="dialog" aria-modal="true"><h3>${phrUpdEsc(title)}</h3>${html}<div class="ac"></div></div>`;
+  const ac = m.querySelector('.ac');
+  buttons.forEach(([t, fn, cls]) => { const b = document.createElement('button'); b.type = 'button'; b.textContent = t; if (cls) b.className = cls; b.onclick = () => { m.remove(); if (fn) fn(); }; ac.appendChild(b); });
+  m.addEventListener('click', e => { if (e.target === m) m.remove(); });
+  document.body.appendChild(m);
+}
+async function phrApplyUpdate(silent) {
+  if (!phrOnWeb()) return phrDownloadUpdate();
+  // Lưu hồ sơ đang soạn trước khi tải lại
+  try { if (typeof App !== 'undefined' && App.user && App.dirty && typeof saveCurrent === 'function') await saveCurrent(true); } catch (_) { }
+  if (!silent) { const b = document.getElementById('phr-upd'); if (b) b.querySelector('.tx').textContent = 'Đang cập nhật…'; }
+  try {
+    if (navigator.serviceWorker) { const regs = await navigator.serviceWorker.getRegistrations(); await Promise.all(regs.map(r => r.update().catch(() => { }))); }
+    await Promise.all(['./', './index.html', './sw.js'].map(u => fetch(u, { cache: 'reload' }).catch(() => { })));
+    if (window.caches) { const ks = await caches.keys(); await Promise.all(ks.map(k => caches.delete(k))); }
+  } catch (_) { }
+  location.reload();
+}
+async function phrDownloadUpdate() {
+  const v = phrLatest ? phrLatest.version : 'moi';
+  try {
+    const r = await fetch(phrUpdBase() + 'index.html?t=' + Date.now(), { cache: 'no-store' });
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    const blob = await r.blob();
+    const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'PHR_XDCB_' + v.replace(/\./g, '_') + '.html';
+    document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 2000);
+    phrUpdModal('Đã tải bản ' + v, '<p>Tệp chương trình mới đã được tải về thư mục <b>Tải xuống</b>.</p><ol><li>Đóng chương trình đang mở.</li><li>Chép tệp mới <b>đè lên tệp chương trình cũ</b> (giữ đúng tên và vị trí cũ) để giữ nguyên dữ liệu lưu trong trình duyệt.</li><li>Mở lại chương trình.</li></ol><p style="color:#475569">Hoặc dùng bản trực tuyến luôn tự cập nhật: <a href="' + phrUpdBase() + '" target="_blank" rel="noopener">' + phrUpdBase() + '</a> (dữ liệu trên trình duyệt của bản trực tuyến là riêng – dùng Xuất/Nhập JSON để chuyển).</p>', [['Đã hiểu', null, 'pri']]);
+  } catch (e) {
+    phrUpdModal('Không tải được bản mới', '<p>Vui lòng mở trang <a href="' + phrUpdBase() + '" target="_blank" rel="noopener">' + phrUpdBase() + '</a> để dùng bản mới nhất.</p>', [['Đóng']]);
+  }
+}
+/* Sau khi cập nhật: hiện "Có gì mới" một lần */
+function phrWhatsNewAfterLogin() {
+  let seen = ''; try { seen = localStorage.getItem('phr_seen_ver') || ''; localStorage.setItem('phr_seen_ver', PHR_VERSION); } catch (_) { }
+  if (!seen || !phrVerNewer(PHR_VERSION, seen)) return;
+  const list = PHR_VERSION_HIST.filter(v => phrVerNewer(v.version, seen));
+  if (list.length) setTimeout(() => phrUpdModal('Đã cập nhật lên ' + PHR_VERSION, phrNotesHTML(list) + '<p style="margin-top:12px;color:#475569">Dữ liệu của anh/chị được giữ nguyên.</p>', [['Bắt đầu làm việc', null, 'pri']]), 900);
+}
+/* Nút con mắt hiện / ẩn mật khẩu */
+const PHR_EYE = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg>';
+const PHR_EYE_OFF = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3l18 18"/><path d="M10.6 5.1A10.4 10.4 0 0 1 12 5c6.4 0 10 7 10 7a17.6 17.6 0 0 1-3.2 4.2M6.6 6.6C3.8 8.4 2 12 2 12s3.6 7 10 7a9.7 9.7 0 0 0 5.4-1.6"/><path d="M9.9 9.9a3 3 0 0 0 4.2 4.2"/></svg>';
+function phrPwEyes() {
+  ['login-password', 'login-password-confirm', 'reg-pass', 'reg-pass2'].forEach(id => {
+    const inp = document.getElementById(id); if (!inp || inp.dataset.eye) return;
+    inp.dataset.eye = '1';
+    const w = document.createElement('div'); w.className = 'pw-wrap';
+    inp.parentNode.insertBefore(w, inp); w.appendChild(inp);
+    const b = document.createElement('button'); b.type = 'button'; b.className = 'pw-eye'; b.tabIndex = 0;
+    b.title = b.ariaLabel = 'Hiện mật khẩu'; b.setAttribute('aria-label', 'Hiện mật khẩu'); b.setAttribute('aria-pressed', 'false'); b.innerHTML = PHR_EYE;
+    b.addEventListener('mousedown', e => e.preventDefault());           // giữ con trỏ trong ô mật khẩu
+    b.onclick = () => {
+      const show = inp.type === 'password';
+      inp.type = show ? 'text' : 'password';
+      b.innerHTML = show ? PHR_EYE_OFF : PHR_EYE; b.classList.toggle('on', show);
+      const t = show ? 'Ẩn mật khẩu' : 'Hiện mật khẩu'; b.title = t; b.setAttribute('aria-label', t); b.setAttribute('aria-pressed', String(show));
+      inp.focus();
+    };
+    w.appendChild(b);
+  });
+}
+function phrPwHideAll() { document.querySelectorAll('.pw-wrap>input').forEach(i => { i.type = 'password'; }); document.querySelectorAll('.pw-eye').forEach(b => { b.innerHTML = PHR_EYE; b.classList.remove('on'); b.title = 'Hiện mật khẩu'; b.setAttribute('aria-label', 'Hiện mật khẩu'); b.setAttribute('aria-pressed', 'false'); }); }
+(() => {
+  const baseHide = hideLoginScreen;
+  hideLoginScreen = function () { phrPwHideAll(); const r = baseHide.apply(this, arguments); if (typeof App !== 'undefined' && App.user) phrWhatsNewAfterLogin(); return r; };
+  // Trợ giúp: thẻ "Phiên bản & cập nhật"
+  if (typeof renderHelpView === 'function') {
+    const baseHelp = renderHelpView;
+    renderHelpView = function () {
+      const r = baseHelp.apply(this, arguments);
+      const v = document.getElementById('view-help');
+      if (v && !v.querySelector('.phr-ver-card')) {
+        const c = document.createElement('div'); c.className = 'phr-ver-card';
+        c.innerHTML = `<h4>🔄 Phiên bản & cập nhật</h4><div>Đang dùng <b>${PHR_VERSION}</b> · ${phrFmtDate(PHR_VERSION_DATE)}. Chương trình tự kiểm tra bản mới khi mở và định kỳ 30 phút.</div>`
+          + '<button type="button" id="phr-ver-check">Kiểm tra cập nhật</button>'
+          + '<details style="margin-top:10px"><summary style="cursor:pointer;font-weight:700;color:#0b4f8a">Lịch sử phiên bản</summary>' + phrNotesHTML(PHR_VERSION_HIST) + '</details>';
+        v.insertBefore(c, v.firstChild);
+        c.querySelector('#phr-ver-check').onclick = () => phrCheckUpdate(true);
+      }
+      return r;
+    };
+  }
+  document.addEventListener('DOMContentLoaded', () => {
+    phrPwEyes();
+    const foot = document.querySelector('.login-foot span:last-child'); if (foot) foot.textContent = 'Phiên bản ' + PHR_VERSION;
+    const sm = document.querySelector('#topbar .appname small'); if (sm && sm.firstChild && sm.firstChild.nodeType === 3) sm.firstChild.textContent = sm.firstChild.textContent.replace(/PHIÊN BẢN V[\d.]+/, 'PHIÊN BẢN ' + PHR_VERSION);
+    setTimeout(() => phrCheckUpdate(false), 1500);
+    setInterval(() => phrCheckUpdate(false), 30 * 60 * 1000);
+    document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible' && Date.now() - phrUpdLastCheck > 10 * 60 * 1000) phrCheckUpdate(false); });
+  });
 })();
 </script>
 

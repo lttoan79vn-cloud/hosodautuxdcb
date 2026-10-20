@@ -1,0 +1,33 @@
+{
+ "version": "V22.55",
+ "date": "2026-10-20",
+ "notes": [
+  "Tự động cập nhật: chương trình tự nhận biết phiên bản mới và cập nhật, giữ nguyên dữ liệu.",
+  "Màn hình đăng nhập: nút con mắt để hiện/ẩn mật khẩu."
+ ],
+ "history": [
+  {
+   "version": "V22.55",
+   "date": "2026-10-20",
+   "notes": [
+    "Tự động cập nhật: chương trình tự nhận biết phiên bản mới và cập nhật, giữ nguyên dữ liệu.",
+    "Màn hình đăng nhập: nút con mắt để hiện/ẩn mật khẩu."
+   ]
+  },
+  {
+   "version": "V22.54",
+   "date": "2026-10-20",
+   "notes": [
+    "Thêm tab 📒 Nhật ký CT (nhật ký công trình điện tử), đồng bộ Google Drive qua máy chủ PHR."
+   ]
+  },
+  {
+   "version": "V22.53",
+   "date": "2026-10-20",
+   "notes": [
+    "Đăng ký tài khoản bằng mã PIN gửi qua email; đăng nhập trên mọi thiết bị.",
+    "Giao diện điện thoại: chữ lớn, menu dưới đáy, thu gọn danh sách bước."
+   ]
+  }
+ ]
+}
