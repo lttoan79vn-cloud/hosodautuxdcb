@@ -1,11 +1,21 @@
 {
- "version": "V22.55",
+ "version": "V22.56",
  "date": "2026-10-20",
  "notes": [
-  "Tự động cập nhật: chương trình tự nhận biết phiên bản mới và cập nhật, giữ nguyên dữ liệu.",
-  "Màn hình đăng nhập: nút con mắt để hiện/ẩn mật khẩu."
+  "Thẻ Lưu trữ chuyển vào Quản trị tài khoản (thẻ 🗂️ Lưu trữ dữ liệu) – chỉ Admin xem và thao tác.",
+  "Người dùng thường không còn bị hỏi chọn nơi lưu khi mở chương trình.",
+  "Cập nhật toàn bộ hướng dẫn trong Trợ giúp: đăng ký mã PIN, nút con mắt, Nhật ký CT, điện thoại, cập nhật phiên bản, quản trị."
  ],
  "history": [
+  {
+   "version": "V22.56",
+   "date": "2026-10-20",
+   "notes": [
+    "Thẻ Lưu trữ chuyển vào Quản trị tài khoản (thẻ 🗂️ Lưu trữ dữ liệu) – chỉ Admin xem và thao tác.",
+    "Người dùng thường không còn bị hỏi chọn nơi lưu khi mở chương trình.",
+    "Cập nhật toàn bộ hướng dẫn trong Trợ giúp: đăng ký mã PIN, nút con mắt, Nhật ký CT, điện thoại, cập nhật phiên bản, quản trị."
+   ]
+  },
   {
    "version": "V22.55",
    "date": "2026-10-20",

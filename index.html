@@ -585,12 +585,11 @@ button,.btn,#tabs button,.nav-i{min-height:38px}
 
 <div id="topbar">
   <span class="logo">PHR</span>
-  <div class="appname">HỒ SƠ ĐẦU TƯ XÂY DỰNG CƠ BẢN<small>PHÒNG PT&amp;QLKCN · PHIÊN BẢN V22.55 · <span id="dev-mark">© 2026 Lê Thanh Toàn</span></small></div>
+  <div class="appname">HỒ SƠ ĐẦU TƯ XÂY DỰNG CƠ BẢN<small>PHÒNG PT&amp;QLKCN · PHIÊN BẢN V22.56 · <span id="dev-mark">© 2026 Lê Thanh Toàn</span></small></div>
   <nav id="tabs">
     <button data-view="work" class="on">Soạn hồ sơ</button>
     <button data-view="dash">Tổng quan</button>
     <button data-view="cfg">Danh mục</button>
-    <button data-view="store">Lưu trữ</button>
     <button data-view="esl">📒 Nhật ký CT</button>
     <button data-view="help">❓ Trợ giúp</button>
   </nav>
@@ -642,7 +641,7 @@ var o=[];var l=Array.isArray(e);for(f=n.s.c;f<=n.e.c;++f)s[f]=ya(f);for(var c=n.
 <script>
 /* ===================== 01. TIỆN ÍCH ===================== */
 'use strict';
-const APP_VERSION = 'V22';
+const APP_VERSION = 'V22.56';
 const $ = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => Array.from(r.querySelectorAll(s));
 
@@ -4707,7 +4706,7 @@ async function renderStoreView() {
       <li>Đóng phần mềm trên tất cả các máy.</li>
       <li>Chép <b>toàn bộ thư mục</b> lưu trữ hiện tại (VD: <code>D:\\PHR_XDCB_DuLieu</code>) vào thư mục iCloud Drive dùng chung (VD: <code>iCloud Drive\\PHR_XDCB_DuLieu</code>).</li>
       <li>Trên iCloud for Windows, bật <b>"Luôn giữ trên thiết bị này"</b> (Always keep on this device) cho thư mục đó để tránh lỗi đọc tệp chưa tải về.</li>
-      <li>Mở phần mềm trên từng máy → thẻ <b>Lưu trữ</b> → <b>Đổi thư mục lưu trữ</b> → chọn thư mục trong iCloud.</li>
+      <li>Mở phần mềm trên từng máy (tài khoản Admin) → <b>Quản trị tài khoản → 🗂️ Lưu trữ dữ liệu</b> → <b>Đổi thư mục lưu trữ</b> → chọn thư mục trong iCloud.</li>
       <li>Mỗi người đặt đúng họ tên ở góc phải trên để lịch sử ghi nhận người sửa.</li></ol>
       <p class="hint">Phần mềm tự phát hiện khi hai người cùng sửa một hồ sơ (so số lần lưu) và hỏi cách xử lý, không ghi đè âm thầm. Nên phân công mỗi hồ sơ một người phụ trách chính.</p>`)}
     ${isF && browserCount ? card('Dữ liệu còn trong trình duyệt', `<p>Có <b>${browserCount}</b> hồ sơ đang lưu trong bộ nhớ trình duyệt (trước khi chọn thư mục).</p><button class="btn pri" data-a="copyBrowserToFolder">Chép vào thư mục hiện tại</button>`) : ''}
@@ -7693,22 +7692,27 @@ Object.assign(ACTIONS, {
 /* ===================== 22. TRỢ GIÚP (V22.35) ===================== */
 /* Hướng dẫn trợ giúp được hiển thị hoàn toàn bên trong chương trình; không mở trang bên ngoài. */
 const HELP_SECS = [
-  ['🚀', 'Bắt đầu sử dụng', `<ol><li>Mở file <b>PHR_XDCB_V22.html</b> bằng Google Chrome hoặc Microsoft Edge.</li><li>Lần đầu: chọn <b>thư mục lưu trữ</b> (VD: D:\\PHR_XDCB_DuLieu) hoặc dùng tạm bộ nhớ trình duyệt, nhập tên người dùng.</li><li>Chọn nhóm hồ sơ trên menu 3D bên trái, bấm <b>+ Mới</b> để tạo hồ sơ.</li><li>Làm lần lượt các bước trong menu trái; khung bên phải là văn bản xem trước, xuất Word/PDF bất cứ lúc nào.</li></ol>`],
-  ['🗂️', '4 nhóm hồ sơ', `<p>Menu 3D gồm: <b>Hồ sơ đầu tư XDCB</b>, <b>Hồ sơ đầu tư thiết bị</b>, <b>Hồ sơ giá thành XDCB</b>, <b>Hồ sơ giá thành thiết bị</b>. Cả 4 nhóm dùng chung quy trình và mẫu văn bản. Bấm nhóm để lọc danh sách hồ sơ; số trên nút là số hồ sơ đang làm. Đổi nhóm của một hồ sơ: ô <b>Loại hồ sơ</b> trong Thông tin chung. Tab <b>Tổng quan</b> lọc theo nhóm hoặc xem <b>Tất cả hồ sơ</b>.</p>`],
+  ['🚀', 'Bắt đầu sử dụng', `<ol><li>Mở chương trình tại <b>https://lttoan79vn-cloud.github.io/hosodautuxdcb/</b> bằng Google Chrome, Microsoft Edge hoặc Safari (điện thoại). Có thể mở tệp <b>PHR_XDCB_….html</b> trên máy.</li><li><b>Đăng nhập</b> bằng email và mật khẩu (lần đầu: thẻ <b>Đăng ký tài khoản</b> – xem mục bên dưới).</li><li>Chọn nhóm hồ sơ trên menu 3D, bấm <b>+ Mới</b> để tạo hồ sơ.</li><li>Làm lần lượt các bước trong danh sách bước; khung bên phải là văn bản xem trước, xuất Word/PDF bất cứ lúc nào.</li><li>Trên điện thoại: mở đường dẫn → Chia sẻ → <b>Thêm vào màn hình chính</b> để dùng như ứng dụng.</li></ol>`],
+  ['🔐', 'Đăng ký, đăng nhập, mật khẩu', `<ul><li><b>Đăng ký</b>: thẻ <b>Đăng ký tài khoản</b> → nhập email → <b>Gửi mã PIN</b> → mở hộp thư lấy <b>mã 6 số</b> (hiệu lực 10 phút, xem cả thư mục Spam/Quảng cáo) → nhập mã, đặt mật khẩu (tối thiểu 8 ký tự) → <b>Xác thực &amp; tạo tài khoản</b>. Tài khoản được quyền <b>Biên tập</b> và vào thẳng chương trình.</li><li><b>Đăng nhập</b>: email + mật khẩu, dùng được trên <b>mọi thiết bị</b>. Bấm biểu tượng <b>👁 con mắt</b> trong ô mật khẩu để hiện/ẩn mật khẩu đang gõ.</li><li><b>Quên mật khẩu?</b>: nhận mã PIN qua email để đặt mật khẩu mới.</li><li>Phiên đăng nhập 24 giờ; bấm <b>⏻ Thoát</b> khi dùng máy chung. Mất mạng vẫn đăng nhập được trên máy đã từng đăng nhập.</li><li><b>Vai trò</b>: <b>Biên tập</b> (soạn, sửa hồ sơ), <b>Chỉ xem</b> (có thanh vàng ở đầu trang, không sửa được), <b>Quản trị</b>. Cần đổi quyền: liên hệ Admin.</li></ul>`],
+  ['🗂️', '4 nhóm hồ sơ', `<p>Menu 3D gồm: <b>Hồ sơ đầu tư XDCB</b>, <b>Hồ sơ đầu tư thiết bị</b>, <b>Hồ sơ giá thành XDCB</b>, <b>Hồ sơ giá thành thiết bị</b>. Cả 4 nhóm dùng chung quy trình và mẫu văn bản. Bấm nhóm để lọc danh sách hồ sơ; số trên nút là số hồ sơ đang làm. Tab <b>Tổng quan</b> lọc theo nhóm hoặc xem <b>Tất cả hồ sơ</b>.</p>`],
   ['🧭', 'Quy trình 5 giai đoạn', `<ol><li><b>Khởi tạo</b>: Thông tin chung, Thư viện pháp luật, Tờ trình của đơn vị, Biên bản kiểm tra.</li><li><b>Chuẩn bị đầu tư</b>: Bảng dự toán, Thuyết minh BC KTKT, TTr – thẩm định – QĐ duyệt.</li><li><b>Kế hoạch LCNT</b>: Danh sách gói thầu, TTr/QĐ duyệt KHLCNT, TTr/QĐ lập Tổ chuyên gia.</li><li><b>Lựa chọn nhà thầu</b> theo hình thức từng gói (chỉ định thầu, chào hàng, đấu thầu…).</li><li><b>Đồng bộ</b>: đối chiếu văn bản đã ban hành.</li></ol><p>Bước có biểu tượng 🔒 là chưa đủ dữ liệu – bấm vào để xem cần làm gì trước.</p>`],
   ['⚡', 'Nhập liệu nhanh', `<ul><li><b>Bấm vào ô [Chưa nhập: …]</b> trong văn bản xem trước → chương trình nhảy tới đúng ô cần nhập và tô sáng.</li><li><b>Đọc file tự động</b>: tờ trình đơn vị, giấy đề nghị (✨ Phân tích), báo giá (chọn nhiều file), thư mời, văn bản pháp luật – tự điền số, ngày, ký hiệu, nhà thầu, giá…</li><li>Thông tin nhập <b>một lần</b>, mọi văn bản tự dùng chung (nhà thầu, giá, thành phần, căn cứ).</li></ul>`],
   ['📊', 'Bảng dự toán & gói thầu', `<ul><li>Nạp file Excel dự toán: chương trình tự mở sheet <b>★ Tổng hợp dự toán</b>, tự chọn khoản mục, xem trước bảng tổng hợp trước khi áp dụng.</li><li>Cột <b>Phân chia</b>: xếp từng khoản mục vào gói thầu / đã thực hiện / không áp dụng LCNT – giá gói tự cộng.</li><li>Hạn mức chỉ định thầu theo <b>NĐ 214/2025</b> hoặc <b>NĐ 349/2026</b> (tự theo ngày hoặc chọn tay).</li></ul>`],
   ['🤝', 'Chỉ định thầu, thương thảo, hợp đồng', `<ul><li><b>Biên bản xét chọn nhà thầu</b>: tải thư mời và các báo giá, bảng so sánh, mặc định chọn giá thấp nhất; nhà thầu được chọn tự điền sang các văn bản sau.</li><li><b>Biên bản thương thảo</b>: gói tư vấn tự dùng mẫu 10 mục (tiến độ, kinh phí, làm tròn…); thành phần Công ty thêm/xóa được, ký tương ứng.</li><li><b>Hợp đồng dịch vụ tư vấn</b>: 18 điều + bảng phụ lục giá; gói khác dùng hợp đồng thi công.</li></ul>`],
   ['⚖️', 'Thư viện pháp luật', `<p>Căn cứ của mọi văn bản lấy từ Thư viện pháp luật dùng chung. Thêm văn bản bằng cách đọc file PDF/Word; chương trình cảnh báo <b>văn bản trùng</b> và cho gộp; tự cập nhật văn bản hết hiệu lực. Mỗi hồ sơ có thể bỏ chọn hoặc sửa riêng căn cứ.</p>`],
   ['🖨️', 'Xem, in, xuất văn bản', `<ul><li><b>Xuất Word</b> từng văn bản hoặc <b>Xuất cả bộ</b>; <b>In / PDF</b>; <b>Copy sang Word</b>.</li><li>Nhập số, ngày ở thẻ Thông tin ban hành → văn bản chuyển <b>Đã ban hành</b> và khóa căn cứ.</li><li>Danh sách người (thành viên, thành phần) thẳng cột Họ tên | Chức vụ bằng tab trong Word.</li></ul>`],
-  ['💾', 'Lưu trữ, sao lưu, làm trắng', `<ul><li>Tự lưu sau mỗi thay đổi; <kbd>Ctrl</kbd>+<kbd>S</kbd> hoặc nút 💾 Lưu ngay.</li><li>Tab <b>Lưu trữ</b>: đổi thư mục, xuất/nhập JSON, khôi phục bản sao lưu tự động.</li><li><b>🧹 Làm trắng dữ liệu</b>: xóa hồ sơ/danh mục (gõ LAM TRANG để xác nhận, có tải bản sao lưu trước).</li><li>Dùng chung nhiều máy: đặt thư mục dữ liệu trong iCloud/OneDrive và chọn cùng thư mục trên mỗi máy.</li></ul>`],
-  ['🔑', 'Bản quyền & cấp phép', `<p>Chương trình dùng thử <b>30 ngày</b>. Bấm nút <b>⏳ Dùng thử</b> (hoặc logo PHR) để xem <b>Mã máy</b>, gửi cho nhà phát triển và dán <b>mã cấp phép</b> (PHR1.…) để kích hoạt. Không chỉnh lùi ngày giờ máy và không sửa thông tin tác giả – chương trình sẽ tự khóa.</p>`],
+  ['📒', 'Nhật ký công trình (tab Nhật ký CT)', `<ul><li>Ghi <b>nhật ký thi công hằng ngày</b>: thời tiết, nhân lực, hạng mục và nội dung công việc, khối lượng, vật tư, máy móc, chất lượng, an toàn, kiến nghị.</li><li><b>Ảnh hiện trường</b> tự đóng dấu ngày giờ, tên công trình; <b>Hồ sơ tiến độ</b> được duyệt; <b>Hạng mục &amp; tiến độ</b> so với kế hoạch; <b>Lịch sử</b> và <b>Kho ảnh</b>.</li><li>Xuất <b>Excel</b> và <b>in nhật ký khổ A4</b> theo khoảng ngày.</li><li>Thanh trên cho biết nơi lưu: <b>☁ Đồng bộ Google Drive của Admin</b> (dùng chung cả đội, mọi thiết bị) hoặc <b>💾 Chỉ lưu trên máy này</b>. Mất mạng vẫn ghi bình thường, có mạng lại tự đồng bộ.</li><li>Tài khoản Chỉ xem: xem được, không ghi được. Nút <b>⛶ Toàn màn hình / Mở rộng</b> để có thêm chỗ làm việc.</li></ul>`],
+  ['📱', 'Dùng trên điện thoại', `<ul><li>Menu chính nằm <b>dưới đáy màn hình</b>: 📝 Soạn hồ sơ · 📊 Tổng quan · 📚 Danh mục · 📒 Nhật ký · ❓ Trợ giúp.</li><li>Thanh <b>Bước đang soạn</b> luôn ở đầu màn hình: bấm để mở danh sách bước, chọn bước xong tự đến ô nhập liệu.</li><li>Nút <b>✏️ Nhập liệu / 📄 Xem văn bản</b> để chuyển giữa ô nhập và văn bản xem trước (tự co vừa màn hình, có thể phóng to bằng 2 ngón tay).</li></ul>`],
+  ['💾', 'Lưu dữ liệu', `<ul><li>Chương trình <b>tự lưu</b> sau mỗi thay đổi; <kbd>Ctrl</kbd>+<kbd>S</kbd> hoặc nút <b>💾 Lưu ngay</b> để lưu tức thì.</li><li>Nơi lưu trữ, sao lưu và khôi phục dữ liệu do <b>Admin</b> quản lý. Cần khôi phục hồ sơ hoặc chuyển dữ liệu: liên hệ Admin.</li></ul>`],
+  ['🛡️', 'Quản trị (chỉ Admin)', `<p>Bấm nút <b>👤 email</b> ở góc phải trên → bảng <b>Quản trị tài khoản</b> gồm 2 thẻ:</p><ul><li><b>👥 Tài khoản</b>: danh sách tài khoản (lưu tập trung trên Google Sheet <b>PHR_TaiKhoan</b>), đổi vai trò Biên tập / Chỉ xem / Quản trị, <b>Thu hồi</b> – <b>Phục hồi</b> – <b>Xóa</b>; thêm trước email với vai trò định sẵn; cấu hình máy chủ xác thực (gửi mã PIN). Thay đổi tự áp dụng xuống máy người dùng trong 5 phút.</li><li><b>🗂️ Lưu trữ dữ liệu</b>: chọn/đổi <b>thư mục lưu trữ</b> (ổ D:, iCloud, Google Drive for desktop), chuyển sang dùng chung, chép dữ liệu từ trình duyệt vào thư mục, <b>Xuất/Nhập JSON</b>, <b>khôi phục bản sao lưu tự động</b>, <b>🧹 Làm trắng dữ liệu</b> (gõ LAM TRANG để xác nhận, có tải bản sao lưu trước).</li><li>Người dùng thường <b>không thấy</b> thẻ Lưu trữ dữ liệu và không được hỏi chọn nơi lưu khi mở chương trình.</li><li>Máy chủ Apps Script (PHR_TaiKhoan): khi cập nhật mã, dán đè <code>Code.gs</code>, chạy <b>caiDatLanDau</b> nếu Google hỏi quyền, rồi <b>Quản lý bản triển khai → ✎ → Phiên bản mới</b> (giữ nguyên đường dẫn).</li></ul>`, 'admin'],
+  ['🔄', 'Cập nhật phiên bản', `<ul><li>Chương trình <b>tự kiểm tra bản mới</b> khi mở, định kỳ 30 phút và khi quay lại cửa sổ.</li><li>Ở màn hình đăng nhập: <b>tự cập nhật ngay</b>. Đang làm việc: hiện thanh <b>🔔 Có phiên bản mới</b> – bấm <b>Có gì mới?</b> để xem nội dung, <b>Cập nhật ngay</b> để lưu hồ sơ đang soạn rồi tải bản mới.</li><li>Sau khi cập nhật, lần đăng nhập đầu hiện hộp <b>Đã cập nhật lên …</b>. <b>Dữ liệu được giữ nguyên.</b></li><li>Dùng tệp HTML trên máy: bấm <b>Tải bản mới</b>, chép tệp mới <b>đè lên tệp cũ</b> (giữ tên và vị trí).</li><li>Xem phiên bản đang dùng và lịch sử thay đổi: thẻ <b>🔄 Phiên bản &amp; cập nhật</b> ở đầu trang Trợ giúp.</li></ul>`],
+  ['🔑', 'Bản quyền & cấp phép', `<p>Chương trình dùng thử <b>30 ngày</b>. Bấm logo <b>PHR</b> để xem <b>Mã máy</b>, gửi cho nhà phát triển và dán <b>mã cấp phép</b> (PHR1.…) để kích hoạt. Không chỉnh lùi ngày giờ máy và không sửa thông tin tác giả – chương trình sẽ tự khóa.</p>`],
   ['⌨️', 'Phím tắt & mẹo', `<ul><li><kbd>Ctrl</kbd>+<kbd>S</kbd>: lưu ngay.</li><li>Ô ngày có nút <b>Hôm nay</b>; ô số tiền tự định dạng 1.234.567.</li><li>Chọn tên trong danh sách nhân sự (gõ vài chữ) để điền nhanh.</li><li>Nút <b>Kiểm tra</b> (x lỗi / y cảnh báo) liệt kê mọi chỗ thiếu, bấm <b>Đến bước</b> để sửa.</li></ul>`],
-  ['❔', 'Câu hỏi thường gặp', `<ul><li><b>Văn bản báo [Chưa nhập]?</b> Bấm vào chữ đỏ để đến ô cần nhập.</li><li><b>Bước bị khóa 🔒?</b> Hoàn thành bước trước (VD: nạp dự toán trước khi lập gói thầu).</li><li><b>Mở file báo trình duyệt không hỗ trợ?</b> Dùng Chrome/Edge bản mới.</li><li><b>Mất dữ liệu?</b> Tab Lưu trữ → Khôi phục bản sao lưu, hoặc nhập lại file JSON đã xuất.</li></ul>`]
+  ['❔', 'Câu hỏi thường gặp', `<ul><li><b>Văn bản báo [Chưa nhập]?</b> Bấm vào chữ đỏ để đến ô cần nhập.</li><li><b>Bước bị khóa 🔒?</b> Hoàn thành bước trước (VD: nạp dự toán trước khi lập gói thầu).</li><li><b>Không nhận được mã PIN?</b> Xem thư mục Spam/Quảng cáo; đợi 1 phút rồi bấm <b>Gửi lại mã PIN</b> (tối đa 5 mã/giờ); kiểm tra lại địa chỉ email.</li><li><b>Báo "Mật khẩu không đúng"?</b> Bấm 👁 để xem lại mật khẩu đang gõ, hoặc dùng <b>Quên mật khẩu?</b>.</li><li><b>Không thấy giao diện mới sau khi cập nhật?</b> Nhấn <kbd>Ctrl</kbd>+<kbd>F5</kbd> (máy tính) hoặc đóng hẳn thẻ rồi mở lại (điện thoại).</li><li><b>Cần khôi phục hồ sơ đã mất / sửa nhầm?</b> Liên hệ Admin.</li><li><b>Mở file báo trình duyệt không hỗ trợ?</b> Dùng Chrome/Edge bản mới.</li></ul>`]
 ];
 function renderHelpView() {
   const q = noDau(App.helpQ || '');
-  const secs = HELP_SECS.filter(([, t, b]) => !q || noDau(t + ' ' + b.replace(/<[^>]+>/g, ' ')).includes(q));
+  const secs = HELP_SECS.filter(x => !x[3] || (typeof phrCurrentRole === 'function' && phrCurrentRole() === 'admin')).filter(([, t, b]) => !q || noDau(t + ' ' + b.replace(/<[^>]+>/g, ' ')).includes(q));
   $('#view-help').innerHTML = `<div class="view-pad hp-wrap"><h2>❓ Trợ giúp</h2>
     <div class="hp-top">
       <div class="hp-card"><h4>📘 Hướng dẫn sử dụng chương trình</h4><p>Toàn bộ nội dung hướng dẫn được hiển thị ngay bên dưới. Chọn từng mục để xem hoặc thu gọn; có thể tìm kiếm theo từ khóa.</p><button class="btn sm pri" id="help-toggle-all" type="button">Thu gọn tất cả mục</button></div>
@@ -8304,7 +8308,7 @@ document.addEventListener('DOMContentLoaded', () => {
 body.esl-full #view-esl{position:fixed!important;inset:0!important;z-index:1500!important;height:auto!important}
 #esl-min{display:none}body.esl-full #esl-min{display:inline-block}body.esl-full #esl-max{display:none}
 @media (max-width:760px){
-  #tabs{grid-template-columns:repeat(6,1fr)!important}
+  #tabs{grid-template-columns:repeat(5,1fr)!important}
   #tabs button{font-size:11px!important;padding:7px 1px!important}
   #tabs button[data-view=esl]{font-size:0!important}
   #tabs button[data-view=esl]::before{content:'📒'}
@@ -8435,7 +8439,7 @@ async function phrEslOpen(force) {
      (lưu hồ sơ đang mở trước rồi tải lại). Dữ liệu (trình duyệt / thư mục / Drive) giữ nguyên.
    - Mở từ tệp HTML trên máy: báo có bản mới, tải tệp mới về để lưu đè tệp cũ.
    - Sau khi cập nhật: hiện "Có gì mới". */
-const PHR_VERSION = 'V22.55', PHR_VERSION_DATE = '2026-10-20', PHR_VERSION_HIST = [{"version": "V22.55", "date": "2026-10-20", "notes": ["Tự động cập nhật: chương trình tự nhận biết phiên bản mới và cập nhật, giữ nguyên dữ liệu.", "Màn hình đăng nhập: nút con mắt để hiện/ẩn mật khẩu."]}, {"version": "V22.54", "date": "2026-10-20", "notes": ["Thêm tab 📒 Nhật ký CT (nhật ký công trình điện tử), đồng bộ Google Drive qua máy chủ PHR."]}, {"version": "V22.53", "date": "2026-10-20", "notes": ["Đăng ký tài khoản bằng mã PIN gửi qua email; đăng nhập trên mọi thiết bị.", "Giao diện điện thoại: chữ lớn, menu dưới đáy, thu gọn danh sách bước."]}];
+const PHR_VERSION = 'V22.56', PHR_VERSION_DATE = '2026-10-20', PHR_VERSION_HIST = [{"version": "V22.56", "date": "2026-10-20", "notes": ["Thẻ Lưu trữ chuyển vào Quản trị tài khoản (thẻ 🗂️ Lưu trữ dữ liệu) – chỉ Admin xem và thao tác.", "Người dùng thường không còn bị hỏi chọn nơi lưu khi mở chương trình.", "Cập nhật toàn bộ hướng dẫn trong Trợ giúp: đăng ký mã PIN, nút con mắt, Nhật ký CT, điện thoại, cập nhật phiên bản, quản trị."]}, {"version": "V22.55", "date": "2026-10-20", "notes": ["Tự động cập nhật: chương trình tự nhận biết phiên bản mới và cập nhật, giữ nguyên dữ liệu.", "Màn hình đăng nhập: nút con mắt để hiện/ẩn mật khẩu."]}, {"version": "V22.54", "date": "2026-10-20", "notes": ["Thêm tab 📒 Nhật ký CT (nhật ký công trình điện tử), đồng bộ Google Drive qua máy chủ PHR."]}, {"version": "V22.53", "date": "2026-10-20", "notes": ["Đăng ký tài khoản bằng mã PIN gửi qua email; đăng nhập trên mọi thiết bị.", "Giao diện điện thoại: chữ lớn, menu dưới đáy, thu gọn danh sách bước."]}];
 const PHR_UPDATE_BASE_DEFAULT = 'https://lttoan79vn-cloud.github.io/hosodautuxdcb/';
 function phrUpdBase() { try { return localStorage.getItem('phr_update_base') || PHR_UPDATE_BASE_DEFAULT; } catch (_) { return PHR_UPDATE_BASE_DEFAULT; } }
 function phrVerNum(v) { return String(v || '').replace(/^V/i, '').split('.').map(n => parseInt(n, 10) || 0); }
@@ -8578,6 +8582,109 @@ function phrPwHideAll() { document.querySelectorAll('.pw-wrap>input').forEach(i 
     setInterval(() => phrCheckUpdate(false), 30 * 60 * 1000);
     document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible' && Date.now() - phrUpdLastCheck > 10 * 60 * 1000) phrCheckUpdate(false); });
   });
+})();
+</script>
+
+<style id="phr-admstore-style">
+#modal{z-index:100550!important}
+#toast{z-index:100560!important}
+.adm-tabs{display:flex;gap:6px;margin:10px 0 14px;padding:5px;background:#eef3f8;border-radius:12px}
+.adm-tabs button{flex:1;border:0;background:transparent;padding:10px 8px;border-radius:9px;font:inherit;font-size:14px;font-weight:750;color:#5b6b80;cursor:pointer}
+.adm-tabs button.on{background:#fff;color:#0e4a78;box-shadow:0 2px 8px rgba(16,35,61,.12)}
+#adm-store-host #view-store{display:block!important;background:transparent}
+#adm-store-host .view-pad{padding:0!important;max-width:none!important}
+#adm-store-host .view-pad>h2{display:none}
+#phr-admin-audit #adm-store-host .btn{border:1px solid var(--line,#d5dde7);background:#fff;color:#172033;border-radius:8px;padding:8px 12px;font-size:13px;font-weight:600;display:inline-flex;align-items:center;gap:5px;white-space:nowrap;width:auto;margin:3px 4px 3px 0;cursor:pointer}
+#phr-admin-audit #adm-store-host .btn:hover{background:#f4f7fa}
+#phr-admin-audit #adm-store-host .btn.pri{background:var(--blue,#0b4f8a);border-color:var(--blue,#0b4f8a);color:#fff}
+#phr-admin-audit #adm-store-host .btn.dan{background:#fff;color:var(--red,#b91c1c);border-color:#efc2c2}
+#phr-admin-audit #adm-store-host .btn.sm{padding:5px 9px;font-size:12px}
+#phr-admin-audit #adm-store-host label:not(.btn){display:block!important;font-size:13px;font-weight:400;margin:6px 0;line-height:1.45}
+#phr-admin-audit #adm-store-host label.btn{display:inline-flex;margin:3px 4px 3px 0}
+#phr-admin-audit #adm-store-host input[type=checkbox]{width:17px;height:17px;padding:0;margin:0 6px 0 0;vertical-align:-3px}
+#phr-admin-audit #adm-store-host table{font-size:12.5px}
+#phr-admin-audit #adm-store-host th,#phr-admin-audit #adm-store-host td{white-space:normal;border:1px solid var(--line,#e2e8f0);padding:5px 7px}
+#phr-admin-audit.adm-store .phr-acc-only{display:none!important}
+#phr-admin-audit:not(.adm-store) #adm-store-host{display:none!important}
+</style>
+<script id="phr-admstore-module">
+/* PHR – "Lưu trữ" chỉ dành cho Admin: chuyển vào bảng Quản trị tài khoản (thẻ "🗂️ Lưu trữ dữ liệu").
+   Người dùng thường không thấy thẻ Lưu trữ, hộp chọn nơi lưu khi mở chương trình, hay thông báo về nơi lưu. */
+const phrIsAdmin = () => typeof phrCurrentRole === 'function' && phrCurrentRole() === 'admin';
+let phrAdmTab = 'acc';
+function phrAdmSetup() {
+  const p = document.getElementById('phr-admin-audit'); if (!p || p.dataset.admStore) return p;
+  p.dataset.admStore = '1';
+  const sec = p.querySelector('section.panel');
+  const head = sec.querySelector('.phr-admin-audit-header');
+  ['.muted', '.warning', '#phr-admin-audit-body'].forEach(s => { const el = sec.querySelector(':scope > ' + s); if (el) el.classList.add('phr-acc-only'); });
+  const tabs = document.createElement('div'); tabs.className = 'adm-tabs'; tabs.id = 'adm-tabs';
+  tabs.innerHTML = '<button type="button" data-t="acc" class="on">👥 Tài khoản</button><button type="button" data-t="store">🗂️ Lưu trữ dữ liệu</button>';
+  head.insertAdjacentElement('afterend', tabs);
+  const host = document.createElement('div'); host.id = 'adm-store-host';
+  const st = sec.querySelector('#phr-admin-audit-status'); sec.insertBefore(host, st);
+  tabs.querySelectorAll('button').forEach(b => b.onclick = () => phrAdmTabSet(b.dataset.t));
+  new MutationObserver(() => { if (p.classList.contains('open')) phrAdmOpened(); else phrAdmTab = 'acc'; }).observe(p, { attributes: true, attributeFilter: ['class'] });
+  return p;
+}
+function phrAdmOpened() {
+  const p = document.getElementById('phr-admin-audit'), tabs = document.getElementById('adm-tabs');
+  const adm = phrIsAdmin();
+  if (tabs) tabs.style.display = adm ? '' : 'none';
+  if (!adm) phrAdmTab = 'acc';
+  phrAdmTabSet(phrAdmTab, true);
+}
+function phrAdmTabSet(t, quiet) {
+  const p = document.getElementById('phr-admin-audit'); if (!p) return;
+  if (t === 'store' && !phrIsAdmin()) t = 'acc';
+  phrAdmTab = t;
+  p.classList.toggle('adm-store', t === 'store');
+  document.querySelectorAll('#adm-tabs button').forEach(b => b.classList.toggle('on', b.dataset.t === t));
+  if (t === 'store') {
+    const host = document.getElementById('adm-store-host'), vs = document.getElementById('view-store');
+    if (vs && vs.parentNode !== host) host.appendChild(vs);
+    if (vs) vs.classList.remove('hidden');
+    Promise.resolve(renderStoreView()).catch(e => console.error(e));
+  }
+}
+function phrOpenStoreAdmin() {
+  phrAdmTab = 'store';
+  const p = phrAdmSetup(); if (!p) return;
+  if (p.classList.contains('open')) phrAdmTabSet('store');
+  else document.getElementById('user-chip')?.click();
+}
+(() => {
+  // App.view = 'store' (nút trong các thao tác lưu trữ) → hiển thị trong bảng Quản trị, không còn là một thẻ riêng
+  let prevView = 'work';
+  const baseRender = renderAll;
+  renderAll = function () {
+    let wantStore = false;
+    if (App.view === 'store') { wantStore = phrIsAdmin(); App.view = prevView || 'work'; }
+    else prevView = App.view;
+    const r = baseRender.apply(this, arguments);
+    const p = document.getElementById('phr-admin-audit');
+    if (wantStore) phrOpenStoreAdmin();
+    else if (p && p.classList.contains('open') && phrAdmTab === 'store') { const vs = document.getElementById('view-store'); if (vs) vs.classList.remove('hidden'); Promise.resolve(renderStoreView()).catch(() => { }); }
+    return r;
+  };
+  // Người dùng thường: không hỏi chọn nơi lưu, không hiện thông báo nơi lưu
+  const baseChoose = chooseStorageAtStart;
+  chooseStorageAtStart = async function () {
+    if (phrIsAdmin()) return baseChoose.apply(this, arguments);
+    try {
+      if (Storage.folderSupported) { const h = await Storage.savedHandle(); if (h && (await Storage.permission(h, false)) === 'granted') { Storage.useFolder(h); return; } }
+    } catch (_) { }
+    Storage.useBrowser();
+  };
+  const baseBanner = showBanner;
+  showBanner = function (type, html) {
+    if (/Lưu trữ|thư mục|ổ D:|iCloud|Xuất JSON/.test(String(html || ''))) {
+      if (!phrIsAdmin()) return;
+      html = String(html).replace(/Vào thẻ <b>Lưu trữ<\/b>/g, 'Vào <b>Quản trị tài khoản → 🗂️ Lưu trữ dữ liệu</b>');
+    }
+    return baseBanner.call(this, type, html);
+  };
+  document.addEventListener('DOMContentLoaded', () => setTimeout(phrAdmSetup, 0));
 })();
 </script>
 
