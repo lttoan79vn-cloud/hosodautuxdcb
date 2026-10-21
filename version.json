@@ -1,11 +1,25 @@
 {
- "version": "V22.82",
+ "version": "V22.83",
  "date": "2026-10-21",
  "notes": [
-  "Nhật ký CT: thanh sửa nhật ký gọn lại – bỏ câu hướng dẫn “Đang cập nhật…”, chỉ còn ngày và các nút Bổ sung nội dung / Hoàn tác.",
-  "Mục 4 – Kiểm tra chất lượng, nghiệm thu và An toàn lao động, VSMT, PCCC: chuyển thành các mục chọn nhanh (chạm để chọn/bỏ), vẫn ghi thêm được nội dung khác."
+  "Hồ sơ giá thành thiết bị: chọn 1 trong 2 quy trình – Chào hàng cạnh tranh hoặc Mua sắm nhỏ lẻ; thanh bước tự đổi theo quy trình.",
+  "Bước mới “Bảng báo giá & dự toán”: nhập 3 đơn vị báo giá, danh mục hàng hóa, đơn giá từng báo giá → tự tính đơn giá bình quân, VAT, tổng dự toán; chọn nhà cung cấp (giá thấp nhất).",
+  "Mẫu văn bản soạn theo bộ hồ sơ thực tế: Biên bản kiểm tra thiết bị, Thư mời báo giá, TTr/QĐ phê duyệt dự toán và KHLCNT (kèm phụ lục), TTr/QĐ thành lập Tổ chuyên gia, TTr (Tổ chuyên gia)/QĐ phê duyệt E-HSMT, TTr/QĐ kết quả LCNT, Hợp đồng, Biên bản nghiệm thu.",
+  "Mua sắm nhỏ lẻ: TTr dự toán mua sắm nhỏ lẻ (Duyệt lãnh đạo khối), Yêu cầu mua sắm nhỏ lẻ, Biên bản thương thảo – hoàn thiện hợp đồng, TTr kết quả (Phê duyệt TGĐ), Hợp đồng, Biên bản nghiệm thu.",
+  "Nút “Nạp hồ sơ mẫu” tạo sẵn 2 hồ sơ mẫu: gói Mua sắm trục cán NMCB Cuaparis (chào hàng cạnh tranh) và Mua sắm trục cán cắt 520 (mua sắm nhỏ lẻ)."
  ],
  "history": [
+  {
+   "version": "V22.83",
+   "date": "2026-10-21",
+   "notes": [
+    "Hồ sơ giá thành thiết bị: chọn 1 trong 2 quy trình – Chào hàng cạnh tranh hoặc Mua sắm nhỏ lẻ; thanh bước tự đổi theo quy trình.",
+    "Bước mới “Bảng báo giá & dự toán”: nhập 3 đơn vị báo giá, danh mục hàng hóa, đơn giá từng báo giá → tự tính đơn giá bình quân, VAT, tổng dự toán; chọn nhà cung cấp (giá thấp nhất).",
+    "Mẫu văn bản soạn theo bộ hồ sơ thực tế: Biên bản kiểm tra thiết bị, Thư mời báo giá, TTr/QĐ phê duyệt dự toán và KHLCNT (kèm phụ lục), TTr/QĐ thành lập Tổ chuyên gia, TTr (Tổ chuyên gia)/QĐ phê duyệt E-HSMT, TTr/QĐ kết quả LCNT, Hợp đồng, Biên bản nghiệm thu.",
+    "Mua sắm nhỏ lẻ: TTr dự toán mua sắm nhỏ lẻ (Duyệt lãnh đạo khối), Yêu cầu mua sắm nhỏ lẻ, Biên bản thương thảo – hoàn thiện hợp đồng, TTr kết quả (Phê duyệt TGĐ), Hợp đồng, Biên bản nghiệm thu.",
+    "Nút “Nạp hồ sơ mẫu” tạo sẵn 2 hồ sơ mẫu: gói Mua sắm trục cán NMCB Cuaparis (chào hàng cạnh tranh) và Mua sắm trục cán cắt 520 (mua sắm nhỏ lẻ)."
+   ]
+  },
   {
    "version": "V22.82",
    "date": "2026-10-21",
