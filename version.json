@@ -1,10 +1,17 @@
 {
- "version": "V22.71",
+ "version": "V22.72",
  "date": "2026-10-21",
  "notes": [
-  "Nhật ký CT – bìa nhật ký in/xem: tiêu đề theo thể thức Nghị định 30/2020/NĐ-CP (dòng 1 CÔNG TY CỔ PHẦN CAO SU PHƯỚC HÒA, dòng 2 PHÒNG PT&QLKCN in đậm, gạch ngang dưới tên đơn vị và dưới tiêu ngữ)."
+  "Điện thoại: 2 dòng đầu màn hình (tiêu đề chương trình và các nút Lưu ngay / tài khoản / Thoát) luôn cố định khi cuộn lên xuống; thanh Bước đang soạn dính ngay bên dưới."
  ],
  "history": [
+  {
+   "version": "V22.72",
+   "date": "2026-10-21",
+   "notes": [
+    "Điện thoại: 2 dòng đầu màn hình (tiêu đề chương trình và các nút Lưu ngay / tài khoản / Thoát) luôn cố định khi cuộn lên xuống; thanh Bước đang soạn dính ngay bên dưới."
+   ]
+  },
   {
    "version": "V22.71",
    "date": "2026-10-21",
