@@ -1,13 +1,25 @@
 {
- "version": "V22.84",
+ "version": "V22.85",
  "date": "2026-10-21",
  "notes": [
-  "Rà lại trình tự theo bộ hồ sơ mẫu: thêm bước đầu vào “Đề nghị của đơn vị” (tờ trình/giấy đề nghị – tự đưa vào căn cứ Biên bản kiểm tra); Biên bản kiểm tra đứng trước Thư mời báo giá, bật/tắt được.",
-  "Mua sắm nhỏ lẻ: thêm bước “Báo giá của nhà cung cấp” sau Yêu cầu mua sắm (VD 68-25/BG-BK) và dẫn làm căn cứ Biên bản thương thảo.",
-  "Thông tin chung có bảng “Trình tự thực hiện các bước” (bước – người thực hiện/ký – ngày – trạng thái); Kiểm tra hồ sơ cảnh báo khi văn bản bước sau ghi ngày trước bước trước.",
-  "Hồ sơ giá thành XDCB dùng cùng 2 quy trình (Chào hàng cạnh tranh / Mua sắm nhỏ lẻ) với từ ngữ thi công: hạng mục công việc, Biên bản kiểm tra hiện trạng, Hợp đồng thi công, Bên giao thầu/Bên nhận thầu; dự toán theo bảng do Phòng lập hoặc bình quân báo giá. Hồ sơ giá thành XDCB cũ đã có dữ liệu giữ quy trình cũ, có nút chuyển."
+  "Nhật ký CT – Hồ sơ tiến độ: gộp “Bảng kế hoạch tiến độ” và “Tệp tiến độ đã duyệt” thành 1 mục “Kế hoạch tiến độ thi công (căn cứ giám sát)”.",
+  "Phân tích file tiến độ để lấy danh sách hạng mục – ngày bắt đầu – kết thúc – số ngày: đọc Excel, Word, PDF (kể cả PDF bảng Gantt, bản scan/ký số qua OCR), ảnh; file chỉ có số ngày được xếp nối tiếp từ ngày khởi công. Mỗi tệp đã lưu có nút “Phân tích” để đọc lại.",
+  "Cột “Giám sát” cho từng hạng mục: Đúng tiến độ / Chậm tiến độ / Quá hạn / Chưa đến hạn / Hoàn thành (so % thực tế trong nhật ký với % kế hoạch đến hôm nay) + tổng hợp số hạng mục theo tình trạng.",
+  "Hồ sơ giá thành XDCB: thêm mục Dự toán với 2 hình thức – (1) lập dự toán theo định mức, đơn giá Nhà nước (nạp Excel dự toán hoặc nhập khoản mục chi phí); (2) lấy báo giá để lập dự toán, giá gói thầu. Tờ trình/QĐ dự toán tự đổi bảng và căn cứ theo hình thức.",
+  "Rà soát thành phần ký: Biên bản kiểm tra để trống ô ký vẫn đủ 3 phòng + đại diện đơn vị + lãnh đạo duyệt; thứ tự ký phòng trong Biên bản thương thảo, Biên bản nghiệm thu theo mẫu (P.PT&QLKCN – P.TCKT – P.KHVT); Biên bản nghiệm thu XDCB có thêm đại diện giám sát thi công."
  ],
  "history": [
+  {
+   "version": "V22.85",
+   "date": "2026-10-21",
+   "notes": [
+    "Nhật ký CT – Hồ sơ tiến độ: gộp “Bảng kế hoạch tiến độ” và “Tệp tiến độ đã duyệt” thành 1 mục “Kế hoạch tiến độ thi công (căn cứ giám sát)”.",
+    "Phân tích file tiến độ để lấy danh sách hạng mục – ngày bắt đầu – kết thúc – số ngày: đọc Excel, Word, PDF (kể cả PDF bảng Gantt, bản scan/ký số qua OCR), ảnh; file chỉ có số ngày được xếp nối tiếp từ ngày khởi công. Mỗi tệp đã lưu có nút “Phân tích” để đọc lại.",
+    "Cột “Giám sát” cho từng hạng mục: Đúng tiến độ / Chậm tiến độ / Quá hạn / Chưa đến hạn / Hoàn thành (so % thực tế trong nhật ký với % kế hoạch đến hôm nay) + tổng hợp số hạng mục theo tình trạng.",
+    "Hồ sơ giá thành XDCB: thêm mục Dự toán với 2 hình thức – (1) lập dự toán theo định mức, đơn giá Nhà nước (nạp Excel dự toán hoặc nhập khoản mục chi phí); (2) lấy báo giá để lập dự toán, giá gói thầu. Tờ trình/QĐ dự toán tự đổi bảng và căn cứ theo hình thức.",
+    "Rà soát thành phần ký: Biên bản kiểm tra để trống ô ký vẫn đủ 3 phòng + đại diện đơn vị + lãnh đạo duyệt; thứ tự ký phòng trong Biên bản thương thảo, Biên bản nghiệm thu theo mẫu (P.PT&QLKCN – P.TCKT – P.KHVT); Biên bản nghiệm thu XDCB có thêm đại diện giám sát thi công."
+   ]
+  },
   {
    "version": "V22.84",
    "date": "2026-10-21",
