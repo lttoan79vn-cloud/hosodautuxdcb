@@ -1,11 +1,21 @@
 {
- "version": "V22.76",
+ "version": "V22.77",
  "date": "2026-10-21",
  "notes": [
-  "Màn hình đăng nhập: bỏ thẻ “Đăng nhập” phía trên; “Đăng ký tài khoản” chuyển xuống bên trái, cùng hàng với “Quên mật khẩu?”.",
-  "Kiểm tra lại chức năng Quên mật khẩu (mã PIN qua email, đặt mật khẩu mới, đăng nhập trên máy khác bằng mật khẩu mới)."
+  "Nhật ký CT trên điện thoại/máy tính bảng: tên công trình đang ghi nhật ký hiện nổi bật trên cùng (2 dòng), chạm “Đổi” để chọn công trình khác – tránh ghi nhầm công trình.",
+  "Sửa lỗi thanh tiêu đề chương trình che mất phần đầu Nhật ký CT trên điện thoại.",
+  "Chặn thao tác chụm 2 ngón (màn hình cảm ứng, touchpad) làm giao diện phóng to tràn ra 2 bên; khung xem văn bản vẫn phóng to được."
  ],
  "history": [
+  {
+   "version": "V22.77",
+   "date": "2026-10-21",
+   "notes": [
+    "Nhật ký CT trên điện thoại/máy tính bảng: tên công trình đang ghi nhật ký hiện nổi bật trên cùng (2 dòng), chạm “Đổi” để chọn công trình khác – tránh ghi nhầm công trình.",
+    "Sửa lỗi thanh tiêu đề chương trình che mất phần đầu Nhật ký CT trên điện thoại.",
+    "Chặn thao tác chụm 2 ngón (màn hình cảm ứng, touchpad) làm giao diện phóng to tràn ra 2 bên; khung xem văn bản vẫn phóng to được."
+   ]
+  },
   {
    "version": "V22.76",
    "date": "2026-10-21",
