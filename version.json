@@ -1,12 +1,21 @@
 {
- "version": "V22.58",
+ "version": "V22.59",
  "date": "2026-10-21",
  "notes": [
-  "Logo VRG Phước Hòa thay chữ PHR ở góc trái màn hình, màn hình đăng nhập và biểu tượng ứng dụng.",
-  "Nhật ký CT – Hồ sơ công trình: địa chỉ mới Xã Phước Hòa, TP. Hồ Chí Minh; đơn vị TVGS mặc định Phòng PT&QLKCN - Công ty CP Cao su Phước Hòa; Giám sát trưởng chỉ gợi ý.",
-  "Số hiệu hợp đồng trong Nhật ký tự lấy từ hồ sơ PHR cùng công trình (chưa có thì để trống); chọn được hồ sơ PHR liên kết."
+  "Tăng tốc: chuyển tab Tổng quan hiện ngay (trước đây chờ máy chủ ~1 giây); đổi hồ sơ hiện ngay, bản mới trên Drive tự nạp ở nền.",
+  "Khởi động nhanh hơn: dùng dữ liệu đã lưu trên máy, làm mới từ Google Drive ở nền.",
+  "Nhật ký CT được nạp sẵn ở nền – bấm tab là hiện ngay."
  ],
  "history": [
+  {
+   "version": "V22.59",
+   "date": "2026-10-21",
+   "notes": [
+    "Tăng tốc: chuyển tab Tổng quan hiện ngay (trước đây chờ máy chủ ~1 giây); đổi hồ sơ hiện ngay, bản mới trên Drive tự nạp ở nền.",
+    "Khởi động nhanh hơn: dùng dữ liệu đã lưu trên máy, làm mới từ Google Drive ở nền.",
+    "Nhật ký CT được nạp sẵn ở nền – bấm tab là hiện ngay."
+   ]
+  },
   {
    "version": "V22.58",
    "date": "2026-10-21",
