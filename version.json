@@ -1,10 +1,19 @@
 {
- "version": "V22.72",
+ "version": "V22.73",
  "date": "2026-10-21",
  "notes": [
-  "Điện thoại: 2 dòng đầu màn hình (tiêu đề chương trình và các nút Lưu ngay / tài khoản / Thoát) luôn cố định khi cuộn lên xuống; thanh Bước đang soạn dính ngay bên dưới."
+  "Nhật ký CT: ghi nhật ký nhiều lần trong ngày – mỗi lần lưu là một lượt ghi mới (có giờ ghi), không ghi đè lượt trước khi phát sinh thêm công việc.",
+  "Lịch sử nhật ký hiện giờ ghi và lượt thứ mấy trong ngày; bản in A4 vẫn mỗi ngày 01 trang, các lượt ghi xếp nối tiếp theo giờ, chữ ký cuối trang; Excel có thêm cột Giờ."
  ],
  "history": [
+  {
+   "version": "V22.73",
+   "date": "2026-10-21",
+   "notes": [
+    "Nhật ký CT: ghi nhật ký nhiều lần trong ngày – mỗi lần lưu là một lượt ghi mới (có giờ ghi), không ghi đè lượt trước khi phát sinh thêm công việc.",
+    "Lịch sử nhật ký hiện giờ ghi và lượt thứ mấy trong ngày; bản in A4 vẫn mỗi ngày 01 trang, các lượt ghi xếp nối tiếp theo giờ, chữ ký cuối trang; Excel có thêm cột Giờ."
+   ]
+  },
   {
    "version": "V22.72",
    "date": "2026-10-21",
