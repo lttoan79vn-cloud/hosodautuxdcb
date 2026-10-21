@@ -1,10 +1,23 @@
 {
- "version": "V22.64",
+ "version": "V22.65",
  "date": "2026-10-21",
  "notes": [
-  "Nhật ký CT trên máy tính/máy tính bảng: chữ trong ô nhập, ô chọn và chữ gợi ý tăng lên 13px."
+  "Phân quyền theo hồ sơ: mỗi tài khoản chỉ biên tập hồ sơ do mình tạo; hồ sơ do tài khoản khác tạo bị ẩn nếu chưa được Admin cấp quyền Chỉ xem hoặc Biên tập.",
+  "Phân quyền theo mục: Admin chọn Ẩn / Chỉ xem / Biên tập cho từng loại hồ sơ (XDCB, thiết bị, giá thành XDCB, giá thành thiết bị), Danh mục và Nhật ký CT (nút 🔐 Phân quyền trong Quản trị tài khoản).",
+  "Khung hồ sơ hiện người tạo và quyền (Của tôi / Được cấp: Biên tập / Được cấp: Chỉ xem); chỉ người tạo hoặc Admin được xóa hồ sơ.",
+  "Bản lưu đệm trên máy tách riêng theo từng tài khoản (máy dùng chung không lộ hồ sơ của người khác)."
  ],
  "history": [
+  {
+   "version": "V22.65",
+   "date": "2026-10-21",
+   "notes": [
+    "Phân quyền theo hồ sơ: mỗi tài khoản chỉ biên tập hồ sơ do mình tạo; hồ sơ do tài khoản khác tạo bị ẩn nếu chưa được Admin cấp quyền Chỉ xem hoặc Biên tập.",
+    "Phân quyền theo mục: Admin chọn Ẩn / Chỉ xem / Biên tập cho từng loại hồ sơ (XDCB, thiết bị, giá thành XDCB, giá thành thiết bị), Danh mục và Nhật ký CT (nút 🔐 Phân quyền trong Quản trị tài khoản).",
+    "Khung hồ sơ hiện người tạo và quyền (Của tôi / Được cấp: Biên tập / Được cấp: Chỉ xem); chỉ người tạo hoặc Admin được xóa hồ sơ.",
+    "Bản lưu đệm trên máy tách riêng theo từng tài khoản (máy dùng chung không lộ hồ sơ của người khác)."
+   ]
+  },
   {
    "version": "V22.64",
    "date": "2026-10-21",
