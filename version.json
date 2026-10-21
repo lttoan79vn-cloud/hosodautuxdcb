@@ -1,11 +1,19 @@
 {
- "version": "V22.81",
+ "version": "V22.82",
  "date": "2026-10-21",
  "notes": [
-  "Nhật ký CT – Hồ sơ KH: bỏ mục Quyết định phê duyệt; thay bằng Bảng kế hoạch tiến độ thi công (hạng mục, ngày bắt đầu/kết thúc, số ngày, % kế hoạch tự tính) sửa trực tiếp được.",
-  "Nút “Tải file tiến độ & phân tích”: đọc file Excel (.xlsx/.xls/.csv), Word (.docx), PDF có lớp chữ, tự nhận các dòng hạng mục – ngày bắt đầu – kết thúc (hoặc số ngày), xem trước rồi Thay thế / Thêm vào bảng; file gốc lưu làm căn cứ giám sát."
+  "Nhật ký CT: thanh sửa nhật ký gọn lại – bỏ câu hướng dẫn “Đang cập nhật…”, chỉ còn ngày và các nút Bổ sung nội dung / Hoàn tác.",
+  "Mục 4 – Kiểm tra chất lượng, nghiệm thu và An toàn lao động, VSMT, PCCC: chuyển thành các mục chọn nhanh (chạm để chọn/bỏ), vẫn ghi thêm được nội dung khác."
  ],
  "history": [
+  {
+   "version": "V22.82",
+   "date": "2026-10-21",
+   "notes": [
+    "Nhật ký CT: thanh sửa nhật ký gọn lại – bỏ câu hướng dẫn “Đang cập nhật…”, chỉ còn ngày và các nút Bổ sung nội dung / Hoàn tác.",
+    "Mục 4 – Kiểm tra chất lượng, nghiệm thu và An toàn lao động, VSMT, PCCC: chuyển thành các mục chọn nhanh (chạm để chọn/bỏ), vẫn ghi thêm được nội dung khác."
+   ]
+  },
   {
    "version": "V22.81",
    "date": "2026-10-21",
