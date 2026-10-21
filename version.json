@@ -1,10 +1,17 @@
 {
- "version": "V22.78",
+ "version": "V22.79",
  "date": "2026-10-21",
  "notes": [
-  "Nhật ký CT: đổi cụm từ “Giám sát trưởng” thành “TVGS” (Hồ sơ công trình và bìa nhật ký in)."
+  "Nhật ký CT – hộp In nhật ký khổ A4: các nút In / Lưu PDF, Tải bản in, Excel, Đóng nằm trên cùng 1 hàng (cả trên điện thoại); Từ ngày – Đến ngày – Kèm ảnh cùng 1 hàng; nút Đóng màu đỏ."
  ],
  "history": [
+  {
+   "version": "V22.79",
+   "date": "2026-10-21",
+   "notes": [
+    "Nhật ký CT – hộp In nhật ký khổ A4: các nút In / Lưu PDF, Tải bản in, Excel, Đóng nằm trên cùng 1 hàng (cả trên điện thoại); Từ ngày – Đến ngày – Kèm ảnh cùng 1 hàng; nút Đóng màu đỏ."
+   ]
+  },
   {
    "version": "V22.78",
    "date": "2026-10-21",
