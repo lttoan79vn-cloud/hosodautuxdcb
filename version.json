@@ -1,12 +1,19 @@
 {
- "version": "V22.75",
+ "version": "V22.76",
  "date": "2026-10-21",
  "notes": [
-  "Nhật ký CT – Hồ sơ công trình: Đơn vị TVGS cùng hàng với Địa điểm xây dựng; Số hợp đồng và Ngày hợp đồng cùng một hàng.",
-  "Mọi màn hình hiển thị vừa khít bề ngang, không phải trượt ngang: văn bản xem trước tự co vừa khung; máy tính màn hình nhỏ đưa menu xuống dòng 2; bảng Tổng quan và bảng so sánh tiến độ co gọn trên điện thoại.",
-  "Máy tính bảng và điện thoại xoay ngang dùng bố cục cảm ứng; xoay ngang/dọc màn hình tự bung theo chiều thiết bị (thanh trên thu còn 1 dòng khi xoay ngang)."
+  "Màn hình đăng nhập: bỏ thẻ “Đăng nhập” phía trên; “Đăng ký tài khoản” chuyển xuống bên trái, cùng hàng với “Quên mật khẩu?”.",
+  "Kiểm tra lại chức năng Quên mật khẩu (mã PIN qua email, đặt mật khẩu mới, đăng nhập trên máy khác bằng mật khẩu mới)."
  ],
  "history": [
+  {
+   "version": "V22.76",
+   "date": "2026-10-21",
+   "notes": [
+    "Màn hình đăng nhập: bỏ thẻ “Đăng nhập” phía trên; “Đăng ký tài khoản” chuyển xuống bên trái, cùng hàng với “Quên mật khẩu?”.",
+    "Kiểm tra lại chức năng Quên mật khẩu (mã PIN qua email, đặt mật khẩu mới, đăng nhập trên máy khác bằng mật khẩu mới)."
+   ]
+  },
   {
    "version": "V22.75",
    "date": "2026-10-21",
