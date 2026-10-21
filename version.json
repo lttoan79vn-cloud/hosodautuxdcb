@@ -1,10 +1,17 @@
 {
- "version": "V22.61",
+ "version": "V22.62",
  "date": "2026-10-21",
  "notes": [
-  "Điện thoại: tăng 1 cỡ chữ cho 2 hàng menu dưới màn hình (menu chương trình và menu Nhật ký CT) để nhìn rõ hơn."
+  "Điện thoại: menu chương trình chữ 13px, biểu tượng 22px; menu Nhật ký CT chữ 12px, biểu tượng 19px."
  ],
  "history": [
+  {
+   "version": "V22.62",
+   "date": "2026-10-21",
+   "notes": [
+    "Điện thoại: menu chương trình chữ 13px, biểu tượng 22px; menu Nhật ký CT chữ 12px, biểu tượng 19px."
+   ]
+  },
   {
    "version": "V22.61",
    "date": "2026-10-21",
