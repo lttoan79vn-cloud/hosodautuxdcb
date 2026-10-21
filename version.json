@@ -1,10 +1,17 @@
 {
- "version": "V22.63",
+ "version": "V22.64",
  "date": "2026-10-21",
  "notes": [
-  "Điện thoại: chữ phần nội dung lớn thêm 1 cỡ (Soạn hồ sơ, Tổng quan, Danh mục, Trợ giúp, Nhật ký CT); menu và các thanh cố định giữ nguyên."
+  "Nhật ký CT trên máy tính/máy tính bảng: chữ trong ô nhập, ô chọn và chữ gợi ý tăng lên 13px."
  ],
  "history": [
+  {
+   "version": "V22.64",
+   "date": "2026-10-21",
+   "notes": [
+    "Nhật ký CT trên máy tính/máy tính bảng: chữ trong ô nhập, ô chọn và chữ gợi ý tăng lên 13px."
+   ]
+  },
   {
    "version": "V22.63",
    "date": "2026-10-21",
