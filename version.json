@@ -1,10 +1,17 @@
 {
- "version": "V22.62",
+ "version": "V22.63",
  "date": "2026-10-21",
  "notes": [
-  "Điện thoại: menu chương trình chữ 13px, biểu tượng 22px; menu Nhật ký CT chữ 12px, biểu tượng 19px."
+  "Điện thoại: chữ phần nội dung lớn thêm 1 cỡ (Soạn hồ sơ, Tổng quan, Danh mục, Trợ giúp, Nhật ký CT); menu và các thanh cố định giữ nguyên."
  ],
  "history": [
+  {
+   "version": "V22.63",
+   "date": "2026-10-21",
+   "notes": [
+    "Điện thoại: chữ phần nội dung lớn thêm 1 cỡ (Soạn hồ sơ, Tổng quan, Danh mục, Trợ giúp, Nhật ký CT); menu và các thanh cố định giữ nguyên."
+   ]
+  },
   {
    "version": "V22.62",
    "date": "2026-10-21",
