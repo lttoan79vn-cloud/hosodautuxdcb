@@ -1,11 +1,21 @@
 {
- "version": "V22.68",
+ "version": "V22.69",
  "date": "2026-10-21",
  "notes": [
-  "Nhật ký CT: nút \"Tạo mới\" công trình chữ lớn hơn, dạng nút nổi 3D cùng kiểu biểu tượng góc trên.",
-  "Màn hình đăng nhập: tên đơn vị ghi VRG PHƯỚC HÒA RUBBER."
+  "Tăng tốc lưu: thay đổi lưu tức thì trên máy và gửi lên Google Drive ở nền – không còn phải chờ máy chủ khi gõ, chuyển hồ sơ, chuyển thẻ.",
+  "Tải/đưa tệp (Word đã xuất, tệp đính kèm) lên Drive ở nền; bản Word cũ chuyển vào _ban_cu ngay trên Drive, không tải về rồi gửi lại.",
+  "Máy chủ: chỉ mục hồ sơ và nhớ thư mục – danh sách hồ sơ chỉ gửi hồ sơ có thay đổi; kiểm tra bản mới chỉ hỏi số lần lưu (cần cập nhật mã máy chủ)."
  ],
  "history": [
+  {
+   "version": "V22.69",
+   "date": "2026-10-21",
+   "notes": [
+    "Tăng tốc lưu: thay đổi lưu tức thì trên máy và gửi lên Google Drive ở nền – không còn phải chờ máy chủ khi gõ, chuyển hồ sơ, chuyển thẻ.",
+    "Tải/đưa tệp (Word đã xuất, tệp đính kèm) lên Drive ở nền; bản Word cũ chuyển vào _ban_cu ngay trên Drive, không tải về rồi gửi lại.",
+    "Máy chủ: chỉ mục hồ sơ và nhớ thư mục – danh sách hồ sơ chỉ gửi hồ sơ có thay đổi; kiểm tra bản mới chỉ hỏi số lần lưu (cần cập nhật mã máy chủ)."
+   ]
+  },
   {
    "version": "V22.68",
    "date": "2026-10-21",

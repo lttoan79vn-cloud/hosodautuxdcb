@@ -1,6 +1,6 @@
 /* PHR service worker: tải bản mới nhất khi có mạng (network-first), dùng bản đã lưu khi mất mạng.
    Thư viện giao diện của Nhật ký CT (Tailwind, Font Awesome, SheetJS) lưu sẵn để dùng khi mất mạng. */
-const C = 'phr-V22.68';
+const C = 'phr-V22.69';
 const CDN = ['cdn.tailwindcss.com', 'cdnjs.cloudflare.com'];
 self.addEventListener('install', e => { self.skipWaiting(); e.waitUntil(caches.open(C).then(c => c.addAll(['./', './index.html', './manifest.webmanifest', './icon-192.png']).catch(() => {}))); });
 self.addEventListener('activate', e => e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== C).map(k => caches.delete(k)))).then(() => self.clients.claim())));
