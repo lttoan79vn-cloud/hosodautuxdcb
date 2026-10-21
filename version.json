@@ -1,11 +1,19 @@
 {
- "version": "V22.73",
+ "version": "V22.74",
  "date": "2026-10-21",
  "notes": [
-  "Nhật ký CT: ghi nhật ký nhiều lần trong ngày – mỗi lần lưu là một lượt ghi mới (có giờ ghi), không ghi đè lượt trước khi phát sinh thêm công việc.",
-  "Lịch sử nhật ký hiện giờ ghi và lượt thứ mấy trong ngày; bản in A4 vẫn mỗi ngày 01 trang, các lượt ghi xếp nối tiếp theo giờ, chữ ký cuối trang; Excel có thêm cột Giờ."
+  "Nhật ký CT: mỗi ngày 01 nhật ký – chọn ngày đã có nhật ký (hoặc mở tab hôm nay) sẽ tự mở nội dung đã ghi để bổ sung việc phát sinh tiếp theo hoặc sửa nội dung cũ, rồi bấm CẬP NHẬT NHẬT KÝ; nút “Bổ sung nội dung” thêm dòng mới ở cuối.",
+  "Bỏ giờ ghi / số lượt của bản V22.73; các lượt đã ghi cùng ngày được tự gộp về 1 nhật ký của ngày đó."
  ],
  "history": [
+  {
+   "version": "V22.74",
+   "date": "2026-10-21",
+   "notes": [
+    "Nhật ký CT: mỗi ngày 01 nhật ký – chọn ngày đã có nhật ký (hoặc mở tab hôm nay) sẽ tự mở nội dung đã ghi để bổ sung việc phát sinh tiếp theo hoặc sửa nội dung cũ, rồi bấm CẬP NHẬT NHẬT KÝ; nút “Bổ sung nội dung” thêm dòng mới ở cuối.",
+    "Bỏ giờ ghi / số lượt của bản V22.73; các lượt đã ghi cùng ngày được tự gộp về 1 nhật ký của ngày đó."
+   ]
+  },
   {
    "version": "V22.73",
    "date": "2026-10-21",
