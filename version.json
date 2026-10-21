@@ -1,12 +1,17 @@
 {
- "version": "V22.77",
+ "version": "V22.78",
  "date": "2026-10-21",
  "notes": [
-  "Nhật ký CT trên điện thoại/máy tính bảng: tên công trình đang ghi nhật ký hiện nổi bật trên cùng (2 dòng), chạm “Đổi” để chọn công trình khác – tránh ghi nhầm công trình.",
-  "Sửa lỗi thanh tiêu đề chương trình che mất phần đầu Nhật ký CT trên điện thoại.",
-  "Chặn thao tác chụm 2 ngón (màn hình cảm ứng, touchpad) làm giao diện phóng to tràn ra 2 bên; khung xem văn bản vẫn phóng to được."
+  "Nhật ký CT: đổi cụm từ “Giám sát trưởng” thành “TVGS” (Hồ sơ công trình và bìa nhật ký in)."
  ],
  "history": [
+  {
+   "version": "V22.78",
+   "date": "2026-10-21",
+   "notes": [
+    "Nhật ký CT: đổi cụm từ “Giám sát trưởng” thành “TVGS” (Hồ sơ công trình và bìa nhật ký in)."
+   ]
+  },
   {
    "version": "V22.77",
    "date": "2026-10-21",
