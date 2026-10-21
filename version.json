@@ -1,14 +1,23 @@
 {
- "version": "V22.83",
+ "version": "V22.84",
  "date": "2026-10-21",
  "notes": [
-  "Hồ sơ giá thành thiết bị: chọn 1 trong 2 quy trình – Chào hàng cạnh tranh hoặc Mua sắm nhỏ lẻ; thanh bước tự đổi theo quy trình.",
-  "Bước mới “Bảng báo giá & dự toán”: nhập 3 đơn vị báo giá, danh mục hàng hóa, đơn giá từng báo giá → tự tính đơn giá bình quân, VAT, tổng dự toán; chọn nhà cung cấp (giá thấp nhất).",
-  "Mẫu văn bản soạn theo bộ hồ sơ thực tế: Biên bản kiểm tra thiết bị, Thư mời báo giá, TTr/QĐ phê duyệt dự toán và KHLCNT (kèm phụ lục), TTr/QĐ thành lập Tổ chuyên gia, TTr (Tổ chuyên gia)/QĐ phê duyệt E-HSMT, TTr/QĐ kết quả LCNT, Hợp đồng, Biên bản nghiệm thu.",
-  "Mua sắm nhỏ lẻ: TTr dự toán mua sắm nhỏ lẻ (Duyệt lãnh đạo khối), Yêu cầu mua sắm nhỏ lẻ, Biên bản thương thảo – hoàn thiện hợp đồng, TTr kết quả (Phê duyệt TGĐ), Hợp đồng, Biên bản nghiệm thu.",
-  "Nút “Nạp hồ sơ mẫu” tạo sẵn 2 hồ sơ mẫu: gói Mua sắm trục cán NMCB Cuaparis (chào hàng cạnh tranh) và Mua sắm trục cán cắt 520 (mua sắm nhỏ lẻ)."
+  "Rà lại trình tự theo bộ hồ sơ mẫu: thêm bước đầu vào “Đề nghị của đơn vị” (tờ trình/giấy đề nghị – tự đưa vào căn cứ Biên bản kiểm tra); Biên bản kiểm tra đứng trước Thư mời báo giá, bật/tắt được.",
+  "Mua sắm nhỏ lẻ: thêm bước “Báo giá của nhà cung cấp” sau Yêu cầu mua sắm (VD 68-25/BG-BK) và dẫn làm căn cứ Biên bản thương thảo.",
+  "Thông tin chung có bảng “Trình tự thực hiện các bước” (bước – người thực hiện/ký – ngày – trạng thái); Kiểm tra hồ sơ cảnh báo khi văn bản bước sau ghi ngày trước bước trước.",
+  "Hồ sơ giá thành XDCB dùng cùng 2 quy trình (Chào hàng cạnh tranh / Mua sắm nhỏ lẻ) với từ ngữ thi công: hạng mục công việc, Biên bản kiểm tra hiện trạng, Hợp đồng thi công, Bên giao thầu/Bên nhận thầu; dự toán theo bảng do Phòng lập hoặc bình quân báo giá. Hồ sơ giá thành XDCB cũ đã có dữ liệu giữ quy trình cũ, có nút chuyển."
  ],
  "history": [
+  {
+   "version": "V22.84",
+   "date": "2026-10-21",
+   "notes": [
+    "Rà lại trình tự theo bộ hồ sơ mẫu: thêm bước đầu vào “Đề nghị của đơn vị” (tờ trình/giấy đề nghị – tự đưa vào căn cứ Biên bản kiểm tra); Biên bản kiểm tra đứng trước Thư mời báo giá, bật/tắt được.",
+    "Mua sắm nhỏ lẻ: thêm bước “Báo giá của nhà cung cấp” sau Yêu cầu mua sắm (VD 68-25/BG-BK) và dẫn làm căn cứ Biên bản thương thảo.",
+    "Thông tin chung có bảng “Trình tự thực hiện các bước” (bước – người thực hiện/ký – ngày – trạng thái); Kiểm tra hồ sơ cảnh báo khi văn bản bước sau ghi ngày trước bước trước.",
+    "Hồ sơ giá thành XDCB dùng cùng 2 quy trình (Chào hàng cạnh tranh / Mua sắm nhỏ lẻ) với từ ngữ thi công: hạng mục công việc, Biên bản kiểm tra hiện trạng, Hợp đồng thi công, Bên giao thầu/Bên nhận thầu; dự toán theo bảng do Phòng lập hoặc bình quân báo giá. Hồ sơ giá thành XDCB cũ đã có dữ liệu giữ quy trình cũ, có nút chuyển."
+   ]
+  },
   {
    "version": "V22.83",
    "date": "2026-10-21",
