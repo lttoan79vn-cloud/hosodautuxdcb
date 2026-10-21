@@ -1,14 +1,25 @@
 {
- "version": "V22.85",
+ "version": "V22.86",
  "date": "2026-10-21",
  "notes": [
-  "Nhật ký CT – Hồ sơ tiến độ: gộp “Bảng kế hoạch tiến độ” và “Tệp tiến độ đã duyệt” thành 1 mục “Kế hoạch tiến độ thi công (căn cứ giám sát)”.",
-  "Phân tích file tiến độ để lấy danh sách hạng mục – ngày bắt đầu – kết thúc – số ngày: đọc Excel, Word, PDF (kể cả PDF bảng Gantt, bản scan/ký số qua OCR), ảnh; file chỉ có số ngày được xếp nối tiếp từ ngày khởi công. Mỗi tệp đã lưu có nút “Phân tích” để đọc lại.",
-  "Cột “Giám sát” cho từng hạng mục: Đúng tiến độ / Chậm tiến độ / Quá hạn / Chưa đến hạn / Hoàn thành (so % thực tế trong nhật ký với % kế hoạch đến hôm nay) + tổng hợp số hạng mục theo tình trạng.",
-  "Hồ sơ giá thành XDCB: thêm mục Dự toán với 2 hình thức – (1) lập dự toán theo định mức, đơn giá Nhà nước (nạp Excel dự toán hoặc nhập khoản mục chi phí); (2) lấy báo giá để lập dự toán, giá gói thầu. Tờ trình/QĐ dự toán tự đổi bảng và căn cứ theo hình thức.",
-  "Rà soát thành phần ký: Biên bản kiểm tra để trống ô ký vẫn đủ 3 phòng + đại diện đơn vị + lãnh đạo duyệt; thứ tự ký phòng trong Biên bản thương thảo, Biên bản nghiệm thu theo mẫu (P.PT&QLKCN – P.TCKT – P.KHVT); Biên bản nghiệm thu XDCB có thêm đại diện giám sát thi công."
+  "Thẻ mới “Báo cáo”: tổng hợp báo cáo Tuần / Tháng / Quý / Năm – hồ sơ đang thực hiện, hồ sơ mới, văn bản ban hành, hồ sơ hoàn thành, giá trị dự toán duyệt và hợp đồng ký, ngày ghi nhật ký, hạng mục chậm/quá hạn (so sánh kỳ trước), biểu đồ diễn biến, danh sách văn bản, tình hình hồ sơ, nhật ký công trình.",
+  "Đánh giá KPI từng thành viên: văn bản ban hành, hồ sơ hoàn thành, lần cập nhật, ngày ghi nhật ký, chất lượng hồ sơ, hạng mục đúng tiến độ; chỉ tiêu/tháng + trọng số do Admin thiết lập, quy đổi theo kỳ; Admin chấm điểm lãnh đạo và nhận xét; xếp loại 4 mức. Thành viên thường chỉ xem KPI của mình.",
+  "Xuất báo cáo Word (thể thức báo cáo của Phòng gửi Ban TGĐ), Excel (KPI, văn bản, hồ sơ, nhật ký), In.",
+  "Màn hình đăng nhập: dòng “Tên đăng nhập hoặc Email”; đăng ký có dòng Tên đăng nhập (để trống tự gợi ý theo email); người dùng tự đổi tên trong cửa sổ Tài khoản, Admin sửa trong danh sách tài khoản. (Cần cập nhật Code.gs trên Apps Script.)",
+  "Tốc độ: báo cáo tính sẵn khi máy rảnh và lưu đệm theo hồ sơ (mở thẻ Báo cáo từ ~1,2 giây xuống ~20 ms); sửa lỗi đăng nhập bằng tên trên máy đã lưu mật khẩu báo nhầm “Mật khẩu không đúng”."
  ],
  "history": [
+  {
+   "version": "V22.86",
+   "date": "2026-10-21",
+   "notes": [
+    "Thẻ mới “Báo cáo”: tổng hợp báo cáo Tuần / Tháng / Quý / Năm – hồ sơ đang thực hiện, hồ sơ mới, văn bản ban hành, hồ sơ hoàn thành, giá trị dự toán duyệt và hợp đồng ký, ngày ghi nhật ký, hạng mục chậm/quá hạn (so sánh kỳ trước), biểu đồ diễn biến, danh sách văn bản, tình hình hồ sơ, nhật ký công trình.",
+    "Đánh giá KPI từng thành viên: văn bản ban hành, hồ sơ hoàn thành, lần cập nhật, ngày ghi nhật ký, chất lượng hồ sơ, hạng mục đúng tiến độ; chỉ tiêu/tháng + trọng số do Admin thiết lập, quy đổi theo kỳ; Admin chấm điểm lãnh đạo và nhận xét; xếp loại 4 mức. Thành viên thường chỉ xem KPI của mình.",
+    "Xuất báo cáo Word (thể thức báo cáo của Phòng gửi Ban TGĐ), Excel (KPI, văn bản, hồ sơ, nhật ký), In.",
+    "Màn hình đăng nhập: dòng “Tên đăng nhập hoặc Email”; đăng ký có dòng Tên đăng nhập (để trống tự gợi ý theo email); người dùng tự đổi tên trong cửa sổ Tài khoản, Admin sửa trong danh sách tài khoản. (Cần cập nhật Code.gs trên Apps Script.)",
+    "Tốc độ: báo cáo tính sẵn khi máy rảnh và lưu đệm theo hồ sơ (mở thẻ Báo cáo từ ~1,2 giây xuống ~20 ms); sửa lỗi đăng nhập bằng tên trên máy đã lưu mật khẩu báo nhầm “Mật khẩu không đúng”."
+   ]
+  },
   {
    "version": "V22.85",
    "date": "2026-10-21",
