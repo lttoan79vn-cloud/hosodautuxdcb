@@ -1,11 +1,17 @@
 {
- "version": "V22.66",
+ "version": "V22.67",
  "date": "2026-10-21",
  "notes": [
-  "Menu chính: các thẻ cùng một tông màu, biểu tượng nét đơn sắc đồng bộ; thẻ Nhật ký CT dùng biểu tượng quyển vở mở.",
-  "Nhật ký CT – tạo/sửa công trình: thêm Ngày hợp đồng (tự lấy cùng số hợp đồng từ hồ sơ PHR liên kết); ngày hợp đồng in trên bìa nhật ký và tệp Excel."
+  "Màu giao diện hài hòa giữa các thẻ: Soạn hồ sơ đậm màu hơn (cột bước, khung nhập liệu, thẻ nội dung cùng tông xanh dương); Nhật ký CT giảm màu (bỏ nền xanh lá đậm, dùng cùng tông xanh dương nhạt)."
  ],
  "history": [
+  {
+   "version": "V22.67",
+   "date": "2026-10-21",
+   "notes": [
+    "Màu giao diện hài hòa giữa các thẻ: Soạn hồ sơ đậm màu hơn (cột bước, khung nhập liệu, thẻ nội dung cùng tông xanh dương); Nhật ký CT giảm màu (bỏ nền xanh lá đậm, dùng cùng tông xanh dương nhạt)."
+   ]
+  },
   {
    "version": "V22.66",
    "date": "2026-10-21",
