@@ -1,12 +1,19 @@
 {
- "version": "V22.59",
+ "version": "V22.60",
  "date": "2026-10-21",
  "notes": [
-  "Tăng tốc: chuyển tab Tổng quan hiện ngay (trước đây chờ máy chủ ~1 giây); đổi hồ sơ hiện ngay, bản mới trên Drive tự nạp ở nền.",
-  "Khởi động nhanh hơn: dùng dữ liệu đã lưu trên máy, làm mới từ Google Drive ở nền.",
-  "Nhật ký CT được nạp sẵn ở nền – bấm tab là hiện ngay."
+  "Điện thoại: khóa trượt ngang khi vuốt (tab Nhật ký CT và các tab khác); ô nhập chữ 16px để iPhone không tự phóng to.",
+  "Thu gọn các thanh cố định, dành tối đa diện tích cho vùng làm việc: menu đáy, thanh trạng thái và tiêu đề Nhật ký, thanh Bước đang soạn (gộp 1 dòng)."
  ],
  "history": [
+  {
+   "version": "V22.60",
+   "date": "2026-10-21",
+   "notes": [
+    "Điện thoại: khóa trượt ngang khi vuốt (tab Nhật ký CT và các tab khác); ô nhập chữ 16px để iPhone không tự phóng to.",
+    "Thu gọn các thanh cố định, dành tối đa diện tích cho vùng làm việc: menu đáy, thanh trạng thái và tiêu đề Nhật ký, thanh Bước đang soạn (gộp 1 dòng)."
+   ]
+  },
   {
    "version": "V22.59",
    "date": "2026-10-21",
