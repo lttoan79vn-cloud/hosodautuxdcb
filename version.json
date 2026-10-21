@@ -1,12 +1,21 @@
 {
- "version": "V22.87",
+ "version": "V22.88",
  "date": "2026-10-22",
  "notes": [
-  "Soạn hồ sơ – khung xem văn bản: sửa lỗi văn bản bị thu quá nhỏ ở góc màn hình điện thoại; văn bản tự hiển thị vừa bề ngang vùng xem.",
-  "Phóng to / thu nhỏ khi xem: mở – chụm 2 ngón (chỉ phóng khung văn bản, không phóng cả trang), chạm 2 lần để phóng to/trở lại, nút − / + / “Vừa khung”; máy tính dùng Ctrl + con lăn hoặc Ctrl +/−/0. Mức phóng được nhớ trên máy.",
-  "Điện thoại có thêm chế độ “Nhập + Xem”: ô nhập ở trên, văn bản ở dưới, sửa đến đâu văn bản cập nhật đến đó; bấm chữ đỏ [Chưa nhập…] khi đang Xem sẽ chuyển sang Nhập + Xem và nhảy đến ô cần nhập."
+  "Đăng nhập bằng TÊN ĐĂNG NHẬP: màn hình đăng nhập có dòng “Tên đăng nhập” riêng (tự điền tên đã dùng trên máy).",
+  "Đăng ký: đặt Tên đăng nhập + email → nhận mã PIN → xác thực xong chương trình quay về màn hình đăng nhập, điền sẵn tên đăng nhập vừa đặt; nhập mật khẩu để vào. Quên mật khẩu cũng quay về đăng nhập bằng tên.",
+  "Tài khoản cũ chưa có tên đăng nhập: đăng nhập bằng email một lần, chương trình mời đặt tên đăng nhập; từ lần sau đăng nhập bằng tên."
  ],
  "history": [
+  {
+   "version": "V22.88",
+   "date": "2026-10-22",
+   "notes": [
+    "Đăng nhập bằng TÊN ĐĂNG NHẬP: màn hình đăng nhập có dòng “Tên đăng nhập” riêng (tự điền tên đã dùng trên máy).",
+    "Đăng ký: đặt Tên đăng nhập + email → nhận mã PIN → xác thực xong chương trình quay về màn hình đăng nhập, điền sẵn tên đăng nhập vừa đặt; nhập mật khẩu để vào. Quên mật khẩu cũng quay về đăng nhập bằng tên.",
+    "Tài khoản cũ chưa có tên đăng nhập: đăng nhập bằng email một lần, chương trình mời đặt tên đăng nhập; từ lần sau đăng nhập bằng tên."
+   ]
+  },
   {
    "version": "V22.87",
    "date": "2026-10-22",
