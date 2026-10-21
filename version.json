@@ -1,11 +1,17 @@
 {
- "version": "V22.70",
+ "version": "V22.71",
  "date": "2026-10-21",
  "notes": [
-  "Thư mục gốc DATA SOURCE trên Google Drive của Admin: mọi dữ liệu nằm trong đây – PHR_XDCB_DuLieu (hồ sơ), PHR_eSiteLog_DuLieu (nhật ký CT); các chương trình phát triển sau cũng tạo thư mục riêng trong DATA SOURCE.",
-  "Thư mục cũ đang nằm ở My Drive được tự chuyển vào DATA SOURCE (giữ nguyên nội dung, đường dẫn chia sẻ) khi máy chủ được cập nhật."
+  "Nhật ký CT – bìa nhật ký in/xem: tiêu đề theo thể thức Nghị định 30/2020/NĐ-CP (dòng 1 CÔNG TY CỔ PHẦN CAO SU PHƯỚC HÒA, dòng 2 PHÒNG PT&QLKCN in đậm, gạch ngang dưới tên đơn vị và dưới tiêu ngữ)."
  ],
  "history": [
+  {
+   "version": "V22.71",
+   "date": "2026-10-21",
+   "notes": [
+    "Nhật ký CT – bìa nhật ký in/xem: tiêu đề theo thể thức Nghị định 30/2020/NĐ-CP (dòng 1 CÔNG TY CỔ PHẦN CAO SU PHƯỚC HÒA, dòng 2 PHÒNG PT&QLKCN in đậm, gạch ngang dưới tên đơn vị và dưới tiêu ngữ)."
+   ]
+  },
   {
    "version": "V22.70",
    "date": "2026-10-21",
