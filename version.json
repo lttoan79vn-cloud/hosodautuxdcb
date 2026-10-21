@@ -1,12 +1,19 @@
 {
- "version": "V22.69",
+ "version": "V22.70",
  "date": "2026-10-21",
  "notes": [
-  "Tăng tốc lưu: thay đổi lưu tức thì trên máy và gửi lên Google Drive ở nền – không còn phải chờ máy chủ khi gõ, chuyển hồ sơ, chuyển thẻ.",
-  "Tải/đưa tệp (Word đã xuất, tệp đính kèm) lên Drive ở nền; bản Word cũ chuyển vào _ban_cu ngay trên Drive, không tải về rồi gửi lại.",
-  "Máy chủ: chỉ mục hồ sơ và nhớ thư mục – danh sách hồ sơ chỉ gửi hồ sơ có thay đổi; kiểm tra bản mới chỉ hỏi số lần lưu (cần cập nhật mã máy chủ)."
+  "Thư mục gốc DATA SOURCE trên Google Drive của Admin: mọi dữ liệu nằm trong đây – PHR_XDCB_DuLieu (hồ sơ), PHR_eSiteLog_DuLieu (nhật ký CT); các chương trình phát triển sau cũng tạo thư mục riêng trong DATA SOURCE.",
+  "Thư mục cũ đang nằm ở My Drive được tự chuyển vào DATA SOURCE (giữ nguyên nội dung, đường dẫn chia sẻ) khi máy chủ được cập nhật."
  ],
  "history": [
+  {
+   "version": "V22.70",
+   "date": "2026-10-21",
+   "notes": [
+    "Thư mục gốc DATA SOURCE trên Google Drive của Admin: mọi dữ liệu nằm trong đây – PHR_XDCB_DuLieu (hồ sơ), PHR_eSiteLog_DuLieu (nhật ký CT); các chương trình phát triển sau cũng tạo thư mục riêng trong DATA SOURCE.",
+    "Thư mục cũ đang nằm ở My Drive được tự chuyển vào DATA SOURCE (giữ nguyên nội dung, đường dẫn chia sẻ) khi máy chủ được cập nhật."
+   ]
+  },
   {
    "version": "V22.69",
    "date": "2026-10-21",
