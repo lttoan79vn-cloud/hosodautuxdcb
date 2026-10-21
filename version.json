@@ -1,11 +1,17 @@
 {
- "version": "V22.60",
+ "version": "V22.61",
  "date": "2026-10-21",
  "notes": [
-  "Điện thoại: khóa trượt ngang khi vuốt (tab Nhật ký CT và các tab khác); ô nhập chữ 16px để iPhone không tự phóng to.",
-  "Thu gọn các thanh cố định, dành tối đa diện tích cho vùng làm việc: menu đáy, thanh trạng thái và tiêu đề Nhật ký, thanh Bước đang soạn (gộp 1 dòng)."
+  "Điện thoại: tăng 1 cỡ chữ cho 2 hàng menu dưới màn hình (menu chương trình và menu Nhật ký CT) để nhìn rõ hơn."
  ],
  "history": [
+  {
+   "version": "V22.61",
+   "date": "2026-10-21",
+   "notes": [
+    "Điện thoại: tăng 1 cỡ chữ cho 2 hàng menu dưới màn hình (menu chương trình và menu Nhật ký CT) để nhìn rõ hơn."
+   ]
+  },
   {
    "version": "V22.60",
    "date": "2026-10-21",
