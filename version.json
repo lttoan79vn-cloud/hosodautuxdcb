@@ -1,10 +1,19 @@
 {
- "version": "V22.80",
+ "version": "V22.81",
  "date": "2026-10-21",
  "notes": [
-  "Nhật ký CT – Hồ sơ công trình: Chủ đầu tư hiển thị trước, Tên đơn vị nhà thầu thi công xuống sau."
+  "Nhật ký CT – Hồ sơ KH: bỏ mục Quyết định phê duyệt; thay bằng Bảng kế hoạch tiến độ thi công (hạng mục, ngày bắt đầu/kết thúc, số ngày, % kế hoạch tự tính) sửa trực tiếp được.",
+  "Nút “Tải file tiến độ & phân tích”: đọc file Excel (.xlsx/.xls/.csv), Word (.docx), PDF có lớp chữ, tự nhận các dòng hạng mục – ngày bắt đầu – kết thúc (hoặc số ngày), xem trước rồi Thay thế / Thêm vào bảng; file gốc lưu làm căn cứ giám sát."
  ],
  "history": [
+  {
+   "version": "V22.81",
+   "date": "2026-10-21",
+   "notes": [
+    "Nhật ký CT – Hồ sơ KH: bỏ mục Quyết định phê duyệt; thay bằng Bảng kế hoạch tiến độ thi công (hạng mục, ngày bắt đầu/kết thúc, số ngày, % kế hoạch tự tính) sửa trực tiếp được.",
+    "Nút “Tải file tiến độ & phân tích”: đọc file Excel (.xlsx/.xls/.csv), Word (.docx), PDF có lớp chữ, tự nhận các dòng hạng mục – ngày bắt đầu – kết thúc (hoặc số ngày), xem trước rồi Thay thế / Thêm vào bảng; file gốc lưu làm căn cứ giám sát."
+   ]
+  },
   {
    "version": "V22.80",
    "date": "2026-10-21",
