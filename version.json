@@ -1,14 +1,21 @@
 {
- "version": "V22.86",
- "date": "2026-10-21",
+ "version": "V22.87",
+ "date": "2026-10-22",
  "notes": [
-  "Thẻ mới “Báo cáo”: tổng hợp báo cáo Tuần / Tháng / Quý / Năm – hồ sơ đang thực hiện, hồ sơ mới, văn bản ban hành, hồ sơ hoàn thành, giá trị dự toán duyệt và hợp đồng ký, ngày ghi nhật ký, hạng mục chậm/quá hạn (so sánh kỳ trước), biểu đồ diễn biến, danh sách văn bản, tình hình hồ sơ, nhật ký công trình.",
-  "Đánh giá KPI từng thành viên: văn bản ban hành, hồ sơ hoàn thành, lần cập nhật, ngày ghi nhật ký, chất lượng hồ sơ, hạng mục đúng tiến độ; chỉ tiêu/tháng + trọng số do Admin thiết lập, quy đổi theo kỳ; Admin chấm điểm lãnh đạo và nhận xét; xếp loại 4 mức. Thành viên thường chỉ xem KPI của mình.",
-  "Xuất báo cáo Word (thể thức báo cáo của Phòng gửi Ban TGĐ), Excel (KPI, văn bản, hồ sơ, nhật ký), In.",
-  "Màn hình đăng nhập: dòng “Tên đăng nhập hoặc Email”; đăng ký có dòng Tên đăng nhập (để trống tự gợi ý theo email); người dùng tự đổi tên trong cửa sổ Tài khoản, Admin sửa trong danh sách tài khoản. (Cần cập nhật Code.gs trên Apps Script.)",
-  "Tốc độ: báo cáo tính sẵn khi máy rảnh và lưu đệm theo hồ sơ (mở thẻ Báo cáo từ ~1,2 giây xuống ~20 ms); sửa lỗi đăng nhập bằng tên trên máy đã lưu mật khẩu báo nhầm “Mật khẩu không đúng”."
+  "Soạn hồ sơ – khung xem văn bản: sửa lỗi văn bản bị thu quá nhỏ ở góc màn hình điện thoại; văn bản tự hiển thị vừa bề ngang vùng xem.",
+  "Phóng to / thu nhỏ khi xem: mở – chụm 2 ngón (chỉ phóng khung văn bản, không phóng cả trang), chạm 2 lần để phóng to/trở lại, nút − / + / “Vừa khung”; máy tính dùng Ctrl + con lăn hoặc Ctrl +/−/0. Mức phóng được nhớ trên máy.",
+  "Điện thoại có thêm chế độ “Nhập + Xem”: ô nhập ở trên, văn bản ở dưới, sửa đến đâu văn bản cập nhật đến đó; bấm chữ đỏ [Chưa nhập…] khi đang Xem sẽ chuyển sang Nhập + Xem và nhảy đến ô cần nhập."
  ],
  "history": [
+  {
+   "version": "V22.87",
+   "date": "2026-10-22",
+   "notes": [
+    "Soạn hồ sơ – khung xem văn bản: sửa lỗi văn bản bị thu quá nhỏ ở góc màn hình điện thoại; văn bản tự hiển thị vừa bề ngang vùng xem.",
+    "Phóng to / thu nhỏ khi xem: mở – chụm 2 ngón (chỉ phóng khung văn bản, không phóng cả trang), chạm 2 lần để phóng to/trở lại, nút − / + / “Vừa khung”; máy tính dùng Ctrl + con lăn hoặc Ctrl +/−/0. Mức phóng được nhớ trên máy.",
+    "Điện thoại có thêm chế độ “Nhập + Xem”: ô nhập ở trên, văn bản ở dưới, sửa đến đâu văn bản cập nhật đến đó; bấm chữ đỏ [Chưa nhập…] khi đang Xem sẽ chuyển sang Nhập + Xem và nhảy đến ô cần nhập."
+   ]
+  },
   {
    "version": "V22.86",
    "date": "2026-10-21",
