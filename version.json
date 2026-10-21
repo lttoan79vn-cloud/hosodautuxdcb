@@ -1,10 +1,19 @@
 {
- "version": "V22.67",
+ "version": "V22.68",
  "date": "2026-10-21",
  "notes": [
-  "Màu giao diện hài hòa giữa các thẻ: Soạn hồ sơ đậm màu hơn (cột bước, khung nhập liệu, thẻ nội dung cùng tông xanh dương); Nhật ký CT giảm màu (bỏ nền xanh lá đậm, dùng cùng tông xanh dương nhạt)."
+  "Nhật ký CT: nút \"Tạo mới\" công trình chữ lớn hơn, dạng nút nổi 3D cùng kiểu biểu tượng góc trên.",
+  "Màn hình đăng nhập: tên đơn vị ghi VRG PHƯỚC HÒA RUBBER."
  ],
  "history": [
+  {
+   "version": "V22.68",
+   "date": "2026-10-21",
+   "notes": [
+    "Nhật ký CT: nút \"Tạo mới\" công trình chữ lớn hơn, dạng nút nổi 3D cùng kiểu biểu tượng góc trên.",
+    "Màn hình đăng nhập: tên đơn vị ghi VRG PHƯỚC HÒA RUBBER."
+   ]
+  },
   {
    "version": "V22.67",
    "date": "2026-10-21",
