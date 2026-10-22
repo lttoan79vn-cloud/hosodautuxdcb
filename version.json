@@ -1,12 +1,21 @@
 {
- "version": "V22.91",
+ "version": "V22.92",
  "date": "2026-10-22",
  "notes": [
-  "Thông báo của chương trình (và của Nhật ký CT) hiện giữa màn hình, có nút [X] để tự đóng; thông báo lỗi giữ nguyên đến khi bấm [X] hoặc phím Esc, thông báo thành công tự ẩn sau 5 giây.",
-  "Nhật ký CT: form ngày sắp xếp lại theo mẫu sổ Nhật ký thi công xây dựng công trình – 1. Thời tiết (Bình thường / Nắng / Mưa); 2. Công việc thực hiện, 2.1 Thiết bị, 2.2 Nhân công; 3. Nhận xét của giám sát / CĐT (3.1 Vệ sinh môi trường, 3.2 An toàn lao động: Tốt / Bình thường / Kém; 3.3 Ý kiến khác); 4. Ý kiến tiếp thu của nhà thầu.",
-  "Nhật ký CT: thêm Thông tin sổ (quyển số, chỉ huy trưởng, nhà thầu thiết kế, khởi công / bàn giao, danh sách cán bộ chỉ huy – kỹ thuật); nhập file Word sổ nhật ký (kiểm tra sổ: quyển số lệch, thiếu mục, ngày chưa đánh dấu, chưa ký); xuất Word và in A4 đúng bố cục sổ."
+  "Lập kế hoạch: nhập kế hoạch gốc – Biểu 10 Kế hoạch đầu tư XDCB và Bảng kế hoạch mua sắm (giá thành); tự nhận dạng khu vực / đơn vị, nhóm Xây lắp – Thiết bị – GTTL, mức ưu tiên, chi tiết gói, giá trị, thời điểm, hình thức; kiểm tra số liệu (dòng tổng lệch, ô lỗi #REF!, hình thức gõ sai, năm tiêu đề, số chốt khác tổng).",
+  "Từ kế hoạch gốc lập bảng phân công chi tiết: giao chủ trì / phối hợp theo quy tắc từng nhóm công việc (học từ bảng phân công đang có, nhiều người thì cân đối số việc), đề xuất hình thức theo hạn mức chỉ định thầu, bắt đầu theo quý; sửa từng dòng trước khi đưa vào bảng.",
+  "Bước chuẩn theo từng hình thức (thêm CĐTRG 7 bước, MSNL 5 bước, TTH 3 bước); bảng phân công có cột Giá trị, lọc theo Năm và Kế hoạch (đầu tư / giá thành); trang mới “Kế hoạch gốc”; Excel phân công thêm cột Kế hoạch, Đơn vị, Giá trị, Năm."
  ],
  "history": [
+  {
+   "version": "V22.92",
+   "date": "2026-10-22",
+   "notes": [
+    "Lập kế hoạch: nhập kế hoạch gốc – Biểu 10 Kế hoạch đầu tư XDCB và Bảng kế hoạch mua sắm (giá thành); tự nhận dạng khu vực / đơn vị, nhóm Xây lắp – Thiết bị – GTTL, mức ưu tiên, chi tiết gói, giá trị, thời điểm, hình thức; kiểm tra số liệu (dòng tổng lệch, ô lỗi #REF!, hình thức gõ sai, năm tiêu đề, số chốt khác tổng).",
+    "Từ kế hoạch gốc lập bảng phân công chi tiết: giao chủ trì / phối hợp theo quy tắc từng nhóm công việc (học từ bảng phân công đang có, nhiều người thì cân đối số việc), đề xuất hình thức theo hạn mức chỉ định thầu, bắt đầu theo quý; sửa từng dòng trước khi đưa vào bảng.",
+    "Bước chuẩn theo từng hình thức (thêm CĐTRG 7 bước, MSNL 5 bước, TTH 3 bước); bảng phân công có cột Giá trị, lọc theo Năm và Kế hoạch (đầu tư / giá thành); trang mới “Kế hoạch gốc”; Excel phân công thêm cột Kế hoạch, Đơn vị, Giá trị, Năm."
+   ]
+  },
   {
    "version": "V22.91",
    "date": "2026-10-22",
