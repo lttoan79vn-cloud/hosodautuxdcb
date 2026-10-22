@@ -1,11 +1,21 @@
 {
- "version": "V22.89",
+ "version": "V22.90",
  "date": "2026-10-22",
  "notes": [
-  "Sửa lỗi “Thao tác không được hỗ trợ” khi đặt tên đăng nhập: xảy ra khi máy chủ Apps Script chưa dán Code.gs mới. Chương trình không còn mời đặt tên khi máy chủ chưa cập nhật, và hiện hướng dẫn rõ: Admin dán Code.gs mới → Triển khai → Quản lý triển khai → Phiên bản mới.",
-  "Máy chủ chưa cập nhật mà đăng nhập bằng tên đăng nhập: báo tạm đăng nhập bằng email thay vì “Địa chỉ email không hợp lệ”."
+  "Đăng nhập xong chương trình mở thẳng thẻ Tổng quan; thứ tự menu mới: Tổng quan → Soạn hồ sơ → Lập kế hoạch → Danh mục → Nhật ký CT → Báo cáo → Trợ giúp.",
+  "Thẻ mới “Lập kế hoạch”: tải file kế hoạch Excel (mẫu của chương trình, bảng TIẾN ĐỘ từng bước hoặc bảng TỔNG HỢP GÓI THẦU) → phân tích, kiểm tra dữ liệu → Bảng phân công thực hiện, Theo cán bộ, Việc cần làm, Biểu đồ tiến độ; cảnh báo theo hạn của bước đang thực hiện.",
+  "Mẫu Excel kế hoạch – phân công (GOI_THAU, TIEN_DO 9 bước chuẩn tự tính, THEO_CAN_BO, BUOC_CHUAN theo hình thức LCNT); xuất Excel (nhập lại được), Word, In; liên kết gói với hồ sơ PHR để tự lấy ngày hoàn thành từ văn bản đã ban hành."
  ],
  "history": [
+  {
+   "version": "V22.90",
+   "date": "2026-10-22",
+   "notes": [
+    "Đăng nhập xong chương trình mở thẳng thẻ Tổng quan; thứ tự menu mới: Tổng quan → Soạn hồ sơ → Lập kế hoạch → Danh mục → Nhật ký CT → Báo cáo → Trợ giúp.",
+    "Thẻ mới “Lập kế hoạch”: tải file kế hoạch Excel (mẫu của chương trình, bảng TIẾN ĐỘ từng bước hoặc bảng TỔNG HỢP GÓI THẦU) → phân tích, kiểm tra dữ liệu → Bảng phân công thực hiện, Theo cán bộ, Việc cần làm, Biểu đồ tiến độ; cảnh báo theo hạn của bước đang thực hiện.",
+    "Mẫu Excel kế hoạch – phân công (GOI_THAU, TIEN_DO 9 bước chuẩn tự tính, THEO_CAN_BO, BUOC_CHUAN theo hình thức LCNT); xuất Excel (nhập lại được), Word, In; liên kết gói với hồ sơ PHR để tự lấy ngày hoàn thành từ văn bản đã ban hành."
+   ]
+  },
   {
    "version": "V22.89",
    "date": "2026-10-22",
