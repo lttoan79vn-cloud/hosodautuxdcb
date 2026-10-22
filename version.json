@@ -1,12 +1,21 @@
 {
- "version": "V22.90",
+ "version": "V22.91",
  "date": "2026-10-22",
  "notes": [
-  "Đăng nhập xong chương trình mở thẳng thẻ Tổng quan; thứ tự menu mới: Tổng quan → Soạn hồ sơ → Lập kế hoạch → Danh mục → Nhật ký CT → Báo cáo → Trợ giúp.",
-  "Thẻ mới “Lập kế hoạch”: tải file kế hoạch Excel (mẫu của chương trình, bảng TIẾN ĐỘ từng bước hoặc bảng TỔNG HỢP GÓI THẦU) → phân tích, kiểm tra dữ liệu → Bảng phân công thực hiện, Theo cán bộ, Việc cần làm, Biểu đồ tiến độ; cảnh báo theo hạn của bước đang thực hiện.",
-  "Mẫu Excel kế hoạch – phân công (GOI_THAU, TIEN_DO 9 bước chuẩn tự tính, THEO_CAN_BO, BUOC_CHUAN theo hình thức LCNT); xuất Excel (nhập lại được), Word, In; liên kết gói với hồ sơ PHR để tự lấy ngày hoàn thành từ văn bản đã ban hành."
+  "Thông báo của chương trình (và của Nhật ký CT) hiện giữa màn hình, có nút [X] để tự đóng; thông báo lỗi giữ nguyên đến khi bấm [X] hoặc phím Esc, thông báo thành công tự ẩn sau 5 giây.",
+  "Nhật ký CT: form ngày sắp xếp lại theo mẫu sổ Nhật ký thi công xây dựng công trình – 1. Thời tiết (Bình thường / Nắng / Mưa); 2. Công việc thực hiện, 2.1 Thiết bị, 2.2 Nhân công; 3. Nhận xét của giám sát / CĐT (3.1 Vệ sinh môi trường, 3.2 An toàn lao động: Tốt / Bình thường / Kém; 3.3 Ý kiến khác); 4. Ý kiến tiếp thu của nhà thầu.",
+  "Nhật ký CT: thêm Thông tin sổ (quyển số, chỉ huy trưởng, nhà thầu thiết kế, khởi công / bàn giao, danh sách cán bộ chỉ huy – kỹ thuật); nhập file Word sổ nhật ký (kiểm tra sổ: quyển số lệch, thiếu mục, ngày chưa đánh dấu, chưa ký); xuất Word và in A4 đúng bố cục sổ."
  ],
  "history": [
+  {
+   "version": "V22.91",
+   "date": "2026-10-22",
+   "notes": [
+    "Thông báo của chương trình (và của Nhật ký CT) hiện giữa màn hình, có nút [X] để tự đóng; thông báo lỗi giữ nguyên đến khi bấm [X] hoặc phím Esc, thông báo thành công tự ẩn sau 5 giây.",
+    "Nhật ký CT: form ngày sắp xếp lại theo mẫu sổ Nhật ký thi công xây dựng công trình – 1. Thời tiết (Bình thường / Nắng / Mưa); 2. Công việc thực hiện, 2.1 Thiết bị, 2.2 Nhân công; 3. Nhận xét của giám sát / CĐT (3.1 Vệ sinh môi trường, 3.2 An toàn lao động: Tốt / Bình thường / Kém; 3.3 Ý kiến khác); 4. Ý kiến tiếp thu của nhà thầu.",
+    "Nhật ký CT: thêm Thông tin sổ (quyển số, chỉ huy trưởng, nhà thầu thiết kế, khởi công / bàn giao, danh sách cán bộ chỉ huy – kỹ thuật); nhập file Word sổ nhật ký (kiểm tra sổ: quyển số lệch, thiếu mục, ngày chưa đánh dấu, chưa ký); xuất Word và in A4 đúng bố cục sổ."
+   ]
+  },
   {
    "version": "V22.90",
    "date": "2026-10-22",
