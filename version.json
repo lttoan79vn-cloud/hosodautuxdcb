@@ -1,12 +1,19 @@
 {
- "version": "V22.88",
+ "version": "V22.89",
  "date": "2026-10-22",
  "notes": [
-  "Đăng nhập bằng TÊN ĐĂNG NHẬP: màn hình đăng nhập có dòng “Tên đăng nhập” riêng (tự điền tên đã dùng trên máy).",
-  "Đăng ký: đặt Tên đăng nhập + email → nhận mã PIN → xác thực xong chương trình quay về màn hình đăng nhập, điền sẵn tên đăng nhập vừa đặt; nhập mật khẩu để vào. Quên mật khẩu cũng quay về đăng nhập bằng tên.",
-  "Tài khoản cũ chưa có tên đăng nhập: đăng nhập bằng email một lần, chương trình mời đặt tên đăng nhập; từ lần sau đăng nhập bằng tên."
+  "Sửa lỗi “Thao tác không được hỗ trợ” khi đặt tên đăng nhập: xảy ra khi máy chủ Apps Script chưa dán Code.gs mới. Chương trình không còn mời đặt tên khi máy chủ chưa cập nhật, và hiện hướng dẫn rõ: Admin dán Code.gs mới → Triển khai → Quản lý triển khai → Phiên bản mới.",
+  "Máy chủ chưa cập nhật mà đăng nhập bằng tên đăng nhập: báo tạm đăng nhập bằng email thay vì “Địa chỉ email không hợp lệ”."
  ],
  "history": [
+  {
+   "version": "V22.89",
+   "date": "2026-10-22",
+   "notes": [
+    "Sửa lỗi “Thao tác không được hỗ trợ” khi đặt tên đăng nhập: xảy ra khi máy chủ Apps Script chưa dán Code.gs mới. Chương trình không còn mời đặt tên khi máy chủ chưa cập nhật, và hiện hướng dẫn rõ: Admin dán Code.gs mới → Triển khai → Quản lý triển khai → Phiên bản mới.",
+    "Máy chủ chưa cập nhật mà đăng nhập bằng tên đăng nhập: báo tạm đăng nhập bằng email thay vì “Địa chỉ email không hợp lệ”."
+   ]
+  },
   {
    "version": "V22.88",
    "date": "2026-10-22",
