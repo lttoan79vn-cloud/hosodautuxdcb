@@ -1,12 +1,21 @@
 {
- "version": "V22.92",
+ "version": "V22.93",
  "date": "2026-10-22",
  "notes": [
-  "Lập kế hoạch: nhập kế hoạch gốc – Biểu 10 Kế hoạch đầu tư XDCB và Bảng kế hoạch mua sắm (giá thành); tự nhận dạng khu vực / đơn vị, nhóm Xây lắp – Thiết bị – GTTL, mức ưu tiên, chi tiết gói, giá trị, thời điểm, hình thức; kiểm tra số liệu (dòng tổng lệch, ô lỗi #REF!, hình thức gõ sai, năm tiêu đề, số chốt khác tổng).",
-  "Từ kế hoạch gốc lập bảng phân công chi tiết: giao chủ trì / phối hợp theo quy tắc từng nhóm công việc (học từ bảng phân công đang có, nhiều người thì cân đối số việc), đề xuất hình thức theo hạn mức chỉ định thầu, bắt đầu theo quý; sửa từng dòng trước khi đưa vào bảng.",
-  "Bước chuẩn theo từng hình thức (thêm CĐTRG 7 bước, MSNL 5 bước, TTH 3 bước); bảng phân công có cột Giá trị, lọc theo Năm và Kế hoạch (đầu tư / giá thành); trang mới “Kế hoạch gốc”; Excel phân công thêm cột Kế hoạch, Đơn vị, Giá trị, Năm."
+  "Nhật ký CT – mục 3: thêm 3.1 Công tác kiểm tra chất lượng (Tốt / Bình thường / Kém); vệ sinh môi trường, an toàn lao động chuyển thành 3.2, 3.3; ý kiến khác thành 3.4. Chọn nhanh kiểm tra chất lượng gọn còn 3 ý cơ bản.",
+  "Mục 4 trình bày theo hàng, đánh số 4.1 Ý kiến tiếp thu – 4.2 Kiến nghị – 4.3 Sự cố, vướng mắc.",
+  "Sổ nhật ký xuất Word / in theo thể thức văn bản (Times New Roman 13, lề trái 30 mm, phải 15 mm, trên – dưới 20 mm, đánh số mục 2.1., 3.1.…); các dòng đánh giá 3.1 – 3.3 cỡ chữ 12, mỗi mục nằm trên 1 dòng. Nút Đóng của cửa sổ in chuyển sang góc phải."
  ],
  "history": [
+  {
+   "version": "V22.93",
+   "date": "2026-10-22",
+   "notes": [
+    "Nhật ký CT – mục 3: thêm 3.1 Công tác kiểm tra chất lượng (Tốt / Bình thường / Kém); vệ sinh môi trường, an toàn lao động chuyển thành 3.2, 3.3; ý kiến khác thành 3.4. Chọn nhanh kiểm tra chất lượng gọn còn 3 ý cơ bản.",
+    "Mục 4 trình bày theo hàng, đánh số 4.1 Ý kiến tiếp thu – 4.2 Kiến nghị – 4.3 Sự cố, vướng mắc.",
+    "Sổ nhật ký xuất Word / in theo thể thức văn bản (Times New Roman 13, lề trái 30 mm, phải 15 mm, trên – dưới 20 mm, đánh số mục 2.1., 3.1.…); các dòng đánh giá 3.1 – 3.3 cỡ chữ 12, mỗi mục nằm trên 1 dòng. Nút Đóng của cửa sổ in chuyển sang góc phải."
+   ]
+  },
   {
    "version": "V22.92",
    "date": "2026-10-22",
