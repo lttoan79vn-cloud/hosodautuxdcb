@@ -1,13 +1,23 @@
 {
- "version": "V22.97",
+ "version": "V22.98",
  "date": "2026-10-23",
  "notes": [
-  "Nhật ký CT: nút “Nạp file sổ (Word / PDF / ảnh)” thay cho “Nhập từ file Word” – chọn được nhiều file một lúc: .docx, PDF (bản chữ hoặc bản scan) và ảnh chụp trang sổ (.jpg, .png, .webp).",
-  "Tự nhận dạng chữ (OCR tiếng Việt) với PDF scan và ảnh chụp, có thanh tiến trình; sau đó lọc thông tin điền vào các trường: tên công trình, địa điểm, chủ đầu tư, đơn vị thi công, chỉ huy trưởng + điện thoại, ngày khởi công / bàn giao, thiết kế, danh sách cán bộ chỉ huy – kỹ thuật và nội dung từng trang ngày.",
-  "Danh sách cán bộ đọc từ PDF / ảnh tự ghép chức danh bị xuống nhiều dòng (VD: “CHỈ HUY / TRƯỞNG”) với đúng người theo số điện thoại.",
-  "Bảng xem trước trước khi nhập ghi rõ từng file đọc theo cách nào (Word / PDF chữ / OCR) để kiểm tra lại."
+  "Hồ sơ công trình: ô “TVGS / Đại diện CĐT” thành danh sách nhiều người, mỗi dòng gồm Họ tên – Chức vụ (Giám sát trưởng, Giám sát viên, Cán bộ QLDA, Đại diện CĐT), có nút “+ Thêm người” và xóa dòng.",
+  "Giám sát trưởng ký trang đầu (trang thông tin) của quyển nhật ký; mục 5 ghi rõ giám sát trưởng và các cán bộ giám sát.",
+  "Form nhật ký ngày có ô “Cán bộ giám sát trong ngày”: người được chọn ký trang nhật ký ngày đó (Word và bản in); ngày mới tự chọn người giám sát gần nhất.",
+  "Trên điện thoại danh sách TVGS xếp họ tên và chức vụ thành 2 dòng, không tràn ngang."
  ],
  "history": [
+  {
+   "version": "V22.98",
+   "date": "2026-10-23",
+   "notes": [
+    "Hồ sơ công trình: ô “TVGS / Đại diện CĐT” thành danh sách nhiều người, mỗi dòng gồm Họ tên – Chức vụ (Giám sát trưởng, Giám sát viên, Cán bộ QLDA, Đại diện CĐT), có nút “+ Thêm người” và xóa dòng.",
+    "Giám sát trưởng ký trang đầu (trang thông tin) của quyển nhật ký; mục 5 ghi rõ giám sát trưởng và các cán bộ giám sát.",
+    "Form nhật ký ngày có ô “Cán bộ giám sát trong ngày”: người được chọn ký trang nhật ký ngày đó (Word và bản in); ngày mới tự chọn người giám sát gần nhất.",
+    "Trên điện thoại danh sách TVGS xếp họ tên và chức vụ thành 2 dòng, không tràn ngang."
+   ]
+  },
   {
    "version": "V22.97",
    "date": "2026-10-23",
