@@ -1,13 +1,21 @@
 {
- "version": "V22.101",
+ "version": "V22.102",
  "date": "2026-10-23",
  "notes": [
-  "Biên bản kiểm tra: thành phần in đúng thứ tự bảng nhập (dòng 1 của bảng là người thứ nhất trong văn bản); thêm nút ↑ ↓ di chuyển và nút “⇅ Sắp theo ưu tiên” (TCKT → KHVT → PT&QLKCN → đơn vị khác); hồ sơ mới xếp sẵn theo thứ tự này.",
-  "Bảng thành phần trình bày 2 tầng (Đơn vị / Ông-Bà · Họ tên · Chức vụ) để không bị cắt chữ; đánh số thứ tự.",
-  "Ô ký: tên đơn vị và tên người ký tự co cỡ chữ (theo bề rộng thực của chữ Times New Roman) để luôn nằm trên 1 dòng; ô ký theo thứ tự bảng, mặc định đảo ngược như mẫu (có ô chọn bỏ đảo).",
-  "Danh mục nhân sự: thêm vai trò Nhân viên, Quản đốc, Phó quản đốc, Cán bộ kỹ thuật, Đội trưởng, Đội phó; ô Chức vụ gợi ý theo danh mục chức danh (VD: “Quản đốc NMCB Cuaparis”, “Đội trưởng Đội ĐSX Lai Uyên”); cột Mã phòng / Đơn vị gợi ý NMCB, Đội ĐSX."
+  "Lập kế hoạch: ghép nhiều hạng mục của kế hoạch gốc thành 1 gói thầu – trong bảng phân công đề xuất đánh dấu cột “Ghép” rồi bấm “🔗 Ghép các mục đã đánh dấu thành 1 gói thầu”, đặt tên gói; “✂ Tách gói” để bỏ ghép.",
+  "Thẻ Kế hoạch gốc: ghép các hạng mục đã giao thành 1 gói (giữ gói đầu và các bước đã làm, xóa gói trống), nút ✂ tách hạng mục khỏi gói; hạng mục ghép hiện 📦 tên gói.",
+  "Giá trị gói = tổng các hạng mục; đơn vị và ghi chú “Gồm n hạng mục: …” tự cập nhật; hình thức đề xuất theo tổng giá trị (hạn mức chỉ định thầu)."
  ],
  "history": [
+  {
+   "version": "V22.102",
+   "date": "2026-10-23",
+   "notes": [
+    "Lập kế hoạch: ghép nhiều hạng mục của kế hoạch gốc thành 1 gói thầu – trong bảng phân công đề xuất đánh dấu cột “Ghép” rồi bấm “🔗 Ghép các mục đã đánh dấu thành 1 gói thầu”, đặt tên gói; “✂ Tách gói” để bỏ ghép.",
+    "Thẻ Kế hoạch gốc: ghép các hạng mục đã giao thành 1 gói (giữ gói đầu và các bước đã làm, xóa gói trống), nút ✂ tách hạng mục khỏi gói; hạng mục ghép hiện 📦 tên gói.",
+    "Giá trị gói = tổng các hạng mục; đơn vị và ghi chú “Gồm n hạng mục: …” tự cập nhật; hình thức đề xuất theo tổng giá trị (hạn mức chỉ định thầu)."
+   ]
+  },
   {
    "version": "V22.101",
    "date": "2026-10-23",
