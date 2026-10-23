@@ -1,12 +1,21 @@
 {
- "version": "V22.94",
+ "version": "V22.95",
  "date": "2026-10-23",
  "notes": [
-  "Sửa lỗi “Không kết nối được máy chủ xác thực” khi đăng nhập trên điện thoại: mỗi yêu cầu tự thử lại 3 lần (chờ tối đa 30 giây), nếu trình duyệt chặn gửi dữ liệu thì gửi dự phòng qua đường GET (cần dán Code.gs mới), tự quay về đường dẫn máy chủ mặc định nếu đường dẫn lưu trên máy bị hỏng.",
-  "Khi vẫn lỗi, chương trình báo rõ nguyên nhân: thiết bị mất mạng / mạng chặn script.google.com / Web App chưa để quyền “Bất kỳ ai” hoặc đã đổi đường dẫn / trình duyệt chặn gửi dữ liệu.",
-  "Mở chương trình trong trình duyệt của Zalo, Facebook…: màn hình đăng nhập nhắc bấm ••• → Mở bằng trình duyệt (Safari / Chrome)."
+  "Nhật ký CT – mục 3: mỗi mục 3.1 Kiểm tra chất lượng, 3.2 Vệ sinh môi trường, 3.3 An toàn lao động gồm đánh giá Tốt / Bình thường / Kém, 3 ý chọn nhanh và ô ghi chú ngay bên dưới; 3.4 Ý kiến khác. Sổ nhật ký Word / bản in ghi chi tiết ngay dưới từng dòng đánh giá.",
+  "Xem bản in nhật ký trên điện thoại: trang A4 tự thu vừa bề ngang màn hình, không còn trượt ngang (vẫn phóng to bằng 2 ngón được).",
+  "Tự cân cỡ chữ theo màn hình: điện thoại lớn 6–7 inch và iPad / máy tính bảng dùng cỡ chữ vừa phải, không phóng to theo bề ngang; tắt chế độ trình duyệt tự phóng chữ."
  ],
  "history": [
+  {
+   "version": "V22.95",
+   "date": "2026-10-23",
+   "notes": [
+    "Nhật ký CT – mục 3: mỗi mục 3.1 Kiểm tra chất lượng, 3.2 Vệ sinh môi trường, 3.3 An toàn lao động gồm đánh giá Tốt / Bình thường / Kém, 3 ý chọn nhanh và ô ghi chú ngay bên dưới; 3.4 Ý kiến khác. Sổ nhật ký Word / bản in ghi chi tiết ngay dưới từng dòng đánh giá.",
+    "Xem bản in nhật ký trên điện thoại: trang A4 tự thu vừa bề ngang màn hình, không còn trượt ngang (vẫn phóng to bằng 2 ngón được).",
+    "Tự cân cỡ chữ theo màn hình: điện thoại lớn 6–7 inch và iPad / máy tính bảng dùng cỡ chữ vừa phải, không phóng to theo bề ngang; tắt chế độ trình duyệt tự phóng chữ."
+   ]
+  },
   {
    "version": "V22.94",
    "date": "2026-10-23",
