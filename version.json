@@ -1,12 +1,29 @@
 {
- "version": "V22.103",
- "date": "2026-10-23",
+ "version": "V22.104",
+ "date": "2026-10-24",
  "notes": [
-  "Hộp thoại: nút Hủy / Đóng ở dưới chuyển lên góc trên phải thành nút ✕; phím Esc cũng đóng hộp thoại.",
-  "Bảng phân công trình bày như kế hoạch gốc: A. Kế hoạch đầu tư XDCB → B. Kế hoạch giá thành (nhóm theo đơn vị, đúng thứ tự biểu gốc, có tổng giá trị) → C. Các gói phát sinh, bổ sung trong quá trình thực hiện; đánh số thứ tự trong từng phần.",
-  "Gói thêm bằng nút “+ Thêm gói” được xếp vào phần Phát sinh; Excel và Word xuất cùng thứ tự với bảng."
+  "Nhật ký CT – phân quyền theo từng công trình: Admin giao Ẩn / Chỉ xem / Biên tập (Quản trị → Phân quyền → mục 3); công trình tự tạo luôn được biên tập, công trình khác mặc định Ẩn: hiện 🔒, nội dung làm mờ, không thao tác được, máy chủ không gửi nội dung.",
+  "Biên tập nhật ký chỉ trong ngày: đến 24 giờ nhật ký tự khóa (🔒 Đã khóa) – không sửa, không xóa, không ghi bù ngày đã qua; chỉ Admin toàn quyền. Máy chủ kiểm tra lại mọi thay đổi.",
+  "Mục bị đặt Ẩn (Danh mục, Nhật ký CT, nhóm hồ sơ) hiện mờ có khóa, không bấm được thay vì biến mất.",
+  "Tự lưu: nhật ký đang nhập 15 giây không bấm Lưu sẽ tự lưu (giữ form để nhập tiếp); chưa đủ nội dung → lưu nháp, có nút Khôi phục. Hồ sơ công trình, Thông tin sổ cũng tự lưu.",
+  "Sao lưu dự phòng (Admin): thư mục DATA SOURCE BACKUP cùng cấp DATA SOURCE – dữ liệu + bản chương trình + bản sao tệp đính kèm; tự sao lưu hằng ngày, giữ 30 bản; tải về, khôi phục (tự sao lưu trước khi khôi phục).",
+  "Kho hồ sơ đã ký: mỗi văn bản tải lên bản đã ký (lưu vào tep_dinh_kem của dự án); nút 🗄 Kho hồ sơ đã ký tra cứu theo dự án / tất cả hồ sơ, tải về khi cần.",
+  "Cần cập nhật mã máy chủ Code.gs (dán bản mới, Triển khai lại, chạy caiDatLanDau 1 lần để tạo thư mục DATA SOURCE BACKUP và lịch tự sao lưu)."
  ],
  "history": [
+  {
+   "version": "V22.104",
+   "date": "2026-10-24",
+   "notes": [
+    "Nhật ký CT – phân quyền theo từng công trình: Admin giao Ẩn / Chỉ xem / Biên tập (Quản trị → Phân quyền → mục 3); công trình tự tạo luôn được biên tập, công trình khác mặc định Ẩn: hiện 🔒, nội dung làm mờ, không thao tác được, máy chủ không gửi nội dung.",
+    "Biên tập nhật ký chỉ trong ngày: đến 24 giờ nhật ký tự khóa (🔒 Đã khóa) – không sửa, không xóa, không ghi bù ngày đã qua; chỉ Admin toàn quyền. Máy chủ kiểm tra lại mọi thay đổi.",
+    "Mục bị đặt Ẩn (Danh mục, Nhật ký CT, nhóm hồ sơ) hiện mờ có khóa, không bấm được thay vì biến mất.",
+    "Tự lưu: nhật ký đang nhập 15 giây không bấm Lưu sẽ tự lưu (giữ form để nhập tiếp); chưa đủ nội dung → lưu nháp, có nút Khôi phục. Hồ sơ công trình, Thông tin sổ cũng tự lưu.",
+    "Sao lưu dự phòng (Admin): thư mục DATA SOURCE BACKUP cùng cấp DATA SOURCE – dữ liệu + bản chương trình + bản sao tệp đính kèm; tự sao lưu hằng ngày, giữ 30 bản; tải về, khôi phục (tự sao lưu trước khi khôi phục).",
+    "Kho hồ sơ đã ký: mỗi văn bản tải lên bản đã ký (lưu vào tep_dinh_kem của dự án); nút 🗄 Kho hồ sơ đã ký tra cứu theo dự án / tất cả hồ sơ, tải về khi cần.",
+    "Cần cập nhật mã máy chủ Code.gs (dán bản mới, Triển khai lại, chạy caiDatLanDau 1 lần để tạo thư mục DATA SOURCE BACKUP và lịch tự sao lưu)."
+   ]
+  },
   {
    "version": "V22.103",
    "date": "2026-10-23",
