@@ -1,12 +1,21 @@
 {
- "version": "V22.102",
+ "version": "V22.103",
  "date": "2026-10-23",
  "notes": [
-  "Lập kế hoạch: ghép nhiều hạng mục của kế hoạch gốc thành 1 gói thầu – trong bảng phân công đề xuất đánh dấu cột “Ghép” rồi bấm “🔗 Ghép các mục đã đánh dấu thành 1 gói thầu”, đặt tên gói; “✂ Tách gói” để bỏ ghép.",
-  "Thẻ Kế hoạch gốc: ghép các hạng mục đã giao thành 1 gói (giữ gói đầu và các bước đã làm, xóa gói trống), nút ✂ tách hạng mục khỏi gói; hạng mục ghép hiện 📦 tên gói.",
-  "Giá trị gói = tổng các hạng mục; đơn vị và ghi chú “Gồm n hạng mục: …” tự cập nhật; hình thức đề xuất theo tổng giá trị (hạn mức chỉ định thầu)."
+  "Hộp thoại: nút Hủy / Đóng ở dưới chuyển lên góc trên phải thành nút ✕; phím Esc cũng đóng hộp thoại.",
+  "Bảng phân công trình bày như kế hoạch gốc: A. Kế hoạch đầu tư XDCB → B. Kế hoạch giá thành (nhóm theo đơn vị, đúng thứ tự biểu gốc, có tổng giá trị) → C. Các gói phát sinh, bổ sung trong quá trình thực hiện; đánh số thứ tự trong từng phần.",
+  "Gói thêm bằng nút “+ Thêm gói” được xếp vào phần Phát sinh; Excel và Word xuất cùng thứ tự với bảng."
  ],
  "history": [
+  {
+   "version": "V22.103",
+   "date": "2026-10-23",
+   "notes": [
+    "Hộp thoại: nút Hủy / Đóng ở dưới chuyển lên góc trên phải thành nút ✕; phím Esc cũng đóng hộp thoại.",
+    "Bảng phân công trình bày như kế hoạch gốc: A. Kế hoạch đầu tư XDCB → B. Kế hoạch giá thành (nhóm theo đơn vị, đúng thứ tự biểu gốc, có tổng giá trị) → C. Các gói phát sinh, bổ sung trong quá trình thực hiện; đánh số thứ tự trong từng phần.",
+    "Gói thêm bằng nút “+ Thêm gói” được xếp vào phần Phát sinh; Excel và Word xuất cùng thứ tự với bảng."
+   ]
+  },
   {
    "version": "V22.102",
    "date": "2026-10-23",
