@@ -1,13 +1,23 @@
 {
- "version": "V22.98",
+ "version": "V22.99",
  "date": "2026-10-23",
  "notes": [
-  "Hồ sơ công trình: ô “TVGS / Đại diện CĐT” thành danh sách nhiều người, mỗi dòng gồm Họ tên – Chức vụ (Giám sát trưởng, Giám sát viên, Cán bộ QLDA, Đại diện CĐT), có nút “+ Thêm người” và xóa dòng.",
-  "Giám sát trưởng ký trang đầu (trang thông tin) của quyển nhật ký; mục 5 ghi rõ giám sát trưởng và các cán bộ giám sát.",
-  "Form nhật ký ngày có ô “Cán bộ giám sát trong ngày”: người được chọn ký trang nhật ký ngày đó (Word và bản in); ngày mới tự chọn người giám sát gần nhất.",
-  "Trên điện thoại danh sách TVGS xếp họ tên và chức vụ thành 2 dòng, không tràn ngang."
+  "Biên bản kiểm tra của hồ sơ đầu tư XDCB và hồ sơ giá thành XDCB làm lại theo mẫu biên bản Cua Paris: tiêu đề “BIÊN BẢN KIỂM TRA – Về việc: …”, căn cứ tờ trình / giấy đề nghị, thành phần “- Ông/Bà: … Chức vụ: …”.",
+  "Nội dung theo bố cục mẫu: I. Hiện trạng và nội dung đề xuất (khu vực – a. Hiện trạng – b. Đề xuất có khối lượng), II. Kết luận – Kiến nghị (1. Kết luận + nguồn vốn, 2. Kiến nghị), câu kết thúc biên bản.",
+  "Ô ký “Đại diện các đơn vị tham gia kiểm tra” mỗi đơn vị một người, đơn vị đề nghị đứng trước, 5 ô trên một hàng; khối “PHÊ DUYỆT – LÃNH ĐẠO KHỐI”; bản Word gọn 2 trang như mẫu.",
+  "Biểu mẫu nhập: thêm cột Ông/Bà (tự nhận “Thị” → Bà), ô Về việc, Căn cứ bổ sung, Khu vực kiểm tra, b. Đề xuất, II.1 Kết luận (để trống tự soạn), II.2 Kiến nghị. Giá thành thiết bị giữ mẫu cũ."
  ],
  "history": [
+  {
+   "version": "V22.99",
+   "date": "2026-10-23",
+   "notes": [
+    "Biên bản kiểm tra của hồ sơ đầu tư XDCB và hồ sơ giá thành XDCB làm lại theo mẫu biên bản Cua Paris: tiêu đề “BIÊN BẢN KIỂM TRA – Về việc: …”, căn cứ tờ trình / giấy đề nghị, thành phần “- Ông/Bà: … Chức vụ: …”.",
+    "Nội dung theo bố cục mẫu: I. Hiện trạng và nội dung đề xuất (khu vực – a. Hiện trạng – b. Đề xuất có khối lượng), II. Kết luận – Kiến nghị (1. Kết luận + nguồn vốn, 2. Kiến nghị), câu kết thúc biên bản.",
+    "Ô ký “Đại diện các đơn vị tham gia kiểm tra” mỗi đơn vị một người, đơn vị đề nghị đứng trước, 5 ô trên một hàng; khối “PHÊ DUYỆT – LÃNH ĐẠO KHỐI”; bản Word gọn 2 trang như mẫu.",
+    "Biểu mẫu nhập: thêm cột Ông/Bà (tự nhận “Thị” → Bà), ô Về việc, Căn cứ bổ sung, Khu vực kiểm tra, b. Đề xuất, II.1 Kết luận (để trống tự soạn), II.2 Kiến nghị. Giá thành thiết bị giữ mẫu cũ."
+   ]
+  },
   {
    "version": "V22.98",
    "date": "2026-10-23",
