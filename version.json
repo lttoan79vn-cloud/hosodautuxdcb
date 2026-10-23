@@ -1,13 +1,23 @@
 {
- "version": "V22.99",
+ "version": "V22.100",
  "date": "2026-10-23",
  "notes": [
-  "Biên bản kiểm tra của hồ sơ đầu tư XDCB và hồ sơ giá thành XDCB làm lại theo mẫu biên bản Cua Paris: tiêu đề “BIÊN BẢN KIỂM TRA – Về việc: …”, căn cứ tờ trình / giấy đề nghị, thành phần “- Ông/Bà: … Chức vụ: …”.",
-  "Nội dung theo bố cục mẫu: I. Hiện trạng và nội dung đề xuất (khu vực – a. Hiện trạng – b. Đề xuất có khối lượng), II. Kết luận – Kiến nghị (1. Kết luận + nguồn vốn, 2. Kiến nghị), câu kết thúc biên bản.",
-  "Ô ký “Đại diện các đơn vị tham gia kiểm tra” mỗi đơn vị một người, đơn vị đề nghị đứng trước, 5 ô trên một hàng; khối “PHÊ DUYỆT – LÃNH ĐẠO KHỐI”; bản Word gọn 2 trang như mẫu.",
-  "Biểu mẫu nhập: thêm cột Ông/Bà (tự nhận “Thị” → Bà), ô Về việc, Căn cứ bổ sung, Khu vực kiểm tra, b. Đề xuất, II.1 Kết luận (để trống tự soạn), II.2 Kiến nghị. Giá thành thiết bị giữ mẫu cũ."
+  "Thứ tự ưu tiên thành phần tham gia: Phòng TCKT → Phòng KHVT → Phòng PT&QLKCN → các đơn vị khác (biên bản kiểm tra, các phòng ký tờ trình, thành phần biên bản xét chọn).",
+  "Ô ký biên bản kiểm tra: đơn vị khác đứng trước, cuối hàng là P. PT&QLKCN, P. KHVT, P. TCKT (đúng mẫu Cua Paris).",
+  "Chức vụ “Phó trưởng phòng” đổi thành “Phó phòng” (danh mục nhân sự, vai trò, văn bản); chức vụ ghi đủ chữ: “Trưởng phòng TCKT”, “Phó phòng PT&QLKCN”, “Nhân viên Phòng PT&QLKCN”.",
+  "Danh mục: thêm “Danh mục chức danh theo đơn vị” – NMCB BL-LT, NMCB Cuaparis (Quản đốc, Phó quản đốc, Cán bộ kỹ thuật); Đội ĐSX Bố Lá, Hội Nghĩa, Nhà Nai, Tân Hưng, Hưng Hòa, Lai Uyên (Đội trưởng, Đội phó); các phòng (Trưởng phòng, Phó phòng, Nhân viên). Dùng để gợi ý ô Đơn vị / Chức vụ."
  ],
  "history": [
+  {
+   "version": "V22.100",
+   "date": "2026-10-23",
+   "notes": [
+    "Thứ tự ưu tiên thành phần tham gia: Phòng TCKT → Phòng KHVT → Phòng PT&QLKCN → các đơn vị khác (biên bản kiểm tra, các phòng ký tờ trình, thành phần biên bản xét chọn).",
+    "Ô ký biên bản kiểm tra: đơn vị khác đứng trước, cuối hàng là P. PT&QLKCN, P. KHVT, P. TCKT (đúng mẫu Cua Paris).",
+    "Chức vụ “Phó trưởng phòng” đổi thành “Phó phòng” (danh mục nhân sự, vai trò, văn bản); chức vụ ghi đủ chữ: “Trưởng phòng TCKT”, “Phó phòng PT&QLKCN”, “Nhân viên Phòng PT&QLKCN”.",
+    "Danh mục: thêm “Danh mục chức danh theo đơn vị” – NMCB BL-LT, NMCB Cuaparis (Quản đốc, Phó quản đốc, Cán bộ kỹ thuật); Đội ĐSX Bố Lá, Hội Nghĩa, Nhà Nai, Tân Hưng, Hưng Hòa, Lai Uyên (Đội trưởng, Đội phó); các phòng (Trưởng phòng, Phó phòng, Nhân viên). Dùng để gợi ý ô Đơn vị / Chức vụ."
+   ]
+  },
   {
    "version": "V22.99",
    "date": "2026-10-23",
