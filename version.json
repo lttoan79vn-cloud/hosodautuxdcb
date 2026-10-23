@@ -1,12 +1,23 @@
 {
- "version": "V22.96",
+ "version": "V22.97",
  "date": "2026-10-23",
  "notes": [
-  "Sửa lỗi chữ trong bản xem nhật ký A4 trên iPhone / Zalo bị phóng rất to: tắt chế độ trình duyệt tự phóng chữ trong trang in.",
-  "Cỡ chữ sổ nhật ký theo thể thức NĐ 30/2020: Times New Roman 13 cho nội dung, tiêu đề sổ 16 đậm, tên bảng 14 đậm, chữ ký 13; bìa ghi “Tên công trình / Địa điểm / Chủ đầu tư / Đơn vị thi công” chữ thường, phần nội dung in đậm (bỏ viết hoa toàn bộ).",
-  "Hộp chọn Từ ngày – Đến ngày trên điện thoại không còn chồng lên ô “Kèm ảnh”."
+  "Nhật ký CT: nút “Nạp file sổ (Word / PDF / ảnh)” thay cho “Nhập từ file Word” – chọn được nhiều file một lúc: .docx, PDF (bản chữ hoặc bản scan) và ảnh chụp trang sổ (.jpg, .png, .webp).",
+  "Tự nhận dạng chữ (OCR tiếng Việt) với PDF scan và ảnh chụp, có thanh tiến trình; sau đó lọc thông tin điền vào các trường: tên công trình, địa điểm, chủ đầu tư, đơn vị thi công, chỉ huy trưởng + điện thoại, ngày khởi công / bàn giao, thiết kế, danh sách cán bộ chỉ huy – kỹ thuật và nội dung từng trang ngày.",
+  "Danh sách cán bộ đọc từ PDF / ảnh tự ghép chức danh bị xuống nhiều dòng (VD: “CHỈ HUY / TRƯỞNG”) với đúng người theo số điện thoại.",
+  "Bảng xem trước trước khi nhập ghi rõ từng file đọc theo cách nào (Word / PDF chữ / OCR) để kiểm tra lại."
  ],
  "history": [
+  {
+   "version": "V22.97",
+   "date": "2026-10-23",
+   "notes": [
+    "Nhật ký CT: nút “Nạp file sổ (Word / PDF / ảnh)” thay cho “Nhập từ file Word” – chọn được nhiều file một lúc: .docx, PDF (bản chữ hoặc bản scan) và ảnh chụp trang sổ (.jpg, .png, .webp).",
+    "Tự nhận dạng chữ (OCR tiếng Việt) với PDF scan và ảnh chụp, có thanh tiến trình; sau đó lọc thông tin điền vào các trường: tên công trình, địa điểm, chủ đầu tư, đơn vị thi công, chỉ huy trưởng + điện thoại, ngày khởi công / bàn giao, thiết kế, danh sách cán bộ chỉ huy – kỹ thuật và nội dung từng trang ngày.",
+    "Danh sách cán bộ đọc từ PDF / ảnh tự ghép chức danh bị xuống nhiều dòng (VD: “CHỈ HUY / TRƯỞNG”) với đúng người theo số điện thoại.",
+    "Bảng xem trước trước khi nhập ghi rõ từng file đọc theo cách nào (Word / PDF chữ / OCR) để kiểm tra lại."
+   ]
+  },
   {
    "version": "V22.96",
    "date": "2026-10-23",
