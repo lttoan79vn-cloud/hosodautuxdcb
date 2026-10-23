@@ -1,12 +1,21 @@
 {
- "version": "V22.95",
+ "version": "V22.96",
  "date": "2026-10-23",
  "notes": [
-  "Nhật ký CT – mục 3: mỗi mục 3.1 Kiểm tra chất lượng, 3.2 Vệ sinh môi trường, 3.3 An toàn lao động gồm đánh giá Tốt / Bình thường / Kém, 3 ý chọn nhanh và ô ghi chú ngay bên dưới; 3.4 Ý kiến khác. Sổ nhật ký Word / bản in ghi chi tiết ngay dưới từng dòng đánh giá.",
-  "Xem bản in nhật ký trên điện thoại: trang A4 tự thu vừa bề ngang màn hình, không còn trượt ngang (vẫn phóng to bằng 2 ngón được).",
-  "Tự cân cỡ chữ theo màn hình: điện thoại lớn 6–7 inch và iPad / máy tính bảng dùng cỡ chữ vừa phải, không phóng to theo bề ngang; tắt chế độ trình duyệt tự phóng chữ."
+  "Sửa lỗi chữ trong bản xem nhật ký A4 trên iPhone / Zalo bị phóng rất to: tắt chế độ trình duyệt tự phóng chữ trong trang in.",
+  "Cỡ chữ sổ nhật ký theo thể thức NĐ 30/2020: Times New Roman 13 cho nội dung, tiêu đề sổ 16 đậm, tên bảng 14 đậm, chữ ký 13; bìa ghi “Tên công trình / Địa điểm / Chủ đầu tư / Đơn vị thi công” chữ thường, phần nội dung in đậm (bỏ viết hoa toàn bộ).",
+  "Hộp chọn Từ ngày – Đến ngày trên điện thoại không còn chồng lên ô “Kèm ảnh”."
  ],
  "history": [
+  {
+   "version": "V22.96",
+   "date": "2026-10-23",
+   "notes": [
+    "Sửa lỗi chữ trong bản xem nhật ký A4 trên iPhone / Zalo bị phóng rất to: tắt chế độ trình duyệt tự phóng chữ trong trang in.",
+    "Cỡ chữ sổ nhật ký theo thể thức NĐ 30/2020: Times New Roman 13 cho nội dung, tiêu đề sổ 16 đậm, tên bảng 14 đậm, chữ ký 13; bìa ghi “Tên công trình / Địa điểm / Chủ đầu tư / Đơn vị thi công” chữ thường, phần nội dung in đậm (bỏ viết hoa toàn bộ).",
+    "Hộp chọn Từ ngày – Đến ngày trên điện thoại không còn chồng lên ô “Kèm ảnh”."
+   ]
+  },
   {
    "version": "V22.95",
    "date": "2026-10-23",
