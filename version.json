@@ -1,12 +1,21 @@
 {
- "version": "V22.93",
- "date": "2026-10-22",
+ "version": "V22.94",
+ "date": "2026-10-23",
  "notes": [
-  "Nhật ký CT – mục 3: thêm 3.1 Công tác kiểm tra chất lượng (Tốt / Bình thường / Kém); vệ sinh môi trường, an toàn lao động chuyển thành 3.2, 3.3; ý kiến khác thành 3.4. Chọn nhanh kiểm tra chất lượng gọn còn 3 ý cơ bản.",
-  "Mục 4 trình bày theo hàng, đánh số 4.1 Ý kiến tiếp thu – 4.2 Kiến nghị – 4.3 Sự cố, vướng mắc.",
-  "Sổ nhật ký xuất Word / in theo thể thức văn bản (Times New Roman 13, lề trái 30 mm, phải 15 mm, trên – dưới 20 mm, đánh số mục 2.1., 3.1.…); các dòng đánh giá 3.1 – 3.3 cỡ chữ 12, mỗi mục nằm trên 1 dòng. Nút Đóng của cửa sổ in chuyển sang góc phải."
+  "Sửa lỗi “Không kết nối được máy chủ xác thực” khi đăng nhập trên điện thoại: mỗi yêu cầu tự thử lại 3 lần (chờ tối đa 30 giây), nếu trình duyệt chặn gửi dữ liệu thì gửi dự phòng qua đường GET (cần dán Code.gs mới), tự quay về đường dẫn máy chủ mặc định nếu đường dẫn lưu trên máy bị hỏng.",
+  "Khi vẫn lỗi, chương trình báo rõ nguyên nhân: thiết bị mất mạng / mạng chặn script.google.com / Web App chưa để quyền “Bất kỳ ai” hoặc đã đổi đường dẫn / trình duyệt chặn gửi dữ liệu.",
+  "Mở chương trình trong trình duyệt của Zalo, Facebook…: màn hình đăng nhập nhắc bấm ••• → Mở bằng trình duyệt (Safari / Chrome)."
  ],
  "history": [
+  {
+   "version": "V22.94",
+   "date": "2026-10-23",
+   "notes": [
+    "Sửa lỗi “Không kết nối được máy chủ xác thực” khi đăng nhập trên điện thoại: mỗi yêu cầu tự thử lại 3 lần (chờ tối đa 30 giây), nếu trình duyệt chặn gửi dữ liệu thì gửi dự phòng qua đường GET (cần dán Code.gs mới), tự quay về đường dẫn máy chủ mặc định nếu đường dẫn lưu trên máy bị hỏng.",
+    "Khi vẫn lỗi, chương trình báo rõ nguyên nhân: thiết bị mất mạng / mạng chặn script.google.com / Web App chưa để quyền “Bất kỳ ai” hoặc đã đổi đường dẫn / trình duyệt chặn gửi dữ liệu.",
+    "Mở chương trình trong trình duyệt của Zalo, Facebook…: màn hình đăng nhập nhắc bấm ••• → Mở bằng trình duyệt (Safari / Chrome)."
+   ]
+  },
   {
    "version": "V22.93",
    "date": "2026-10-22",
