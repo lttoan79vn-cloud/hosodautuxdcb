@@ -1,16 +1,25 @@
 {
- "version": "V22.104",
+ "version": "V22.105",
  "date": "2026-10-24",
  "notes": [
-  "Nhật ký CT – phân quyền theo từng công trình: Admin giao Ẩn / Chỉ xem / Biên tập (Quản trị → Phân quyền → mục 3); công trình tự tạo luôn được biên tập, công trình khác mặc định Ẩn: hiện 🔒, nội dung làm mờ, không thao tác được, máy chủ không gửi nội dung.",
-  "Biên tập nhật ký chỉ trong ngày: đến 24 giờ nhật ký tự khóa (🔒 Đã khóa) – không sửa, không xóa, không ghi bù ngày đã qua; chỉ Admin toàn quyền. Máy chủ kiểm tra lại mọi thay đổi.",
-  "Mục bị đặt Ẩn (Danh mục, Nhật ký CT, nhóm hồ sơ) hiện mờ có khóa, không bấm được thay vì biến mất.",
-  "Tự lưu: nhật ký đang nhập 15 giây không bấm Lưu sẽ tự lưu (giữ form để nhập tiếp); chưa đủ nội dung → lưu nháp, có nút Khôi phục. Hồ sơ công trình, Thông tin sổ cũng tự lưu.",
-  "Sao lưu dự phòng (Admin): thư mục DATA SOURCE BACKUP cùng cấp DATA SOURCE – dữ liệu + bản chương trình + bản sao tệp đính kèm; tự sao lưu hằng ngày, giữ 30 bản; tải về, khôi phục (tự sao lưu trước khi khôi phục).",
-  "Kho hồ sơ đã ký: mỗi văn bản tải lên bản đã ký (lưu vào tep_dinh_kem của dự án); nút 🗄 Kho hồ sơ đã ký tra cứu theo dự án / tất cả hồ sơ, tải về khi cần.",
-  "Cần cập nhật mã máy chủ Code.gs (dán bản mới, Triển khai lại, chạy caiDatLanDau 1 lần để tạo thư mục DATA SOURCE BACKUP và lịch tự sao lưu)."
+  "Bảng phân công ↔ tài khoản: thẻ Lập kế hoạch → Theo cán bộ có ô 🔗 liên kết mỗi tên cán bộ với email đăng nhập (gợi ý từ danh sách thành viên).",
+  "Soạn hồ sơ → 📋 Việc được giao: danh sách gói được giao (chủ trì / phối hợp), bước hiện tại, hạn, tiến độ, tình trạng; nút ＋ Lập hồ sơ tạo hồ sơ điền sẵn tên công trình, gói thầu, giá trị, hình thức, nguồn vốn, nhóm hồ sơ – hồ sơ tự liên kết với gói.",
+  "Khung hồ sơ hiện gói kế hoạch của hồ sơ đang mở (📌 bước hiện tại, hạn, tình trạng); ngày ban hành văn bản tự cập nhật tiến độ các bước trong kế hoạch.",
+  "KPI: thêm tiêu chí “Gói kế hoạch đúng tiến độ” (tỷ lệ gói chủ trì không quá hạn); thẻ Báo cáo có bảng Tiến độ thực hiện kế hoạch phân công theo cán bộ, danh sách gói quá hạn.",
+  "Báo cáo: 👁 Xem trước báo cáo (trang A4 + mục lục) và ＋ Thêm mục báo cáo – soạn mục mới hoặc bổ sung nội dung vào mục có sẵn, đổi thứ tự, sửa kiến nghị; Xuất Word / In dùng đúng bản xem trước."
  ],
  "history": [
+  {
+   "version": "V22.105",
+   "date": "2026-10-24",
+   "notes": [
+    "Bảng phân công ↔ tài khoản: thẻ Lập kế hoạch → Theo cán bộ có ô 🔗 liên kết mỗi tên cán bộ với email đăng nhập (gợi ý từ danh sách thành viên).",
+    "Soạn hồ sơ → 📋 Việc được giao: danh sách gói được giao (chủ trì / phối hợp), bước hiện tại, hạn, tiến độ, tình trạng; nút ＋ Lập hồ sơ tạo hồ sơ điền sẵn tên công trình, gói thầu, giá trị, hình thức, nguồn vốn, nhóm hồ sơ – hồ sơ tự liên kết với gói.",
+    "Khung hồ sơ hiện gói kế hoạch của hồ sơ đang mở (📌 bước hiện tại, hạn, tình trạng); ngày ban hành văn bản tự cập nhật tiến độ các bước trong kế hoạch.",
+    "KPI: thêm tiêu chí “Gói kế hoạch đúng tiến độ” (tỷ lệ gói chủ trì không quá hạn); thẻ Báo cáo có bảng Tiến độ thực hiện kế hoạch phân công theo cán bộ, danh sách gói quá hạn.",
+    "Báo cáo: 👁 Xem trước báo cáo (trang A4 + mục lục) và ＋ Thêm mục báo cáo – soạn mục mới hoặc bổ sung nội dung vào mục có sẵn, đổi thứ tự, sửa kiến nghị; Xuất Word / In dùng đúng bản xem trước."
+   ]
+  },
   {
    "version": "V22.104",
    "date": "2026-10-24",
