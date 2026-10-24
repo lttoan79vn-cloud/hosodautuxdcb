@@ -1,14 +1,21 @@
 {
- "version": "V22.105",
+ "version": "V22.106",
  "date": "2026-10-24",
  "notes": [
-  "Bảng phân công ↔ tài khoản: thẻ Lập kế hoạch → Theo cán bộ có ô 🔗 liên kết mỗi tên cán bộ với email đăng nhập (gợi ý từ danh sách thành viên).",
-  "Soạn hồ sơ → 📋 Việc được giao: danh sách gói được giao (chủ trì / phối hợp), bước hiện tại, hạn, tiến độ, tình trạng; nút ＋ Lập hồ sơ tạo hồ sơ điền sẵn tên công trình, gói thầu, giá trị, hình thức, nguồn vốn, nhóm hồ sơ – hồ sơ tự liên kết với gói.",
-  "Khung hồ sơ hiện gói kế hoạch của hồ sơ đang mở (📌 bước hiện tại, hạn, tình trạng); ngày ban hành văn bản tự cập nhật tiến độ các bước trong kế hoạch.",
-  "KPI: thêm tiêu chí “Gói kế hoạch đúng tiến độ” (tỷ lệ gói chủ trì không quá hạn); thẻ Báo cáo có bảng Tiến độ thực hiện kế hoạch phân công theo cán bộ, danh sách gói quá hạn.",
-  "Báo cáo: 👁 Xem trước báo cáo (trang A4 + mục lục) và ＋ Thêm mục báo cáo – soạn mục mới hoặc bổ sung nội dung vào mục có sẵn, đổi thứ tự, sửa kiến nghị; Xuất Word / In dùng đúng bản xem trước."
+  "Sửa lỗi: bấm vào bước “Tờ trình của đơn vị” (và các bước nạp văn bản) có đính kèm tệp Word thì trình duyệt tự tải tệp về mỗi lần bấm – nguyên nhân: khung xem trước nhúng mọi tệp như PDF.",
+  "Khung xem trước tệp đính kèm theo đúng loại: PDF xem trực tiếp, ảnh hiện ảnh, Word hiện nội dung chữ (xem nhanh) kèm nút ⬇ Tải tệp khi cần.",
+  "Nhãn ô đính kèm đổi thành “File tờ trình (PDF, Word, ảnh)”; rà soát toàn bộ các bước, các thẻ – không còn tự tải tệp, không lỗi JS."
  ],
  "history": [
+  {
+   "version": "V22.106",
+   "date": "2026-10-24",
+   "notes": [
+    "Sửa lỗi: bấm vào bước “Tờ trình của đơn vị” (và các bước nạp văn bản) có đính kèm tệp Word thì trình duyệt tự tải tệp về mỗi lần bấm – nguyên nhân: khung xem trước nhúng mọi tệp như PDF.",
+    "Khung xem trước tệp đính kèm theo đúng loại: PDF xem trực tiếp, ảnh hiện ảnh, Word hiện nội dung chữ (xem nhanh) kèm nút ⬇ Tải tệp khi cần.",
+    "Nhãn ô đính kèm đổi thành “File tờ trình (PDF, Word, ảnh)”; rà soát toàn bộ các bước, các thẻ – không còn tự tải tệp, không lỗi JS."
+   ]
+  },
   {
    "version": "V22.105",
    "date": "2026-10-24",
