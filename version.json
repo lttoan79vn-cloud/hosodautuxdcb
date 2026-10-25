@@ -1,12 +1,23 @@
 {
- "version": "V22.109",
+ "version": "V22.110",
  "date": "2026-10-25",
  "notes": [
-  "Nhật ký CT → 📊 Báo cáo: thêm 📤 Báo cáo hoàn thành thi công xây dựng (Phụ lục VI NĐ 207/2026) – tự điền ngày khởi công, hoàn thành, khối lượng từng hạng mục, đánh giá chất lượng theo các biên bản nghiệm thu, điều kiện đưa vào sử dụng theo biên bản nghiệm thu hoàn thành.",
-  "Thêm 📈 Báo cáo tiến độ gửi lãnh đạo Công ty (mẫu nội bộ Công ty – Phòng): chọn kỳ (tuần này, tuần trước, tháng này, từ khởi công); tự tổng hợp thông tin chung, tiến độ thực tế so với kế hoạch, bảng hạng mục, công việc và nhân lực trong kỳ theo nhật ký, công tác nghiệm thu, tồn tại, kế hoạch kỳ tới, kiến nghị; xem trước, lưu, xuất Word.",
-  "Sửa: thông tin công trình sửa trong biên bản được lưu đầy đủ vào danh mục công trình nhật ký."
+  "Báo cáo tiến độ gửi lãnh đạo Công ty: kèm 3 biểu đồ – đường tiến độ tổng thể (kế hoạch – thực tế lũy kế), tiến độ từng hạng mục, nhân lực thi công theo ngày; biểu đồ có trong bản xem trước và file Word.",
+  "Các ô Nhận xét chung, Tồn tại vướng mắc, Kế hoạch kỳ tới, Kiến nghị đề xuất được chương trình tự phân tích và điền sẵn từ nhật ký, bảng hạng mục, biên bản nghiệm thu (hạng mục chậm, ngày mưa, ngày chưa ghi nhật ký, công việc chưa nghiệm thu, đề xuất của nhà thầu, ý kiến giám sát…); người báo cáo chỉ xem và sửa. Nút 🔄 Phân tích lại số liệu; đổi kỳ báo cáo thì ô chưa sửa tay tự cập nhật.",
+  "Admin: nút ✏️ Sửa trực tiếp trên bản xem trước của mọi văn bản (hồ sơ PHR, hồ sơ chất lượng, báo cáo) – bấm vào đoạn văn, ô bảng, tiêu đề để sửa câu chữ; chỗ đã sửa tô vàng, xuất Word / in dùng nội dung đã sửa; ↺ Nội dung gốc để bỏ các chỗ sửa.",
+  "Chữ ký báo cáo: Phó phòng ký thay ghi “KT. TRƯỞNG PHÒNG – PHÓ PHÒNG”."
  ],
  "history": [
+  {
+   "version": "V22.110",
+   "date": "2026-10-25",
+   "notes": [
+    "Báo cáo tiến độ gửi lãnh đạo Công ty: kèm 3 biểu đồ – đường tiến độ tổng thể (kế hoạch – thực tế lũy kế), tiến độ từng hạng mục, nhân lực thi công theo ngày; biểu đồ có trong bản xem trước và file Word.",
+    "Các ô Nhận xét chung, Tồn tại vướng mắc, Kế hoạch kỳ tới, Kiến nghị đề xuất được chương trình tự phân tích và điền sẵn từ nhật ký, bảng hạng mục, biên bản nghiệm thu (hạng mục chậm, ngày mưa, ngày chưa ghi nhật ký, công việc chưa nghiệm thu, đề xuất của nhà thầu, ý kiến giám sát…); người báo cáo chỉ xem và sửa. Nút 🔄 Phân tích lại số liệu; đổi kỳ báo cáo thì ô chưa sửa tay tự cập nhật.",
+    "Admin: nút ✏️ Sửa trực tiếp trên bản xem trước của mọi văn bản (hồ sơ PHR, hồ sơ chất lượng, báo cáo) – bấm vào đoạn văn, ô bảng, tiêu đề để sửa câu chữ; chỗ đã sửa tô vàng, xuất Word / in dùng nội dung đã sửa; ↺ Nội dung gốc để bỏ các chỗ sửa.",
+    "Chữ ký báo cáo: Phó phòng ký thay ghi “KT. TRƯỞNG PHÒNG – PHÓ PHÒNG”."
+   ]
+  },
   {
    "version": "V22.109",
    "date": "2026-10-25",
