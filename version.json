@@ -1,13 +1,19 @@
 {
- "version": "V22.110",
+ "version": "V22.111",
  "date": "2026-10-25",
  "notes": [
-  "Báo cáo tiến độ gửi lãnh đạo Công ty: kèm 3 biểu đồ – đường tiến độ tổng thể (kế hoạch – thực tế lũy kế), tiến độ từng hạng mục, nhân lực thi công theo ngày; biểu đồ có trong bản xem trước và file Word.",
-  "Các ô Nhận xét chung, Tồn tại vướng mắc, Kế hoạch kỳ tới, Kiến nghị đề xuất được chương trình tự phân tích và điền sẵn từ nhật ký, bảng hạng mục, biên bản nghiệm thu (hạng mục chậm, ngày mưa, ngày chưa ghi nhật ký, công việc chưa nghiệm thu, đề xuất của nhà thầu, ý kiến giám sát…); người báo cáo chỉ xem và sửa. Nút 🔄 Phân tích lại số liệu; đổi kỳ báo cáo thì ô chưa sửa tay tự cập nhật.",
-  "Admin: nút ✏️ Sửa trực tiếp trên bản xem trước của mọi văn bản (hồ sơ PHR, hồ sơ chất lượng, báo cáo) – bấm vào đoạn văn, ô bảng, tiêu đề để sửa câu chữ; chỗ đã sửa tô vàng, xuất Word / in dùng nội dung đã sửa; ↺ Nội dung gốc để bỏ các chỗ sửa.",
-  "Chữ ký báo cáo: Phó phòng ký thay ghi “KT. TRƯỞNG PHÒNG – PHÓ PHÒNG”."
+  "Bảo vệ dữ liệu: chỉ tài khoản Admin thấy và dùng mục Dữ liệu & sao lưu của Nhật ký CT (Mở thư mục Google Drive, Sao lưu dữ liệu .json, Khôi phục từ bản sao lưu) và nút Mở thư mục trên Google Drive của kho hồ sơ.",
+  "Máy chủ (cần cập nhật mã máy chủ): từ chối người dùng lấy đường dẫn thư mục Drive; không trả đường dẫn Drive khi người dùng tải ảnh, tệp, báo cáo lên. Người dùng tải tệp tiến độ / báo cáo về máy trực tiếp, không mở Drive của Admin."
  ],
  "history": [
+  {
+   "version": "V22.111",
+   "date": "2026-10-25",
+   "notes": [
+    "Bảo vệ dữ liệu: chỉ tài khoản Admin thấy và dùng mục Dữ liệu & sao lưu của Nhật ký CT (Mở thư mục Google Drive, Sao lưu dữ liệu .json, Khôi phục từ bản sao lưu) và nút Mở thư mục trên Google Drive của kho hồ sơ.",
+    "Máy chủ (cần cập nhật mã máy chủ): từ chối người dùng lấy đường dẫn thư mục Drive; không trả đường dẫn Drive khi người dùng tải ảnh, tệp, báo cáo lên. Người dùng tải tệp tiến độ / báo cáo về máy trực tiếp, không mở Drive của Admin."
+   ]
+  },
   {
    "version": "V22.110",
    "date": "2026-10-25",
