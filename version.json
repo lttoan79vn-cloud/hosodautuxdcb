@@ -1,12 +1,21 @@
 {
- "version": "V22.108",
+ "version": "V22.109",
  "date": "2026-10-25",
  "notes": [
-  "Hồ sơ chất lượng: bấm vào ô đỏ [Chưa nhập …] trong bản xem trước → chương trình chuyển đến đúng ô nhập (kể cả họ tên, chức vụ từng thành phần ký – tự thêm dòng nếu chưa có).",
-  "Thông tin công trình dùng chung (tên, địa điểm, số hợp đồng, nhà thầu, chỉ huy trưởng, tổ chức giám sát) nhập ngay trong biên bản, lưu vào “Hồ sơ & Nhà thầu”; thêm ô địa điểm nghiệm thu / bàn giao.",
-  "Nhật ký CT: thanh trên cùng có 3 nút chọn – 📖 Nhật ký công trình | 🛡️ Hồ sơ chất lượng | 📊 Báo cáo (Xem & In nhật ký A4, Tải Excel bảng biểu A4); bỏ 2 mục tương ứng khỏi thanh bên."
+  "Nhật ký CT → 📊 Báo cáo: thêm 📤 Báo cáo hoàn thành thi công xây dựng (Phụ lục VI NĐ 207/2026) – tự điền ngày khởi công, hoàn thành, khối lượng từng hạng mục, đánh giá chất lượng theo các biên bản nghiệm thu, điều kiện đưa vào sử dụng theo biên bản nghiệm thu hoàn thành.",
+  "Thêm 📈 Báo cáo tiến độ gửi lãnh đạo Công ty (mẫu nội bộ Công ty – Phòng): chọn kỳ (tuần này, tuần trước, tháng này, từ khởi công); tự tổng hợp thông tin chung, tiến độ thực tế so với kế hoạch, bảng hạng mục, công việc và nhân lực trong kỳ theo nhật ký, công tác nghiệm thu, tồn tại, kế hoạch kỳ tới, kiến nghị; xem trước, lưu, xuất Word.",
+  "Sửa: thông tin công trình sửa trong biên bản được lưu đầy đủ vào danh mục công trình nhật ký."
  ],
  "history": [
+  {
+   "version": "V22.109",
+   "date": "2026-10-25",
+   "notes": [
+    "Nhật ký CT → 📊 Báo cáo: thêm 📤 Báo cáo hoàn thành thi công xây dựng (Phụ lục VI NĐ 207/2026) – tự điền ngày khởi công, hoàn thành, khối lượng từng hạng mục, đánh giá chất lượng theo các biên bản nghiệm thu, điều kiện đưa vào sử dụng theo biên bản nghiệm thu hoàn thành.",
+    "Thêm 📈 Báo cáo tiến độ gửi lãnh đạo Công ty (mẫu nội bộ Công ty – Phòng): chọn kỳ (tuần này, tuần trước, tháng này, từ khởi công); tự tổng hợp thông tin chung, tiến độ thực tế so với kế hoạch, bảng hạng mục, công việc và nhân lực trong kỳ theo nhật ký, công tác nghiệm thu, tồn tại, kế hoạch kỳ tới, kiến nghị; xem trước, lưu, xuất Word.",
+    "Sửa: thông tin công trình sửa trong biên bản được lưu đầy đủ vào danh mục công trình nhật ký."
+   ]
+  },
   {
    "version": "V22.108",
    "date": "2026-10-25",
