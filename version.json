@@ -1,12 +1,25 @@
 {
- "version": "V22.106",
- "date": "2026-10-24",
+ "version": "V22.107",
+ "date": "2026-10-25",
  "notes": [
-  "Sửa lỗi: bấm vào bước “Tờ trình của đơn vị” (và các bước nạp văn bản) có đính kèm tệp Word thì trình duyệt tự tải tệp về mỗi lần bấm – nguyên nhân: khung xem trước nhúng mọi tệp như PDF.",
-  "Khung xem trước tệp đính kèm theo đúng loại: PDF xem trực tiếp, ảnh hiện ảnh, Word hiện nội dung chữ (xem nhanh) kèm nút ⬇ Tải tệp khi cần.",
-  "Nhãn ô đính kèm đổi thành “File tờ trình (PDF, Word, ảnh)”; rà soát toàn bộ các bước, các thẻ – không còn tự tải tệp, không lỗi JS."
+  "Nhật ký CT – thẻ mới 🛡️ Hồ sơ chất lượng theo Nghị định 207/2026/NĐ-CP (hiệu lực 01/7/2026): 10 loại hồ sơ – thông báo khởi công (PL V), phiếu yêu cầu nghiệm thu, nghiệm thu vật liệu/thiết bị (k6 Đ14), nghiệm thu công việc (Đ22), giai đoạn/bộ phận (Đ23), báo cáo giám sát định kỳ (PL IVa) và hoàn thành (PL IVb), nghiệm thu hoàn thành (Đ24), báo cáo hoàn thành thi công (PL VI), bàn giao (Đ30, PL X).",
+  "Soạn có xem trước trang A4; thông tin công trình, nhà thầu, tổ TVGS, Tổng Giám đốc điền sẵn; lấy công việc, vị trí, khối lượng, vật liệu từ trang nhật ký; cảnh báo ngày nhật ký có công việc chưa có biên bản nghiệm thu.",
+  "Danh mục hồ sơ hoàn thành công trình (Phụ lục VII, 31 mục) theo từng công trình – tự đánh dấu mục đã có biên bản; xuất Word.",
+  "Xuất Word từng hồ sơ, xuất tất cả, tải bộ mẫu Word trống (10 mẫu + danh mục hồ sơ hoàn thành + mẫu dấu bản vẽ hoàn công PL IIb). Hồ sơ chất lượng đồng bộ Drive cùng nhật ký.",
+  "Chuẩn hóa tiêu đề văn bản: văn bản nội bộ – dòng 1 tên Công ty (chữ thường), dòng 2 tên Phòng (chữ đậm); văn bản cấp Công ty – dòng 1 tên Tập đoàn, dòng 2 tên Công ty; áp dụng cho mọi văn bản PHR."
  ],
  "history": [
+  {
+   "version": "V22.107",
+   "date": "2026-10-25",
+   "notes": [
+    "Nhật ký CT – thẻ mới 🛡️ Hồ sơ chất lượng theo Nghị định 207/2026/NĐ-CP (hiệu lực 01/7/2026): 10 loại hồ sơ – thông báo khởi công (PL V), phiếu yêu cầu nghiệm thu, nghiệm thu vật liệu/thiết bị (k6 Đ14), nghiệm thu công việc (Đ22), giai đoạn/bộ phận (Đ23), báo cáo giám sát định kỳ (PL IVa) và hoàn thành (PL IVb), nghiệm thu hoàn thành (Đ24), báo cáo hoàn thành thi công (PL VI), bàn giao (Đ30, PL X).",
+    "Soạn có xem trước trang A4; thông tin công trình, nhà thầu, tổ TVGS, Tổng Giám đốc điền sẵn; lấy công việc, vị trí, khối lượng, vật liệu từ trang nhật ký; cảnh báo ngày nhật ký có công việc chưa có biên bản nghiệm thu.",
+    "Danh mục hồ sơ hoàn thành công trình (Phụ lục VII, 31 mục) theo từng công trình – tự đánh dấu mục đã có biên bản; xuất Word.",
+    "Xuất Word từng hồ sơ, xuất tất cả, tải bộ mẫu Word trống (10 mẫu + danh mục hồ sơ hoàn thành + mẫu dấu bản vẽ hoàn công PL IIb). Hồ sơ chất lượng đồng bộ Drive cùng nhật ký.",
+    "Chuẩn hóa tiêu đề văn bản: văn bản nội bộ – dòng 1 tên Công ty (chữ thường), dòng 2 tên Phòng (chữ đậm); văn bản cấp Công ty – dòng 1 tên Tập đoàn, dòng 2 tên Công ty; áp dụng cho mọi văn bản PHR."
+   ]
+  },
   {
    "version": "V22.106",
    "date": "2026-10-24",
