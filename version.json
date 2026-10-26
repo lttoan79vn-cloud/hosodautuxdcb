@@ -1,11 +1,21 @@
 {
- "version": "V22.117",
+ "version": "V22.118",
  "date": "2026-10-26",
  "notes": [
-  "Hồ sơ chất lượng – thành phần ký: mỗi nhóm (Chủ đầu tư, Đơn vị sử dụng, Đơn vị thi công…) có nút ＋ Thêm người riêng; người thêm nằm đúng nhóm trong biên bản.",
-  "Biên bản nghiệm thu hoàn thành và bàn giao (nội bộ): chức vụ chuyên viên / nhân viên ghi gọn “NV” (VD: NV Phòng PT&QLKCN); nhân viên có tên trong thành phần nhưng không ký."
+  "Kế hoạch gốc (Biểu 10): tự nhận ra dòng tổng của công trình (giá trị bằng cộng các hạng mục chi tiết ngay sau, VD “Xưởng sản xuất phân hữu cơ vi sinh” = mái che + hệ thống sấy) → không cộng 2 lần vào tổng, không đưa vào phân công; đối chiếu với số tổng của đơn vị và của biểu. Dòng “Kế hoạch 2025 chuyển 2026” được hiểu là tiêu đề chuyển tiếp.",
+  "✏️ Sửa kế hoạch gốc trước khi phân công, ghép gói: sửa mã, tên, đơn vị, loại, ĐVT, khối lượng, giá trị; thêm, xóa, đổi thứ tự hạng mục; đánh dấu / bỏ đánh dấu Σ dòng tổng; nút Σ Tự tìm dòng tổng; tổng và đối chiếu với tổng biểu cập nhật ngay. Hạng mục đã giao: sửa tên, giá trị cập nhật luôn gói trong bảng phân công.",
+  "Kế hoạch gốc đã nạp từ trước được kiểm tra lại dòng tổng một lần khi mở thẻ Kế hoạch gốc."
  ],
  "history": [
+  {
+   "version": "V22.118",
+   "date": "2026-10-26",
+   "notes": [
+    "Kế hoạch gốc (Biểu 10): tự nhận ra dòng tổng của công trình (giá trị bằng cộng các hạng mục chi tiết ngay sau, VD “Xưởng sản xuất phân hữu cơ vi sinh” = mái che + hệ thống sấy) → không cộng 2 lần vào tổng, không đưa vào phân công; đối chiếu với số tổng của đơn vị và của biểu. Dòng “Kế hoạch 2025 chuyển 2026” được hiểu là tiêu đề chuyển tiếp.",
+    "✏️ Sửa kế hoạch gốc trước khi phân công, ghép gói: sửa mã, tên, đơn vị, loại, ĐVT, khối lượng, giá trị; thêm, xóa, đổi thứ tự hạng mục; đánh dấu / bỏ đánh dấu Σ dòng tổng; nút Σ Tự tìm dòng tổng; tổng và đối chiếu với tổng biểu cập nhật ngay. Hạng mục đã giao: sửa tên, giá trị cập nhật luôn gói trong bảng phân công.",
+    "Kế hoạch gốc đã nạp từ trước được kiểm tra lại dòng tổng một lần khi mở thẻ Kế hoạch gốc."
+   ]
+  },
   {
    "version": "V22.117",
    "date": "2026-10-26",
