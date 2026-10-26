@@ -1,12 +1,19 @@
 {
- "version": "V22.115",
+ "version": "V22.116",
  "date": "2026-10-26",
  "notes": [
-  "Công văn, tờ trình: luôn có dòng “Kính gửi:” trên văn bản; chưa nhập thì hiện chỗ nhắc, bấm vào đó chuyển đến ô Kính gửi (ô ghi rõ bắt buộc).",
-  "Lấy số: thêm ⏪ Chèn số cho văn bản ngày cũ chưa kịp lấy số – cấp số chèn ngay sau số cuối cùng của ngày văn bản (VD 06a, 06b), không làm thay đổi số tiếp theo của sổ; có ở cả trình soạn và thẻ Lấy số. Lấy số bình thường với ngày cũ hơn số đã cấp sẽ được nhắc dùng Chèn số. Sổ ghi chú “Số chèn” và xếp ngay sau số gốc.",
-  "Cần cập nhật mã máy chủ (Code.gs) để dùng Chèn số trên sổ dùng chung."
+  "Hồ sơ chất lượng: thêm mẫu 🏠 Biên bản nghiệm thu hoàn thành và bàn giao đưa vào sử dụng (nội bộ) – theo mẫu biên bản nội bộ của Công ty (tiêu đề Tập đoàn – Công ty, số …/BB-CSPH; 7 mục: đối tượng, địa điểm, thành phần CĐT – đơn vị sử dụng – đơn vị thi công, thời gian, hồ sơ đính kèm, đánh giá chất lượng, kết luận; ký đơn vị thi công | chủ đầu tư (lãnh đạo khối), hàng dưới đơn vị sử dụng và đại diện các phòng chuyên môn).",
+  "Thành phần chủ đầu tư tự lấy từ danh mục nhân sự (Phó TGĐ, lãnh đạo các phòng, cán bộ phòng); kết luận tự điền tên đơn vị sử dụng và đơn vị thi công; xuất Word; có trong bộ mẫu Word trống (mẫu số 13)."
  ],
  "history": [
+  {
+   "version": "V22.116",
+   "date": "2026-10-26",
+   "notes": [
+    "Hồ sơ chất lượng: thêm mẫu 🏠 Biên bản nghiệm thu hoàn thành và bàn giao đưa vào sử dụng (nội bộ) – theo mẫu biên bản nội bộ của Công ty (tiêu đề Tập đoàn – Công ty, số …/BB-CSPH; 7 mục: đối tượng, địa điểm, thành phần CĐT – đơn vị sử dụng – đơn vị thi công, thời gian, hồ sơ đính kèm, đánh giá chất lượng, kết luận; ký đơn vị thi công | chủ đầu tư (lãnh đạo khối), hàng dưới đơn vị sử dụng và đại diện các phòng chuyên môn).",
+    "Thành phần chủ đầu tư tự lấy từ danh mục nhân sự (Phó TGĐ, lãnh đạo các phòng, cán bộ phòng); kết luận tự điền tên đơn vị sử dụng và đơn vị thi công; xuất Word; có trong bộ mẫu Word trống (mẫu số 13)."
+   ]
+  },
   {
    "version": "V22.115",
    "date": "2026-10-26",
