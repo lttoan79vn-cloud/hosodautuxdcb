@@ -1,11 +1,23 @@
 {
- "version": "V22.111",
- "date": "2026-10-25",
+ "version": "V22.112",
+ "date": "2026-10-26",
  "notes": [
-  "Bảo vệ dữ liệu: chỉ tài khoản Admin thấy và dùng mục Dữ liệu & sao lưu của Nhật ký CT (Mở thư mục Google Drive, Sao lưu dữ liệu .json, Khôi phục từ bản sao lưu) và nút Mở thư mục trên Google Drive của kho hồ sơ.",
-  "Máy chủ (cần cập nhật mã máy chủ): từ chối người dùng lấy đường dẫn thư mục Drive; không trả đường dẫn Drive khi người dùng tải ảnh, tệp, báo cáo lên. Người dùng tải tệp tiến độ / báo cáo về máy trực tiếp, không mở Drive của Admin."
+  "Menu chọn nhóm hồ sơ có thêm 2 mục: 📝 Soạn thảo văn bản và 🔢 Lấy số văn bản.",
+  "Soạn thảo văn bản thông minh theo thể thức NĐ 30/2020: công văn, báo cáo, kế hoạch, tờ trình, thông báo, biên bản, giấy mời, dự toán, phương án, giấy đề nghị, quyết định. Bên trái nhập trường, bên phải hiển thị văn bản A4 ngay khi gõ; khung nội dung mẫu cho từng loại; tự nhận diện đề mục (I., 1., chữ in hoa), gạch đầu dòng, **đậm**, *nghiêng*; tiêu đề nội bộ (Công ty – Phòng) hoặc cấp Công ty (Tập đoàn – Công ty); người ký và quyền hạn ký (KT., TM.) theo danh mục nhân sự; dự toán tự tính thành tiền, tổng cộng, bằng chữ; kiểm tra thể thức; lưu bản thảo (tự lưu), xuất Word, in.",
+  "Lấy số văn bản nội bộ: một dãy số chung cho văn bản của Phòng, ký hiệu theo loại (BC-PTQLKCN, KH-PTQLKCN, BB-PTQLKCN, TTr-PTQLKCN, DT-PTQLKCN…; công văn số/PTQLKCN); sổ cấp Công ty riêng. Máy chủ cấp số có khóa – nhiều người lấy cùng lúc không trùng số. Lấy số ngay trong trình soạn (tự liên kết) hoặc ở thẻ Lấy số (chọn văn bản đang soạn để liên kết); mở văn bản từ sổ; hủy số (giữ trong sổ); xuất Excel sổ đăng ký văn bản đi; Admin đặt số bắt đầu để nối tiếp sổ giấy, chọn loại dùng sổ riêng.",
+  "Máy chủ (cần cập nhật mã máy chủ): thêm sổ số văn bản và bản thảo văn bản trong kho dữ liệu (thư mục so_van_ban)."
  ],
  "history": [
+  {
+   "version": "V22.112",
+   "date": "2026-10-26",
+   "notes": [
+    "Menu chọn nhóm hồ sơ có thêm 2 mục: 📝 Soạn thảo văn bản và 🔢 Lấy số văn bản.",
+    "Soạn thảo văn bản thông minh theo thể thức NĐ 30/2020: công văn, báo cáo, kế hoạch, tờ trình, thông báo, biên bản, giấy mời, dự toán, phương án, giấy đề nghị, quyết định. Bên trái nhập trường, bên phải hiển thị văn bản A4 ngay khi gõ; khung nội dung mẫu cho từng loại; tự nhận diện đề mục (I., 1., chữ in hoa), gạch đầu dòng, **đậm**, *nghiêng*; tiêu đề nội bộ (Công ty – Phòng) hoặc cấp Công ty (Tập đoàn – Công ty); người ký và quyền hạn ký (KT., TM.) theo danh mục nhân sự; dự toán tự tính thành tiền, tổng cộng, bằng chữ; kiểm tra thể thức; lưu bản thảo (tự lưu), xuất Word, in.",
+    "Lấy số văn bản nội bộ: một dãy số chung cho văn bản của Phòng, ký hiệu theo loại (BC-PTQLKCN, KH-PTQLKCN, BB-PTQLKCN, TTr-PTQLKCN, DT-PTQLKCN…; công văn số/PTQLKCN); sổ cấp Công ty riêng. Máy chủ cấp số có khóa – nhiều người lấy cùng lúc không trùng số. Lấy số ngay trong trình soạn (tự liên kết) hoặc ở thẻ Lấy số (chọn văn bản đang soạn để liên kết); mở văn bản từ sổ; hủy số (giữ trong sổ); xuất Excel sổ đăng ký văn bản đi; Admin đặt số bắt đầu để nối tiếp sổ giấy, chọn loại dùng sổ riêng.",
+    "Máy chủ (cần cập nhật mã máy chủ): thêm sổ số văn bản và bản thảo văn bản trong kho dữ liệu (thư mục so_van_ban)."
+   ]
+  },
   {
    "version": "V22.111",
    "date": "2026-10-25",
