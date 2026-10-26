@@ -1,11 +1,19 @@
 {
- "version": "V22.116",
+ "version": "V22.117",
  "date": "2026-10-26",
  "notes": [
-  "Hồ sơ chất lượng: thêm mẫu 🏠 Biên bản nghiệm thu hoàn thành và bàn giao đưa vào sử dụng (nội bộ) – theo mẫu biên bản nội bộ của Công ty (tiêu đề Tập đoàn – Công ty, số …/BB-CSPH; 7 mục: đối tượng, địa điểm, thành phần CĐT – đơn vị sử dụng – đơn vị thi công, thời gian, hồ sơ đính kèm, đánh giá chất lượng, kết luận; ký đơn vị thi công | chủ đầu tư (lãnh đạo khối), hàng dưới đơn vị sử dụng và đại diện các phòng chuyên môn).",
-  "Thành phần chủ đầu tư tự lấy từ danh mục nhân sự (Phó TGĐ, lãnh đạo các phòng, cán bộ phòng); kết luận tự điền tên đơn vị sử dụng và đơn vị thi công; xuất Word; có trong bộ mẫu Word trống (mẫu số 13)."
+  "Hồ sơ chất lượng – thành phần ký: mỗi nhóm (Chủ đầu tư, Đơn vị sử dụng, Đơn vị thi công…) có nút ＋ Thêm người riêng; người thêm nằm đúng nhóm trong biên bản.",
+  "Biên bản nghiệm thu hoàn thành và bàn giao (nội bộ): chức vụ chuyên viên / nhân viên ghi gọn “NV” (VD: NV Phòng PT&QLKCN); nhân viên có tên trong thành phần nhưng không ký."
  ],
  "history": [
+  {
+   "version": "V22.117",
+   "date": "2026-10-26",
+   "notes": [
+    "Hồ sơ chất lượng – thành phần ký: mỗi nhóm (Chủ đầu tư, Đơn vị sử dụng, Đơn vị thi công…) có nút ＋ Thêm người riêng; người thêm nằm đúng nhóm trong biên bản.",
+    "Biên bản nghiệm thu hoàn thành và bàn giao (nội bộ): chức vụ chuyên viên / nhân viên ghi gọn “NV” (VD: NV Phòng PT&QLKCN); nhân viên có tên trong thành phần nhưng không ký."
+   ]
+  },
   {
    "version": "V22.116",
    "date": "2026-10-26",
