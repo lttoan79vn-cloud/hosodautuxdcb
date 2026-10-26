@@ -1,11 +1,21 @@
 {
- "version": "V22.121",
+ "version": "V22.122",
  "date": "2026-10-27",
  "notes": [
-  "Báo cáo: thêm 🏅 KPI Phòng theo Bảng mô tả công việc MT-CN-01 (Phụ lục KPI) – bảng KPI từng chức danh / cá nhân (nội dung, trọng số, kết quả / chỉ tiêu); chấm theo tháng / quý / năm: cá nhân tự đánh giá % hoàn thành, lãnh đạo Phòng đánh giá lại và nhận xét; điểm = Σ trọng số × % hoàn thành; KPI Phòng = bình quân; xếp loại; gợi ý % từ tiến độ kế hoạch phân công; xuất Excel và Word (báo cáo tổng hợp + phiếu từng người); Admin thiết lập bảng KPI, ngưỡng xếp loại. Nhân viên chỉ xem phiếu của mình.",
-  "Biểu tượng “Đang xử lý…” đi theo con trỏ chuột khi chương trình đang chạy thao tác vừa bấm (gửi / nhận dữ liệu, xử lý lệnh); con trỏ chuyển dạng chờ; nút vừa bấm tạm khóa để không chạy 2 lần."
+  "Lập kế hoạch: thêm thẻ 📌 Công việc khác – giao việc theo nhiệm vụ của Bảng mô tả công việc MT-CN-01 (14 nhóm nhiệm vụ), mỗi việc gắn với một nội dung đánh giá KPI của người thực hiện (chương trình tự gợi ý, chọn lại được); theo dõi hạn, hoàn thành, quá hạn; ✓ Xong / ↶; xuất Excel.",
+  "KPI Phòng: kết quả thực hiện được hệ thống trích tự động từ công việc được giao và kế hoạch phân công trong kỳ (đúng hạn 100%, trễ hạn 70%, quá hạn chưa xong 0%); nút 🤖 Điền kết quả từ hệ thống điền ô kết quả và % hoàn thành (cá nhân → tự đánh giá, lãnh đạo → lãnh đạo đánh giá). Thêm 👁 Xem trước báo cáo trước khi tải Word / Excel. Phiếu chấm chưa đủ nội dung hiện “Đang đánh giá k/n”, chưa xếp loại.",
+  "Sửa lỗi nút ✕ (xóa người, xóa nội dung) và ＋ trong Thiết lập bảng KPI không hoạt động."
  ],
  "history": [
+  {
+   "version": "V22.122",
+   "date": "2026-10-27",
+   "notes": [
+    "Lập kế hoạch: thêm thẻ 📌 Công việc khác – giao việc theo nhiệm vụ của Bảng mô tả công việc MT-CN-01 (14 nhóm nhiệm vụ), mỗi việc gắn với một nội dung đánh giá KPI của người thực hiện (chương trình tự gợi ý, chọn lại được); theo dõi hạn, hoàn thành, quá hạn; ✓ Xong / ↶; xuất Excel.",
+    "KPI Phòng: kết quả thực hiện được hệ thống trích tự động từ công việc được giao và kế hoạch phân công trong kỳ (đúng hạn 100%, trễ hạn 70%, quá hạn chưa xong 0%); nút 🤖 Điền kết quả từ hệ thống điền ô kết quả và % hoàn thành (cá nhân → tự đánh giá, lãnh đạo → lãnh đạo đánh giá). Thêm 👁 Xem trước báo cáo trước khi tải Word / Excel. Phiếu chấm chưa đủ nội dung hiện “Đang đánh giá k/n”, chưa xếp loại.",
+    "Sửa lỗi nút ✕ (xóa người, xóa nội dung) và ＋ trong Thiết lập bảng KPI không hoạt động."
+   ]
+  },
   {
    "version": "V22.121",
    "date": "2026-10-27",
