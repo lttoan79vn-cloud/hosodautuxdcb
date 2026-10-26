@@ -1,12 +1,19 @@
 {
- "version": "V22.120",
- "date": "2026-10-26",
+ "version": "V22.121",
+ "date": "2026-10-27",
  "notes": [
-  "Lập kế hoạch: thêm thẻ “Kết quả thực hiện” cho Kế hoạch đầu tư XDCB và Kế hoạch giá thành – bảng theo kế hoạch gốc (mã, hạng mục, ĐVT, KL, giá trị KH) với các cột Giá trị dự toán, Giá trúng thầu / hợp đồng, Giá nghiệm thu / thanh toán; giá trị dự toán, trúng thầu lấy tự động từ hồ sơ PHR đã liên kết (🔗), chưa có hồ sơ thì nhập tay; cộng theo đơn vị, tổng cộng, tỷ lệ so với kế hoạch; xuất Excel.",
-  "Nút ↶ Hoàn tác (và Ctrl+Z) trong Lập kế hoạch: quay lại thao tác vừa làm (đánh dấu xong nhầm, giao nhầm, sửa nhầm…). Thẻ Việc cần làm hiện các bước vừa đánh dấu xong hôm nay kèm nút ↶ để chọn lại.",
-  "Hạn mức chỉ định thầu theo NĐ 349/2026/NĐ-CP (sửa đổi NĐ 214, hiệu lực 09/9/2026): tư vấn ≤ 03 tỷ; hàng hóa, xây lắp, phi tư vấn, hỗn hợp ≤ 05 tỷ đồng – áp dụng kiểm tra hình thức, căn cứ trong tờ trình / quyết định KHLCNT và hình thức đề xuất khi lập phân công."
+  "Báo cáo: thêm 🏅 KPI Phòng theo Bảng mô tả công việc MT-CN-01 (Phụ lục KPI) – bảng KPI từng chức danh / cá nhân (nội dung, trọng số, kết quả / chỉ tiêu); chấm theo tháng / quý / năm: cá nhân tự đánh giá % hoàn thành, lãnh đạo Phòng đánh giá lại và nhận xét; điểm = Σ trọng số × % hoàn thành; KPI Phòng = bình quân; xếp loại; gợi ý % từ tiến độ kế hoạch phân công; xuất Excel và Word (báo cáo tổng hợp + phiếu từng người); Admin thiết lập bảng KPI, ngưỡng xếp loại. Nhân viên chỉ xem phiếu của mình.",
+  "Biểu tượng “Đang xử lý…” đi theo con trỏ chuột khi chương trình đang chạy thao tác vừa bấm (gửi / nhận dữ liệu, xử lý lệnh); con trỏ chuyển dạng chờ; nút vừa bấm tạm khóa để không chạy 2 lần."
  ],
  "history": [
+  {
+   "version": "V22.121",
+   "date": "2026-10-27",
+   "notes": [
+    "Báo cáo: thêm 🏅 KPI Phòng theo Bảng mô tả công việc MT-CN-01 (Phụ lục KPI) – bảng KPI từng chức danh / cá nhân (nội dung, trọng số, kết quả / chỉ tiêu); chấm theo tháng / quý / năm: cá nhân tự đánh giá % hoàn thành, lãnh đạo Phòng đánh giá lại và nhận xét; điểm = Σ trọng số × % hoàn thành; KPI Phòng = bình quân; xếp loại; gợi ý % từ tiến độ kế hoạch phân công; xuất Excel và Word (báo cáo tổng hợp + phiếu từng người); Admin thiết lập bảng KPI, ngưỡng xếp loại. Nhân viên chỉ xem phiếu của mình.",
+    "Biểu tượng “Đang xử lý…” đi theo con trỏ chuột khi chương trình đang chạy thao tác vừa bấm (gửi / nhận dữ liệu, xử lý lệnh); con trỏ chuyển dạng chờ; nút vừa bấm tạm khóa để không chạy 2 lần."
+   ]
+  },
   {
    "version": "V22.120",
    "date": "2026-10-26",
