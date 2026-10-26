@@ -1,13 +1,21 @@
 {
- "version": "V22.114",
+ "version": "V22.115",
  "date": "2026-10-26",
  "notes": [
-  "Soạn thảo văn bản: số và ký hiệu tự điền từ sổ lấy số khi chọn lại văn bản, đồng bộ ngay với văn bản hiển thị bên phải; ô Số, Ký hiệu khóa theo sổ; đổi loại văn bản sau khi lấy số thì ký hiệu tự đổi (VD PTQLKCN → BC-PTQLKCN) và cập nhật vào sổ; số dưới 10 ghi 01, 02… theo NĐ 30.",
-  "Lệnh 🖨 In (và Ctrl+P) chỉ in văn bản đang soạn đúng thể thức để trình ký – không in giao diện, tiêu đề, đường dẫn, ngày giờ của chương trình.",
-  "Lấy số văn bản: thêm 📖 Xem sổ đăng ký ngay trên màn hình (lọc theo loại, tìm, in sổ khổ ngang) – không phải tải file mỗi lần xem.",
-  "Excel sổ đăng ký văn bản tách sheet: Tổng hợp + mỗi loại văn bản một sheet."
+  "Công văn, tờ trình: luôn có dòng “Kính gửi:” trên văn bản; chưa nhập thì hiện chỗ nhắc, bấm vào đó chuyển đến ô Kính gửi (ô ghi rõ bắt buộc).",
+  "Lấy số: thêm ⏪ Chèn số cho văn bản ngày cũ chưa kịp lấy số – cấp số chèn ngay sau số cuối cùng của ngày văn bản (VD 06a, 06b), không làm thay đổi số tiếp theo của sổ; có ở cả trình soạn và thẻ Lấy số. Lấy số bình thường với ngày cũ hơn số đã cấp sẽ được nhắc dùng Chèn số. Sổ ghi chú “Số chèn” và xếp ngay sau số gốc.",
+  "Cần cập nhật mã máy chủ (Code.gs) để dùng Chèn số trên sổ dùng chung."
  ],
  "history": [
+  {
+   "version": "V22.115",
+   "date": "2026-10-26",
+   "notes": [
+    "Công văn, tờ trình: luôn có dòng “Kính gửi:” trên văn bản; chưa nhập thì hiện chỗ nhắc, bấm vào đó chuyển đến ô Kính gửi (ô ghi rõ bắt buộc).",
+    "Lấy số: thêm ⏪ Chèn số cho văn bản ngày cũ chưa kịp lấy số – cấp số chèn ngay sau số cuối cùng của ngày văn bản (VD 06a, 06b), không làm thay đổi số tiếp theo của sổ; có ở cả trình soạn và thẻ Lấy số. Lấy số bình thường với ngày cũ hơn số đã cấp sẽ được nhắc dùng Chèn số. Sổ ghi chú “Số chèn” và xếp ngay sau số gốc.",
+    "Cần cập nhật mã máy chủ (Code.gs) để dùng Chèn số trên sổ dùng chung."
+   ]
+  },
   {
    "version": "V22.114",
    "date": "2026-10-26",
