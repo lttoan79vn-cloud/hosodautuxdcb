@@ -1,13 +1,19 @@
 {
- "version": "V22.127",
+ "version": "V22.128",
  "date": "2026-10-27",
  "notes": [
-  "Nhật ký CT › Kế hoạch tiến độ: đọc được nhiều dạng file tiến độ – PDF có chữ (kể cả ký số), PDF scan / ảnh chụp (OCR), Excel, Word; bảng có cột Bắt đầu – Kết thúc – Số ngày, tên hạng mục xuống nhiều dòng, ngày dạng dd/mm, “ngày … tháng … năm …”.",
-  "Đọc sơ đồ ngang (Gantt): trục ngày đủ / ngày ghi dọc / số ngày trong tháng + tên tháng / Ngày 1…n / Tuần 1…n; các thanh tô màu hoặc nét đậm → ngày bắt đầu, kết thúc từng hạng mục (Excel: ô tô màu hoặc đánh dấu x/■). Không còn lấy nhầm dòng “Ngày bắt đầu / kết thúc” của cả công trình làm hạng mục.",
-  "Bản xem In báo cáo A4: phóng to / thu nhỏ (nút −/+ nổi trên bản xem, Ctrl + lăn chuột), cuộn ngang khi phóng to trên điện thoại, nút Mở rộng toàn màn hình; tiêu đề và các nút lệnh nằm cùng hàng với Từ ngày / Đến ngày.",
-  "Bỏ nút cỡ chữ “Vừa” ở thanh tiêu đề Nhật ký CT. Thanh tiêu đề chương trình: dòng “© 2026 Lê Thanh Toàn” xuống dòng riêng."
+  "Nhật ký dịch vụ tư vấn: chữ ký bên tư vấn rút gọn “ĐẠI DIỆN NHÀ THẦU TƯ VẤN” trên 1 dòng; dưới “ĐẠI DIỆN CHỦ ĐẦU TƯ” có dòng đơn vị theo dõi, giám sát (Phòng chuyên môn / Ban QLDA / Tư vấn QLDA).",
+  "Tạo mới và Thông tin sổ: chọn CĐT theo dõi, giám sát hợp đồng qua Phòng chuyên môn, Ban QLDA hoặc thuê tư vấn QLDA; nhập tên đơn vị, họ tên và chức vụ người theo dõi, giám sát – người này ký trang thông tin và là lựa chọn mặc định ký trang nhật ký ngày."
  ],
  "history": [
+  {
+   "version": "V22.128",
+   "date": "2026-10-27",
+   "notes": [
+    "Nhật ký dịch vụ tư vấn: chữ ký bên tư vấn rút gọn “ĐẠI DIỆN NHÀ THẦU TƯ VẤN” trên 1 dòng; dưới “ĐẠI DIỆN CHỦ ĐẦU TƯ” có dòng đơn vị theo dõi, giám sát (Phòng chuyên môn / Ban QLDA / Tư vấn QLDA).",
+    "Tạo mới và Thông tin sổ: chọn CĐT theo dõi, giám sát hợp đồng qua Phòng chuyên môn, Ban QLDA hoặc thuê tư vấn QLDA; nhập tên đơn vị, họ tên và chức vụ người theo dõi, giám sát – người này ký trang thông tin và là lựa chọn mặc định ký trang nhật ký ngày."
+   ]
+  },
   {
    "version": "V22.127",
    "date": "2026-10-27",
