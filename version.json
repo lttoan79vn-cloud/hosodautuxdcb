@@ -1,10 +1,21 @@
 {
- "version": "V22.125",
+ "version": "V22.126",
  "date": "2026-10-27",
  "notes": [
-  "Logo không còn khung nền: nền trong suốt, không màu, không viền, không bóng – ở thanh trên cùng và màn hình đăng nhập."
+  "Nhật ký CT › Tạo mới: chọn loại nhật ký – Nhật ký thi công xây dựng hoặc Nhật ký thực hiện dịch vụ tư vấn (kèm loại dịch vụ: khảo sát, thiết kế, thẩm tra, giám sát, QLDA, đấu thầu…).",
+  "Mẫu sổ Nhật ký thực hiện dịch vụ tư vấn xây dựng: bìa, trang thông tin hợp đồng tư vấn, danh sách nhân sự tư vấn, trang ngày gồm 1. Hình thức – địa điểm làm việc, 2. Công việc tư vấn (2.1 nhân sự tham gia), 3. Sản phẩm – hồ sơ bàn giao, 4. Kiểm tra, nhận xét của CĐT (tiến độ, chất lượng), 5. Ý kiến tiếp thu, kiến nghị của tư vấn; chữ ký đại diện CĐT và đại diện tư vấn.",
+  "Xuất Word / in A4 theo mẫu tư vấn; chưa có trang ngày nào → xuất mẫu sổ trống để in dùng tay. Công trình cũ có thể đổi loại nhật ký ở Hồ sơ công trình › Thông tin sổ."
  ],
  "history": [
+  {
+   "version": "V22.126",
+   "date": "2026-10-27",
+   "notes": [
+    "Nhật ký CT › Tạo mới: chọn loại nhật ký – Nhật ký thi công xây dựng hoặc Nhật ký thực hiện dịch vụ tư vấn (kèm loại dịch vụ: khảo sát, thiết kế, thẩm tra, giám sát, QLDA, đấu thầu…).",
+    "Mẫu sổ Nhật ký thực hiện dịch vụ tư vấn xây dựng: bìa, trang thông tin hợp đồng tư vấn, danh sách nhân sự tư vấn, trang ngày gồm 1. Hình thức – địa điểm làm việc, 2. Công việc tư vấn (2.1 nhân sự tham gia), 3. Sản phẩm – hồ sơ bàn giao, 4. Kiểm tra, nhận xét của CĐT (tiến độ, chất lượng), 5. Ý kiến tiếp thu, kiến nghị của tư vấn; chữ ký đại diện CĐT và đại diện tư vấn.",
+    "Xuất Word / in A4 theo mẫu tư vấn; chưa có trang ngày nào → xuất mẫu sổ trống để in dùng tay. Công trình cũ có thể đổi loại nhật ký ở Hồ sơ công trình › Thông tin sổ."
+   ]
+  },
   {
    "version": "V22.125",
    "date": "2026-10-27",
