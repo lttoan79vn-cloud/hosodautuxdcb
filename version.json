@@ -1,10 +1,23 @@
 {
- "version": "V22.134",
- "date": "2026-10-27",
+ "version": "V22.135",
+ "date": "2026-10-28",
  "notes": [
-  "Bản xem In báo cáo A4: mở / chụm 2 ngón tay trên màn hình để phóng to / thu nhỏ (giữ đúng chỗ đang xem), chạm nhanh 2 lần để đổi giữa vừa khung và 150%."
+  "Nút 🔢 Lấy số ở ô Số văn bản của trình soạn hồ sơ (thẻ Thông tin ban hành) và hồ sơ chất lượng: tự nối tới Sổ đăng ký văn bản, nhận loại văn bản theo ký hiệu (Biên bản, Tờ trình, Quyết định, Báo cáo…), xem trước số kế tiếp, cấp số + ngày ban hành, ghi trích yếu, người ký, liên kết hồ sơ vào sổ.",
+  "Lập kế hoạch › 📅 Lịch công tác (bên trái Kế hoạch đầu tư XDCB): lịch tuần / tháng tự cập nhật từ bảng phân công (các bước của gói), công việc giao theo MT-CN-01 và lịch tự thêm; lọc theo người, loại việc.",
+  "Nhắc việc: danh sách việc chưa hoàn thành xếp theo thời gian còn lại (quá hạn → đang làm → sắp bắt đầu), ô chọn việc thực hiện trong tuần / tháng (tính số ngày công), thông báo nhắc việc mỗi ngày khi mở chương trình.",
+  "Hoàn thành công việc: nhập ngày, nội dung báo cáo hoàn thành, tải tệp đính kèm – lưu vào kho dữ liệu DATA SOURCE / DỮ LIỆU BÁO CÁO / <năm-tháng> (cần cập nhật mã máy chủ Code.gs)."
  ],
  "history": [
+  {
+   "version": "V22.135",
+   "date": "2026-10-28",
+   "notes": [
+    "Nút 🔢 Lấy số ở ô Số văn bản của trình soạn hồ sơ (thẻ Thông tin ban hành) và hồ sơ chất lượng: tự nối tới Sổ đăng ký văn bản, nhận loại văn bản theo ký hiệu (Biên bản, Tờ trình, Quyết định, Báo cáo…), xem trước số kế tiếp, cấp số + ngày ban hành, ghi trích yếu, người ký, liên kết hồ sơ vào sổ.",
+    "Lập kế hoạch › 📅 Lịch công tác (bên trái Kế hoạch đầu tư XDCB): lịch tuần / tháng tự cập nhật từ bảng phân công (các bước của gói), công việc giao theo MT-CN-01 và lịch tự thêm; lọc theo người, loại việc.",
+    "Nhắc việc: danh sách việc chưa hoàn thành xếp theo thời gian còn lại (quá hạn → đang làm → sắp bắt đầu), ô chọn việc thực hiện trong tuần / tháng (tính số ngày công), thông báo nhắc việc mỗi ngày khi mở chương trình.",
+    "Hoàn thành công việc: nhập ngày, nội dung báo cáo hoàn thành, tải tệp đính kèm – lưu vào kho dữ liệu DATA SOURCE / DỮ LIỆU BÁO CÁO / <năm-tháng> (cần cập nhật mã máy chủ Code.gs)."
+   ]
+  },
   {
    "version": "V22.134",
    "date": "2026-10-27",
