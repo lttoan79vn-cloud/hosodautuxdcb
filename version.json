@@ -1,13 +1,21 @@
 {
- "version": "V22.135",
+ "version": "V22.136",
  "date": "2026-10-28",
  "notes": [
-  "Nút 🔢 Lấy số ở ô Số văn bản của trình soạn hồ sơ (thẻ Thông tin ban hành) và hồ sơ chất lượng: tự nối tới Sổ đăng ký văn bản, nhận loại văn bản theo ký hiệu (Biên bản, Tờ trình, Quyết định, Báo cáo…), xem trước số kế tiếp, cấp số + ngày ban hành, ghi trích yếu, người ký, liên kết hồ sơ vào sổ.",
-  "Lập kế hoạch › 📅 Lịch công tác (bên trái Kế hoạch đầu tư XDCB): lịch tuần / tháng tự cập nhật từ bảng phân công (các bước của gói), công việc giao theo MT-CN-01 và lịch tự thêm; lọc theo người, loại việc.",
-  "Nhắc việc: danh sách việc chưa hoàn thành xếp theo thời gian còn lại (quá hạn → đang làm → sắp bắt đầu), ô chọn việc thực hiện trong tuần / tháng (tính số ngày công), thông báo nhắc việc mỗi ngày khi mở chương trình.",
-  "Hoàn thành công việc: nhập ngày, nội dung báo cáo hoàn thành, tải tệp đính kèm – lưu vào kho dữ liệu DATA SOURCE / DỮ LIỆU BÁO CÁO / <năm-tháng> (cần cập nhật mã máy chủ Code.gs)."
+  "Bảng “Thành phần” thống nhất ở mọi trình soạn hồ sơ, cùng kiểu Thành phần đoàn kiểm tra: mỗi người 1 thẻ 2 tầng (STT · đơn vị/vai trò · ↑ ↓ × / Ông-Bà · Họ tên · Chức vụ), nút + Thêm dòng, Thêm từ danh mục nhân sự, tự điền chức vụ, đơn vị khi chọn họ tên.",
+  "Áp dụng cho: Biên bản xét chọn nhà thầu, Biên bản thương thảo/hoàn thiện hợp đồng (thành phần phía Chủ đầu tư), Thành viên Tổ chuyên gia (dòng đầu là Nhiệm vụ), hồ sơ giá thành (Đại diện công ty/đơn vị trong BB kiểm tra, Bên A thương thảo, Chủ đầu tư – giám sát – đơn vị sử dụng trong BB nghiệm thu), Biên bản ở Soạn thảo văn bản và Thành phần ký của Hồ sơ chất lượng.",
+  "Chọn Ông/Bà ở từng người được in đúng trong văn bản; để “Tự” thì in theo mẫu như trước."
  ],
  "history": [
+  {
+   "version": "V22.136",
+   "date": "2026-10-28",
+   "notes": [
+    "Bảng “Thành phần” thống nhất ở mọi trình soạn hồ sơ, cùng kiểu Thành phần đoàn kiểm tra: mỗi người 1 thẻ 2 tầng (STT · đơn vị/vai trò · ↑ ↓ × / Ông-Bà · Họ tên · Chức vụ), nút + Thêm dòng, Thêm từ danh mục nhân sự, tự điền chức vụ, đơn vị khi chọn họ tên.",
+    "Áp dụng cho: Biên bản xét chọn nhà thầu, Biên bản thương thảo/hoàn thiện hợp đồng (thành phần phía Chủ đầu tư), Thành viên Tổ chuyên gia (dòng đầu là Nhiệm vụ), hồ sơ giá thành (Đại diện công ty/đơn vị trong BB kiểm tra, Bên A thương thảo, Chủ đầu tư – giám sát – đơn vị sử dụng trong BB nghiệm thu), Biên bản ở Soạn thảo văn bản và Thành phần ký của Hồ sơ chất lượng.",
+    "Chọn Ông/Bà ở từng người được in đúng trong văn bản; để “Tự” thì in theo mẫu như trước."
+   ]
+  },
   {
    "version": "V22.135",
    "date": "2026-10-28",
