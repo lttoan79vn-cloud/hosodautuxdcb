@@ -1,12 +1,21 @@
 {
- "version": "V22.136",
+ "version": "V22.137",
  "date": "2026-10-28",
  "notes": [
-  "Bảng “Thành phần” thống nhất ở mọi trình soạn hồ sơ, cùng kiểu Thành phần đoàn kiểm tra: mỗi người 1 thẻ 2 tầng (STT · đơn vị/vai trò · ↑ ↓ × / Ông-Bà · Họ tên · Chức vụ), nút + Thêm dòng, Thêm từ danh mục nhân sự, tự điền chức vụ, đơn vị khi chọn họ tên.",
-  "Áp dụng cho: Biên bản xét chọn nhà thầu, Biên bản thương thảo/hoàn thiện hợp đồng (thành phần phía Chủ đầu tư), Thành viên Tổ chuyên gia (dòng đầu là Nhiệm vụ), hồ sơ giá thành (Đại diện công ty/đơn vị trong BB kiểm tra, Bên A thương thảo, Chủ đầu tư – giám sát – đơn vị sử dụng trong BB nghiệm thu), Biên bản ở Soạn thảo văn bản và Thành phần ký của Hồ sơ chất lượng.",
-  "Chọn Ông/Bà ở từng người được in đúng trong văn bản; để “Tự” thì in theo mẫu như trước."
+  "Lịch công tác › Lịch tuần: bảng có thanh tiêu đề (☑ | Công việc | Bước công việc / nội dung | các ngày); tách cột Công việc (tên gói / công việc giao, người thực hiện) đứng trước cột Bước công việc (hiện đủ tên bước).",
+  "Ô ☑ ở đầu mỗi dòng (và ô ☑ trên tiêu đề để chọn tất cả) để lập lịch tuần cá nhân; dòng đã chọn được tô vàng, cuối bảng có tóm tắt số việc đã chọn, đã hoàn thành, chưa xong đúng hạn.",
+  "KPI cá nhân (Báo cáo › 🏅 KPI Phòng): lấy kết quả lịch tuần cá nhân trong kỳ – hoàn thành trong tuần 100%, xong sau tuần 70%, hết tuần chưa xong 0% – đưa vào gợi ý 🤖 và nút Điền kết quả từ hệ thống, theo đúng nội dung KPI (công việc giao, XDCB / đấu thầu, nhiệm vụ khác)."
  ],
  "history": [
+  {
+   "version": "V22.137",
+   "date": "2026-10-28",
+   "notes": [
+    "Lịch công tác › Lịch tuần: bảng có thanh tiêu đề (☑ | Công việc | Bước công việc / nội dung | các ngày); tách cột Công việc (tên gói / công việc giao, người thực hiện) đứng trước cột Bước công việc (hiện đủ tên bước).",
+    "Ô ☑ ở đầu mỗi dòng (và ô ☑ trên tiêu đề để chọn tất cả) để lập lịch tuần cá nhân; dòng đã chọn được tô vàng, cuối bảng có tóm tắt số việc đã chọn, đã hoàn thành, chưa xong đúng hạn.",
+    "KPI cá nhân (Báo cáo › 🏅 KPI Phòng): lấy kết quả lịch tuần cá nhân trong kỳ – hoàn thành trong tuần 100%, xong sau tuần 70%, hết tuần chưa xong 0% – đưa vào gợi ý 🤖 và nút Điền kết quả từ hệ thống, theo đúng nội dung KPI (công việc giao, XDCB / đấu thầu, nhiệm vụ khác)."
+   ]
+  },
   {
    "version": "V22.136",
    "date": "2026-10-28",
