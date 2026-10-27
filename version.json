@@ -1,13 +1,21 @@
 {
- "version": "V22.138",
+ "version": "V22.139",
  "date": "2026-10-28",
  "notes": [
-  "Lịch công tác: thêm bảng 📥 Công việc được giao (trước lịch tuần), xếp theo thứ tự ưu tiên Công việc khác → KH đầu tư XDCB → KH giá thành; đánh dấu ☑ để đưa việc vào lịch tuần cá nhân, lịch tháng tự cập nhật theo.",
-  "Lịch tuần / tháng mặc định chỉ hiện lịch cá nhân (việc đã chọn + công việc khác được giao); ô “Hiện cả việc chưa đưa vào lịch” để xem toàn bộ.",
-  "Công việc khác (đột xuất) khi giao tự vào lịch tuần của người được giao; người thực hiện / phối hợp nhận thông báo “có việc mới”, nhãn MỚI ở bảng việc.",
-  "Giao việc: thêm tải tệp nội dung công việc (lưu DATA SOURCE / DỮ LIỆU BÁO CÁO / Giao việc) và link nội dung; hiện 🔗 📎 dưới tên việc ở bảng Công việc khác, bảng Công việc được giao và lịch tuần – bấm để xem."
+  "Lịch công tác giữ giao diện như trước; bỏ bảng phía trên, thêm thẻ 📥 Công việc được giao (bên trái Lịch tuần) cùng cấu trúc lịch tuần: danh sách tổng các việc của người được giao, chia nhóm Công việc khác → KH đầu tư XDCB → KH giá thành; ☑ để đưa việc vào lịch tuần, thẻ Lịch tuần / Lịch tháng liên kết hiện các việc đã chọn.",
+  "Công việc giao đột xuất tự vào thẻ Công việc được giao và Lịch tuần / Lịch tháng; việc đã hoàn thành hiện mờ, không chọn lại được.",
+  "KPI: công việc trong kế hoạch tính tỉ lệ % hoàn thành theo bước chuẩn của gói (số bước đã hoàn thành / tổng số bước) – cả phần kế hoạch phân công và lịch tuần cá nhân."
  ],
  "history": [
+  {
+   "version": "V22.139",
+   "date": "2026-10-28",
+   "notes": [
+    "Lịch công tác giữ giao diện như trước; bỏ bảng phía trên, thêm thẻ 📥 Công việc được giao (bên trái Lịch tuần) cùng cấu trúc lịch tuần: danh sách tổng các việc của người được giao, chia nhóm Công việc khác → KH đầu tư XDCB → KH giá thành; ☑ để đưa việc vào lịch tuần, thẻ Lịch tuần / Lịch tháng liên kết hiện các việc đã chọn.",
+    "Công việc giao đột xuất tự vào thẻ Công việc được giao và Lịch tuần / Lịch tháng; việc đã hoàn thành hiện mờ, không chọn lại được.",
+    "KPI: công việc trong kế hoạch tính tỉ lệ % hoàn thành theo bước chuẩn của gói (số bước đã hoàn thành / tổng số bước) – cả phần kế hoạch phân công và lịch tuần cá nhân."
+   ]
+  },
   {
    "version": "V22.138",
    "date": "2026-10-28",
