@@ -1,12 +1,17 @@
 {
- "version": "V22.122",
+ "version": "V22.123",
  "date": "2026-10-27",
  "notes": [
-  "Lập kế hoạch: thêm thẻ 📌 Công việc khác – giao việc theo nhiệm vụ của Bảng mô tả công việc MT-CN-01 (14 nhóm nhiệm vụ), mỗi việc gắn với một nội dung đánh giá KPI của người thực hiện (chương trình tự gợi ý, chọn lại được); theo dõi hạn, hoàn thành, quá hạn; ✓ Xong / ↶; xuất Excel.",
-  "KPI Phòng: kết quả thực hiện được hệ thống trích tự động từ công việc được giao và kế hoạch phân công trong kỳ (đúng hạn 100%, trễ hạn 70%, quá hạn chưa xong 0%); nút 🤖 Điền kết quả từ hệ thống điền ô kết quả và % hoàn thành (cá nhân → tự đánh giá, lãnh đạo → lãnh đạo đánh giá). Thêm 👁 Xem trước báo cáo trước khi tải Word / Excel. Phiếu chấm chưa đủ nội dung hiện “Đang đánh giá k/n”, chưa xếp loại.",
-  "Sửa lỗi nút ✕ (xóa người, xóa nội dung) và ＋ trong Thiết lập bảng KPI không hoạt động."
+  "Thay logo mới VRG Phước Hòa (dạng ngang, nền trong suốt) ở thanh trên cùng và màn hình đăng nhập; biểu tượng ứng dụng (thẻ trình duyệt, màn hình chính điện thoại) dùng hình lá của logo mới."
  ],
  "history": [
+  {
+   "version": "V22.123",
+   "date": "2026-10-27",
+   "notes": [
+    "Thay logo mới VRG Phước Hòa (dạng ngang, nền trong suốt) ở thanh trên cùng và màn hình đăng nhập; biểu tượng ứng dụng (thẻ trình duyệt, màn hình chính điện thoại) dùng hình lá của logo mới."
+   ]
+  },
   {
    "version": "V22.122",
    "date": "2026-10-27",
