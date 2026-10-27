@@ -1,10 +1,17 @@
 {
- "version": "V22.123",
+ "version": "V22.124",
  "date": "2026-10-27",
  "notes": [
-  "Thay logo mới VRG Phước Hòa (dạng ngang, nền trong suốt) ở thanh trên cùng và màn hình đăng nhập; biểu tượng ứng dụng (thẻ trình duyệt, màn hình chính điện thoại) dùng hình lá của logo mới."
+  "Khung nền logo đổi từ trắng đục sang trắng trong (mờ, nhìn xuyên nền) ở thanh trên cùng và màn hình đăng nhập."
  ],
  "history": [
+  {
+   "version": "V22.124",
+   "date": "2026-10-27",
+   "notes": [
+    "Khung nền logo đổi từ trắng đục sang trắng trong (mờ, nhìn xuyên nền) ở thanh trên cùng và màn hình đăng nhập."
+   ]
+  },
   {
    "version": "V22.123",
    "date": "2026-10-27",
