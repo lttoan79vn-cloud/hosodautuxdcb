@@ -1,12 +1,17 @@
 {
- "version": "V22.132",
+ "version": "V22.133",
  "date": "2026-10-27",
  "notes": [
-  "Nhật ký ngày: chọn nhiều hạng mục (từ danh sách kế hoạch hoặc thêm mới); mỗi hạng mục khác trong ngày có ô “% hoàn thành sau ngày này” riêng như hạng mục chính.",
-  "Khi lưu, % hoàn thành của tất cả hạng mục trong ngày được cập nhật vào bảng kế hoạch tiến độ (cột Giám sát, So sánh tiến độ). Một hạng mục ghi được trong nhiều ngày, ngày sau mặc định lấy % đã đạt để nhập tiếp.",
-  "Word / bản in / xem nhật ký ghi % lũy kế của từng hạng mục."
+  "Bản xem In báo cáo A4 trên điện thoại: thu gọn vùng phía trên – tiêu đề và nút Đóng cùng 1 hàng, Từ ngày / Đến ngày / Kèm ảnh cùng 1 hàng, các nút In / PDF – Word – Bản in – Excel có biểu tượng và chữ trên 1 hàng; dành thêm chỗ cho bản xem."
  ],
  "history": [
+  {
+   "version": "V22.133",
+   "date": "2026-10-27",
+   "notes": [
+    "Bản xem In báo cáo A4 trên điện thoại: thu gọn vùng phía trên – tiêu đề và nút Đóng cùng 1 hàng, Từ ngày / Đến ngày / Kèm ảnh cùng 1 hàng, các nút In / PDF – Word – Bản in – Excel có biểu tượng và chữ trên 1 hàng; dành thêm chỗ cho bản xem."
+   ]
+  },
   {
    "version": "V22.132",
    "date": "2026-10-27",
