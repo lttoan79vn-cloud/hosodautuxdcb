@@ -1,10 +1,17 @@
 {
- "version": "V22.133",
+ "version": "V22.134",
  "date": "2026-10-27",
  "notes": [
-  "Bản xem In báo cáo A4 trên điện thoại: thu gọn vùng phía trên – tiêu đề và nút Đóng cùng 1 hàng, Từ ngày / Đến ngày / Kèm ảnh cùng 1 hàng, các nút In / PDF – Word – Bản in – Excel có biểu tượng và chữ trên 1 hàng; dành thêm chỗ cho bản xem."
+  "Bản xem In báo cáo A4: mở / chụm 2 ngón tay trên màn hình để phóng to / thu nhỏ (giữ đúng chỗ đang xem), chạm nhanh 2 lần để đổi giữa vừa khung và 150%."
  ],
  "history": [
+  {
+   "version": "V22.134",
+   "date": "2026-10-27",
+   "notes": [
+    "Bản xem In báo cáo A4: mở / chụm 2 ngón tay trên màn hình để phóng to / thu nhỏ (giữ đúng chỗ đang xem), chạm nhanh 2 lần để đổi giữa vừa khung và 150%."
+   ]
+  },
   {
    "version": "V22.133",
    "date": "2026-10-27",
