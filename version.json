@@ -1,12 +1,21 @@
 {
- "version": "V22.130",
+ "version": "V22.131",
  "date": "2026-10-27",
  "notes": [
-  "Đọc bảng tiến độ dạng sơ đồ ngang (Gantt) chính xác hơn, kiểm tra trên 2 file thực tế: PDF ký số (ngày ghi dọc dd-mm, thanh màu đỏ nhiều đoạn, cột Chủ nhật tô xám) và Excel .xls nhiều sheet (ô tô màu, bỏ trống ngày Chủ nhật, trục ngày không liên tục).",
-  "Tên hạng mục xuống nhiều dòng được ghép đủ; tự nhận dòng tên khu vực (VD: Hạng mục tầng 1 / tầng hầm) và nhóm việc (I, II…); hạng mục trùng tên ở các khu vực khác nhau được ghi thêm tên khu vực; các sheet tiếp nối nhau được gộp ngày bắt đầu – kết thúc.",
-  "Bảng kế hoạch tiến độ: ô tên hạng mục tự xuống dòng, hiện đủ nội dung."
+  "Nhật ký CT › nút (+) cạnh “Hạng mục thi công”: tab “Chọn từ kế hoạch tiến độ” – chọn nhiều hạng mục cho trang nhật ký ngày (hạng mục đang trong thời gian thực hiện xếp lên đầu, có ô tìm kiếm); hạng mục đầu là hạng mục chính, các hạng mục khác hiện dạng nhãn bên dưới, bấm ✕ để bỏ.",
+  "Tab “Thêm hạng mục mới (ngoài kế hoạch)”: nhập tên, ngày bắt đầu, kết thúc / số ngày, đơn vị thực hiện, căn cứ phát sinh → tự thêm vào bảng kế hoạch tiến độ (nhãn “ngoài KH”) và chọn cho trang nhật ký.",
+  "Trang nhật ký lưu đủ các hạng mục trong ngày; Word / bản in ghi đủ các hạng mục."
  ],
  "history": [
+  {
+   "version": "V22.131",
+   "date": "2026-10-27",
+   "notes": [
+    "Nhật ký CT › nút (+) cạnh “Hạng mục thi công”: tab “Chọn từ kế hoạch tiến độ” – chọn nhiều hạng mục cho trang nhật ký ngày (hạng mục đang trong thời gian thực hiện xếp lên đầu, có ô tìm kiếm); hạng mục đầu là hạng mục chính, các hạng mục khác hiện dạng nhãn bên dưới, bấm ✕ để bỏ.",
+    "Tab “Thêm hạng mục mới (ngoài kế hoạch)”: nhập tên, ngày bắt đầu, kết thúc / số ngày, đơn vị thực hiện, căn cứ phát sinh → tự thêm vào bảng kế hoạch tiến độ (nhãn “ngoài KH”) và chọn cho trang nhật ký.",
+    "Trang nhật ký lưu đủ các hạng mục trong ngày; Word / bản in ghi đủ các hạng mục."
+   ]
+  },
   {
    "version": "V22.130",
    "date": "2026-10-27",
