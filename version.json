@@ -1,12 +1,23 @@
 {
- "version": "V22.126",
+ "version": "V22.127",
  "date": "2026-10-27",
  "notes": [
-  "Nhật ký CT › Tạo mới: chọn loại nhật ký – Nhật ký thi công xây dựng hoặc Nhật ký thực hiện dịch vụ tư vấn (kèm loại dịch vụ: khảo sát, thiết kế, thẩm tra, giám sát, QLDA, đấu thầu…).",
-  "Mẫu sổ Nhật ký thực hiện dịch vụ tư vấn xây dựng: bìa, trang thông tin hợp đồng tư vấn, danh sách nhân sự tư vấn, trang ngày gồm 1. Hình thức – địa điểm làm việc, 2. Công việc tư vấn (2.1 nhân sự tham gia), 3. Sản phẩm – hồ sơ bàn giao, 4. Kiểm tra, nhận xét của CĐT (tiến độ, chất lượng), 5. Ý kiến tiếp thu, kiến nghị của tư vấn; chữ ký đại diện CĐT và đại diện tư vấn.",
-  "Xuất Word / in A4 theo mẫu tư vấn; chưa có trang ngày nào → xuất mẫu sổ trống để in dùng tay. Công trình cũ có thể đổi loại nhật ký ở Hồ sơ công trình › Thông tin sổ."
+  "Nhật ký CT › Kế hoạch tiến độ: đọc được nhiều dạng file tiến độ – PDF có chữ (kể cả ký số), PDF scan / ảnh chụp (OCR), Excel, Word; bảng có cột Bắt đầu – Kết thúc – Số ngày, tên hạng mục xuống nhiều dòng, ngày dạng dd/mm, “ngày … tháng … năm …”.",
+  "Đọc sơ đồ ngang (Gantt): trục ngày đủ / ngày ghi dọc / số ngày trong tháng + tên tháng / Ngày 1…n / Tuần 1…n; các thanh tô màu hoặc nét đậm → ngày bắt đầu, kết thúc từng hạng mục (Excel: ô tô màu hoặc đánh dấu x/■). Không còn lấy nhầm dòng “Ngày bắt đầu / kết thúc” của cả công trình làm hạng mục.",
+  "Bản xem In báo cáo A4: phóng to / thu nhỏ (nút −/+ nổi trên bản xem, Ctrl + lăn chuột), cuộn ngang khi phóng to trên điện thoại, nút Mở rộng toàn màn hình; tiêu đề và các nút lệnh nằm cùng hàng với Từ ngày / Đến ngày.",
+  "Bỏ nút cỡ chữ “Vừa” ở thanh tiêu đề Nhật ký CT. Thanh tiêu đề chương trình: dòng “© 2026 Lê Thanh Toàn” xuống dòng riêng."
  ],
  "history": [
+  {
+   "version": "V22.127",
+   "date": "2026-10-27",
+   "notes": [
+    "Nhật ký CT › Kế hoạch tiến độ: đọc được nhiều dạng file tiến độ – PDF có chữ (kể cả ký số), PDF scan / ảnh chụp (OCR), Excel, Word; bảng có cột Bắt đầu – Kết thúc – Số ngày, tên hạng mục xuống nhiều dòng, ngày dạng dd/mm, “ngày … tháng … năm …”.",
+    "Đọc sơ đồ ngang (Gantt): trục ngày đủ / ngày ghi dọc / số ngày trong tháng + tên tháng / Ngày 1…n / Tuần 1…n; các thanh tô màu hoặc nét đậm → ngày bắt đầu, kết thúc từng hạng mục (Excel: ô tô màu hoặc đánh dấu x/■). Không còn lấy nhầm dòng “Ngày bắt đầu / kết thúc” của cả công trình làm hạng mục.",
+    "Bản xem In báo cáo A4: phóng to / thu nhỏ (nút −/+ nổi trên bản xem, Ctrl + lăn chuột), cuộn ngang khi phóng to trên điện thoại, nút Mở rộng toàn màn hình; tiêu đề và các nút lệnh nằm cùng hàng với Từ ngày / Đến ngày.",
+    "Bỏ nút cỡ chữ “Vừa” ở thanh tiêu đề Nhật ký CT. Thanh tiêu đề chương trình: dòng “© 2026 Lê Thanh Toàn” xuống dòng riêng."
+   ]
+  },
   {
    "version": "V22.126",
    "date": "2026-10-27",
