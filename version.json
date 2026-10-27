@@ -1,10 +1,17 @@
 {
- "version": "V22.124",
+ "version": "V22.125",
  "date": "2026-10-27",
  "notes": [
-  "Khung nền logo đổi từ trắng đục sang trắng trong (mờ, nhìn xuyên nền) ở thanh trên cùng và màn hình đăng nhập."
+  "Logo không còn khung nền: nền trong suốt, không màu, không viền, không bóng – ở thanh trên cùng và màn hình đăng nhập."
  ],
  "history": [
+  {
+   "version": "V22.125",
+   "date": "2026-10-27",
+   "notes": [
+    "Logo không còn khung nền: nền trong suốt, không màu, không viền, không bóng – ở thanh trên cùng và màn hình đăng nhập."
+   ]
+  },
   {
    "version": "V22.124",
    "date": "2026-10-27",
