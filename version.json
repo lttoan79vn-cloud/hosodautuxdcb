@@ -1,13 +1,21 @@
 {
- "version": "V22.129",
+ "version": "V22.130",
  "date": "2026-10-27",
  "notes": [
-  "Danh sách đại diện CĐT / TVGS (cả nhật ký thi công và nhật ký tư vấn): người đứng đầu danh sách là lãnh đạo đơn vị – ký trang thông tin của sổ; những người tiếp theo là cán bộ theo dõi, giám sát – ngày nào ai theo dõi thì người đó ký trang nhật ký ngày. Mỗi dòng có nhãn vai trò, nút ↑ đưa một người lên đầu.",
-  "Tạo nhật ký tư vấn mới: nhập Lãnh đạo đơn vị (ký trang thông tin) và Cán bộ theo dõi, giám sát (ký trang ngày).",
-  "Bên nhà thầu: chủ nhiệm tư vấn / chỉ huy trưởng ký trang thông tin; trang nhật ký ngày chọn người ký trong ngày (nhật ký tư vấn tự gợi ý người tham gia trong ngày).",
-  "Mẫu sổ chưa nhập đơn vị: dòng dưới “ĐẠI DIỆN CHỦ ĐẦU TƯ” in sẵn “(Phòng PT&QLKCN)”."
+  "Đọc bảng tiến độ dạng sơ đồ ngang (Gantt) chính xác hơn, kiểm tra trên 2 file thực tế: PDF ký số (ngày ghi dọc dd-mm, thanh màu đỏ nhiều đoạn, cột Chủ nhật tô xám) và Excel .xls nhiều sheet (ô tô màu, bỏ trống ngày Chủ nhật, trục ngày không liên tục).",
+  "Tên hạng mục xuống nhiều dòng được ghép đủ; tự nhận dòng tên khu vực (VD: Hạng mục tầng 1 / tầng hầm) và nhóm việc (I, II…); hạng mục trùng tên ở các khu vực khác nhau được ghi thêm tên khu vực; các sheet tiếp nối nhau được gộp ngày bắt đầu – kết thúc.",
+  "Bảng kế hoạch tiến độ: ô tên hạng mục tự xuống dòng, hiện đủ nội dung."
  ],
  "history": [
+  {
+   "version": "V22.130",
+   "date": "2026-10-27",
+   "notes": [
+    "Đọc bảng tiến độ dạng sơ đồ ngang (Gantt) chính xác hơn, kiểm tra trên 2 file thực tế: PDF ký số (ngày ghi dọc dd-mm, thanh màu đỏ nhiều đoạn, cột Chủ nhật tô xám) và Excel .xls nhiều sheet (ô tô màu, bỏ trống ngày Chủ nhật, trục ngày không liên tục).",
+    "Tên hạng mục xuống nhiều dòng được ghép đủ; tự nhận dòng tên khu vực (VD: Hạng mục tầng 1 / tầng hầm) và nhóm việc (I, II…); hạng mục trùng tên ở các khu vực khác nhau được ghi thêm tên khu vực; các sheet tiếp nối nhau được gộp ngày bắt đầu – kết thúc.",
+    "Bảng kế hoạch tiến độ: ô tên hạng mục tự xuống dòng, hiện đủ nội dung."
+   ]
+  },
   {
    "version": "V22.129",
    "date": "2026-10-27",
