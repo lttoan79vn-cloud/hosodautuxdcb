@@ -1,12 +1,23 @@
 {
- "version": "V22.137",
+ "version": "V22.138",
  "date": "2026-10-28",
  "notes": [
-  "Lịch công tác › Lịch tuần: bảng có thanh tiêu đề (☑ | Công việc | Bước công việc / nội dung | các ngày); tách cột Công việc (tên gói / công việc giao, người thực hiện) đứng trước cột Bước công việc (hiện đủ tên bước).",
-  "Ô ☑ ở đầu mỗi dòng (và ô ☑ trên tiêu đề để chọn tất cả) để lập lịch tuần cá nhân; dòng đã chọn được tô vàng, cuối bảng có tóm tắt số việc đã chọn, đã hoàn thành, chưa xong đúng hạn.",
-  "KPI cá nhân (Báo cáo › 🏅 KPI Phòng): lấy kết quả lịch tuần cá nhân trong kỳ – hoàn thành trong tuần 100%, xong sau tuần 70%, hết tuần chưa xong 0% – đưa vào gợi ý 🤖 và nút Điền kết quả từ hệ thống, theo đúng nội dung KPI (công việc giao, XDCB / đấu thầu, nhiệm vụ khác)."
+  "Lịch công tác: thêm bảng 📥 Công việc được giao (trước lịch tuần), xếp theo thứ tự ưu tiên Công việc khác → KH đầu tư XDCB → KH giá thành; đánh dấu ☑ để đưa việc vào lịch tuần cá nhân, lịch tháng tự cập nhật theo.",
+  "Lịch tuần / tháng mặc định chỉ hiện lịch cá nhân (việc đã chọn + công việc khác được giao); ô “Hiện cả việc chưa đưa vào lịch” để xem toàn bộ.",
+  "Công việc khác (đột xuất) khi giao tự vào lịch tuần của người được giao; người thực hiện / phối hợp nhận thông báo “có việc mới”, nhãn MỚI ở bảng việc.",
+  "Giao việc: thêm tải tệp nội dung công việc (lưu DATA SOURCE / DỮ LIỆU BÁO CÁO / Giao việc) và link nội dung; hiện 🔗 📎 dưới tên việc ở bảng Công việc khác, bảng Công việc được giao và lịch tuần – bấm để xem."
  ],
  "history": [
+  {
+   "version": "V22.138",
+   "date": "2026-10-28",
+   "notes": [
+    "Lịch công tác: thêm bảng 📥 Công việc được giao (trước lịch tuần), xếp theo thứ tự ưu tiên Công việc khác → KH đầu tư XDCB → KH giá thành; đánh dấu ☑ để đưa việc vào lịch tuần cá nhân, lịch tháng tự cập nhật theo.",
+    "Lịch tuần / tháng mặc định chỉ hiện lịch cá nhân (việc đã chọn + công việc khác được giao); ô “Hiện cả việc chưa đưa vào lịch” để xem toàn bộ.",
+    "Công việc khác (đột xuất) khi giao tự vào lịch tuần của người được giao; người thực hiện / phối hợp nhận thông báo “có việc mới”, nhãn MỚI ở bảng việc.",
+    "Giao việc: thêm tải tệp nội dung công việc (lưu DATA SOURCE / DỮ LIỆU BÁO CÁO / Giao việc) và link nội dung; hiện 🔗 📎 dưới tên việc ở bảng Công việc khác, bảng Công việc được giao và lịch tuần – bấm để xem."
+   ]
+  },
   {
    "version": "V22.137",
    "date": "2026-10-28",
