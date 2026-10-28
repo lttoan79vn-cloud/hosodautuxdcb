@@ -1,10 +1,27 @@
 {
- "version": "V22.153",
+ "version": "V22.154",
  "date": "2026-10-28",
  "notes": [
-  "Tất cả văn bản: đường gạch dưới Tiêu ngữ dài đúng bằng dòng chữ “Độc lập - Tự do - Hạnh phúc” (đầu văn bản, mẫu quốc hiệu căn giữa và trang bìa hồ sơ) – trong file Word, bản xem trước và In/PDF."
+  "Soạn hồ sơ: khung nhập liệu bên trái rộng thêm 1 cm; viền xám quanh trang xem trước thu gọn (8px, bằng viền bên phải) để tăng diện tích hiển thị.",
+  "Thanh kéo giữa khung nhập và khung xem: kéo sang trái/phải để co giãn 2 khung (ghi nhớ trên máy), bấm đúp để về mặc định.",
+  "Các trường thời gian (thời gian thực hiện, thời gian tổ chức LCNT, thời gian thực hiện gói thầu, thời gian bảo hành…) tách 2 phần: ô nhập số + chọn đơn vị ngày / tháng / năm (mặc định ngày); chọn “Khác…” để nhập chữ tự do (VD: Năm 2026, Quý III/2026); phần “kể từ …” sau số ngày được giữ nguyên.",
+  "Soạn thảo không đồng bộ tức thời: tự lưu và đồng bộ lên máy chủ sau 7 phút kể từ lần sửa cuối, hoặc ngay khi bấm Lưu (lưu và đồng bộ cùng lúc); Soạn văn bản (công văn, tờ trình…) cũng tự lưu bản thảo sau 7 phút thay vì 4 giây.",
+  "Khối ký lãnh đạo: “PHÊ DUYỆT” đổi thành “DUYỆT” (Biên bản kiểm tra, tờ trình hồ sơ giá thành).",
+  "Trang bìa hồ sơ (BC KTKT / dự toán): cụm nội dung HỒ SƠ … ĐƠN VỊ LẬP nằm giữa trang, tất cả các dòng căn giữa; tiêu ngữ có gạch dưới."
  ],
  "history": [
+  {
+   "version": "V22.154",
+   "date": "2026-10-28",
+   "notes": [
+    "Soạn hồ sơ: khung nhập liệu bên trái rộng thêm 1 cm; viền xám quanh trang xem trước thu gọn (8px, bằng viền bên phải) để tăng diện tích hiển thị.",
+    "Thanh kéo giữa khung nhập và khung xem: kéo sang trái/phải để co giãn 2 khung (ghi nhớ trên máy), bấm đúp để về mặc định.",
+    "Các trường thời gian (thời gian thực hiện, thời gian tổ chức LCNT, thời gian thực hiện gói thầu, thời gian bảo hành…) tách 2 phần: ô nhập số + chọn đơn vị ngày / tháng / năm (mặc định ngày); chọn “Khác…” để nhập chữ tự do (VD: Năm 2026, Quý III/2026); phần “kể từ …” sau số ngày được giữ nguyên.",
+    "Soạn thảo không đồng bộ tức thời: tự lưu và đồng bộ lên máy chủ sau 7 phút kể từ lần sửa cuối, hoặc ngay khi bấm Lưu (lưu và đồng bộ cùng lúc); Soạn văn bản (công văn, tờ trình…) cũng tự lưu bản thảo sau 7 phút thay vì 4 giây.",
+    "Khối ký lãnh đạo: “PHÊ DUYỆT” đổi thành “DUYỆT” (Biên bản kiểm tra, tờ trình hồ sơ giá thành).",
+    "Trang bìa hồ sơ (BC KTKT / dự toán): cụm nội dung HỒ SƠ … ĐƠN VỊ LẬP nằm giữa trang, tất cả các dòng căn giữa; tiêu ngữ có gạch dưới."
+   ]
+  },
   {
    "version": "V22.153",
    "date": "2026-10-28",
