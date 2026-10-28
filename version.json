@@ -1,11 +1,17 @@
 {
- "version": "V22.152",
+ "version": "V22.153",
  "date": "2026-10-28",
  "notes": [
-  "Danh sách gói thầu: nút mũi tên ↑ ↓ đổi thứ tự gói to, đậm, cùng cỡ với nút Xóa.",
-  "Tự lưu sau 7 phút kể từ thay đổi cuối nếu chưa bấm Lưu ngay (Lưu ngay / Ctrl+S lưu tức thì; rời màn hình / chuyển ứng dụng vẫn lưu ngay)."
+  "Tất cả văn bản: đường gạch dưới Tiêu ngữ dài đúng bằng dòng chữ “Độc lập - Tự do - Hạnh phúc” (đầu văn bản, mẫu quốc hiệu căn giữa và trang bìa hồ sơ) – trong file Word, bản xem trước và In/PDF."
  ],
  "history": [
+  {
+   "version": "V22.153",
+   "date": "2026-10-28",
+   "notes": [
+    "Tất cả văn bản: đường gạch dưới Tiêu ngữ dài đúng bằng dòng chữ “Độc lập - Tự do - Hạnh phúc” (đầu văn bản, mẫu quốc hiệu căn giữa và trang bìa hồ sơ) – trong file Word, bản xem trước và In/PDF."
+   ]
+  },
   {
    "version": "V22.152",
    "date": "2026-10-28",
