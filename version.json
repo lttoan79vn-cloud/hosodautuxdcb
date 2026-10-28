@@ -1,10 +1,17 @@
 {
- "version": "V22.143",
+ "version": "V22.144",
  "date": "2026-10-28",
  "notes": [
-  "Thiết lập bảng KPI Phòng: ô Tài khoản đăng nhập đổi thành danh sách chọn, tải đủ các tài khoản đã đăng ký trên máy chủ (email · tên đăng nhập), cộng các tài khoản đã dùng chương trình; ghi chú tài khoản đã gắn cho người khác, tài khoản đã thu hồi."
+  "Thiết lập bảng KPI Phòng: thu gọn ô Tài khoản đăng nhập, mở rộng ô Họ tên và Chức vụ để hiển thị đầy đủ."
  ],
  "history": [
+  {
+   "version": "V22.144",
+   "date": "2026-10-28",
+   "notes": [
+    "Thiết lập bảng KPI Phòng: thu gọn ô Tài khoản đăng nhập, mở rộng ô Họ tên và Chức vụ để hiển thị đầy đủ."
+   ]
+  },
   {
    "version": "V22.143",
    "date": "2026-10-28",
