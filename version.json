@@ -1,15 +1,23 @@
 {
- "version": "V22.154",
+ "version": "V22.155",
  "date": "2026-10-28",
  "notes": [
-  "Soạn hồ sơ: khung nhập liệu bên trái rộng thêm 1 cm; viền xám quanh trang xem trước thu gọn (8px, bằng viền bên phải) để tăng diện tích hiển thị.",
-  "Thanh kéo giữa khung nhập và khung xem: kéo sang trái/phải để co giãn 2 khung (ghi nhớ trên máy), bấm đúp để về mặc định.",
-  "Các trường thời gian (thời gian thực hiện, thời gian tổ chức LCNT, thời gian thực hiện gói thầu, thời gian bảo hành…) tách 2 phần: ô nhập số + chọn đơn vị ngày / tháng / năm (mặc định ngày); chọn “Khác…” để nhập chữ tự do (VD: Năm 2026, Quý III/2026); phần “kể từ …” sau số ngày được giữ nguyên.",
-  "Soạn thảo không đồng bộ tức thời: tự lưu và đồng bộ lên máy chủ sau 7 phút kể từ lần sửa cuối, hoặc ngay khi bấm Lưu (lưu và đồng bộ cùng lúc); Soạn văn bản (công văn, tờ trình…) cũng tự lưu bản thảo sau 7 phút thay vì 4 giây.",
-  "Khối ký lãnh đạo: “PHÊ DUYỆT” đổi thành “DUYỆT” (Biên bản kiểm tra, tờ trình hồ sơ giá thành).",
-  "Trang bìa hồ sơ (BC KTKT / dự toán): cụm nội dung HỒ SƠ … ĐƠN VỊ LẬP nằm giữa trang, tất cả các dòng căn giữa; tiêu ngữ có gạch dưới."
+  "Thuyết minh BC KTKT: thẻ Thông tin lập có ô “Người lập” để chọn tên in ở ô ký NGƯỜI LẬP (tự động = chuyên viên của phòng).",
+  "Tờ trình thành lập Tổ chuyên gia: mặc định lấy người lập thuyết minh làm thành viên; các thành viên khác chọn bổ sung từ danh mục (người được chọn làm Tổ trưởng tự lên đầu danh sách).",
+  "Bảng thành phần / thành viên: bỏ cột “Tự” (Ông/Bà); tất cả văn bản in thống nhất “- Ông (Bà): Họ tên ⇥ Chức vụ: …” canh tab (biên bản kiểm tra, tờ trình/QĐ Tổ chuyên gia, biên bản thương thảo, biên bản QLCL, biên bản soạn văn bản…).",
+  "Bước “Tờ trình của đơn vị” đổi thành “Văn bản căn cứ của đơn vị”: chọn loại Tờ trình / Giấy đề nghị / Quyết định / Thông báo; nạp file thì hệ thống tự nhận diện thể loại văn bản (theo tiêu đề và ký hiệu số) để trích xuất dữ liệu; các văn bản trích dẫn “Căn cứ <loại văn bản> số …” đúng loại."
  ],
  "history": [
+  {
+   "version": "V22.155",
+   "date": "2026-10-28",
+   "notes": [
+    "Thuyết minh BC KTKT: thẻ Thông tin lập có ô “Người lập” để chọn tên in ở ô ký NGƯỜI LẬP (tự động = chuyên viên của phòng).",
+    "Tờ trình thành lập Tổ chuyên gia: mặc định lấy người lập thuyết minh làm thành viên; các thành viên khác chọn bổ sung từ danh mục (người được chọn làm Tổ trưởng tự lên đầu danh sách).",
+    "Bảng thành phần / thành viên: bỏ cột “Tự” (Ông/Bà); tất cả văn bản in thống nhất “- Ông (Bà): Họ tên ⇥ Chức vụ: …” canh tab (biên bản kiểm tra, tờ trình/QĐ Tổ chuyên gia, biên bản thương thảo, biên bản QLCL, biên bản soạn văn bản…).",
+    "Bước “Tờ trình của đơn vị” đổi thành “Văn bản căn cứ của đơn vị”: chọn loại Tờ trình / Giấy đề nghị / Quyết định / Thông báo; nạp file thì hệ thống tự nhận diện thể loại văn bản (theo tiêu đề và ký hiệu số) để trích xuất dữ liệu; các văn bản trích dẫn “Căn cứ <loại văn bản> số …” đúng loại."
+   ]
+  },
   {
    "version": "V22.154",
    "date": "2026-10-28",
