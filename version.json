@@ -1,12 +1,19 @@
 {
- "version": "V22.157",
+ "version": "V22.158",
  "date": "2026-10-28",
  "notes": [
-  "Dự thảo hợp đồng: bảng khối lượng mời thầu (Phụ lục 01) thành bảng nhập – lấy sẵn từ file dự toán (tên công tác, đơn vị, khối lượng, đơn giá), người dùng kiểm tra, sửa / thêm / xóa / đổi thứ tự dòng cho đúng khối lượng mời thầu; tự tính thành tiền, tổng cộng; nút “Lấy lại từ dự toán”.",
-  "Giá hợp đồng trong dự thảo liên kết với giá gói thầu tương ứng (Danh sách gói thầu) khi chưa có giá hợp đồng; dòng “Làm tròn” của Phụ lục 01 ghi theo giá này, báo chênh lệch với tổng thành tiền; bỏ chọn để để trống cho nhà thầu điền.",
-  "Hồ sơ giá thành thiết bị: Thư mời báo giá có số …/TM-CSPH (nhập ở Thông tin ban hành); các tờ trình trích “thư mời báo giá số … ngày …”."
+  "Danh sách chọn có mục dài (VD: Liên kết hồ sơ PHR trong Lập kế hoạch): không còn tràn ra ngoài khung màn hình – danh sách mở trong khung, mục dài tự xuống nhiều dòng, có ô tìm khi danh sách nhiều mục; mục đã chọn hiện đầy đủ (xuống dòng) ngay dưới ô chọn.",
+  "Lập kế hoạch: ô Tên gói thầu / công việc thành ô nhiều dòng, tự giãn theo nội dung để hiển thị hết tên dài."
  ],
  "history": [
+  {
+   "version": "V22.158",
+   "date": "2026-10-28",
+   "notes": [
+    "Danh sách chọn có mục dài (VD: Liên kết hồ sơ PHR trong Lập kế hoạch): không còn tràn ra ngoài khung màn hình – danh sách mở trong khung, mục dài tự xuống nhiều dòng, có ô tìm khi danh sách nhiều mục; mục đã chọn hiện đầy đủ (xuống dòng) ngay dưới ô chọn.",
+    "Lập kế hoạch: ô Tên gói thầu / công việc thành ô nhiều dòng, tự giãn theo nội dung để hiển thị hết tên dài."
+   ]
+  },
   {
    "version": "V22.157",
    "date": "2026-10-28",
