@@ -1,12 +1,21 @@
 {
- "version": "V22.148",
+ "version": "V22.149",
  "date": "2026-10-28",
  "notes": [
-  "Danh sách gói thầu: mỗi gói có ô Phân loại – Thuộc kế hoạch LCNT / Đã thực hiện / Không áp dụng được hình thức LCNT; thêm nhanh phần công việc đã thực hiện, không áp dụng LCNT. Gói đã thực hiện, không áp dụng ra khỏi quy trình lựa chọn nhà thầu và bảng KHLCNT.",
-  "Tờ trình KHLCNT theo mẫu 120/TTr-CSPH: mục 3 là bảng Tên gói thầu – Đơn vị thực hiện – Giá trị – Hình thức LCNT – Loại hợp đồng – Thời gian thực hiện – Văn bản phê duyệt (dòng Tổng giá trị); mục 4 là bảng STT – Nội dung công việc – Đơn vị thực hiện – Giá trị (đồng) – Tổng giá trị; mục 7 cộng đủ các phần.",
-  "Thể thức NĐ 30/2020 cho mọi văn bản soạn hồ sơ: lề trái 3 cm, phải – trên – dưới 2 cm; đoạn văn căn đều, cách trước 6pt, sau 0pt, dòng Multiple 1,1; dòng tiêu đề (cơ quan, quốc hiệu, ngày tháng) tự co cỡ chữ để nằm trọn 1 dòng trong khổ A4."
+  "Tiêu đề văn bản thu gọn: bảng tên cơ quan – quốc hiệu rộng 16,5 cm, cách mép trái 2,5 cm, mép phải 2 cm (thân văn bản vẫn lề trái 3 cm, phải 2 cm); cột phải vừa dòng ngày tháng; các dòng tên tự co cỡ chữ để nằm trên 1 dòng.",
+  "Dòng địa danh, ngày tháng năm cỡ chữ 13 cố định (nghiêng).",
+  "In / PDF: chỉ in trang văn bản – không in tiêu đề trang, đường dẫn, ngày giờ của chương trình và không lẫn giao diện chương trình (kể cả khi in trên điện thoại); lề trang đặt đúng 20 – 20 – 20 – 30 mm."
  ],
  "history": [
+  {
+   "version": "V22.149",
+   "date": "2026-10-28",
+   "notes": [
+    "Tiêu đề văn bản thu gọn: bảng tên cơ quan – quốc hiệu rộng 16,5 cm, cách mép trái 2,5 cm, mép phải 2 cm (thân văn bản vẫn lề trái 3 cm, phải 2 cm); cột phải vừa dòng ngày tháng; các dòng tên tự co cỡ chữ để nằm trên 1 dòng.",
+    "Dòng địa danh, ngày tháng năm cỡ chữ 13 cố định (nghiêng).",
+    "In / PDF: chỉ in trang văn bản – không in tiêu đề trang, đường dẫn, ngày giờ của chương trình và không lẫn giao diện chương trình (kể cả khi in trên điện thoại); lề trang đặt đúng 20 – 20 – 20 – 30 mm."
+   ]
+  },
   {
    "version": "V22.148",
    "date": "2026-10-28",
