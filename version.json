@@ -1,10 +1,17 @@
 {
- "version": "V22.145",
+ "version": "V22.146",
  "date": "2026-10-28",
  "notes": [
-  "Nhật ký thực hiện dịch vụ tư vấn: ô ký bên nhà thầu đổi thành “CHỦ NHIỆM CÔNG TRÌNH / DỰ ÁN” (trang thông tin và trang nhật ký ngày, bản in và Word); bỏ dòng “(Ký, ghi rõ họ tên)”."
+  "Nhật ký thi công xây dựng: bỏ dòng “(Ký, ghi rõ họ tên)” ở ô ký trang nhật ký ngày và bản in nhật ký (bản in/PDF và Word)."
  ],
  "history": [
+  {
+   "version": "V22.146",
+   "date": "2026-10-28",
+   "notes": [
+    "Nhật ký thi công xây dựng: bỏ dòng “(Ký, ghi rõ họ tên)” ở ô ký trang nhật ký ngày và bản in nhật ký (bản in/PDF và Word)."
+   ]
+  },
   {
    "version": "V22.145",
    "date": "2026-10-28",
