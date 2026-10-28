@@ -1,13 +1,23 @@
 {
- "version": "V22.159",
+ "version": "V22.160",
  "date": "2026-10-29",
  "notes": [
-  "Soạn hồ sơ: bước “Văn bản căn cứ của đơn vị” và “Biên bản kiểm tra” có ô “Không áp dụng cho công trình này (bỏ qua bước)” như BC thẩm định Tổ quản trị – bước bỏ qua hiện dấu “–”, không tính tiến độ, không cảnh báo, không đưa vào căn cứ; các bước sau mở khóa không cần nạp văn bản của đơn vị.",
-  "Khi bỏ qua Văn bản căn cứ của đơn vị: nhập “Căn cứ thay thế” (VD: Căn cứ tình hình thực tế; Căn cứ Quyết định … phê duyệt kế hoạch đầu tư năm 2026) – tự đưa vào phần căn cứ của biên bản, tờ trình, quyết định.",
-  "Lưu & đồng bộ: Danh mục / Lập kế hoạch / Lịch công tác / KPI lưu ngay trên máy và gửi máy chủ theo lô sau 2 phút không thao tác (trước đây gửi toàn bộ cấu hình sau mỗi thay đổi 0,7 giây); gửi ngay khi bấm Lưu, chuyển ứng dụng hoặc đóng trang.",
-  "Kiểm tra bản mới trên máy chủ (45 giây/lần) tạm dừng khi người dùng đang gõ / soạn thảo – không vẽ lại màn hình giữa chừng."
+  "Đồng bộ cấu hình theo từng phần: Danh mục / Lập kế hoạch / Lịch công tác / KPI chỉ gửi mục thay đổi (thao tác cfgPatch) thay cho toàn bộ cấu hình – dữ liệu gửi nhỏ, người khác sửa mục khác không bị ghi đè. Cần dán Code.gs mới; máy chủ cũ vẫn chạy (tự gửi toàn bộ như trước).",
+  "Thanh trạng thái: “💾 trên máy, chờ gửi n (bấm để gửi ngay)” / “☁ đã đồng bộ hh:mm” / “mất mạng – n thay đổi chờ gửi”; bấm vào để lưu và gửi ngay.",
+  "Nhật ký CT: khi đang nhập liệu không vẽ lại màn hình bởi dữ liệu mới từ máy chủ – hiện nhãn “Có dữ liệu mới – cập nhật khi ngừng nhập”, tự cập nhật khi ngừng nhập; thay đổi gửi máy chủ sau 20 giây không thao tác (trước 2,5 giây), gửi ngay khi chuyển ứng dụng / đóng trang / bấm đồng bộ.",
+  "Tăng độ mượt: bộ hiển thị danh sách chọn mục dài bỏ qua thay đổi của khung xem trước, ghi nhớ kết quả kiểm tra từng ô chọn."
  ],
  "history": [
+  {
+   "version": "V22.160",
+   "date": "2026-10-29",
+   "notes": [
+    "Đồng bộ cấu hình theo từng phần: Danh mục / Lập kế hoạch / Lịch công tác / KPI chỉ gửi mục thay đổi (thao tác cfgPatch) thay cho toàn bộ cấu hình – dữ liệu gửi nhỏ, người khác sửa mục khác không bị ghi đè. Cần dán Code.gs mới; máy chủ cũ vẫn chạy (tự gửi toàn bộ như trước).",
+    "Thanh trạng thái: “💾 trên máy, chờ gửi n (bấm để gửi ngay)” / “☁ đã đồng bộ hh:mm” / “mất mạng – n thay đổi chờ gửi”; bấm vào để lưu và gửi ngay.",
+    "Nhật ký CT: khi đang nhập liệu không vẽ lại màn hình bởi dữ liệu mới từ máy chủ – hiện nhãn “Có dữ liệu mới – cập nhật khi ngừng nhập”, tự cập nhật khi ngừng nhập; thay đổi gửi máy chủ sau 20 giây không thao tác (trước 2,5 giây), gửi ngay khi chuyển ứng dụng / đóng trang / bấm đồng bộ.",
+    "Tăng độ mượt: bộ hiển thị danh sách chọn mục dài bỏ qua thay đổi của khung xem trước, ghi nhớ kết quả kiểm tra từng ô chọn."
+   ]
+  },
   {
    "version": "V22.159",
    "date": "2026-10-29",
