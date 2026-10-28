@@ -1,13 +1,21 @@
 {
- "version": "V22.140",
+ "version": "V22.141",
  "date": "2026-10-28",
  "notes": [
-  "Lịch tuần / Lịch tháng chỉ hiện các việc được chọn từ thẻ 📥 Công việc được giao (cùng công việc khác được giao và lịch tự thêm); bỏ ô “Hiện cả việc chưa đưa vào lịch”.",
-  "Việc chưa hoàn thành của các tuần trước hiện ở mục ↪ “Việc chưa hoàn thành của các tuần trước” trong Lịch tuần hiện tại – bấm ↪ Tiếp tục thực hiện (hoặc Tiếp tục tất cả) để đưa vào tuần đang thực hiện; dòng việc ghi các tuần đã thực hiện.",
-  "Tuần đã qua được lưu thành lịch sử thực hiện (hoàn thành / chưa hoàn thành trong tuần) và khóa – không chọn, bỏ chọn hay sửa được; chỉ lên lịch cho tuần hiện tại và các tuần sau. KPI lịch tuần lấy theo lịch sử đã khóa.",
-  "Lịch tháng đặt việc vào đúng tuần đã chọn; tuần đã qua hiện mờ."
+  "Sửa nút ☑ chọn việc ở thẻ Công việc được giao: chọn được cả khi xem theo tên thành viên (người thực hiện hoặc người có quyền sửa kế hoạch lên lịch cho thành viên), không chỉ ở “Việc của tôi”; lịch tuần lưu theo người đang xem.",
+  "Chọn / bỏ chọn có thông báo và Lịch tuần, Lịch tháng cập nhật ngay; bỏ chọn ngay trên Lịch tuần để đưa việc ra khỏi lịch; “Mọi người” hiện lịch tuần của các thành viên.",
+  "Lịch tháng ghi rõ tên gói + bước; KPI cá nhân nhận cả lịch tuần lập theo tên thành viên."
  ],
  "history": [
+  {
+   "version": "V22.141",
+   "date": "2026-10-28",
+   "notes": [
+    "Sửa nút ☑ chọn việc ở thẻ Công việc được giao: chọn được cả khi xem theo tên thành viên (người thực hiện hoặc người có quyền sửa kế hoạch lên lịch cho thành viên), không chỉ ở “Việc của tôi”; lịch tuần lưu theo người đang xem.",
+    "Chọn / bỏ chọn có thông báo và Lịch tuần, Lịch tháng cập nhật ngay; bỏ chọn ngay trên Lịch tuần để đưa việc ra khỏi lịch; “Mọi người” hiện lịch tuần của các thành viên.",
+    "Lịch tháng ghi rõ tên gói + bước; KPI cá nhân nhận cả lịch tuần lập theo tên thành viên."
+   ]
+  },
   {
    "version": "V22.140",
    "date": "2026-10-28",
