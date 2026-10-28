@@ -1,10 +1,19 @@
 {
- "version": "V22.151",
+ "version": "V22.152",
  "date": "2026-10-28",
  "notes": [
-  "Tiêu đề văn bản: dòng tên cơ quan (dòng 1, 2) và quốc hiệu giữ cỡ chữ 12, dùng nén chữ (Font › Advanced › Spacing Condensed, tối đa 1pt – VD “TẬP ĐOÀN CÔNG NGHIỆP CAO SU VIỆT NAM” nén 0,95pt) để nằm trọn 1 dòng, cân đối hai cột; cột trái rộng thêm."
+  "Danh sách gói thầu: nút mũi tên ↑ ↓ đổi thứ tự gói to, đậm, cùng cỡ với nút Xóa.",
+  "Tự lưu sau 7 phút kể từ thay đổi cuối nếu chưa bấm Lưu ngay (Lưu ngay / Ctrl+S lưu tức thì; rời màn hình / chuyển ứng dụng vẫn lưu ngay)."
  ],
  "history": [
+  {
+   "version": "V22.152",
+   "date": "2026-10-28",
+   "notes": [
+    "Danh sách gói thầu: nút mũi tên ↑ ↓ đổi thứ tự gói to, đậm, cùng cỡ với nút Xóa.",
+    "Tự lưu sau 7 phút kể từ thay đổi cuối nếu chưa bấm Lưu ngay (Lưu ngay / Ctrl+S lưu tức thì; rời màn hình / chuyển ứng dụng vẫn lưu ngay)."
+   ]
+  },
   {
    "version": "V22.151",
    "date": "2026-10-28",
