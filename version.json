@@ -1,12 +1,23 @@
 {
- "version": "V22.139",
+ "version": "V22.140",
  "date": "2026-10-28",
  "notes": [
-  "Lịch công tác giữ giao diện như trước; bỏ bảng phía trên, thêm thẻ 📥 Công việc được giao (bên trái Lịch tuần) cùng cấu trúc lịch tuần: danh sách tổng các việc của người được giao, chia nhóm Công việc khác → KH đầu tư XDCB → KH giá thành; ☑ để đưa việc vào lịch tuần, thẻ Lịch tuần / Lịch tháng liên kết hiện các việc đã chọn.",
-  "Công việc giao đột xuất tự vào thẻ Công việc được giao và Lịch tuần / Lịch tháng; việc đã hoàn thành hiện mờ, không chọn lại được.",
-  "KPI: công việc trong kế hoạch tính tỉ lệ % hoàn thành theo bước chuẩn của gói (số bước đã hoàn thành / tổng số bước) – cả phần kế hoạch phân công và lịch tuần cá nhân."
+  "Lịch tuần / Lịch tháng chỉ hiện các việc được chọn từ thẻ 📥 Công việc được giao (cùng công việc khác được giao và lịch tự thêm); bỏ ô “Hiện cả việc chưa đưa vào lịch”.",
+  "Việc chưa hoàn thành của các tuần trước hiện ở mục ↪ “Việc chưa hoàn thành của các tuần trước” trong Lịch tuần hiện tại – bấm ↪ Tiếp tục thực hiện (hoặc Tiếp tục tất cả) để đưa vào tuần đang thực hiện; dòng việc ghi các tuần đã thực hiện.",
+  "Tuần đã qua được lưu thành lịch sử thực hiện (hoàn thành / chưa hoàn thành trong tuần) và khóa – không chọn, bỏ chọn hay sửa được; chỉ lên lịch cho tuần hiện tại và các tuần sau. KPI lịch tuần lấy theo lịch sử đã khóa.",
+  "Lịch tháng đặt việc vào đúng tuần đã chọn; tuần đã qua hiện mờ."
  ],
  "history": [
+  {
+   "version": "V22.140",
+   "date": "2026-10-28",
+   "notes": [
+    "Lịch tuần / Lịch tháng chỉ hiện các việc được chọn từ thẻ 📥 Công việc được giao (cùng công việc khác được giao và lịch tự thêm); bỏ ô “Hiện cả việc chưa đưa vào lịch”.",
+    "Việc chưa hoàn thành của các tuần trước hiện ở mục ↪ “Việc chưa hoàn thành của các tuần trước” trong Lịch tuần hiện tại – bấm ↪ Tiếp tục thực hiện (hoặc Tiếp tục tất cả) để đưa vào tuần đang thực hiện; dòng việc ghi các tuần đã thực hiện.",
+    "Tuần đã qua được lưu thành lịch sử thực hiện (hoàn thành / chưa hoàn thành trong tuần) và khóa – không chọn, bỏ chọn hay sửa được; chỉ lên lịch cho tuần hiện tại và các tuần sau. KPI lịch tuần lấy theo lịch sử đã khóa.",
+    "Lịch tháng đặt việc vào đúng tuần đã chọn; tuần đã qua hiện mờ."
+   ]
+  },
   {
    "version": "V22.139",
    "date": "2026-10-28",
