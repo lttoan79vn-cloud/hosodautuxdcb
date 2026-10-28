@@ -1,12 +1,23 @@
 {
- "version": "V22.149",
+ "version": "V22.150",
  "date": "2026-10-28",
  "notes": [
-  "Tiêu đề văn bản thu gọn: bảng tên cơ quan – quốc hiệu rộng 16,5 cm, cách mép trái 2,5 cm, mép phải 2 cm (thân văn bản vẫn lề trái 3 cm, phải 2 cm); cột phải vừa dòng ngày tháng; các dòng tên tự co cỡ chữ để nằm trên 1 dòng.",
-  "Dòng địa danh, ngày tháng năm cỡ chữ 13 cố định (nghiêng).",
-  "In / PDF: chỉ in trang văn bản – không in tiêu đề trang, đường dẫn, ngày giờ của chương trình và không lẫn giao diện chương trình (kể cả khi in trên điện thoại); lề trang đặt đúng 20 – 20 – 20 – 30 mm."
+  "Soạn hồ sơ: nút ↶ Hoàn tác / ↷ Làm lại (Ctrl+Z / Ctrl+Y) cạnh Lưu ngay – lấy lại nội dung khi thao tác nhầm (tối đa 60 bước cho mỗi hồ sơ).",
+  "Tự lưu sau 30 giây kể từ thay đổi cuối nếu chưa bấm Lưu ngay; rời màn hình / chuyển ứng dụng thì lưu ngay.",
+  "Danh sách gói thầu: nút ↑ ↓ đổi thứ tự gói thầu; chuyển phân loại gói thì thẻ gói được cuộn tới và làm nổi, hiện đúng phân loại đã chọn.",
+  "Bảng dự toán: dòng TỔNG CỘNG và dòng trùng lặp (cùng nội dung, cùng giá trị) không cộng vào tổng dự toán, không phân vào gói; nội dung trùng giữa khoản mục và gói “đã thực hiện / không áp dụng” chỉ tính 1 lần – tránh sai tổng mức đầu tư do cộng dồn."
  ],
  "history": [
+  {
+   "version": "V22.150",
+   "date": "2026-10-28",
+   "notes": [
+    "Soạn hồ sơ: nút ↶ Hoàn tác / ↷ Làm lại (Ctrl+Z / Ctrl+Y) cạnh Lưu ngay – lấy lại nội dung khi thao tác nhầm (tối đa 60 bước cho mỗi hồ sơ).",
+    "Tự lưu sau 30 giây kể từ thay đổi cuối nếu chưa bấm Lưu ngay; rời màn hình / chuyển ứng dụng thì lưu ngay.",
+    "Danh sách gói thầu: nút ↑ ↓ đổi thứ tự gói thầu; chuyển phân loại gói thì thẻ gói được cuộn tới và làm nổi, hiện đúng phân loại đã chọn.",
+    "Bảng dự toán: dòng TỔNG CỘNG và dòng trùng lặp (cùng nội dung, cùng giá trị) không cộng vào tổng dự toán, không phân vào gói; nội dung trùng giữa khoản mục và gói “đã thực hiện / không áp dụng” chỉ tính 1 lần – tránh sai tổng mức đầu tư do cộng dồn."
+   ]
+  },
   {
    "version": "V22.149",
    "date": "2026-10-28",
