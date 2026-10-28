@@ -1,13 +1,19 @@
 {
- "version": "V22.155",
+ "version": "V22.156",
  "date": "2026-10-28",
  "notes": [
-  "Thuyết minh BC KTKT: thẻ Thông tin lập có ô “Người lập” để chọn tên in ở ô ký NGƯỜI LẬP (tự động = chuyên viên của phòng).",
-  "Tờ trình thành lập Tổ chuyên gia: mặc định lấy người lập thuyết minh làm thành viên; các thành viên khác chọn bổ sung từ danh mục (người được chọn làm Tổ trưởng tự lên đầu danh sách).",
-  "Bảng thành phần / thành viên: bỏ cột “Tự” (Ông/Bà); tất cả văn bản in thống nhất “- Ông (Bà): Họ tên ⇥ Chức vụ: …” canh tab (biên bản kiểm tra, tờ trình/QĐ Tổ chuyên gia, biên bản thương thảo, biên bản QLCL, biên bản soạn văn bản…).",
-  "Bước “Tờ trình của đơn vị” đổi thành “Văn bản căn cứ của đơn vị”: chọn loại Tờ trình / Giấy đề nghị / Quyết định / Thông báo; nạp file thì hệ thống tự nhận diện thể loại văn bản (theo tiêu đề và ký hiệu số) để trích xuất dữ liệu; các văn bản trích dẫn “Căn cứ <loại văn bản> số …” đúng loại."
+  "Gói chỉ định thầu rút gọn: “Công văn gửi dự thảo hợp đồng” đổi thành THƯ MỜI BÁO GIÁ theo mẫu 1665/TM-CSPH – Về việc báo giá gói thầu…; Kính gửi: Quý Công ty; 1. Đơn vị yêu cầu báo giá, 2. Địa điểm tiếp nhận, 3. Cách thức tiếp nhận (nộp trực tiếp / email), 4. Thời hạn tiếp nhận (từ ngày… đến ngày…), 5. Hiệu lực báo giá, 6. Thời gian thi công; (kèm theo dự thảo hợp đồng); ký hiệu /TM-CSPH, ký KT. Tổng Giám đốc.",
+  "Bước mới “Dự thảo hợp đồng” (sau Thư mời báo giá): mẫu Hợp đồng thi công xây dựng công trình (trang bìa DỰ THẢO, Phần 1 căn cứ, Phần 2 – 18 điều, ô ký, Phụ lục 01 khối lượng) tự điền công trình, gói thầu, căn cứ QĐ duyệt BC KTKT / KHLCNT / biên bản thương thảo / QĐ kết quả, thông tin hai bên, thời gian, giá và số tiền từng đợt thanh toán, bảo hành, khối lượng từ file dự toán; chỗ chưa có dữ liệu hiện chữ đỏ để bấm đến ô nhập, Word xuất “……” để điền tay. Gói tư vấn dùng mẫu hợp đồng dịch vụ tư vấn có chữ DỰ THẢO."
  ],
  "history": [
+  {
+   "version": "V22.156",
+   "date": "2026-10-28",
+   "notes": [
+    "Gói chỉ định thầu rút gọn: “Công văn gửi dự thảo hợp đồng” đổi thành THƯ MỜI BÁO GIÁ theo mẫu 1665/TM-CSPH – Về việc báo giá gói thầu…; Kính gửi: Quý Công ty; 1. Đơn vị yêu cầu báo giá, 2. Địa điểm tiếp nhận, 3. Cách thức tiếp nhận (nộp trực tiếp / email), 4. Thời hạn tiếp nhận (từ ngày… đến ngày…), 5. Hiệu lực báo giá, 6. Thời gian thi công; (kèm theo dự thảo hợp đồng); ký hiệu /TM-CSPH, ký KT. Tổng Giám đốc.",
+    "Bước mới “Dự thảo hợp đồng” (sau Thư mời báo giá): mẫu Hợp đồng thi công xây dựng công trình (trang bìa DỰ THẢO, Phần 1 căn cứ, Phần 2 – 18 điều, ô ký, Phụ lục 01 khối lượng) tự điền công trình, gói thầu, căn cứ QĐ duyệt BC KTKT / KHLCNT / biên bản thương thảo / QĐ kết quả, thông tin hai bên, thời gian, giá và số tiền từng đợt thanh toán, bảo hành, khối lượng từ file dự toán; chỗ chưa có dữ liệu hiện chữ đỏ để bấm đến ô nhập, Word xuất “……” để điền tay. Gói tư vấn dùng mẫu hợp đồng dịch vụ tư vấn có chữ DỰ THẢO."
+   ]
+  },
   {
    "version": "V22.155",
    "date": "2026-10-28",
