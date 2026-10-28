@@ -1,11 +1,23 @@
 {
- "version": "V22.158",
- "date": "2026-10-28",
+ "version": "V22.159",
+ "date": "2026-10-29",
  "notes": [
-  "Danh sách chọn có mục dài (VD: Liên kết hồ sơ PHR trong Lập kế hoạch): không còn tràn ra ngoài khung màn hình – danh sách mở trong khung, mục dài tự xuống nhiều dòng, có ô tìm khi danh sách nhiều mục; mục đã chọn hiện đầy đủ (xuống dòng) ngay dưới ô chọn.",
-  "Lập kế hoạch: ô Tên gói thầu / công việc thành ô nhiều dòng, tự giãn theo nội dung để hiển thị hết tên dài."
+  "Soạn hồ sơ: bước “Văn bản căn cứ của đơn vị” và “Biên bản kiểm tra” có ô “Không áp dụng cho công trình này (bỏ qua bước)” như BC thẩm định Tổ quản trị – bước bỏ qua hiện dấu “–”, không tính tiến độ, không cảnh báo, không đưa vào căn cứ; các bước sau mở khóa không cần nạp văn bản của đơn vị.",
+  "Khi bỏ qua Văn bản căn cứ của đơn vị: nhập “Căn cứ thay thế” (VD: Căn cứ tình hình thực tế; Căn cứ Quyết định … phê duyệt kế hoạch đầu tư năm 2026) – tự đưa vào phần căn cứ của biên bản, tờ trình, quyết định.",
+  "Lưu & đồng bộ: Danh mục / Lập kế hoạch / Lịch công tác / KPI lưu ngay trên máy và gửi máy chủ theo lô sau 2 phút không thao tác (trước đây gửi toàn bộ cấu hình sau mỗi thay đổi 0,7 giây); gửi ngay khi bấm Lưu, chuyển ứng dụng hoặc đóng trang.",
+  "Kiểm tra bản mới trên máy chủ (45 giây/lần) tạm dừng khi người dùng đang gõ / soạn thảo – không vẽ lại màn hình giữa chừng."
  ],
  "history": [
+  {
+   "version": "V22.159",
+   "date": "2026-10-29",
+   "notes": [
+    "Soạn hồ sơ: bước “Văn bản căn cứ của đơn vị” và “Biên bản kiểm tra” có ô “Không áp dụng cho công trình này (bỏ qua bước)” như BC thẩm định Tổ quản trị – bước bỏ qua hiện dấu “–”, không tính tiến độ, không cảnh báo, không đưa vào căn cứ; các bước sau mở khóa không cần nạp văn bản của đơn vị.",
+    "Khi bỏ qua Văn bản căn cứ của đơn vị: nhập “Căn cứ thay thế” (VD: Căn cứ tình hình thực tế; Căn cứ Quyết định … phê duyệt kế hoạch đầu tư năm 2026) – tự đưa vào phần căn cứ của biên bản, tờ trình, quyết định.",
+    "Lưu & đồng bộ: Danh mục / Lập kế hoạch / Lịch công tác / KPI lưu ngay trên máy và gửi máy chủ theo lô sau 2 phút không thao tác (trước đây gửi toàn bộ cấu hình sau mỗi thay đổi 0,7 giây); gửi ngay khi bấm Lưu, chuyển ứng dụng hoặc đóng trang.",
+    "Kiểm tra bản mới trên máy chủ (45 giây/lần) tạm dừng khi người dùng đang gõ / soạn thảo – không vẽ lại màn hình giữa chừng."
+   ]
+  },
   {
    "version": "V22.158",
    "date": "2026-10-28",
