@@ -1,12 +1,21 @@
 {
- "version": "V22.147",
+ "version": "V22.148",
  "date": "2026-10-28",
  "notes": [
-  "Nhật ký CT: thêm mục 📐 Hồ Sơ Thiết Kế (thanh bên, thanh dưới điện thoại) – tải nhiều tệp (bản vẽ, thuyết minh, dự toán…) theo nhóm, ghi chú; xem PDF / ảnh, tải về, xóa.",
-  "Tệp lưu và đồng bộ theo mã dự án (hồ sơ PHR liên kết ở Hồ Sơ & Nhà Thầu): DATA SOURCE / du_an / <mã dự án> / ho_so_thiet_ke; cùng danh sách hiện ở Soạn hồ sơ › Thông tin chung (thẻ Hồ sơ thiết kế), thêm / xóa ở đâu cũng đồng bộ.",
-  "Thanh bên Nhật ký CT: số % Tiến độ thực tế to gấp đôi."
+  "Danh sách gói thầu: mỗi gói có ô Phân loại – Thuộc kế hoạch LCNT / Đã thực hiện / Không áp dụng được hình thức LCNT; thêm nhanh phần công việc đã thực hiện, không áp dụng LCNT. Gói đã thực hiện, không áp dụng ra khỏi quy trình lựa chọn nhà thầu và bảng KHLCNT.",
+  "Tờ trình KHLCNT theo mẫu 120/TTr-CSPH: mục 3 là bảng Tên gói thầu – Đơn vị thực hiện – Giá trị – Hình thức LCNT – Loại hợp đồng – Thời gian thực hiện – Văn bản phê duyệt (dòng Tổng giá trị); mục 4 là bảng STT – Nội dung công việc – Đơn vị thực hiện – Giá trị (đồng) – Tổng giá trị; mục 7 cộng đủ các phần.",
+  "Thể thức NĐ 30/2020 cho mọi văn bản soạn hồ sơ: lề trái 3 cm, phải – trên – dưới 2 cm; đoạn văn căn đều, cách trước 6pt, sau 0pt, dòng Multiple 1,1; dòng tiêu đề (cơ quan, quốc hiệu, ngày tháng) tự co cỡ chữ để nằm trọn 1 dòng trong khổ A4."
  ],
  "history": [
+  {
+   "version": "V22.148",
+   "date": "2026-10-28",
+   "notes": [
+    "Danh sách gói thầu: mỗi gói có ô Phân loại – Thuộc kế hoạch LCNT / Đã thực hiện / Không áp dụng được hình thức LCNT; thêm nhanh phần công việc đã thực hiện, không áp dụng LCNT. Gói đã thực hiện, không áp dụng ra khỏi quy trình lựa chọn nhà thầu và bảng KHLCNT.",
+    "Tờ trình KHLCNT theo mẫu 120/TTr-CSPH: mục 3 là bảng Tên gói thầu – Đơn vị thực hiện – Giá trị – Hình thức LCNT – Loại hợp đồng – Thời gian thực hiện – Văn bản phê duyệt (dòng Tổng giá trị); mục 4 là bảng STT – Nội dung công việc – Đơn vị thực hiện – Giá trị (đồng) – Tổng giá trị; mục 7 cộng đủ các phần.",
+    "Thể thức NĐ 30/2020 cho mọi văn bản soạn hồ sơ: lề trái 3 cm, phải – trên – dưới 2 cm; đoạn văn căn đều, cách trước 6pt, sau 0pt, dòng Multiple 1,1; dòng tiêu đề (cơ quan, quốc hiệu, ngày tháng) tự co cỡ chữ để nằm trọn 1 dòng trong khổ A4."
+   ]
+  },
   {
    "version": "V22.147",
    "date": "2026-10-28",
