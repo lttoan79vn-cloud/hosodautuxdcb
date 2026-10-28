@@ -1,12 +1,23 @@
 {
- "version": "V22.141",
+ "version": "V22.142",
  "date": "2026-10-28",
  "notes": [
-  "Sửa nút ☑ chọn việc ở thẻ Công việc được giao: chọn được cả khi xem theo tên thành viên (người thực hiện hoặc người có quyền sửa kế hoạch lên lịch cho thành viên), không chỉ ở “Việc của tôi”; lịch tuần lưu theo người đang xem.",
-  "Chọn / bỏ chọn có thông báo và Lịch tuần, Lịch tháng cập nhật ngay; bỏ chọn ngay trên Lịch tuần để đưa việc ra khỏi lịch; “Mọi người” hiện lịch tuần của các thành viên.",
-  "Lịch tháng ghi rõ tên gói + bước; KPI cá nhân nhận cả lịch tuần lập theo tên thành viên."
+  "Lịch tuần: bảng Nhắc việc cùng cột với lịch tuần (Công việc – Bước công việc / nội dung); các việc đang trong lịch tuần xếp đầu bảng, đúng thứ tự như lịch tuần phía trên, có nhãn 📅 trong lịch tuần.",
+  "Tên thành viên lấy theo bảng KPI Phòng: bảng phân công có danh sách chọn Chủ trì, Phối hợp (thêm / bỏ từng người); quy tắc giao việc, lịch tự thêm gợi ý tên KPI.",
+  "🔄 Đồng bộ tên theo KPI Phòng: phát hiện tên cũ / tên ngắn (VD: Hiếu → Nguyễn Thanh Hiếu) và cập nhật ở bảng phân công, quy tắc giao việc, công việc khác, lịch công tác, lịch tuần.",
+  "Thiết lập bảng KPI Phòng: thêm ô Tài khoản đăng nhập cho từng thành viên – gắn tên với tài khoản cho Việc của tôi, lịch tuần, KPI cá nhân, báo cáo."
  ],
  "history": [
+  {
+   "version": "V22.142",
+   "date": "2026-10-28",
+   "notes": [
+    "Lịch tuần: bảng Nhắc việc cùng cột với lịch tuần (Công việc – Bước công việc / nội dung); các việc đang trong lịch tuần xếp đầu bảng, đúng thứ tự như lịch tuần phía trên, có nhãn 📅 trong lịch tuần.",
+    "Tên thành viên lấy theo bảng KPI Phòng: bảng phân công có danh sách chọn Chủ trì, Phối hợp (thêm / bỏ từng người); quy tắc giao việc, lịch tự thêm gợi ý tên KPI.",
+    "🔄 Đồng bộ tên theo KPI Phòng: phát hiện tên cũ / tên ngắn (VD: Hiếu → Nguyễn Thanh Hiếu) và cập nhật ở bảng phân công, quy tắc giao việc, công việc khác, lịch công tác, lịch tuần.",
+    "Thiết lập bảng KPI Phòng: thêm ô Tài khoản đăng nhập cho từng thành viên – gắn tên với tài khoản cho Việc của tôi, lịch tuần, KPI cá nhân, báo cáo."
+   ]
+  },
   {
    "version": "V22.141",
    "date": "2026-10-28",
