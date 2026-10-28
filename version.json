@@ -1,13 +1,17 @@
 {
- "version": "V22.150",
+ "version": "V22.151",
  "date": "2026-10-28",
  "notes": [
-  "Soạn hồ sơ: nút ↶ Hoàn tác / ↷ Làm lại (Ctrl+Z / Ctrl+Y) cạnh Lưu ngay – lấy lại nội dung khi thao tác nhầm (tối đa 60 bước cho mỗi hồ sơ).",
-  "Tự lưu sau 30 giây kể từ thay đổi cuối nếu chưa bấm Lưu ngay; rời màn hình / chuyển ứng dụng thì lưu ngay.",
-  "Danh sách gói thầu: nút ↑ ↓ đổi thứ tự gói thầu; chuyển phân loại gói thì thẻ gói được cuộn tới và làm nổi, hiện đúng phân loại đã chọn.",
-  "Bảng dự toán: dòng TỔNG CỘNG và dòng trùng lặp (cùng nội dung, cùng giá trị) không cộng vào tổng dự toán, không phân vào gói; nội dung trùng giữa khoản mục và gói “đã thực hiện / không áp dụng” chỉ tính 1 lần – tránh sai tổng mức đầu tư do cộng dồn."
+  "Tiêu đề văn bản: dòng tên cơ quan (dòng 1, 2) và quốc hiệu giữ cỡ chữ 12, dùng nén chữ (Font › Advanced › Spacing Condensed, tối đa 1pt – VD “TẬP ĐOÀN CÔNG NGHIỆP CAO SU VIỆT NAM” nén 0,95pt) để nằm trọn 1 dòng, cân đối hai cột; cột trái rộng thêm."
  ],
  "history": [
+  {
+   "version": "V22.151",
+   "date": "2026-10-28",
+   "notes": [
+    "Tiêu đề văn bản: dòng tên cơ quan (dòng 1, 2) và quốc hiệu giữ cỡ chữ 12, dùng nén chữ (Font › Advanced › Spacing Condensed, tối đa 1pt – VD “TẬP ĐOÀN CÔNG NGHIỆP CAO SU VIỆT NAM” nén 0,95pt) để nằm trọn 1 dòng, cân đối hai cột; cột trái rộng thêm."
+   ]
+  },
   {
    "version": "V22.150",
    "date": "2026-10-28",
