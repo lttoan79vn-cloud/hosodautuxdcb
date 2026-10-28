@@ -1,10 +1,21 @@
 {
- "version": "V22.146",
+ "version": "V22.147",
  "date": "2026-10-28",
  "notes": [
-  "Nhật ký thi công xây dựng: bỏ dòng “(Ký, ghi rõ họ tên)” ở ô ký trang nhật ký ngày và bản in nhật ký (bản in/PDF và Word)."
+  "Nhật ký CT: thêm mục 📐 Hồ Sơ Thiết Kế (thanh bên, thanh dưới điện thoại) – tải nhiều tệp (bản vẽ, thuyết minh, dự toán…) theo nhóm, ghi chú; xem PDF / ảnh, tải về, xóa.",
+  "Tệp lưu và đồng bộ theo mã dự án (hồ sơ PHR liên kết ở Hồ Sơ & Nhà Thầu): DATA SOURCE / du_an / <mã dự án> / ho_so_thiet_ke; cùng danh sách hiện ở Soạn hồ sơ › Thông tin chung (thẻ Hồ sơ thiết kế), thêm / xóa ở đâu cũng đồng bộ.",
+  "Thanh bên Nhật ký CT: số % Tiến độ thực tế to gấp đôi."
  ],
  "history": [
+  {
+   "version": "V22.147",
+   "date": "2026-10-28",
+   "notes": [
+    "Nhật ký CT: thêm mục 📐 Hồ Sơ Thiết Kế (thanh bên, thanh dưới điện thoại) – tải nhiều tệp (bản vẽ, thuyết minh, dự toán…) theo nhóm, ghi chú; xem PDF / ảnh, tải về, xóa.",
+    "Tệp lưu và đồng bộ theo mã dự án (hồ sơ PHR liên kết ở Hồ Sơ & Nhà Thầu): DATA SOURCE / du_an / <mã dự án> / ho_so_thiet_ke; cùng danh sách hiện ở Soạn hồ sơ › Thông tin chung (thẻ Hồ sơ thiết kế), thêm / xóa ở đâu cũng đồng bộ.",
+    "Thanh bên Nhật ký CT: số % Tiến độ thực tế to gấp đôi."
+   ]
+  },
   {
    "version": "V22.146",
    "date": "2026-10-28",
