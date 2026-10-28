@@ -1,11 +1,21 @@
 {
- "version": "V22.156",
+ "version": "V22.157",
  "date": "2026-10-28",
  "notes": [
-  "Gói chỉ định thầu rút gọn: “Công văn gửi dự thảo hợp đồng” đổi thành THƯ MỜI BÁO GIÁ theo mẫu 1665/TM-CSPH – Về việc báo giá gói thầu…; Kính gửi: Quý Công ty; 1. Đơn vị yêu cầu báo giá, 2. Địa điểm tiếp nhận, 3. Cách thức tiếp nhận (nộp trực tiếp / email), 4. Thời hạn tiếp nhận (từ ngày… đến ngày…), 5. Hiệu lực báo giá, 6. Thời gian thi công; (kèm theo dự thảo hợp đồng); ký hiệu /TM-CSPH, ký KT. Tổng Giám đốc.",
-  "Bước mới “Dự thảo hợp đồng” (sau Thư mời báo giá): mẫu Hợp đồng thi công xây dựng công trình (trang bìa DỰ THẢO, Phần 1 căn cứ, Phần 2 – 18 điều, ô ký, Phụ lục 01 khối lượng) tự điền công trình, gói thầu, căn cứ QĐ duyệt BC KTKT / KHLCNT / biên bản thương thảo / QĐ kết quả, thông tin hai bên, thời gian, giá và số tiền từng đợt thanh toán, bảo hành, khối lượng từ file dự toán; chỗ chưa có dữ liệu hiện chữ đỏ để bấm đến ô nhập, Word xuất “……” để điền tay. Gói tư vấn dùng mẫu hợp đồng dịch vụ tư vấn có chữ DỰ THẢO."
+  "Dự thảo hợp đồng: bảng khối lượng mời thầu (Phụ lục 01) thành bảng nhập – lấy sẵn từ file dự toán (tên công tác, đơn vị, khối lượng, đơn giá), người dùng kiểm tra, sửa / thêm / xóa / đổi thứ tự dòng cho đúng khối lượng mời thầu; tự tính thành tiền, tổng cộng; nút “Lấy lại từ dự toán”.",
+  "Giá hợp đồng trong dự thảo liên kết với giá gói thầu tương ứng (Danh sách gói thầu) khi chưa có giá hợp đồng; dòng “Làm tròn” của Phụ lục 01 ghi theo giá này, báo chênh lệch với tổng thành tiền; bỏ chọn để để trống cho nhà thầu điền.",
+  "Hồ sơ giá thành thiết bị: Thư mời báo giá có số …/TM-CSPH (nhập ở Thông tin ban hành); các tờ trình trích “thư mời báo giá số … ngày …”."
  ],
  "history": [
+  {
+   "version": "V22.157",
+   "date": "2026-10-28",
+   "notes": [
+    "Dự thảo hợp đồng: bảng khối lượng mời thầu (Phụ lục 01) thành bảng nhập – lấy sẵn từ file dự toán (tên công tác, đơn vị, khối lượng, đơn giá), người dùng kiểm tra, sửa / thêm / xóa / đổi thứ tự dòng cho đúng khối lượng mời thầu; tự tính thành tiền, tổng cộng; nút “Lấy lại từ dự toán”.",
+    "Giá hợp đồng trong dự thảo liên kết với giá gói thầu tương ứng (Danh sách gói thầu) khi chưa có giá hợp đồng; dòng “Làm tròn” của Phụ lục 01 ghi theo giá này, báo chênh lệch với tổng thành tiền; bỏ chọn để để trống cho nhà thầu điền.",
+    "Hồ sơ giá thành thiết bị: Thư mời báo giá có số …/TM-CSPH (nhập ở Thông tin ban hành); các tờ trình trích “thư mời báo giá số … ngày …”."
+   ]
+  },
   {
    "version": "V22.156",
    "date": "2026-10-28",
