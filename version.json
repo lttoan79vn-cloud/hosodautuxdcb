@@ -1,10 +1,21 @@
 {
- "version": "V22.168",
+ "version": "V22.169",
  "date": "2026-10-29",
  "notes": [
-  "Sửa lỗi thanh trên cùng vượt quá màn hình máy tính (cửa sổ rộng 1.290–1.900 px, hoặc phóng to 125%): thanh tự co theo độ rộng – thu gọn chữ, cửa sổ hẹp hơn chỉ còn biểu tượng thẻ (rê chuột xem tên), nút Hoàn tác / Lưu ngay / Thoát thu gọn; không còn bị che nút Tài khoản, Thoát."
+  "Thanh trên cùng: phục hồi chữ bên cạnh biểu tượng các thẻ (Tổng quan, Soạn hồ sơ, Nhật ký CT…) trên màn hình máy tính; bỏ dòng thông tin phụ dưới tên phần mềm cho gọn. Chỉ khi cửa sổ rất hẹp (dưới 1.220 px) mới thu về biểu tượng.",
+  "Nhật ký CT › Hồ sơ thiết kế: thêm nơi lưu riêng “Dự toán công trình” và “Bản vẽ thi công” (cùng “Hồ sơ thiết kế khác”), mỗi nơi có nút tải tệp, ghi chú, danh sách tệp – lưu theo mã dự án, dùng chung với Soạn hồ sơ › Thông tin chung.",
+  "Bấm vào tệp để mở khung xem toàn màn hình, phóng to/thu nhỏ: nút + / −, “Vừa khung”, “100%”, Ctrl + cuộn chuột, chụm 2 ngón trên điện thoại, kéo để di chuyển, ‹ › chuyển tệp, ⬇ Tải về, Esc để đóng. Xem được PDF, ảnh (JPG/PNG) và bảng dự toán Excel."
  ],
  "history": [
+  {
+   "version": "V22.169",
+   "date": "2026-10-29",
+   "notes": [
+    "Thanh trên cùng: phục hồi chữ bên cạnh biểu tượng các thẻ (Tổng quan, Soạn hồ sơ, Nhật ký CT…) trên màn hình máy tính; bỏ dòng thông tin phụ dưới tên phần mềm cho gọn. Chỉ khi cửa sổ rất hẹp (dưới 1.220 px) mới thu về biểu tượng.",
+    "Nhật ký CT › Hồ sơ thiết kế: thêm nơi lưu riêng “Dự toán công trình” và “Bản vẽ thi công” (cùng “Hồ sơ thiết kế khác”), mỗi nơi có nút tải tệp, ghi chú, danh sách tệp – lưu theo mã dự án, dùng chung với Soạn hồ sơ › Thông tin chung.",
+    "Bấm vào tệp để mở khung xem toàn màn hình, phóng to/thu nhỏ: nút + / −, “Vừa khung”, “100%”, Ctrl + cuộn chuột, chụm 2 ngón trên điện thoại, kéo để di chuyển, ‹ › chuyển tệp, ⬇ Tải về, Esc để đóng. Xem được PDF, ảnh (JPG/PNG) và bảng dự toán Excel."
+   ]
+  },
   {
    "version": "V22.168",
    "date": "2026-10-29",
