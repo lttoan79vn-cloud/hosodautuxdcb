@@ -1,10 +1,21 @@
 {
- "version": "V22.164",
+ "version": "V22.165",
  "date": "2026-10-29",
  "notes": [
-  "Căn cứ pháp luật xếp theo thứ bậc văn bản (Hiến pháp → Bộ luật, Luật → Nghị quyết Quốc hội → Pháp lệnh → Nghị định → Quyết định Thủ tướng → Thông tư → văn bản Tập đoàn, Điều lệ, Quy chế); cùng loại xếp theo ngày ban hành (VD: Nghị định 206/2026/NĐ-CP ngày 15/6/2026 trước Nghị định 217/2026/NĐ-CP ngày 19/6/2026). Văn bản nội bộ tiếp theo, xếp theo ngày."
+  "Thiết lập KPI: chữ cỡ 12pt; danh sách thành viên thành bảng (Họ tên – Tài khoản – Chức vụ – Ẩn) thay ô văn bản; nút “Đồng bộ theo KPI Phòng”, “+ Thêm thành viên”.",
+  "Sửa lỗi một người bị tính thành 2 dòng KPI khi có 2 tài khoản (VD: Lê Thanh Toàn – lttoan79vn@… và lethanhtoan79vn@…): dòng trùng họ tên được tô cam và gộp khi lưu; một người nhập được nhiều tài khoản (cách nhau dấu phẩy), số liệu các tài khoản cộng chung.",
+  "Sửa lỗi tổng trọng số các tiêu chí không bằng 100 (mặc định cũ 115): hiện tổng trọng số trực tiếp, nút “Quy trọng số về tổng 100”; mặc định mới tổng 100. Lưu thiết lập gửi máy chủ ngay."
  ],
  "history": [
+  {
+   "version": "V22.165",
+   "date": "2026-10-29",
+   "notes": [
+    "Thiết lập KPI: chữ cỡ 12pt; danh sách thành viên thành bảng (Họ tên – Tài khoản – Chức vụ – Ẩn) thay ô văn bản; nút “Đồng bộ theo KPI Phòng”, “+ Thêm thành viên”.",
+    "Sửa lỗi một người bị tính thành 2 dòng KPI khi có 2 tài khoản (VD: Lê Thanh Toàn – lttoan79vn@… và lethanhtoan79vn@…): dòng trùng họ tên được tô cam và gộp khi lưu; một người nhập được nhiều tài khoản (cách nhau dấu phẩy), số liệu các tài khoản cộng chung.",
+    "Sửa lỗi tổng trọng số các tiêu chí không bằng 100 (mặc định cũ 115): hiện tổng trọng số trực tiếp, nút “Quy trọng số về tổng 100”; mặc định mới tổng 100. Lưu thiết lập gửi máy chủ ngay."
+   ]
+  },
   {
    "version": "V22.164",
    "date": "2026-10-29",
