@@ -1,10 +1,19 @@
 {
- "version": "V22.162",
+ "version": "V22.163",
  "date": "2026-10-29",
  "notes": [
-  "Phần căn cứ của tất cả văn bản: văn bản nội bộ (quyết định, tờ trình, biên bản, báo cáo, thông báo…) xếp theo ngày ban hành – văn bản ban hành trước đứng trước (VD: QĐ 234 ngày 11/10/2026 trước QĐ 123 ngày 12/10/2026); căn cứ pháp luật (Luật, Nghị định, Thông tư, văn bản Thư viện pháp luật) giữ ở đầu; văn bản chưa có ngày đứng sau; dấu “;” / “.” cuối dòng tự đặt lại."
+  "Sửa lỗi căn cứ chưa xếp theo ngày khi văn bản nội bộ (quyết định, tờ trình… của Công ty) được thêm vào Thư viện pháp luật: nay mọi văn bản nội bộ đều xếp theo ngày ban hành (VD: QĐ 501 ngày 22/5/2026 trước QĐ 1194 ngày 07/9/2026); chỉ Luật, Nghị định, Thông tư, Điều lệ / Quy chế và văn bản của Tập đoàn giữ ở đầu.",
+  "Áp dụng thêm cho Soạn văn bản (công văn, tờ trình, quyết định… tự soạn) và biên bản Quản lý chất lượng."
  ],
  "history": [
+  {
+   "version": "V22.163",
+   "date": "2026-10-29",
+   "notes": [
+    "Sửa lỗi căn cứ chưa xếp theo ngày khi văn bản nội bộ (quyết định, tờ trình… của Công ty) được thêm vào Thư viện pháp luật: nay mọi văn bản nội bộ đều xếp theo ngày ban hành (VD: QĐ 501 ngày 22/5/2026 trước QĐ 1194 ngày 07/9/2026); chỉ Luật, Nghị định, Thông tư, Điều lệ / Quy chế và văn bản của Tập đoàn giữ ở đầu.",
+    "Áp dụng thêm cho Soạn văn bản (công văn, tờ trình, quyết định… tự soạn) và biên bản Quản lý chất lượng."
+   ]
+  },
   {
    "version": "V22.162",
    "date": "2026-10-29",
