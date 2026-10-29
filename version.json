@@ -1,11 +1,21 @@
 {
- "version": "V22.166",
+ "version": "V22.167",
  "date": "2026-10-29",
  "notes": [
-  "Sửa lỗi ô “Gắn tài khoản” (KPI Phòng) và các ô chọn có mục dài không chọn được: danh sách mở nằm dưới hộp thiết lập, hoặc bị đóng ngay khi vừa mở do sự kiện cuộn – nay hiện trên cùng và giữ mở để chọn.",
-  "Khôi phục mô-đun bố cục vừa khít màn hình / xoay ngang–dọc / chặn phóng to bằng 2 ngón (bị thay nhầm từ V22.154); mô-đun khung nhập – đồng bộ chỉ còn nạp 1 lần (trước nạp 2 lần)."
+  "Sửa lỗi tạo bản sao “…-BAN-MAY-… (bản sửa trùng với người khác)” khi hai người cùng sửa một hồ sơ: nay tự gộp thay đổi của hai người theo từng trường, từng văn bản, từng gói thầu; chỉ khi cùng sửa một trường mới giữ bản của người lưu sau (bản kia vẫn có trong sao lưu máy chủ). Máy đang mở nhận luôn phần thay đổi của người kia.",
+  "Sửa lỗi có thể ghi đè mất thay đổi của người khác: số lần lưu gốc lấy theo bản người dùng bắt đầu sửa (trước đây lấy bản mới nhất vừa tải ngầm).",
+  "Không tự lưu hồ sơ trống khi đăng nhập lần đầu / chọn nhóm hồ sơ chưa có hồ sơ (chỉ lưu khi nhập dữ liệu); Tổng quan ẩn các hồ sơ “(chưa đặt tên)” chưa có dữ liệu – ô “Hiện hồ sơ trống (n)” để xem lại."
  ],
  "history": [
+  {
+   "version": "V22.167",
+   "date": "2026-10-29",
+   "notes": [
+    "Sửa lỗi tạo bản sao “…-BAN-MAY-… (bản sửa trùng với người khác)” khi hai người cùng sửa một hồ sơ: nay tự gộp thay đổi của hai người theo từng trường, từng văn bản, từng gói thầu; chỉ khi cùng sửa một trường mới giữ bản của người lưu sau (bản kia vẫn có trong sao lưu máy chủ). Máy đang mở nhận luôn phần thay đổi của người kia.",
+    "Sửa lỗi có thể ghi đè mất thay đổi của người khác: số lần lưu gốc lấy theo bản người dùng bắt đầu sửa (trước đây lấy bản mới nhất vừa tải ngầm).",
+    "Không tự lưu hồ sơ trống khi đăng nhập lần đầu / chọn nhóm hồ sơ chưa có hồ sơ (chỉ lưu khi nhập dữ liệu); Tổng quan ẩn các hồ sơ “(chưa đặt tên)” chưa có dữ liệu – ô “Hiện hồ sơ trống (n)” để xem lại."
+   ]
+  },
   {
    "version": "V22.166",
    "date": "2026-10-29",
