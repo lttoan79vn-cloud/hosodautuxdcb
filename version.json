@@ -1,10 +1,21 @@
 {
- "version": "V22.173",
+ "version": "V22.174",
  "date": "2026-10-29",
  "notes": [
-  "Nhật ký CT: mục “Hồ Sơ Thiết Kế” chuyển lên ngay trên “Nhật Ký Hằng Ngày” (thanh bên và thanh dưới trên điện thoại); mục đang mở vẫn được tô sáng đúng."
+  "Tăng tốc Hồ sơ thiết kế (Nhật ký CT và Soạn hồ sơ): danh sách tệp được nhớ trên máy – mở thẻ là hiện ngay (trước đây chờ khoảng 6–7 giây do hỏi máy chủ Google 4–6 lần nối tiếp), sau đó tự cập nhật ngầm nếu có thay đổi; Nhật ký CT tự tải sẵn danh sách khi vừa mở.",
+  "Mở tệp nhanh hơn: tệp đã có trên máy (mình tải lên hoặc đã mở trước đó) mở ngay không tải lại; rê chuột vào tên tệp là bắt đầu tải trước; trình đọc PDF khởi động sẵn và dùng chung; tệp PDF vừa xem mở lại tức thì (khoảng 0,2 giây, trước đây 2,6 giây); bản vẽ nhiều trang chỉ vẽ trang đang xem, các trang khác vẽ khi cuộn tới – phóng to mượt hơn.",
+  "Tải nhiều tệp cùng lúc nhanh hơn (đọc và ghi mục lục 1 lần cho cả đợt): 2 tệp từ khoảng 11 giây còn khoảng 2 giây."
  ],
  "history": [
+  {
+   "version": "V22.174",
+   "date": "2026-10-29",
+   "notes": [
+    "Tăng tốc Hồ sơ thiết kế (Nhật ký CT và Soạn hồ sơ): danh sách tệp được nhớ trên máy – mở thẻ là hiện ngay (trước đây chờ khoảng 6–7 giây do hỏi máy chủ Google 4–6 lần nối tiếp), sau đó tự cập nhật ngầm nếu có thay đổi; Nhật ký CT tự tải sẵn danh sách khi vừa mở.",
+    "Mở tệp nhanh hơn: tệp đã có trên máy (mình tải lên hoặc đã mở trước đó) mở ngay không tải lại; rê chuột vào tên tệp là bắt đầu tải trước; trình đọc PDF khởi động sẵn và dùng chung; tệp PDF vừa xem mở lại tức thì (khoảng 0,2 giây, trước đây 2,6 giây); bản vẽ nhiều trang chỉ vẽ trang đang xem, các trang khác vẽ khi cuộn tới – phóng to mượt hơn.",
+    "Tải nhiều tệp cùng lúc nhanh hơn (đọc và ghi mục lục 1 lần cho cả đợt): 2 tệp từ khoảng 11 giây còn khoảng 2 giây."
+   ]
+  },
   {
    "version": "V22.173",
    "date": "2026-10-29",
