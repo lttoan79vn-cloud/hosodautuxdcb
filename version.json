@@ -1,11 +1,17 @@
 {
- "version": "V22.171",
+ "version": "V22.172",
  "date": "2026-10-29",
  "notes": [
-  "Nhật ký CT › Hồ sơ thiết kế: công trình chưa liên kết mã dự án (hồ sơ PHR) vẫn có nút “Tải tệp lên” ở 3 nơi lưu (Dự toán công trình, Bản vẽ thi công, Hồ sơ thiết kế khác); tệp tải lên hiện thành danh sách, bấm tên tệp để mở khung xem nội dung (phóng to được). Khi liên kết mã dự án, các tệp tự chuyển sang mã dự án để dùng chung với Soạn hồ sơ.",
-  "Khung xem tệp: phím Esc, ← → dùng được ngay khi mở tệp từ Nhật ký CT."
+  "Thanh tiêu đề cửa sổ (khi cài chương trình như ứng dụng trên máy tính, hoặc thanh trình duyệt trên điện thoại) đổi sang màu xanh lá VRG, phân biệt rõ với thanh công cụ xanh dương của chương trình bên dưới. Máy đã cài ứng dụng có thể cần đóng – mở lại chương trình 1 lần để thấy màu mới."
  ],
  "history": [
+  {
+   "version": "V22.172",
+   "date": "2026-10-29",
+   "notes": [
+    "Thanh tiêu đề cửa sổ (khi cài chương trình như ứng dụng trên máy tính, hoặc thanh trình duyệt trên điện thoại) đổi sang màu xanh lá VRG, phân biệt rõ với thanh công cụ xanh dương của chương trình bên dưới. Máy đã cài ứng dụng có thể cần đóng – mở lại chương trình 1 lần để thấy màu mới."
+   ]
+  },
   {
    "version": "V22.171",
    "date": "2026-10-29",
