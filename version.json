@@ -1,10 +1,17 @@
 {
- "version": "V22.172",
+ "version": "V22.173",
  "date": "2026-10-29",
  "notes": [
-  "Thanh tiêu đề cửa sổ (khi cài chương trình như ứng dụng trên máy tính, hoặc thanh trình duyệt trên điện thoại) đổi sang màu xanh lá VRG, phân biệt rõ với thanh công cụ xanh dương của chương trình bên dưới. Máy đã cài ứng dụng có thể cần đóng – mở lại chương trình 1 lần để thấy màu mới."
+  "Nhật ký CT: mục “Hồ Sơ Thiết Kế” chuyển lên ngay trên “Nhật Ký Hằng Ngày” (thanh bên và thanh dưới trên điện thoại); mục đang mở vẫn được tô sáng đúng."
  ],
  "history": [
+  {
+   "version": "V22.173",
+   "date": "2026-10-29",
+   "notes": [
+    "Nhật ký CT: mục “Hồ Sơ Thiết Kế” chuyển lên ngay trên “Nhật Ký Hằng Ngày” (thanh bên và thanh dưới trên điện thoại); mục đang mở vẫn được tô sáng đúng."
+   ]
+  },
   {
    "version": "V22.172",
    "date": "2026-10-29",
