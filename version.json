@@ -1,12 +1,19 @@
 {
- "version": "V22.165",
+ "version": "V22.166",
  "date": "2026-10-29",
  "notes": [
-  "Thiết lập KPI: chữ cỡ 12pt; danh sách thành viên thành bảng (Họ tên – Tài khoản – Chức vụ – Ẩn) thay ô văn bản; nút “Đồng bộ theo KPI Phòng”, “+ Thêm thành viên”.",
-  "Sửa lỗi một người bị tính thành 2 dòng KPI khi có 2 tài khoản (VD: Lê Thanh Toàn – lttoan79vn@… và lethanhtoan79vn@…): dòng trùng họ tên được tô cam và gộp khi lưu; một người nhập được nhiều tài khoản (cách nhau dấu phẩy), số liệu các tài khoản cộng chung.",
-  "Sửa lỗi tổng trọng số các tiêu chí không bằng 100 (mặc định cũ 115): hiện tổng trọng số trực tiếp, nút “Quy trọng số về tổng 100”; mặc định mới tổng 100. Lưu thiết lập gửi máy chủ ngay."
+  "Sửa lỗi ô “Gắn tài khoản” (KPI Phòng) và các ô chọn có mục dài không chọn được: danh sách mở nằm dưới hộp thiết lập, hoặc bị đóng ngay khi vừa mở do sự kiện cuộn – nay hiện trên cùng và giữ mở để chọn.",
+  "Khôi phục mô-đun bố cục vừa khít màn hình / xoay ngang–dọc / chặn phóng to bằng 2 ngón (bị thay nhầm từ V22.154); mô-đun khung nhập – đồng bộ chỉ còn nạp 1 lần (trước nạp 2 lần)."
  ],
  "history": [
+  {
+   "version": "V22.166",
+   "date": "2026-10-29",
+   "notes": [
+    "Sửa lỗi ô “Gắn tài khoản” (KPI Phòng) và các ô chọn có mục dài không chọn được: danh sách mở nằm dưới hộp thiết lập, hoặc bị đóng ngay khi vừa mở do sự kiện cuộn – nay hiện trên cùng và giữ mở để chọn.",
+    "Khôi phục mô-đun bố cục vừa khít màn hình / xoay ngang–dọc / chặn phóng to bằng 2 ngón (bị thay nhầm từ V22.154); mô-đun khung nhập – đồng bộ chỉ còn nạp 1 lần (trước nạp 2 lần)."
+   ]
+  },
   {
    "version": "V22.165",
    "date": "2026-10-29",
