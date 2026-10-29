@@ -1,12 +1,17 @@
 {
- "version": "V22.167",
+ "version": "V22.168",
  "date": "2026-10-29",
  "notes": [
-  "Sửa lỗi tạo bản sao “…-BAN-MAY-… (bản sửa trùng với người khác)” khi hai người cùng sửa một hồ sơ: nay tự gộp thay đổi của hai người theo từng trường, từng văn bản, từng gói thầu; chỉ khi cùng sửa một trường mới giữ bản của người lưu sau (bản kia vẫn có trong sao lưu máy chủ). Máy đang mở nhận luôn phần thay đổi của người kia.",
-  "Sửa lỗi có thể ghi đè mất thay đổi của người khác: số lần lưu gốc lấy theo bản người dùng bắt đầu sửa (trước đây lấy bản mới nhất vừa tải ngầm).",
-  "Không tự lưu hồ sơ trống khi đăng nhập lần đầu / chọn nhóm hồ sơ chưa có hồ sơ (chỉ lưu khi nhập dữ liệu); Tổng quan ẩn các hồ sơ “(chưa đặt tên)” chưa có dữ liệu – ô “Hiện hồ sơ trống (n)” để xem lại."
+  "Sửa lỗi thanh trên cùng vượt quá màn hình máy tính (cửa sổ rộng 1.290–1.900 px, hoặc phóng to 125%): thanh tự co theo độ rộng – thu gọn chữ, cửa sổ hẹp hơn chỉ còn biểu tượng thẻ (rê chuột xem tên), nút Hoàn tác / Lưu ngay / Thoát thu gọn; không còn bị che nút Tài khoản, Thoát."
  ],
  "history": [
+  {
+   "version": "V22.168",
+   "date": "2026-10-29",
+   "notes": [
+    "Sửa lỗi thanh trên cùng vượt quá màn hình máy tính (cửa sổ rộng 1.290–1.900 px, hoặc phóng to 125%): thanh tự co theo độ rộng – thu gọn chữ, cửa sổ hẹp hơn chỉ còn biểu tượng thẻ (rê chuột xem tên), nút Hoàn tác / Lưu ngay / Thoát thu gọn; không còn bị che nút Tài khoản, Thoát."
+   ]
+  },
   {
    "version": "V22.167",
    "date": "2026-10-29",
