@@ -1,11 +1,17 @@
 {
- "version": "V22.163",
+ "version": "V22.164",
  "date": "2026-10-29",
  "notes": [
-  "Sửa lỗi căn cứ chưa xếp theo ngày khi văn bản nội bộ (quyết định, tờ trình… của Công ty) được thêm vào Thư viện pháp luật: nay mọi văn bản nội bộ đều xếp theo ngày ban hành (VD: QĐ 501 ngày 22/5/2026 trước QĐ 1194 ngày 07/9/2026); chỉ Luật, Nghị định, Thông tư, Điều lệ / Quy chế và văn bản của Tập đoàn giữ ở đầu.",
-  "Áp dụng thêm cho Soạn văn bản (công văn, tờ trình, quyết định… tự soạn) và biên bản Quản lý chất lượng."
+  "Căn cứ pháp luật xếp theo thứ bậc văn bản (Hiến pháp → Bộ luật, Luật → Nghị quyết Quốc hội → Pháp lệnh → Nghị định → Quyết định Thủ tướng → Thông tư → văn bản Tập đoàn, Điều lệ, Quy chế); cùng loại xếp theo ngày ban hành (VD: Nghị định 206/2026/NĐ-CP ngày 15/6/2026 trước Nghị định 217/2026/NĐ-CP ngày 19/6/2026). Văn bản nội bộ tiếp theo, xếp theo ngày."
  ],
  "history": [
+  {
+   "version": "V22.164",
+   "date": "2026-10-29",
+   "notes": [
+    "Căn cứ pháp luật xếp theo thứ bậc văn bản (Hiến pháp → Bộ luật, Luật → Nghị quyết Quốc hội → Pháp lệnh → Nghị định → Quyết định Thủ tướng → Thông tư → văn bản Tập đoàn, Điều lệ, Quy chế); cùng loại xếp theo ngày ban hành (VD: Nghị định 206/2026/NĐ-CP ngày 15/6/2026 trước Nghị định 217/2026/NĐ-CP ngày 19/6/2026). Văn bản nội bộ tiếp theo, xếp theo ngày."
+   ]
+  },
   {
    "version": "V22.163",
    "date": "2026-10-29",
