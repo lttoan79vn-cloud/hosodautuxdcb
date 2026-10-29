@@ -1,11 +1,19 @@
 {
- "version": "V22.170",
+ "version": "V22.171",
  "date": "2026-10-29",
  "notes": [
-  "Khôi phục khu vực tên chương trình trên thanh trên cùng như ban đầu: hiện đầy đủ “HỒ SƠ ĐẦU TƯ XÂY DỰNG CƠ BẢN” (không còn bị cắt “…”), kèm dòng “PHÒNG PT&QLKCN · PHIÊN BẢN …” và “© 2026 Lê Thanh Toàn”; các thẻ vẫn giữ chữ.",
-  "Sửa lỗi ở màn hình 1.025–1.365 px: các thẻ bị đẩy ra sau nút Thoát và khuất mép phải – nay luôn nằm ngay sau tên chương trình, vừa 1 hàng."
+  "Nhật ký CT › Hồ sơ thiết kế: công trình chưa liên kết mã dự án (hồ sơ PHR) vẫn có nút “Tải tệp lên” ở 3 nơi lưu (Dự toán công trình, Bản vẽ thi công, Hồ sơ thiết kế khác); tệp tải lên hiện thành danh sách, bấm tên tệp để mở khung xem nội dung (phóng to được). Khi liên kết mã dự án, các tệp tự chuyển sang mã dự án để dùng chung với Soạn hồ sơ.",
+  "Khung xem tệp: phím Esc, ← → dùng được ngay khi mở tệp từ Nhật ký CT."
  ],
  "history": [
+  {
+   "version": "V22.171",
+   "date": "2026-10-29",
+   "notes": [
+    "Nhật ký CT › Hồ sơ thiết kế: công trình chưa liên kết mã dự án (hồ sơ PHR) vẫn có nút “Tải tệp lên” ở 3 nơi lưu (Dự toán công trình, Bản vẽ thi công, Hồ sơ thiết kế khác); tệp tải lên hiện thành danh sách, bấm tên tệp để mở khung xem nội dung (phóng to được). Khi liên kết mã dự án, các tệp tự chuyển sang mã dự án để dùng chung với Soạn hồ sơ.",
+    "Khung xem tệp: phím Esc, ← → dùng được ngay khi mở tệp từ Nhật ký CT."
+   ]
+  },
   {
    "version": "V22.170",
    "date": "2026-10-29",
