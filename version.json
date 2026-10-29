@@ -1,13 +1,17 @@
 {
- "version": "V22.160",
+ "version": "V22.161",
  "date": "2026-10-29",
  "notes": [
-  "Đồng bộ cấu hình theo từng phần: Danh mục / Lập kế hoạch / Lịch công tác / KPI chỉ gửi mục thay đổi (thao tác cfgPatch) thay cho toàn bộ cấu hình – dữ liệu gửi nhỏ, người khác sửa mục khác không bị ghi đè. Cần dán Code.gs mới; máy chủ cũ vẫn chạy (tự gửi toàn bộ như trước).",
-  "Thanh trạng thái: “💾 trên máy, chờ gửi n (bấm để gửi ngay)” / “☁ đã đồng bộ hh:mm” / “mất mạng – n thay đổi chờ gửi”; bấm vào để lưu và gửi ngay.",
-  "Nhật ký CT: khi đang nhập liệu không vẽ lại màn hình bởi dữ liệu mới từ máy chủ – hiện nhãn “Có dữ liệu mới – cập nhật khi ngừng nhập”, tự cập nhật khi ngừng nhập; thay đổi gửi máy chủ sau 20 giây không thao tác (trước 2,5 giây), gửi ngay khi chuyển ứng dụng / đóng trang / bấm đồng bộ.",
-  "Tăng độ mượt: bộ hiển thị danh sách chọn mục dài bỏ qua thay đổi của khung xem trước, ghi nhớ kết quả kiểm tra từng ô chọn."
+  "Tiêu đề văn bản: dòng “Số: …” và dòng địa danh, ngày tháng luôn thẳng hàng – bảng tiêu đề chia 2 hàng (hàng 1: tên cơ quan | quốc hiệu, tiêu ngữ; hàng 2: Số, V/v | địa danh, ngày tháng) trong file Word, bản xem trước và In/PDF."
  ],
  "history": [
+  {
+   "version": "V22.161",
+   "date": "2026-10-29",
+   "notes": [
+    "Tiêu đề văn bản: dòng “Số: …” và dòng địa danh, ngày tháng luôn thẳng hàng – bảng tiêu đề chia 2 hàng (hàng 1: tên cơ quan | quốc hiệu, tiêu ngữ; hàng 2: Số, V/v | địa danh, ngày tháng) trong file Word, bản xem trước và In/PDF."
+   ]
+  },
   {
    "version": "V22.160",
    "date": "2026-10-29",
