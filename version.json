@@ -1,10 +1,17 @@
 {
- "version": "V22.161",
+ "version": "V22.162",
  "date": "2026-10-29",
  "notes": [
-  "Tiêu đề văn bản: dòng “Số: …” và dòng địa danh, ngày tháng luôn thẳng hàng – bảng tiêu đề chia 2 hàng (hàng 1: tên cơ quan | quốc hiệu, tiêu ngữ; hàng 2: Số, V/v | địa danh, ngày tháng) trong file Word, bản xem trước và In/PDF."
+  "Phần căn cứ của tất cả văn bản: văn bản nội bộ (quyết định, tờ trình, biên bản, báo cáo, thông báo…) xếp theo ngày ban hành – văn bản ban hành trước đứng trước (VD: QĐ 234 ngày 11/10/2026 trước QĐ 123 ngày 12/10/2026); căn cứ pháp luật (Luật, Nghị định, Thông tư, văn bản Thư viện pháp luật) giữ ở đầu; văn bản chưa có ngày đứng sau; dấu “;” / “.” cuối dòng tự đặt lại."
  ],
  "history": [
+  {
+   "version": "V22.162",
+   "date": "2026-10-29",
+   "notes": [
+    "Phần căn cứ của tất cả văn bản: văn bản nội bộ (quyết định, tờ trình, biên bản, báo cáo, thông báo…) xếp theo ngày ban hành – văn bản ban hành trước đứng trước (VD: QĐ 234 ngày 11/10/2026 trước QĐ 123 ngày 12/10/2026); căn cứ pháp luật (Luật, Nghị định, Thông tư, văn bản Thư viện pháp luật) giữ ở đầu; văn bản chưa có ngày đứng sau; dấu “;” / “.” cuối dòng tự đặt lại."
+   ]
+  },
   {
    "version": "V22.161",
    "date": "2026-10-29",
