@@ -1,12 +1,21 @@
 {
- "version": "V22.181",
+ "version": "V22.182",
  "date": "2026-10-31",
  "notes": [
-  "Sửa lỗi cấp số: Báo cáo đang dùng sổ riêng nên cấp số 7 dù sổ nội bộ đã đặt số cuối 40. Nay Công văn, Báo cáo, Kế hoạch dùng CHUNG 1 sổ lấy số (sổ nội bộ Phòng) – số tiếp theo = số đã cấp cuối của sổ + 1 (VD số cuối 40 → 41); ký hiệu giữ theo loại văn bản: …/BC-PT&QLKCN, …/PT&QLKCN (công văn), …/KH-PT&QLKCN.",
-  "⚙ Thiết lập sổ (Admin) làm lại: bảng từng loại văn bản – ký hiệu – sổ lấy số (sổ chung / sổ riêng); MỖI sổ có ô “số đã cấp cuối” riêng (sổ chung, sổ cấp Công ty, từng sổ riêng) hiển thị số tiếp theo ngay khi nhập.",
-  "Thẻ Lấy số: danh sách số tiếp theo chỉ hiện các sổ đang dùng; sổ riêng cũ (VD Báo cáo trước đây) ghi “không còn dùng”. Văn bản đã nhận số ở sổ cũ: bấm 🔄 Lấy lại số để chuyển sang số của sổ chung (số cũ tự hủy)."
+  "Sửa lỗi định dạng không đồng nhất giữa vùng soạn thảo và khung xem: bỏ in đậm một cụm / một đoạn nằm trong phần chữ đậm (trình duyệt tạo “chữ thường” lồng trong “chữ đậm”) – trước đây khung xem vẫn in đậm, nay 2 bên luôn giống nhau; áp dụng cả khi sửa ở vùng nhập bên trái, khi Sửa trực tiếp trên văn bản, khi lưu và mở lại.",
+  "Khung xem / Word thể hiện ĐÚNG định dạng trong vùng soạn thảo (không còn tự in đậm theo mẫu chữ mà vùng soạn không in đậm): đoạn bắt đầu “I., II.” hoặc viết hoa toàn bộ được tự đánh dấu đề mục ngay trong vùng soạn thảo (thấy in đậm ở cả 2 bên); bỏ in đậm một phần trong đề mục cũng đồng nhất.",
+  "Bản thảo cũ: tiểu mục “1. …”, “Điều n.” (Quyết định) đã in đậm ở khung xem trước đây được đánh dấu in đậm trong vùng soạn thảo khi mở, để 2 bên giống nhau."
  ],
  "history": [
+  {
+   "version": "V22.182",
+   "date": "2026-10-31",
+   "notes": [
+    "Sửa lỗi định dạng không đồng nhất giữa vùng soạn thảo và khung xem: bỏ in đậm một cụm / một đoạn nằm trong phần chữ đậm (trình duyệt tạo “chữ thường” lồng trong “chữ đậm”) – trước đây khung xem vẫn in đậm, nay 2 bên luôn giống nhau; áp dụng cả khi sửa ở vùng nhập bên trái, khi Sửa trực tiếp trên văn bản, khi lưu và mở lại.",
+    "Khung xem / Word thể hiện ĐÚNG định dạng trong vùng soạn thảo (không còn tự in đậm theo mẫu chữ mà vùng soạn không in đậm): đoạn bắt đầu “I., II.” hoặc viết hoa toàn bộ được tự đánh dấu đề mục ngay trong vùng soạn thảo (thấy in đậm ở cả 2 bên); bỏ in đậm một phần trong đề mục cũng đồng nhất.",
+    "Bản thảo cũ: tiểu mục “1. …”, “Điều n.” (Quyết định) đã in đậm ở khung xem trước đây được đánh dấu in đậm trong vùng soạn thảo khi mở, để 2 bên giống nhau."
+   ]
+  },
   {
    "version": "V22.181",
    "date": "2026-10-31",
