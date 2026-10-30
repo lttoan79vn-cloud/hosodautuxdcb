@@ -1,11 +1,23 @@
 {
- "version": "V22.176",
+ "version": "V22.177",
  "date": "2026-10-30",
  "notes": [
-  "Khung xem văn bản mới (cố định bề ngang, phóng to / thu nhỏ bằng nút − + ⤢, chụm 2 ngón, chạm 2 lần, Ctrl + cuộn chuột) áp dụng thêm cho: Soạn thảo văn bản (Danh mục › Soạn thảo văn bản – có nút ‹ Về hồ sơ) và các biểu mẫu Quản lý chất lượng trong Nhật ký CT (trên điện thoại có nút ‹ Nhập liệu để về ô nhập).",
-  "Khi đang phóng to mà sửa nội dung, văn bản cập nhật vẫn giữ nguyên tỷ lệ đang xem; ô chọn tỷ lệ cũ trong Soạn thảo văn bản được thay bằng thanh công cụ mới."
+  "Soạn thảo văn bản: ô “Nội dung” thay bằng trình soạn thảo kiểu Word – hoàn tác / làm lại; kiểu đoạn (Đoạn văn, Đề mục I., Tiểu mục 1., Không thụt dòng, Căn cứ in nghiêng); cỡ chữ; in đậm, nghiêng, gạch chân, chỉ số trên / dưới (m², m³); căn trái / giữa / phải / đều; gạch đầu dòng “-”, đánh số 1. 2. (cấp dưới a), b) / +); ký tự đặc biệt; tìm & thay thế (Ctrl+H); ngắt trang; phóng to vùng soạn thảo.",
+  "Bảng ngay trong vùng soạn thảo: chèn bảng bằng lưới chọn, thêm / xóa hàng – cột, gộp ô (ngang, dọc), tách ô, hàng tiêu đề (in đậm, căn giữa, tự lặp lại đầu trang khi xuất Word), căn ô trái / giữa / phải, chỉnh độ rộng từng cột, Tab chuyển ô (ô cuối → thêm hàng); kéo chuột chọn nhiều ô để căn cùng lúc.",
+  "Dán từ Word / Excel giữ chữ đậm, nghiêng, danh sách, bảng (dữ liệu Excel tự thành bảng); nút ✨ Chuẩn hóa đưa nội dung về đúng thể thức NĐ 30/2020 của Công ty: Times New Roman, căn đều 2 bên, thụt đầu dòng 1 cm, bỏ phông / màu lạ, khoảng trắng thừa, tự nhận đề mục – tiểu mục – gạch đầu dòng.",
+  "Khung xem và tệp Word xuất ra thể hiện đúng định dạng, bảng (gộp ô, độ rộng cột, căn lề số liệu); bản thảo cũ tự chuyển sang trình soạn thảo mới, không mất nội dung."
  ],
  "history": [
+  {
+   "version": "V22.177",
+   "date": "2026-10-30",
+   "notes": [
+    "Soạn thảo văn bản: ô “Nội dung” thay bằng trình soạn thảo kiểu Word – hoàn tác / làm lại; kiểu đoạn (Đoạn văn, Đề mục I., Tiểu mục 1., Không thụt dòng, Căn cứ in nghiêng); cỡ chữ; in đậm, nghiêng, gạch chân, chỉ số trên / dưới (m², m³); căn trái / giữa / phải / đều; gạch đầu dòng “-”, đánh số 1. 2. (cấp dưới a), b) / +); ký tự đặc biệt; tìm & thay thế (Ctrl+H); ngắt trang; phóng to vùng soạn thảo.",
+    "Bảng ngay trong vùng soạn thảo: chèn bảng bằng lưới chọn, thêm / xóa hàng – cột, gộp ô (ngang, dọc), tách ô, hàng tiêu đề (in đậm, căn giữa, tự lặp lại đầu trang khi xuất Word), căn ô trái / giữa / phải, chỉnh độ rộng từng cột, Tab chuyển ô (ô cuối → thêm hàng); kéo chuột chọn nhiều ô để căn cùng lúc.",
+    "Dán từ Word / Excel giữ chữ đậm, nghiêng, danh sách, bảng (dữ liệu Excel tự thành bảng); nút ✨ Chuẩn hóa đưa nội dung về đúng thể thức NĐ 30/2020 của Công ty: Times New Roman, căn đều 2 bên, thụt đầu dòng 1 cm, bỏ phông / màu lạ, khoảng trắng thừa, tự nhận đề mục – tiểu mục – gạch đầu dòng.",
+    "Khung xem và tệp Word xuất ra thể hiện đúng định dạng, bảng (gộp ô, độ rộng cột, căn lề số liệu); bản thảo cũ tự chuyển sang trình soạn thảo mới, không mất nội dung."
+   ]
+  },
   {
    "version": "V22.176",
    "date": "2026-10-30",
