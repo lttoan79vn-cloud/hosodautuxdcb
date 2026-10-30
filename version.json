@@ -1,13 +1,23 @@
 {
- "version": "V22.177",
+ "version": "V22.178",
  "date": "2026-10-30",
  "notes": [
-  "Soạn thảo văn bản: ô “Nội dung” thay bằng trình soạn thảo kiểu Word – hoàn tác / làm lại; kiểu đoạn (Đoạn văn, Đề mục I., Tiểu mục 1., Không thụt dòng, Căn cứ in nghiêng); cỡ chữ; in đậm, nghiêng, gạch chân, chỉ số trên / dưới (m², m³); căn trái / giữa / phải / đều; gạch đầu dòng “-”, đánh số 1. 2. (cấp dưới a), b) / +); ký tự đặc biệt; tìm & thay thế (Ctrl+H); ngắt trang; phóng to vùng soạn thảo.",
-  "Bảng ngay trong vùng soạn thảo: chèn bảng bằng lưới chọn, thêm / xóa hàng – cột, gộp ô (ngang, dọc), tách ô, hàng tiêu đề (in đậm, căn giữa, tự lặp lại đầu trang khi xuất Word), căn ô trái / giữa / phải, chỉnh độ rộng từng cột, Tab chuyển ô (ô cuối → thêm hàng); kéo chuột chọn nhiều ô để căn cùng lúc.",
-  "Dán từ Word / Excel giữ chữ đậm, nghiêng, danh sách, bảng (dữ liệu Excel tự thành bảng); nút ✨ Chuẩn hóa đưa nội dung về đúng thể thức NĐ 30/2020 của Công ty: Times New Roman, căn đều 2 bên, thụt đầu dòng 1 cm, bỏ phông / màu lạ, khoảng trắng thừa, tự nhận đề mục – tiểu mục – gạch đầu dòng.",
-  "Khung xem và tệp Word xuất ra thể hiện đúng định dạng, bảng (gộp ô, độ rộng cột, căn lề số liệu); bản thảo cũ tự chuyển sang trình soạn thảo mới, không mất nội dung."
+  "Trợ lý AI cho soạn thảo văn bản (nút 🤖 AI trên thanh công cụ): ✍ Soạn nội dung theo loại văn bản, trích yếu, kính gửi và yêu cầu riêng; ➕ Viết tiếp; ✔ Sửa chính tả; 🏛 Viết lại theo văn phong hành chính; ✂ Rút gọn; 📝 Mở rộng; ⊞ Chuyển thành bảng; 🔎 Rà soát thể thức – nội dung (NĐ 30/2020); 🏷 Gợi ý trích yếu. Bôi đen 1 đoạn → AI chỉ xử lý đoạn đó; kết quả xem trước rồi mới Chèn / Thay đoạn chọn / Thay toàn bộ (Ctrl+Z để hoàn tác).",
+  "Các ô nhập nhiều dòng (Soạn hồ sơ, Soạn thảo văn bản) có nút 🤖 AI khi bấm vào: sửa chính tả, văn phong hành chính, rút gọn, mở rộng, viết theo yêu cầu.",
+  "Admin thiết lập AI ngay trong chương trình (Google Gemini – khóa miễn phí, Claude hoặc OpenAI; số lượt/người/ngày); khóa API chỉ lưu trên máy chủ Apps Script của Công ty. Cần cập nhật Code.gs (Triển khai → Quản lý triển khai → Phiên bản mới).",
+  "Đồng bộ 2 bên: đặt con trỏ ở vùng soạn thảo → khung xem tô vàng và cuộn tới đúng đoạn; bấm 1 đoạn / ô bảng trên khung xem → con trỏ nhảy tới đoạn đó trong vùng soạn. Bảng trong vùng soạn có cùng độ rộng cột và căn lề ô như khung xem; sửa lỗi tự sinh thêm dòng trống sau bảng mỗi lần lưu / mở lại (dòng trống cũ được dọn)."
  ],
  "history": [
+  {
+   "version": "V22.178",
+   "date": "2026-10-30",
+   "notes": [
+    "Trợ lý AI cho soạn thảo văn bản (nút 🤖 AI trên thanh công cụ): ✍ Soạn nội dung theo loại văn bản, trích yếu, kính gửi và yêu cầu riêng; ➕ Viết tiếp; ✔ Sửa chính tả; 🏛 Viết lại theo văn phong hành chính; ✂ Rút gọn; 📝 Mở rộng; ⊞ Chuyển thành bảng; 🔎 Rà soát thể thức – nội dung (NĐ 30/2020); 🏷 Gợi ý trích yếu. Bôi đen 1 đoạn → AI chỉ xử lý đoạn đó; kết quả xem trước rồi mới Chèn / Thay đoạn chọn / Thay toàn bộ (Ctrl+Z để hoàn tác).",
+    "Các ô nhập nhiều dòng (Soạn hồ sơ, Soạn thảo văn bản) có nút 🤖 AI khi bấm vào: sửa chính tả, văn phong hành chính, rút gọn, mở rộng, viết theo yêu cầu.",
+    "Admin thiết lập AI ngay trong chương trình (Google Gemini – khóa miễn phí, Claude hoặc OpenAI; số lượt/người/ngày); khóa API chỉ lưu trên máy chủ Apps Script của Công ty. Cần cập nhật Code.gs (Triển khai → Quản lý triển khai → Phiên bản mới).",
+    "Đồng bộ 2 bên: đặt con trỏ ở vùng soạn thảo → khung xem tô vàng và cuộn tới đúng đoạn; bấm 1 đoạn / ô bảng trên khung xem → con trỏ nhảy tới đoạn đó trong vùng soạn. Bảng trong vùng soạn có cùng độ rộng cột và căn lề ô như khung xem; sửa lỗi tự sinh thêm dòng trống sau bảng mỗi lần lưu / mở lại (dòng trống cũ được dọn)."
+   ]
+  },
   {
    "version": "V22.177",
    "date": "2026-10-30",
