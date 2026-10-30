@@ -1,13 +1,21 @@
 {
- "version": "V22.179",
+ "version": "V22.180",
  "date": "2026-10-31",
  "notes": [
-  "Lấy số văn bản: số tiếp theo hiển thị đúng theo loại văn bản và cấp đang chọn (loại dùng sổ riêng như Báo cáo hiện số của sổ riêng, các loại khác hiện số sổ chung) kèm bảng “Số tiếp theo từng sổ”; Soạn thảo và Lấy số cùng một cách tính (số lớn nhất đã cấp + 1), mở thẻ Lấy số luôn tải sổ mới nhất; máy chủ không cấp trùng số đã có trong sổ (cần cập nhật Code.gs).",
-  "✏️ Sửa trực tiếp: soạn ngay trên trang văn bản (đúng khổ, phông, thụt lề như bản in) với đầy đủ công cụ – kiểu đoạn, cỡ chữ, căn lề, danh sách, bảng (gộp / tách ô…), ký tự đặc biệt, tìm & thay, chuẩn hóa, trợ lý AI, 💾 Lưu, 👁 Bản in, ✓ Xong. Vùng nhập bên trái chỉ giữ thanh công cụ rút gọn (đậm, nghiêng, gạch chân, danh sách) và nút mở Sửa trực tiếp; hai bên đồng bộ 2 chiều.",
-  "👁 Xem bản in: chia trang khổ A4 đúng lề NĐ 30/2020, số trang ở giữa lề trên từ trang 2, bảng dài sang trang tự lặp lại hàng tiêu đề; phóng to / thu nhỏ, In, xuất Word ngay trong màn hình xem.",
-  "Sửa lỗi khung xem in đậm cả đoạn khi nội dung dán từ Google Docs / Word (thẻ bọc chữ đậm nhưng đặt kiểu chữ thường); chỉnh sửa trực tiếp kiểu cũ không còn áp nhầm vào nội dung chính sau khi sửa nội dung."
+  "Lấy số văn bản theo ngày: bấm 🔢 Lấy số → văn bản nhận số theo ngày tại thời điểm lấy số (ngày văn bản tự đổi thành ngày lấy số) và liên kết với sổ đăng ký.",
+  "🔄 Lấy lại số ngay tại ô hiển thị số của văn bản đang soạn: chọn ngày văn bản → xem trước số sẽ cấp → số cũ tự hủy trong sổ (ghi lý do “Lấy lại số – thay bằng số …”). Nguyên tắc cấp: ngày đó có số đã hủy → dùng lại số đó; có số còn trống (bỏ sót) giữa các số cùng thời gian → dùng số trống; ngày mới nhất → số tiếp theo; nếu ngày đó không còn số → tự chèn số a, b sau số cuối cùng của ngày đó.",
+  "Thẻ Lấy số: chọn ngày cũ cũng cấp số theo cùng nguyên tắc (xem trước số trước khi lấy). Cần cập nhật Code.gs bản V22.180."
  ],
  "history": [
+  {
+   "version": "V22.180",
+   "date": "2026-10-31",
+   "notes": [
+    "Lấy số văn bản theo ngày: bấm 🔢 Lấy số → văn bản nhận số theo ngày tại thời điểm lấy số (ngày văn bản tự đổi thành ngày lấy số) và liên kết với sổ đăng ký.",
+    "🔄 Lấy lại số ngay tại ô hiển thị số của văn bản đang soạn: chọn ngày văn bản → xem trước số sẽ cấp → số cũ tự hủy trong sổ (ghi lý do “Lấy lại số – thay bằng số …”). Nguyên tắc cấp: ngày đó có số đã hủy → dùng lại số đó; có số còn trống (bỏ sót) giữa các số cùng thời gian → dùng số trống; ngày mới nhất → số tiếp theo; nếu ngày đó không còn số → tự chèn số a, b sau số cuối cùng của ngày đó.",
+    "Thẻ Lấy số: chọn ngày cũ cũng cấp số theo cùng nguyên tắc (xem trước số trước khi lấy). Cần cập nhật Code.gs bản V22.180."
+   ]
+  },
   {
    "version": "V22.179",
    "date": "2026-10-31",
