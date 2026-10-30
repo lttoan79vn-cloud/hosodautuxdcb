@@ -1,12 +1,21 @@
 {
- "version": "V22.174",
- "date": "2026-10-29",
+ "version": "V22.175",
+ "date": "2026-10-30",
  "notes": [
-  "Tăng tốc Hồ sơ thiết kế (Nhật ký CT và Soạn hồ sơ): danh sách tệp được nhớ trên máy – mở thẻ là hiện ngay (trước đây chờ khoảng 6–7 giây do hỏi máy chủ Google 4–6 lần nối tiếp), sau đó tự cập nhật ngầm nếu có thay đổi; Nhật ký CT tự tải sẵn danh sách khi vừa mở.",
-  "Mở tệp nhanh hơn: tệp đã có trên máy (mình tải lên hoặc đã mở trước đó) mở ngay không tải lại; rê chuột vào tên tệp là bắt đầu tải trước; trình đọc PDF khởi động sẵn và dùng chung; tệp PDF vừa xem mở lại tức thì (khoảng 0,2 giây, trước đây 2,6 giây); bản vẽ nhiều trang chỉ vẽ trang đang xem, các trang khác vẽ khi cuộn tới – phóng to mượt hơn.",
-  "Tải nhiều tệp cùng lúc nhanh hơn (đọc và ghi mục lục 1 lần cho cả đợt): 2 tệp từ khoảng 11 giây còn khoảng 2 giây."
+  "Báo cáo › Xem trước báo cáo: văn bản tự vừa bề ngang màn hình và cố định – không còn bị trượt qua trượt lại khi vuốt trên điện thoại.",
+  "Thêm thanh công cụ trên khung xem: phóng to / thu nhỏ (nút − +, ⤢ Vừa khung, chụm – mở 2 ngón, chạm 2 lần, Ctrl + cuộn chuột trên máy tính); khi phóng to mới kéo ngang được để xem chi tiết.",
+  "Nút ✕ Đóng: đóng trang xem, trở về bảng số liệu báo cáo; nút ‹ Quay lại: trở về màn hình trước đó (VD: Tổng quan). Trên điện thoại, mở xem trước sẽ tự cuộn tới khung xem."
  ],
  "history": [
+  {
+   "version": "V22.175",
+   "date": "2026-10-30",
+   "notes": [
+    "Báo cáo › Xem trước báo cáo: văn bản tự vừa bề ngang màn hình và cố định – không còn bị trượt qua trượt lại khi vuốt trên điện thoại.",
+    "Thêm thanh công cụ trên khung xem: phóng to / thu nhỏ (nút − +, ⤢ Vừa khung, chụm – mở 2 ngón, chạm 2 lần, Ctrl + cuộn chuột trên máy tính); khi phóng to mới kéo ngang được để xem chi tiết.",
+    "Nút ✕ Đóng: đóng trang xem, trở về bảng số liệu báo cáo; nút ‹ Quay lại: trở về màn hình trước đó (VD: Tổng quan). Trên điện thoại, mở xem trước sẽ tự cuộn tới khung xem."
+   ]
+  },
   {
    "version": "V22.174",
    "date": "2026-10-29",
