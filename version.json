@@ -1,12 +1,21 @@
 {
- "version": "V22.180",
+ "version": "V22.181",
  "date": "2026-10-31",
  "notes": [
-  "Lấy số văn bản theo ngày: bấm 🔢 Lấy số → văn bản nhận số theo ngày tại thời điểm lấy số (ngày văn bản tự đổi thành ngày lấy số) và liên kết với sổ đăng ký.",
-  "🔄 Lấy lại số ngay tại ô hiển thị số của văn bản đang soạn: chọn ngày văn bản → xem trước số sẽ cấp → số cũ tự hủy trong sổ (ghi lý do “Lấy lại số – thay bằng số …”). Nguyên tắc cấp: ngày đó có số đã hủy → dùng lại số đó; có số còn trống (bỏ sót) giữa các số cùng thời gian → dùng số trống; ngày mới nhất → số tiếp theo; nếu ngày đó không còn số → tự chèn số a, b sau số cuối cùng của ngày đó.",
-  "Thẻ Lấy số: chọn ngày cũ cũng cấp số theo cùng nguyên tắc (xem trước số trước khi lấy). Cần cập nhật Code.gs bản V22.180."
+  "Sửa lỗi cấp số: Báo cáo đang dùng sổ riêng nên cấp số 7 dù sổ nội bộ đã đặt số cuối 40. Nay Công văn, Báo cáo, Kế hoạch dùng CHUNG 1 sổ lấy số (sổ nội bộ Phòng) – số tiếp theo = số đã cấp cuối của sổ + 1 (VD số cuối 40 → 41); ký hiệu giữ theo loại văn bản: …/BC-PT&QLKCN, …/PT&QLKCN (công văn), …/KH-PT&QLKCN.",
+  "⚙ Thiết lập sổ (Admin) làm lại: bảng từng loại văn bản – ký hiệu – sổ lấy số (sổ chung / sổ riêng); MỖI sổ có ô “số đã cấp cuối” riêng (sổ chung, sổ cấp Công ty, từng sổ riêng) hiển thị số tiếp theo ngay khi nhập.",
+  "Thẻ Lấy số: danh sách số tiếp theo chỉ hiện các sổ đang dùng; sổ riêng cũ (VD Báo cáo trước đây) ghi “không còn dùng”. Văn bản đã nhận số ở sổ cũ: bấm 🔄 Lấy lại số để chuyển sang số của sổ chung (số cũ tự hủy)."
  ],
  "history": [
+  {
+   "version": "V22.181",
+   "date": "2026-10-31",
+   "notes": [
+    "Sửa lỗi cấp số: Báo cáo đang dùng sổ riêng nên cấp số 7 dù sổ nội bộ đã đặt số cuối 40. Nay Công văn, Báo cáo, Kế hoạch dùng CHUNG 1 sổ lấy số (sổ nội bộ Phòng) – số tiếp theo = số đã cấp cuối của sổ + 1 (VD số cuối 40 → 41); ký hiệu giữ theo loại văn bản: …/BC-PT&QLKCN, …/PT&QLKCN (công văn), …/KH-PT&QLKCN.",
+    "⚙ Thiết lập sổ (Admin) làm lại: bảng từng loại văn bản – ký hiệu – sổ lấy số (sổ chung / sổ riêng); MỖI sổ có ô “số đã cấp cuối” riêng (sổ chung, sổ cấp Công ty, từng sổ riêng) hiển thị số tiếp theo ngay khi nhập.",
+    "Thẻ Lấy số: danh sách số tiếp theo chỉ hiện các sổ đang dùng; sổ riêng cũ (VD Báo cáo trước đây) ghi “không còn dùng”. Văn bản đã nhận số ở sổ cũ: bấm 🔄 Lấy lại số để chuyển sang số của sổ chung (số cũ tự hủy)."
+   ]
+  },
   {
    "version": "V22.180",
    "date": "2026-10-31",
