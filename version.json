@@ -1,12 +1,19 @@
 {
- "version": "V22.175",
+ "version": "V22.176",
  "date": "2026-10-30",
  "notes": [
-  "Báo cáo › Xem trước báo cáo: văn bản tự vừa bề ngang màn hình và cố định – không còn bị trượt qua trượt lại khi vuốt trên điện thoại.",
-  "Thêm thanh công cụ trên khung xem: phóng to / thu nhỏ (nút − +, ⤢ Vừa khung, chụm – mở 2 ngón, chạm 2 lần, Ctrl + cuộn chuột trên máy tính); khi phóng to mới kéo ngang được để xem chi tiết.",
-  "Nút ✕ Đóng: đóng trang xem, trở về bảng số liệu báo cáo; nút ‹ Quay lại: trở về màn hình trước đó (VD: Tổng quan). Trên điện thoại, mở xem trước sẽ tự cuộn tới khung xem."
+  "Khung xem văn bản mới (cố định bề ngang, phóng to / thu nhỏ bằng nút − + ⤢, chụm 2 ngón, chạm 2 lần, Ctrl + cuộn chuột) áp dụng thêm cho: Soạn thảo văn bản (Danh mục › Soạn thảo văn bản – có nút ‹ Về hồ sơ) và các biểu mẫu Quản lý chất lượng trong Nhật ký CT (trên điện thoại có nút ‹ Nhập liệu để về ô nhập).",
+  "Khi đang phóng to mà sửa nội dung, văn bản cập nhật vẫn giữ nguyên tỷ lệ đang xem; ô chọn tỷ lệ cũ trong Soạn thảo văn bản được thay bằng thanh công cụ mới."
  ],
  "history": [
+  {
+   "version": "V22.176",
+   "date": "2026-10-30",
+   "notes": [
+    "Khung xem văn bản mới (cố định bề ngang, phóng to / thu nhỏ bằng nút − + ⤢, chụm 2 ngón, chạm 2 lần, Ctrl + cuộn chuột) áp dụng thêm cho: Soạn thảo văn bản (Danh mục › Soạn thảo văn bản – có nút ‹ Về hồ sơ) và các biểu mẫu Quản lý chất lượng trong Nhật ký CT (trên điện thoại có nút ‹ Nhập liệu để về ô nhập).",
+    "Khi đang phóng to mà sửa nội dung, văn bản cập nhật vẫn giữ nguyên tỷ lệ đang xem; ô chọn tỷ lệ cũ trong Soạn thảo văn bản được thay bằng thanh công cụ mới."
+   ]
+  },
   {
    "version": "V22.175",
    "date": "2026-10-30",
