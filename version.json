@@ -1,11 +1,21 @@
 {
- "version": "V22.187",
+ "version": "V22.188",
  "date": "2026-11-01",
  "notes": [
-  "Lập kế hoạch → ⬇ Excel: file tải về có thêm sheet TONG_HOP_KET_QUA – tổng hợp kết quả thực hiện theo file kế hoạch gốc đang cập nhật (nhóm theo đơn vị, có tổng nhóm và tổng cộng): giá trị kế hoạch, dự toán, trúng thầu / hợp đồng, nghiệm thu / thanh toán, tỷ lệ dự toán / KH, nghiệm thu / KH, tình trạng thực hiện và hồ sơ liên kết.",
-  "“⬇ Excel kết quả” ở thẻ Kết quả thực hiện dùng cùng bảng tổng hợp này; khi nhập lại file Excel kế hoạch, sheet tổng hợp được bỏ qua (không ảnh hưởng dữ liệu kế hoạch)."
+  "Lịch công tác thiết kế lại theo nội dung phân công: chỉ bước đang đến lượt của mỗi gói là việc cần làm (không còn đếm hàng trăm bước chưa tới là “quá hạn”); gói đã hủy không vào lịch; nút lọc theo nội dung: Tất cả / 📌 Công việc khác / 🏗 KH đầu tư XDCB / 🧾 KH giá thành / 🗓 Lịch tự thêm (kèm số việc, số quá hạn); lịch tuần nhóm theo nội dung; màu riêng cho từng loại trên lịch tháng.",
+  "Liên kết 2 chiều: mỗi việc trên lịch có nhãn ↗ mở đúng gói trong KH đầu tư / KH giá thành (mở sẵn chi tiết) hoặc việc trong Công việc khác; bảng phân công có nút 📅 Đưa vào lịch ở cột Bước hiện tại – chọn người, chọn một hoặc nhiều tuần (gợi ý các tuần nằm trong thời gian bước); Công việc khác có nhãn 📅 Lịch tuần bấm để xem trên lịch.",
+  "Lịch tháng có thêm bảng “Kế hoạch tháng theo nội dung phân công”: các việc có thời gian thực hiện trong tháng (kể cả việc quá hạn chuyển sang), tuần đã lên lịch, nút 📅 Lên lịch / Sửa lịch."
  ],
  "history": [
+  {
+   "version": "V22.188",
+   "date": "2026-11-01",
+   "notes": [
+    "Lịch công tác thiết kế lại theo nội dung phân công: chỉ bước đang đến lượt của mỗi gói là việc cần làm (không còn đếm hàng trăm bước chưa tới là “quá hạn”); gói đã hủy không vào lịch; nút lọc theo nội dung: Tất cả / 📌 Công việc khác / 🏗 KH đầu tư XDCB / 🧾 KH giá thành / 🗓 Lịch tự thêm (kèm số việc, số quá hạn); lịch tuần nhóm theo nội dung; màu riêng cho từng loại trên lịch tháng.",
+    "Liên kết 2 chiều: mỗi việc trên lịch có nhãn ↗ mở đúng gói trong KH đầu tư / KH giá thành (mở sẵn chi tiết) hoặc việc trong Công việc khác; bảng phân công có nút 📅 Đưa vào lịch ở cột Bước hiện tại – chọn người, chọn một hoặc nhiều tuần (gợi ý các tuần nằm trong thời gian bước); Công việc khác có nhãn 📅 Lịch tuần bấm để xem trên lịch.",
+    "Lịch tháng có thêm bảng “Kế hoạch tháng theo nội dung phân công”: các việc có thời gian thực hiện trong tháng (kể cả việc quá hạn chuyển sang), tuần đã lên lịch, nút 📅 Lên lịch / Sửa lịch."
+   ]
+  },
   {
    "version": "V22.187",
    "date": "2026-11-01",
