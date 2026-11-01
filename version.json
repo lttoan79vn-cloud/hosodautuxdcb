@@ -1,11 +1,21 @@
 {
- "version": "V22.183",
+ "version": "V22.184",
  "date": "2026-11-01",
  "notes": [
-  "Lập kế hoạch: thêm BƯỚC RIÊNG cho từng gói thầu – nút “＋ Thêm bước” của gói và nút ＋ ở từng bước (chèn ngay sau bước đó). Có sẵn 4 loại: 📝 Điều chỉnh KHLCNT (lập tờ trình – thẩm định – phê duyệt điều chỉnh), 🗓 Điều chỉnh thời gian tổ chức LCNT (phê duyệt điều chỉnh – thông báo điều chỉnh thời điểm đóng thầu), ↻ Đấu thầu lại (quyết định hủy thầu, các bước Lập HSMT → Ký hợp đồng chưa xong giữ dạng đã hủy và thêm lại theo bảng thời gian chuẩn), ＋ Bước khác (tự nhập); sửa được tên bước, số ngày, ngày bắt đầu, ghi chú căn cứ.",
-  "Bước thêm riêng hiển thị nổi bật kèm nhãn loại, đổi thứ tự (↑ ↓), xóa được; các bước phía sau tự lùi ngày theo bước mới. Bước chuẩn có nút ⊘ “không thực hiện” / ↺ khôi phục."
+  "Lập kế hoạch: thêm chức năng ⛔ Hủy gói (trong trình sửa gói) – bắt buộc nêu lý do hủy, kèm ngày hủy và căn cứ (số quyết định…); gói đã hủy vẫn giữ trong kế hoạch (gạch tên, ghi lý do), không còn tính đang thực hiện / quá hạn / đến hạn / KPI, không hiện trong Việc được giao; có nút ↺ Khôi phục gói.",
+  "Thanh thống kê có thêm ô “ĐÃ HỦY” (bấm để lọc các gói đã hủy), bộ lọc tình trạng có “Đã hủy”; Tổng giá trị và % HT bình quân không tính gói đã hủy (ghi riêng giá trị đã hủy).",
+  "Đồng bộ báo cáo: văn bản Kế hoạch phân công (Word) có mục “Các gói đã hủy” (tên gói, chủ trì, ngày hủy, lý do / căn cứ) và số gói đã hủy ở phần tình hình chung; Báo cáo tuần / tháng / quý liệt kê các gói đã hủy trong kỳ kèm lý do (cả bản xem và bản Word)."
  ],
  "history": [
+  {
+   "version": "V22.184",
+   "date": "2026-11-01",
+   "notes": [
+    "Lập kế hoạch: thêm chức năng ⛔ Hủy gói (trong trình sửa gói) – bắt buộc nêu lý do hủy, kèm ngày hủy và căn cứ (số quyết định…); gói đã hủy vẫn giữ trong kế hoạch (gạch tên, ghi lý do), không còn tính đang thực hiện / quá hạn / đến hạn / KPI, không hiện trong Việc được giao; có nút ↺ Khôi phục gói.",
+    "Thanh thống kê có thêm ô “ĐÃ HỦY” (bấm để lọc các gói đã hủy), bộ lọc tình trạng có “Đã hủy”; Tổng giá trị và % HT bình quân không tính gói đã hủy (ghi riêng giá trị đã hủy).",
+    "Đồng bộ báo cáo: văn bản Kế hoạch phân công (Word) có mục “Các gói đã hủy” (tên gói, chủ trì, ngày hủy, lý do / căn cứ) và số gói đã hủy ở phần tình hình chung; Báo cáo tuần / tháng / quý liệt kê các gói đã hủy trong kỳ kèm lý do (cả bản xem và bản Word)."
+   ]
+  },
   {
    "version": "V22.183",
    "date": "2026-11-01",
