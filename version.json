@@ -1,11 +1,23 @@
 {
- "version": "V22.191",
- "date": "2026-11-01",
+ "version": "V22.192",
+ "date": "2026-11-02",
  "notes": [
-  "Gói ghép nhiều hạng mục (bảng phân công gộp các hạng mục của kế hoạch gốc): các bước có giá trị (lập / phê duyệt dự toán, KQLCNT, ký hợp đồng, nghiệm thu – thanh toán) có thêm dòng “↳ … theo hạng mục” để nhập giá trị cho từng hạng mục con (hiện mã, tên, giá trị KH, khối lượng).",
-  "Ô giá trị của bước tự tính bằng tổng các hạng mục; Kết quả thực hiện và sheet Excel tổng hợp điền đúng giá trị vào từng dòng hạng mục của kế hoạch gốc (không còn dồn vào dòng đầu “↑ gói ghép”); cột chưa nhập theo hạng mục vẫn tính chung cho gói như trước."
+  "Chế độ lưu & đồng bộ mới: mọi thay đổi lưu ngay trên máy (không mất khi mất mạng, tắt trình duyệt) và gửi lên máy chủ theo chu kỳ – mặc định 5 phút (chọn 2 / 5 / 7 / 10 phút); đang gõ dở thì lùi tối đa 2 phút. Vẫn gửi ngay khi bấm 💾 Lưu, bấm “Đồng bộ ngay”, chuyển sang ứng dụng khác hoặc đóng trang; không còn hỏi “rời trang?” khi đóng.",
+  "Thông báo gọn: thông báo thành công hiện nhỏ ở góc dưới bên phải, tự ẩn, không che màn hình; khi đang nhập liệu và các thông báo lưu thường xuyên (sửa kế hoạch, nhập kết quả…) chỉ ghi lên thanh trạng thái; thông báo lỗi vẫn hiện giữa màn hình. Có thể chọn chế độ Gọn / Tối thiểu / Đầy đủ.",
+  "Nút ☁ trên thanh trên: xem trạng thái (đã đồng bộ / chờ gửi – đếm ngược), lần đồng bộ gần nhất, chọn chu kỳ, chế độ thông báo, nhật ký thông báo trong phiên, nút ⟳ Đồng bộ ngay.",
+  "Bản mới của danh mục / kế hoạch từ máy chủ không vẽ lại màn hình khi đang thao tác – tự áp dụng khi rảnh tay và giữ nguyên thay đổi chưa gửi của máy này."
  ],
  "history": [
+  {
+   "version": "V22.192",
+   "date": "2026-11-02",
+   "notes": [
+    "Chế độ lưu & đồng bộ mới: mọi thay đổi lưu ngay trên máy (không mất khi mất mạng, tắt trình duyệt) và gửi lên máy chủ theo chu kỳ – mặc định 5 phút (chọn 2 / 5 / 7 / 10 phút); đang gõ dở thì lùi tối đa 2 phút. Vẫn gửi ngay khi bấm 💾 Lưu, bấm “Đồng bộ ngay”, chuyển sang ứng dụng khác hoặc đóng trang; không còn hỏi “rời trang?” khi đóng.",
+    "Thông báo gọn: thông báo thành công hiện nhỏ ở góc dưới bên phải, tự ẩn, không che màn hình; khi đang nhập liệu và các thông báo lưu thường xuyên (sửa kế hoạch, nhập kết quả…) chỉ ghi lên thanh trạng thái; thông báo lỗi vẫn hiện giữa màn hình. Có thể chọn chế độ Gọn / Tối thiểu / Đầy đủ.",
+    "Nút ☁ trên thanh trên: xem trạng thái (đã đồng bộ / chờ gửi – đếm ngược), lần đồng bộ gần nhất, chọn chu kỳ, chế độ thông báo, nhật ký thông báo trong phiên, nút ⟳ Đồng bộ ngay.",
+    "Bản mới của danh mục / kế hoạch từ máy chủ không vẽ lại màn hình khi đang thao tác – tự áp dụng khi rảnh tay và giữ nguyên thay đổi chưa gửi của máy này."
+   ]
+  },
   {
    "version": "V22.191",
    "date": "2026-11-01",
