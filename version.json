@@ -1,11 +1,21 @@
 {
- "version": "V22.189",
+ "version": "V22.190",
  "date": "2026-11-01",
  "notes": [
-  "Lịch công tác – Nhắc việc trình bày theo thứ tự ưu tiên: 1. Công việc khác → 2. KH đầu tư XDCB → 3. KH giá thành (→ kế hoạch khác, lịch tự thêm); mỗi nhóm có dòng tiêu đề ghi số việc, số quá hạn, số đến hạn; trong nhóm việc quá hạn lâu nhất, đến hạn xếp trước.",
-  "Lịch tuần cũng xếp theo nhóm ưu tiên và trong nhóm theo mức khẩn cấp (quá hạn → đến hạn → đang làm → sắp bắt đầu, việc đã xong xuống cuối)."
+  "Bảng bước của gói: cột “Ghi chú” đổi thành “Kết quả” – bước lập / thẩm tra / phê duyệt dự toán (BC KTKT) nhập giá trị dự toán duyệt, bước phê duyệt KQLCNT / ký hợp đồng nhập giá trúng thầu / hợp đồng, bước nghiệm thu – bàn giao nhập giá nghiệm thu / thanh toán (đồng); các bước khác ghi kết quả bằng chữ.",
+  "Giá trị nhập ở cột Kết quả tự điền vào thẻ Kết quả thực hiện (ký hiệu ✎ bước n) và sheet tổng hợp Excel; hồ sơ PHR đã liên kết vẫn được ưu tiên.",
+  "Thêm “📑 Gói chung báo cáo KTKT” trong trình sửa gói: chọn các gói dùng chung một BC KTKT / dự toán; nhập dự toán duyệt và ngày hoàn thành ở một gói, các gói liên kết tự cập nhật; Kết quả thực hiện chỉ tính dự toán một lần (gói khác ghi “↑ chung BC KTKT”); bỏ liên kết bằng nút ×."
  ],
  "history": [
+  {
+   "version": "V22.190",
+   "date": "2026-11-01",
+   "notes": [
+    "Bảng bước của gói: cột “Ghi chú” đổi thành “Kết quả” – bước lập / thẩm tra / phê duyệt dự toán (BC KTKT) nhập giá trị dự toán duyệt, bước phê duyệt KQLCNT / ký hợp đồng nhập giá trúng thầu / hợp đồng, bước nghiệm thu – bàn giao nhập giá nghiệm thu / thanh toán (đồng); các bước khác ghi kết quả bằng chữ.",
+    "Giá trị nhập ở cột Kết quả tự điền vào thẻ Kết quả thực hiện (ký hiệu ✎ bước n) và sheet tổng hợp Excel; hồ sơ PHR đã liên kết vẫn được ưu tiên.",
+    "Thêm “📑 Gói chung báo cáo KTKT” trong trình sửa gói: chọn các gói dùng chung một BC KTKT / dự toán; nhập dự toán duyệt và ngày hoàn thành ở một gói, các gói liên kết tự cập nhật; Kết quả thực hiện chỉ tính dự toán một lần (gói khác ghi “↑ chung BC KTKT”); bỏ liên kết bằng nút ×."
+   ]
+  },
   {
    "version": "V22.189",
    "date": "2026-11-01",
