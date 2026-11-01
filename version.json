@@ -1,11 +1,19 @@
 {
- "version": "V22.185",
+ "version": "V22.186",
  "date": "2026-11-01",
  "notes": [
-  "Lấy số văn bản: mỗi loại văn bản có sổ lấy số riêng (Tờ trình, Thông báo, Biên bản, Giấy mời, Dự thảo, Phương án, Giấy đề nghị, Quyết định…); riêng Công văn, Báo cáo, Kế hoạch dùng chung 1 sổ (ký hiệu vẫn theo loại: …/PT&QLKCN, …/BC-PT&QLKCN, …/KH-PT&QLKCN); văn bản cấp Công ty 1 sổ.",
-  "Phục hồi giao diện ⚙ Thiết lập sổ số kiểu cũ, gọn: mỗi sổ 1 dòng gồm loại văn bản, ký hiệu, ô “Số đã cấp cuối” và số tiếp theo (cập nhật ngay khi gõ); không cho đặt nhỏ hơn số đã cấp."
+  "Đánh giá KPI Phòng: nội dung chưa có dữ liệu liên kết từ kế hoạch / công việc được giao có nút 💡 Gợi ý cách đánh giá – nêu minh chứng nên ghi theo lĩnh vực (đội xe, xưởng sản xuất, bảo dưỡng, nhiên liệu, an toàn – PCCC, hồ sơ – đấu thầu, báo cáo), chấm theo 3 tiêu chí: khối lượng / chỉ tiêu 50%, tiến độ 25%, chất lượng (hoặc tuân thủ an toàn) 25%, cộng điểm vượt chỉ tiêu (+10/+20, tối đa 120%); vi phạm an toàn nghiêm trọng tối đa 50%.",
+  "Bấm “Áp dụng vào phiếu” → tự điền % hoàn thành (tự đánh giá hoặc lãnh đạo đánh giá) và câu kết quả thực hiện kèm số liệu, minh chứng; vẫn sửa được."
  ],
  "history": [
+  {
+   "version": "V22.186",
+   "date": "2026-11-01",
+   "notes": [
+    "Đánh giá KPI Phòng: nội dung chưa có dữ liệu liên kết từ kế hoạch / công việc được giao có nút 💡 Gợi ý cách đánh giá – nêu minh chứng nên ghi theo lĩnh vực (đội xe, xưởng sản xuất, bảo dưỡng, nhiên liệu, an toàn – PCCC, hồ sơ – đấu thầu, báo cáo), chấm theo 3 tiêu chí: khối lượng / chỉ tiêu 50%, tiến độ 25%, chất lượng (hoặc tuân thủ an toàn) 25%, cộng điểm vượt chỉ tiêu (+10/+20, tối đa 120%); vi phạm an toàn nghiêm trọng tối đa 50%.",
+    "Bấm “Áp dụng vào phiếu” → tự điền % hoàn thành (tự đánh giá hoặc lãnh đạo đánh giá) và câu kết quả thực hiện kèm số liệu, minh chứng; vẫn sửa được."
+   ]
+  },
   {
    "version": "V22.185",
    "date": "2026-11-01",
