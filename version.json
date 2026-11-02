@@ -1,11 +1,17 @@
 {
- "version": "V22.199",
+ "version": "V22.200",
  "date": "2026-11-02",
  "notes": [
-  "Thanh menu trên cùng: bỏ chế độ chỉ còn biểu tượng ở cửa sổ hẹp (1025–1279 px – laptop màn hình nhỏ, Windows phóng to 125–150%); thanh thẻ chuyển xuống hàng thứ hai, mỗi thẻ đủ biểu tượng + chữ (Tổng quan, Soạn hồ sơ, Lập kế hoạch, Danh mục, Nhật ký CT, Báo cáo, Trợ giúp).",
-  "Sửa thẻ cuối (Trợ giúp) bị cắt mép phải ở màn hình rộng 1700–1920 px."
+  "Thư mời báo giá: tên gói thầu ở trích yếu và ở câu mở đầu ghi thống nhất một tên; không ghi cùng lúc “Hạng mục công trình”. VD gói “Thi công xây dựng công trình” + công trình “Nhà làm việc lãnh đạo Công ty” → “gói thầu: Thi công xây dựng công trình Nhà làm việc lãnh đạo Công ty”. Ô “Ghi là” chọn Công trình hoặc Hạng mục; tên công trình đã chứa tên gói thì chỉ ghi một lần."
  ],
  "history": [
+  {
+   "version": "V22.200",
+   "date": "2026-11-02",
+   "notes": [
+    "Thư mời báo giá: tên gói thầu ở trích yếu và ở câu mở đầu ghi thống nhất một tên; không ghi cùng lúc “Hạng mục công trình”. VD gói “Thi công xây dựng công trình” + công trình “Nhà làm việc lãnh đạo Công ty” → “gói thầu: Thi công xây dựng công trình Nhà làm việc lãnh đạo Công ty”. Ô “Ghi là” chọn Công trình hoặc Hạng mục; tên công trình đã chứa tên gói thì chỉ ghi một lần."
+   ]
+  },
   {
    "version": "V22.199",
    "date": "2026-11-02",
