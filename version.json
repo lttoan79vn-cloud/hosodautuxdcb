@@ -1,12 +1,25 @@
 {
- "version": "V22.195",
+ "version": "V22.196",
  "date": "2026-11-02",
  "notes": [
-  "Soạn thảo văn bản – Công văn: thêm ô “📄 Mẫu công văn” với mẫu “Đăng ký tham quan, học tập kinh nghiệm (cấp Công ty, có danh sách đoàn)” theo công văn gửi Công ty Cao su Phú Riềng 02/11/2026; bấm “Áp dụng mẫu” → điền sẵn cấp ban hành, trích yếu, kính gửi, nội dung (1. Nội dung, 2. Thời gian dự kiến, 3. Đoàn công tác…), nơi nhận, danh sách đoàn – sửa các chỗ “……”.",
-  "Mọi văn bản (trừ biên bản) có mục “Danh sách kèm theo”: nhập tiêu đề và danh sách (Họ và tên | Chức vụ | Ghi chú) → in ở trang sau trang ký, có dòng “Kèm theo … số … ngày …” và bảng STT – Họ và tên – Chức vụ – Ghi chú.",
-  "Công văn: trích yếu “V/v …” canh đều 2 bên, cỡ 14; toàn bộ nội dung (kể cả đề mục) cỡ 14, cách đoạn 6pt; công văn cấp Công ty có ký hiệu …/CSPH-PTQLKCN."
+  "Danh sách kèm theo nhập dạng bảng theo cột Họ và tên / Chức vụ / Ghi chú (thêm, xóa, đổi thứ tự dòng); dán (Ctrl+V) bảng Excel / Word vào ô bất kỳ hoặc dùng nút “📋 Dán bảng có sẵn” – tự chia đúng cột, bỏ cột STT và dòng tiêu đề; tiêu đề tự bỏ phần “kèm theo … số … ngày” gõ thừa.",
+  "Trang danh sách kèm theo là trang riêng (section mới trong Word, trang riêng trên khung xem / bản in) – không chung với trang nội dung, trang ký.",
+  "Trình bày nội dung mọi loại văn bản: đoạn văn chỉ cách trên 6pt, giãn dòng 1,1 (multiple); đề mục (I., 1., chữ in hoa…) cách trên và dưới 6pt.",
+  "Thêm lựa chọn “Trình bày: Thu gọn trong trang” – cỡ chữ 13, dòng đơn; ô “Độ dài” và thanh xem trước hiện số trang của văn bản, cảnh báo đỏ khi đã thu gọn mà vẫn không vừa 1 trang.",
+  "Sửa lỗi: rời ô nhập rồi bấm ngay nút trên khung xem (Xuất Word, In…) đôi khi không ăn."
  ],
  "history": [
+  {
+   "version": "V22.196",
+   "date": "2026-11-02",
+   "notes": [
+    "Danh sách kèm theo nhập dạng bảng theo cột Họ và tên / Chức vụ / Ghi chú (thêm, xóa, đổi thứ tự dòng); dán (Ctrl+V) bảng Excel / Word vào ô bất kỳ hoặc dùng nút “📋 Dán bảng có sẵn” – tự chia đúng cột, bỏ cột STT và dòng tiêu đề; tiêu đề tự bỏ phần “kèm theo … số … ngày” gõ thừa.",
+    "Trang danh sách kèm theo là trang riêng (section mới trong Word, trang riêng trên khung xem / bản in) – không chung với trang nội dung, trang ký.",
+    "Trình bày nội dung mọi loại văn bản: đoạn văn chỉ cách trên 6pt, giãn dòng 1,1 (multiple); đề mục (I., 1., chữ in hoa…) cách trên và dưới 6pt.",
+    "Thêm lựa chọn “Trình bày: Thu gọn trong trang” – cỡ chữ 13, dòng đơn; ô “Độ dài” và thanh xem trước hiện số trang của văn bản, cảnh báo đỏ khi đã thu gọn mà vẫn không vừa 1 trang.",
+    "Sửa lỗi: rời ô nhập rồi bấm ngay nút trên khung xem (Xuất Word, In…) đôi khi không ăn."
+   ]
+  },
   {
    "version": "V22.195",
    "date": "2026-11-02",
