@@ -1,13 +1,21 @@
 {
- "version": "V22.192",
+ "version": "V22.193",
  "date": "2026-11-02",
  "notes": [
-  "Chế độ lưu & đồng bộ mới: mọi thay đổi lưu ngay trên máy (không mất khi mất mạng, tắt trình duyệt) và gửi lên máy chủ theo chu kỳ – mặc định 5 phút (chọn 2 / 5 / 7 / 10 phút); đang gõ dở thì lùi tối đa 2 phút. Vẫn gửi ngay khi bấm 💾 Lưu, bấm “Đồng bộ ngay”, chuyển sang ứng dụng khác hoặc đóng trang; không còn hỏi “rời trang?” khi đóng.",
-  "Thông báo gọn: thông báo thành công hiện nhỏ ở góc dưới bên phải, tự ẩn, không che màn hình; khi đang nhập liệu và các thông báo lưu thường xuyên (sửa kế hoạch, nhập kết quả…) chỉ ghi lên thanh trạng thái; thông báo lỗi vẫn hiện giữa màn hình. Có thể chọn chế độ Gọn / Tối thiểu / Đầy đủ.",
-  "Nút ☁ trên thanh trên: xem trạng thái (đã đồng bộ / chờ gửi – đếm ngược), lần đồng bộ gần nhất, chọn chu kỳ, chế độ thông báo, nhật ký thông báo trong phiên, nút ⟳ Đồng bộ ngay.",
-  "Bản mới của danh mục / kế hoạch từ máy chủ không vẽ lại màn hình khi đang thao tác – tự áp dụng khi rảnh tay và giữ nguyên thay đổi chưa gửi của máy này."
+  "Thư mời báo giá (gói chỉ định thầu và mua sắm giá thành): ô “Email nhận báo giá” điền sẵn email Phòng ptqlkcn@phr.vn, văn bản luôn có dòng “Gửi về mail …”; dùng email khác thì sửa trực tiếp ô này.",
+  "Dự thảo hợp đồng: mặc định để trống giá hợp đồng (“……” cho nhà thầu điền) – kể cả các khoản tạm ứng / thanh toán tính theo giá, đơn giá, thành tiền, tổng cộng và làm tròn trong Phụ lục 01; muốn in giá thì chọn ô “Ghi giá vào dự thảo”.",
+  "Phụ lục 01 (bảng khối lượng): thêm nút ⬆ Tải file khối lượng – đọc file Excel có cột Tên công tác, Đơn vị, Khối lượng (đơn giá nếu có), xem trước và chọn “Chỉ cập nhật khối lượng các dòng trùng tên” hoặc “Thay toàn bộ bảng”; nút ⬇ Excel bảng khối lượng để tải bảng hiện tại ra sửa rồi tải lên lại."
  ],
  "history": [
+  {
+   "version": "V22.193",
+   "date": "2026-11-02",
+   "notes": [
+    "Thư mời báo giá (gói chỉ định thầu và mua sắm giá thành): ô “Email nhận báo giá” điền sẵn email Phòng ptqlkcn@phr.vn, văn bản luôn có dòng “Gửi về mail …”; dùng email khác thì sửa trực tiếp ô này.",
+    "Dự thảo hợp đồng: mặc định để trống giá hợp đồng (“……” cho nhà thầu điền) – kể cả các khoản tạm ứng / thanh toán tính theo giá, đơn giá, thành tiền, tổng cộng và làm tròn trong Phụ lục 01; muốn in giá thì chọn ô “Ghi giá vào dự thảo”.",
+    "Phụ lục 01 (bảng khối lượng): thêm nút ⬆ Tải file khối lượng – đọc file Excel có cột Tên công tác, Đơn vị, Khối lượng (đơn giá nếu có), xem trước và chọn “Chỉ cập nhật khối lượng các dòng trùng tên” hoặc “Thay toàn bộ bảng”; nút ⬇ Excel bảng khối lượng để tải bảng hiện tại ra sửa rồi tải lên lại."
+   ]
+  },
   {
    "version": "V22.192",
    "date": "2026-11-02",
