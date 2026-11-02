@@ -1,10 +1,17 @@
 {
- "version": "V22.203",
+ "version": "V22.204",
  "date": "2026-11-02",
  "notes": [
-  "Báo cáo & đánh giá KPI: chỉ đưa vào báo cáo các thành viên trong bảng KPI Phòng (đã gắn tài khoản, không tính người “không chấm điểm tại Phòng” / ẩn) – tài khoản lãnh đạo, khách… không còn xuất hiện; mỗi người 1 dòng (gộp các email của cùng người), họ tên và chức vụ theo bảng KPI Phòng. Áp dụng cho bảng KPI trên màn hình, mục VI của báo cáo Word, sheet KPI Excel, kết quả thực hiện kế hoạch theo cán bộ và danh sách chọn thành viên."
+  "Nhật ký CT – Tạo công trình mới: thêm ô “Liên kết hồ sơ (Soạn hồ sơ)” liệt kê các hồ sơ theo 4 loại (đầu tư XDCB, đầu tư thiết bị, giá thành XDCB, giá thành thiết bị); chọn hồ sơ → tự điền tên công trình, địa điểm, chủ đầu tư, nhà thầu (thi công hoặc tư vấn theo loại nhật ký), số và ngày hợp đồng, đơn vị tư vấn giám sát; công trình tạo ra được liên kết sẵn với hồ sơ (số hợp đồng tự cập nhật theo hồ sơ)."
  ],
  "history": [
+  {
+   "version": "V22.204",
+   "date": "2026-11-02",
+   "notes": [
+    "Nhật ký CT – Tạo công trình mới: thêm ô “Liên kết hồ sơ (Soạn hồ sơ)” liệt kê các hồ sơ theo 4 loại (đầu tư XDCB, đầu tư thiết bị, giá thành XDCB, giá thành thiết bị); chọn hồ sơ → tự điền tên công trình, địa điểm, chủ đầu tư, nhà thầu (thi công hoặc tư vấn theo loại nhật ký), số và ngày hợp đồng, đơn vị tư vấn giám sát; công trình tạo ra được liên kết sẵn với hồ sơ (số hợp đồng tự cập nhật theo hồ sơ)."
+   ]
+  },
   {
    "version": "V22.203",
    "date": "2026-11-02",
