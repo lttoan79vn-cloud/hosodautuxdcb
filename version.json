@@ -1,12 +1,19 @@
 {
- "version": "V22.193",
+ "version": "V22.194",
  "date": "2026-11-02",
  "notes": [
-  "Thư mời báo giá (gói chỉ định thầu và mua sắm giá thành): ô “Email nhận báo giá” điền sẵn email Phòng ptqlkcn@phr.vn, văn bản luôn có dòng “Gửi về mail …”; dùng email khác thì sửa trực tiếp ô này.",
-  "Dự thảo hợp đồng: mặc định để trống giá hợp đồng (“……” cho nhà thầu điền) – kể cả các khoản tạm ứng / thanh toán tính theo giá, đơn giá, thành tiền, tổng cộng và làm tròn trong Phụ lục 01; muốn in giá thì chọn ô “Ghi giá vào dự thảo”.",
-  "Phụ lục 01 (bảng khối lượng): thêm nút ⬆ Tải file khối lượng – đọc file Excel có cột Tên công tác, Đơn vị, Khối lượng (đơn giá nếu có), xem trước và chọn “Chỉ cập nhật khối lượng các dòng trùng tên” hoặc “Thay toàn bộ bảng”; nút ⬇ Excel bảng khối lượng để tải bảng hiện tại ra sửa rồi tải lên lại."
+  "Dự thảo hợp đồng – Phụ lục 01: nút “⬆ Tải file bảng khối lượng” đặt ngay đầu bảng; chọn file Excel khối lượng có sẵn bên ngoài chương trình (cột Tên công tác, Đơn vị, Khối lượng, Đơn giá nếu có) → chương trình tự thay bảng khối lượng theo file (bỏ dòng tiêu đề nhóm, dòng tổng), ghi tên file đang dùng; có nút “↶ Trả lại bảng cũ” và “⬇ Excel bảng hiện tại”.",
+  "Các quyết định (phê duyệt dự toán, KHLCNT, thành lập tổ chuyên gia, kết quả LCNT…): Điều 3 thêm cụm “Các Ông (Bà)” trước chức danh – VD: “Các Ông (Bà) Trưởng các phòng: PT&QLKCN, TCKT, KHVT và các đơn vị, cá nhân có liên quan chịu trách nhiệm thi hành Quyết định này./.”"
  ],
  "history": [
+  {
+   "version": "V22.194",
+   "date": "2026-11-02",
+   "notes": [
+    "Dự thảo hợp đồng – Phụ lục 01: nút “⬆ Tải file bảng khối lượng” đặt ngay đầu bảng; chọn file Excel khối lượng có sẵn bên ngoài chương trình (cột Tên công tác, Đơn vị, Khối lượng, Đơn giá nếu có) → chương trình tự thay bảng khối lượng theo file (bỏ dòng tiêu đề nhóm, dòng tổng), ghi tên file đang dùng; có nút “↶ Trả lại bảng cũ” và “⬇ Excel bảng hiện tại”.",
+    "Các quyết định (phê duyệt dự toán, KHLCNT, thành lập tổ chuyên gia, kết quả LCNT…): Điều 3 thêm cụm “Các Ông (Bà)” trước chức danh – VD: “Các Ông (Bà) Trưởng các phòng: PT&QLKCN, TCKT, KHVT và các đơn vị, cá nhân có liên quan chịu trách nhiệm thi hành Quyết định này./.”"
+   ]
+  },
   {
    "version": "V22.193",
    "date": "2026-11-02",
