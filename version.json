@@ -1,12 +1,17 @@
 {
- "version": "V22.197",
+ "version": "V22.198",
  "date": "2026-11-02",
  "notes": [
-  "Soạn thảo văn bản – Trình bày “Tự động” (mặc định): khi vùng ký bị rớt sang trang mới, chương trình tự thu gọn (cỡ 13, dòng đơn) để vùng ký nằm cùng trang nội dung; nếu vẫn rớt thì cảnh báo đỏ. Có thể chọn “Chuẩn – không thu gọn” hoặc “Luôn thu gọn”. Vùng ký luôn kèm ít nhất đoạn cuối (không đứng riêng một trang) trên khung xem, bản in và Word.",
-  "Phân quyền mục 🗓️ Lập kế hoạch (Admin › Phân quyền): Ẩn / Chỉ xem / Biên tập – độc lập với Danh mục. Chỉ xem: không sửa bảng phân công, giao việc, nhưng vẫn cập nhật việc của mình (lịch tuần, lịch tự thêm, báo cáo hoàn thành việc được giao); máy chủ kiểm soát (cần cập nhật Code.gs bản V22.197).",
-  "Bản mới danh mục / kế hoạch từ máy chủ chỉ tạm hoãn khi đang gõ dở hoặc đang mở hộp thoại (áp dụng nhanh hơn)."
+  "Thư mời báo giá (gói chỉ định thầu): trích yếu ghi rõ “Về việc báo giá gói thầu: <tên gói thầu>” và dòng “Hạng mục công trình: <tên công trình>” (ô “Hạng mục công trình” sửa được, để trống = theo tên công trình của hồ sơ); câu mở đầu đổi thành “… lập báo giá cho gói thầu: <tên gói thầu> với nội dung cụ thể như sau:”."
  ],
  "history": [
+  {
+   "version": "V22.198",
+   "date": "2026-11-02",
+   "notes": [
+    "Thư mời báo giá (gói chỉ định thầu): trích yếu ghi rõ “Về việc báo giá gói thầu: <tên gói thầu>” và dòng “Hạng mục công trình: <tên công trình>” (ô “Hạng mục công trình” sửa được, để trống = theo tên công trình của hồ sơ); câu mở đầu đổi thành “… lập báo giá cho gói thầu: <tên gói thầu> với nội dung cụ thể như sau:”."
+   ]
+  },
   {
    "version": "V22.197",
    "date": "2026-11-02",
