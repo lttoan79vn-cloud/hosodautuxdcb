@@ -1,10 +1,17 @@
 {
- "version": "V22.200",
+ "version": "V22.201",
  "date": "2026-11-02",
  "notes": [
-  "Thư mời báo giá: tên gói thầu ở trích yếu và ở câu mở đầu ghi thống nhất một tên; không ghi cùng lúc “Hạng mục công trình”. VD gói “Thi công xây dựng công trình” + công trình “Nhà làm việc lãnh đạo Công ty” → “gói thầu: Thi công xây dựng công trình Nhà làm việc lãnh đạo Công ty”. Ô “Ghi là” chọn Công trình hoặc Hạng mục; tên công trình đã chứa tên gói thì chỉ ghi một lần."
+  "Thư mời báo giá: trích yếu tách 2 dòng – dòng trên “Về việc báo giá gói thầu: <tên gói thầu>”, dòng dưới “Công trình: <tên công trình>” (hoặc “Hạng mục: …” theo ô Ghi là); câu mở đầu ghi “… cho gói thầu: <tên gói thầu>, công trình: <tên công trình> với nội dung cụ thể như sau:”."
  ],
  "history": [
+  {
+   "version": "V22.201",
+   "date": "2026-11-02",
+   "notes": [
+    "Thư mời báo giá: trích yếu tách 2 dòng – dòng trên “Về việc báo giá gói thầu: <tên gói thầu>”, dòng dưới “Công trình: <tên công trình>” (hoặc “Hạng mục: …” theo ô Ghi là); câu mở đầu ghi “… cho gói thầu: <tên gói thầu>, công trình: <tên công trình> với nội dung cụ thể như sau:”."
+   ]
+  },
   {
    "version": "V22.200",
    "date": "2026-11-02",
