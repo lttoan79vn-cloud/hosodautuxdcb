@@ -1,10 +1,17 @@
 {
- "version": "V22.202",
+ "version": "V22.203",
  "date": "2026-11-02",
  "notes": [
-  "Hộp Quản trị tài khoản mở rộng gần hết chiều ngang màn hình (trước tối đa 820 px) – danh sách tài khoản hiện đủ các cột Email, Tên đăng nhập, Vai trò, Trạng thái, Xác thực lúc, Đăng nhập gần nhất, Thao tác mà không phải kéo ngang; cửa sổ hẹp tự xuống dòng cho vừa."
+  "Báo cáo & đánh giá KPI: chỉ đưa vào báo cáo các thành viên trong bảng KPI Phòng (đã gắn tài khoản, không tính người “không chấm điểm tại Phòng” / ẩn) – tài khoản lãnh đạo, khách… không còn xuất hiện; mỗi người 1 dòng (gộp các email của cùng người), họ tên và chức vụ theo bảng KPI Phòng. Áp dụng cho bảng KPI trên màn hình, mục VI của báo cáo Word, sheet KPI Excel, kết quả thực hiện kế hoạch theo cán bộ và danh sách chọn thành viên."
  ],
  "history": [
+  {
+   "version": "V22.203",
+   "date": "2026-11-02",
+   "notes": [
+    "Báo cáo & đánh giá KPI: chỉ đưa vào báo cáo các thành viên trong bảng KPI Phòng (đã gắn tài khoản, không tính người “không chấm điểm tại Phòng” / ẩn) – tài khoản lãnh đạo, khách… không còn xuất hiện; mỗi người 1 dòng (gộp các email của cùng người), họ tên và chức vụ theo bảng KPI Phòng. Áp dụng cho bảng KPI trên màn hình, mục VI của báo cáo Word, sheet KPI Excel, kết quả thực hiện kế hoạch theo cán bộ và danh sách chọn thành viên."
+   ]
+  },
   {
    "version": "V22.202",
    "date": "2026-11-02",
