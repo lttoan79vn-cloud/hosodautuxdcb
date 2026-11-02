@@ -1,10 +1,19 @@
 {
- "version": "V22.198",
+ "version": "V22.199",
  "date": "2026-11-02",
  "notes": [
-  "Thư mời báo giá (gói chỉ định thầu): trích yếu ghi rõ “Về việc báo giá gói thầu: <tên gói thầu>” và dòng “Hạng mục công trình: <tên công trình>” (ô “Hạng mục công trình” sửa được, để trống = theo tên công trình của hồ sơ); câu mở đầu đổi thành “… lập báo giá cho gói thầu: <tên gói thầu> với nội dung cụ thể như sau:”."
+  "Thanh menu trên cùng: bỏ chế độ chỉ còn biểu tượng ở cửa sổ hẹp (1025–1279 px – laptop màn hình nhỏ, Windows phóng to 125–150%); thanh thẻ chuyển xuống hàng thứ hai, mỗi thẻ đủ biểu tượng + chữ (Tổng quan, Soạn hồ sơ, Lập kế hoạch, Danh mục, Nhật ký CT, Báo cáo, Trợ giúp).",
+  "Sửa thẻ cuối (Trợ giúp) bị cắt mép phải ở màn hình rộng 1700–1920 px."
  ],
  "history": [
+  {
+   "version": "V22.199",
+   "date": "2026-11-02",
+   "notes": [
+    "Thanh menu trên cùng: bỏ chế độ chỉ còn biểu tượng ở cửa sổ hẹp (1025–1279 px – laptop màn hình nhỏ, Windows phóng to 125–150%); thanh thẻ chuyển xuống hàng thứ hai, mỗi thẻ đủ biểu tượng + chữ (Tổng quan, Soạn hồ sơ, Lập kế hoạch, Danh mục, Nhật ký CT, Báo cáo, Trợ giúp).",
+    "Sửa thẻ cuối (Trợ giúp) bị cắt mép phải ở màn hình rộng 1700–1920 px."
+   ]
+  },
   {
    "version": "V22.198",
    "date": "2026-11-02",
