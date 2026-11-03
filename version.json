@@ -1,11 +1,19 @@
 {
- "version": "V22.208",
+ "version": "V22.209",
  "date": "2026-11-03",
  "notes": [
-  "Quyết định: thêm ô “Xét đề nghị” trong vùng nhập liệu – có sẵn nội dung tự động theo Tờ trình, sửa trực tiếp (tờ trình 1 hoặc nhiều phòng), nút trở về nội dung tự động.",
-  "Bảng kế hoạch LCNT: chọn ĐVT Triệu đồng / Đồng; QĐ phê duyệt mặc định Đồng, Tờ trình mặc định Triệu đồng."
+  "Phụ lục: các dòng tiêu đề không giãn đoạn (trước/sau 0pt).",
+  "Bảng kế hoạch LCNT trong phụ lục QĐ (XDCB và giá thành): cỡ chữ 10; cột giá rộng hơn khi ghi ĐVT Đồng."
  ],
  "history": [
+  {
+   "version": "V22.209",
+   "date": "2026-11-03",
+   "notes": [
+    "Phụ lục: các dòng tiêu đề không giãn đoạn (trước/sau 0pt).",
+    "Bảng kế hoạch LCNT trong phụ lục QĐ (XDCB và giá thành): cỡ chữ 10; cột giá rộng hơn khi ghi ĐVT Đồng."
+   ]
+  },
   {
    "version": "V22.208",
    "date": "2026-11-03",
