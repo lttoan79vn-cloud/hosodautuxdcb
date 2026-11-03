@@ -1,11 +1,17 @@
 {
- "version": "V22.209",
+ "version": "V22.210",
  "date": "2026-11-03",
  "notes": [
-  "Phụ lục: các dòng tiêu đề không giãn đoạn (trước/sau 0pt).",
-  "Bảng kế hoạch LCNT trong phụ lục QĐ (XDCB và giá thành): cỡ chữ 10; cột giá rộng hơn khi ghi ĐVT Đồng."
+  "Bảng kế hoạch LCNT (Tờ trình, QĐ, xem trước): gói chỉ định thầu ghi “-” ở cột Phương thức lựa chọn nhà thầu."
  ],
  "history": [
+  {
+   "version": "V22.210",
+   "date": "2026-11-03",
+   "notes": [
+    "Bảng kế hoạch LCNT (Tờ trình, QĐ, xem trước): gói chỉ định thầu ghi “-” ở cột Phương thức lựa chọn nhà thầu."
+   ]
+  },
   {
    "version": "V22.209",
    "date": "2026-11-03",
