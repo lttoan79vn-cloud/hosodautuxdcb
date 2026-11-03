@@ -1,10 +1,19 @@
 {
- "version": "V22.210",
+ "version": "V22.211",
  "date": "2026-11-03",
  "notes": [
-  "Bảng kế hoạch LCNT (Tờ trình, QĐ, xem trước): gói chỉ định thầu ghi “-” ở cột Phương thức lựa chọn nhà thầu."
+  "Lập kế hoạch nhiều năm: thanh “Năm kế hoạch” (đang thực hiện / lập trước / lưu trữ) – bấm để chuyển qua lại; ＋ Năm tiếp theo để tải file kế hoạch năm sau và lập trước.",
+  "Kế hoạch gốc (đầu tư, giá thành) lưu riêng từng năm; tải file năm khác tự chuyển sang năm đó, dữ liệu năm cũ giữ nguyên; bảng phân công, kết quả thực hiện, xuất Excel/Word theo năm đang chọn; lịch công tác, KPI vẫn gộp mọi năm."
  ],
  "history": [
+  {
+   "version": "V22.211",
+   "date": "2026-11-03",
+   "notes": [
+    "Lập kế hoạch nhiều năm: thanh “Năm kế hoạch” (đang thực hiện / lập trước / lưu trữ) – bấm để chuyển qua lại; ＋ Năm tiếp theo để tải file kế hoạch năm sau và lập trước.",
+    "Kế hoạch gốc (đầu tư, giá thành) lưu riêng từng năm; tải file năm khác tự chuyển sang năm đó, dữ liệu năm cũ giữ nguyên; bảng phân công, kết quả thực hiện, xuất Excel/Word theo năm đang chọn; lịch công tác, KPI vẫn gộp mọi năm."
+   ]
+  },
   {
    "version": "V22.210",
    "date": "2026-11-03",
