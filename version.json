@@ -1,12 +1,17 @@
 {
- "version": "V22.205",
+ "version": "V22.206",
  "date": "2026-11-03",
  "notes": [
-  "Tờ trình: bỏ chữ “xin” trong trích yếu (KTKT/dự toán, KHLCNT, kết quả LCNT, Tổ chuyên gia; cả trích yếu nhập tay).",
-  "KHLCNT: mục 5.2 e) “Thời gian tổ chức LCNT” và f) lấy đúng theo bảng 5.1; QĐ phê duyệt dùng chung bảng 13 cột với Tờ trình (thêm thời gian tổ chức LCNT, tùy chọn mua thêm, giám sát hoạt động đấu thầu), trích yếu 2 dòng như Tờ trình.",
-  "Giá thành: phụ lục KHLCNT thêm cột Giám sát hoạt động đấu thầu; sửa ánh xạ thời gian tổ chức / thời gian bắt đầu LCNT."
+  "Quyết định do phòng trình (phê duyệt KTKT/dự toán, KHLCNT, HSMT, kết quả LCNT): bỏ dòng “Xét đề nghị của Trưởng phòng…”; căn cứ Tờ trình đặt cuối phần căn cứ, kết thúc bằng dấu chấm."
  ],
  "history": [
+  {
+   "version": "V22.206",
+   "date": "2026-11-03",
+   "notes": [
+    "Quyết định do phòng trình (phê duyệt KTKT/dự toán, KHLCNT, HSMT, kết quả LCNT): bỏ dòng “Xét đề nghị của Trưởng phòng…”; căn cứ Tờ trình đặt cuối phần căn cứ, kết thúc bằng dấu chấm."
+   ]
+  },
   {
    "version": "V22.205",
    "date": "2026-11-03",
