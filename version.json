@@ -1,10 +1,19 @@
 {
- "version": "V22.207",
+ "version": "V22.208",
  "date": "2026-11-03",
  "notes": [
-  "Quyết định do phòng trình: dòng cuối phần căn cứ ghi “Xét đề nghị tại Tờ trình số …” thay cho “Căn cứ Tờ trình số …”."
+  "Quyết định: thêm ô “Xét đề nghị” trong vùng nhập liệu – có sẵn nội dung tự động theo Tờ trình, sửa trực tiếp (tờ trình 1 hoặc nhiều phòng), nút trở về nội dung tự động.",
+  "Bảng kế hoạch LCNT: chọn ĐVT Triệu đồng / Đồng; QĐ phê duyệt mặc định Đồng, Tờ trình mặc định Triệu đồng."
  ],
  "history": [
+  {
+   "version": "V22.208",
+   "date": "2026-11-03",
+   "notes": [
+    "Quyết định: thêm ô “Xét đề nghị” trong vùng nhập liệu – có sẵn nội dung tự động theo Tờ trình, sửa trực tiếp (tờ trình 1 hoặc nhiều phòng), nút trở về nội dung tự động.",
+    "Bảng kế hoạch LCNT: chọn ĐVT Triệu đồng / Đồng; QĐ phê duyệt mặc định Đồng, Tờ trình mặc định Triệu đồng."
+   ]
+  },
   {
    "version": "V22.207",
    "date": "2026-11-03",
