@@ -1,10 +1,17 @@
 {
- "version": "V22.206",
+ "version": "V22.207",
  "date": "2026-11-03",
  "notes": [
-  "Quyết định do phòng trình (phê duyệt KTKT/dự toán, KHLCNT, HSMT, kết quả LCNT): bỏ dòng “Xét đề nghị của Trưởng phòng…”; căn cứ Tờ trình đặt cuối phần căn cứ, kết thúc bằng dấu chấm."
+  "Quyết định do phòng trình: dòng cuối phần căn cứ ghi “Xét đề nghị tại Tờ trình số …” thay cho “Căn cứ Tờ trình số …”."
  ],
  "history": [
+  {
+   "version": "V22.207",
+   "date": "2026-11-03",
+   "notes": [
+    "Quyết định do phòng trình: dòng cuối phần căn cứ ghi “Xét đề nghị tại Tờ trình số …” thay cho “Căn cứ Tờ trình số …”."
+   ]
+  },
   {
    "version": "V22.206",
    "date": "2026-11-03",
