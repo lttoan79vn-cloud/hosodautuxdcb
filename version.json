@@ -1,11 +1,19 @@
 {
- "version": "V22.212",
+ "version": "V22.213",
  "date": "2026-11-04",
  "notes": [
-  "Lịch công tác chuyển lên đầu thẻ Tổng quan – đăng nhập là thấy ngay lịch tuần/tháng, công việc được giao và nhắc việc; đủ chức năng như trước (chọn việc vào lịch, hoàn thành, thêm lịch, ↗ mở nội dung gốc).",
-  "Thẻ “Lịch công tác” trong Lập kế hoạch chuyển thành lối tắt sang Tổng quan."
+  "Tổng quan trở lại giao diện như trước; menu Tổng quan thêm thẻ “📅 Lịch công tác” (số việc của tôi / số quá hạn) – bấm để xem công việc được giao, lên lịch tuần, lịch tháng.",
+  "Lịch công tác chỉ hiển thị và cho sửa với tài khoản thuộc phòng (có trong KPI Phòng / danh sách cán bộ kế hoạch); tài khoản khác không thấy thẻ lịch và không nhận nhắc việc."
  ],
  "history": [
+  {
+   "version": "V22.213",
+   "date": "2026-11-04",
+   "notes": [
+    "Tổng quan trở lại giao diện như trước; menu Tổng quan thêm thẻ “📅 Lịch công tác” (số việc của tôi / số quá hạn) – bấm để xem công việc được giao, lên lịch tuần, lịch tháng.",
+    "Lịch công tác chỉ hiển thị và cho sửa với tài khoản thuộc phòng (có trong KPI Phòng / danh sách cán bộ kế hoạch); tài khoản khác không thấy thẻ lịch và không nhận nhắc việc."
+   ]
+  },
   {
    "version": "V22.212",
    "date": "2026-11-04",
