@@ -1,11 +1,19 @@
 {
- "version": "V22.211",
- "date": "2026-11-03",
+ "version": "V22.212",
+ "date": "2026-11-04",
  "notes": [
-  "Lập kế hoạch nhiều năm: thanh “Năm kế hoạch” (đang thực hiện / lập trước / lưu trữ) – bấm để chuyển qua lại; ＋ Năm tiếp theo để tải file kế hoạch năm sau và lập trước.",
-  "Kế hoạch gốc (đầu tư, giá thành) lưu riêng từng năm; tải file năm khác tự chuyển sang năm đó, dữ liệu năm cũ giữ nguyên; bảng phân công, kết quả thực hiện, xuất Excel/Word theo năm đang chọn; lịch công tác, KPI vẫn gộp mọi năm."
+  "Lịch công tác chuyển lên đầu thẻ Tổng quan – đăng nhập là thấy ngay lịch tuần/tháng, công việc được giao và nhắc việc; đủ chức năng như trước (chọn việc vào lịch, hoàn thành, thêm lịch, ↗ mở nội dung gốc).",
+  "Thẻ “Lịch công tác” trong Lập kế hoạch chuyển thành lối tắt sang Tổng quan."
  ],
  "history": [
+  {
+   "version": "V22.212",
+   "date": "2026-11-04",
+   "notes": [
+    "Lịch công tác chuyển lên đầu thẻ Tổng quan – đăng nhập là thấy ngay lịch tuần/tháng, công việc được giao và nhắc việc; đủ chức năng như trước (chọn việc vào lịch, hoàn thành, thêm lịch, ↗ mở nội dung gốc).",
+    "Thẻ “Lịch công tác” trong Lập kế hoạch chuyển thành lối tắt sang Tổng quan."
+   ]
+  },
   {
    "version": "V22.211",
    "date": "2026-11-03",
