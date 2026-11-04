@@ -1,11 +1,17 @@
 {
- "version": "V22.217",
+ "version": "V22.218",
  "date": "2026-11-04",
  "notes": [
-  "Lịch công tác vừa khung màn hình điện thoại: lịch tuần dạng thẻ (tên việc, bước, dải 7 ngày), bảng nhắc việc / công việc được giao dạng thẻ, không phải kéo ngang.",
-  "Cảnh báo việc quá hạn / đến hạn trong 3 ngày cho thành viên phòng: thanh cảnh báo đầu Tổng quan, số đỏ trên nút Tổng quan, thông báo trình duyệt/điện thoại (bấm “Bật thông báo”); người có quyền sửa kế hoạch xem bảng cảnh báo theo từng thành viên."
+  "Cảnh báo theo thành viên phòng chỉ tính người thuộc phòng (theo KPI Phòng); không đưa tài khoản/đơn vị phối hợp như \"Phòng KTNN\" vào bảng cảnh báo."
  ],
  "history": [
+  {
+   "version": "V22.218",
+   "date": "2026-11-04",
+   "notes": [
+    "Cảnh báo theo thành viên phòng chỉ tính người thuộc phòng (theo KPI Phòng); không đưa tài khoản/đơn vị phối hợp như \"Phòng KTNN\" vào bảng cảnh báo."
+   ]
+  },
   {
    "version": "V22.217",
    "date": "2026-11-04",
