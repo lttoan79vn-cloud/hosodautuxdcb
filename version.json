@@ -1,10 +1,19 @@
 {
- "version": "V22.216",
+ "version": "V22.217",
  "date": "2026-11-04",
  "notes": [
-  "Biên bản kiểm tra (XDCB, giá thành): giãn dòng nội dung 1,05 và thụt đầu dòng 1,27 cm như các văn bản khác; bảng giữ dòng đơn."
+  "Lịch công tác vừa khung màn hình điện thoại: lịch tuần dạng thẻ (tên việc, bước, dải 7 ngày), bảng nhắc việc / công việc được giao dạng thẻ, không phải kéo ngang.",
+  "Cảnh báo việc quá hạn / đến hạn trong 3 ngày cho thành viên phòng: thanh cảnh báo đầu Tổng quan, số đỏ trên nút Tổng quan, thông báo trình duyệt/điện thoại (bấm “Bật thông báo”); người có quyền sửa kế hoạch xem bảng cảnh báo theo từng thành viên."
  ],
  "history": [
+  {
+   "version": "V22.217",
+   "date": "2026-11-04",
+   "notes": [
+    "Lịch công tác vừa khung màn hình điện thoại: lịch tuần dạng thẻ (tên việc, bước, dải 7 ngày), bảng nhắc việc / công việc được giao dạng thẻ, không phải kéo ngang.",
+    "Cảnh báo việc quá hạn / đến hạn trong 3 ngày cho thành viên phòng: thanh cảnh báo đầu Tổng quan, số đỏ trên nút Tổng quan, thông báo trình duyệt/điện thoại (bấm “Bật thông báo”); người có quyền sửa kế hoạch xem bảng cảnh báo theo từng thành viên."
+   ]
+  },
   {
    "version": "V22.216",
    "date": "2026-11-04",
