@@ -1,12 +1,19 @@
 {
- "version": "V22.220",
- "date": "2026-11-04",
+ "version": "V22.221",
+ "date": "2026-11-05",
  "notes": [
-  "Menu Lập kế hoạch: bỏ thẻ Lịch công tác (mở lịch tại Tổng quan → 📅 Lịch công tác).",
-  "Bổ sung Kế hoạch thường xuyên (giữa KH giá thành và Công việc khác): tải file kế hoạch gốc theo năm (cùng mẫu kế hoạch mua sắm giá thành), giao gói, gói phát sinh, kết quả thực hiện, lịch công tác, lập hồ sơ – như KH giá thành.",
-  "Thêm bước riêng: bổ sung loại Điều chỉnh dự toán / BC KTKT (lập hồ sơ điều chỉnh → thẩm tra, thẩm định → phê duyệt)."
+  "KPI Phòng: bỏ tài khoản đơn vị phối hợp (Phòng KTNN, Ban…, Tổ…) khỏi danh sách KPI Phòng và danh sách người của Lịch công tác.",
+  "Thiết lập KPI: thêm nút ⟳ Tải lại KPI (sau Khôi phục theo MT-CN-01) – tải bảng KPI mới nhất trên máy chủ và danh sách tài khoản, có thay đổi thì cập nhật lại và báo số thay đổi."
  ],
  "history": [
+  {
+   "version": "V22.221",
+   "date": "2026-11-05",
+   "notes": [
+    "KPI Phòng: bỏ tài khoản đơn vị phối hợp (Phòng KTNN, Ban…, Tổ…) khỏi danh sách KPI Phòng và danh sách người của Lịch công tác.",
+    "Thiết lập KPI: thêm nút ⟳ Tải lại KPI (sau Khôi phục theo MT-CN-01) – tải bảng KPI mới nhất trên máy chủ và danh sách tài khoản, có thay đổi thì cập nhật lại và báo số thay đổi."
+   ]
+  },
   {
    "version": "V22.220",
    "date": "2026-11-04",
