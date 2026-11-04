@@ -1,11 +1,19 @@
 {
- "version": "V22.213",
+ "version": "V22.214",
  "date": "2026-11-04",
  "notes": [
-  "Tổng quan trở lại giao diện như trước; menu Tổng quan thêm thẻ “📅 Lịch công tác” (số việc của tôi / số quá hạn) – bấm để xem công việc được giao, lên lịch tuần, lịch tháng.",
-  "Lịch công tác chỉ hiển thị và cho sửa với tài khoản thuộc phòng (có trong KPI Phòng / danh sách cán bộ kế hoạch); tài khoản khác không thấy thẻ lịch và không nhận nhắc việc."
+  "Thể thức văn bản: dòng “ĐVT” luôn đi cùng bảng khi sang trang; “Tổng Giám đốc công ty / Đại diện công ty” → “Công ty”; khối ký “DUYỆT” → “Duyệt”.",
+  "Các dòng “Nhãn: nội dung” trong văn bản: chữ đầu sau dấu “:” viết hoa, cuối câu có dấu chấm (VD: Loại hợp đồng: Trọn gói. · Tùy chọn mua thêm: Không.)."
  ],
  "history": [
+  {
+   "version": "V22.214",
+   "date": "2026-11-04",
+   "notes": [
+    "Thể thức văn bản: dòng “ĐVT” luôn đi cùng bảng khi sang trang; “Tổng Giám đốc công ty / Đại diện công ty” → “Công ty”; khối ký “DUYỆT” → “Duyệt”.",
+    "Các dòng “Nhãn: nội dung” trong văn bản: chữ đầu sau dấu “:” viết hoa, cuối câu có dấu chấm (VD: Loại hợp đồng: Trọn gói. · Tùy chọn mua thêm: Không.)."
+   ]
+  },
   {
    "version": "V22.213",
    "date": "2026-11-04",
