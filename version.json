@@ -1,11 +1,19 @@
 {
- "version": "V22.221",
+ "version": "V22.222",
  "date": "2026-11-05",
  "notes": [
-  "KPI Phòng: bỏ tài khoản đơn vị phối hợp (Phòng KTNN, Ban…, Tổ…) khỏi danh sách KPI Phòng và danh sách người của Lịch công tác.",
-  "Thiết lập KPI: thêm nút ⟳ Tải lại KPI (sau Khôi phục theo MT-CN-01) – tải bảng KPI mới nhất trên máy chủ và danh sách tài khoản, có thay đổi thì cập nhật lại và báo số thay đổi."
+  "Thiết lập KPI: nút ⟳ Tải lại KPI đổi thành 📥 Cập nhật KPI mới – nạp 1 file KPI (Excel .xlsx/.xls hoặc Word .docx) cho tất cả thành viên khi thay đổi đồng loạt / điều chỉnh tổng thể: tải file mẫu theo KPI hiện tại, xem trước từng người (thêm mới / thay đổi / không đổi / giữ hoặc bỏ người không có trong file), cập nhật căn cứ, áp dụng rồi Lưu.",
+  "Vẫn giữ chức năng lấy bản KPI mới nhất trên máy chủ trong mục Cập nhật KPI mới; tài khoản đơn vị phối hợp trong file tự bỏ qua."
  ],
  "history": [
+  {
+   "version": "V22.222",
+   "date": "2026-11-05",
+   "notes": [
+    "Thiết lập KPI: nút ⟳ Tải lại KPI đổi thành 📥 Cập nhật KPI mới – nạp 1 file KPI (Excel .xlsx/.xls hoặc Word .docx) cho tất cả thành viên khi thay đổi đồng loạt / điều chỉnh tổng thể: tải file mẫu theo KPI hiện tại, xem trước từng người (thêm mới / thay đổi / không đổi / giữ hoặc bỏ người không có trong file), cập nhật căn cứ, áp dụng rồi Lưu.",
+    "Vẫn giữ chức năng lấy bản KPI mới nhất trên máy chủ trong mục Cập nhật KPI mới; tài khoản đơn vị phối hợp trong file tự bỏ qua."
+   ]
+  },
   {
    "version": "V22.221",
    "date": "2026-11-05",
