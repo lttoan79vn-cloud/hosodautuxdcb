@@ -1,10 +1,19 @@
 {
- "version": "V22.218",
+ "version": "V22.219",
  "date": "2026-11-04",
  "notes": [
-  "Cảnh báo theo thành viên phòng chỉ tính người thuộc phòng (theo KPI Phòng); không đưa tài khoản/đơn vị phối hợp như \"Phòng KTNN\" vào bảng cảnh báo."
+  "Thêm bước riêng: bổ sung loại \"Điều chỉnh HSMT\" (lập nội dung sửa đổi, thẩm định – phê duyệt, gửi văn bản sửa đổi cho nhà thầu, gia hạn thời điểm đóng thầu).",
+  "Tên gọi hồ sơ theo hình thức: chỉ định thầu (và mua sắm trực tiếp) gọi HSYC/HSĐX; chào hàng cạnh tranh, đấu thầu rộng rãi, hạn chế gọi HSMT/HSDT – tự sửa các bước đã có trong kế hoạch."
  ],
  "history": [
+  {
+   "version": "V22.219",
+   "date": "2026-11-04",
+   "notes": [
+    "Thêm bước riêng: bổ sung loại \"Điều chỉnh HSMT\" (lập nội dung sửa đổi, thẩm định – phê duyệt, gửi văn bản sửa đổi cho nhà thầu, gia hạn thời điểm đóng thầu).",
+    "Tên gọi hồ sơ theo hình thức: chỉ định thầu (và mua sắm trực tiếp) gọi HSYC/HSĐX; chào hàng cạnh tranh, đấu thầu rộng rãi, hạn chế gọi HSMT/HSDT – tự sửa các bước đã có trong kế hoạch."
+   ]
+  },
   {
    "version": "V22.218",
    "date": "2026-11-04",
