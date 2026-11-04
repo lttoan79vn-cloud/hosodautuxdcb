@@ -1,11 +1,17 @@
 {
- "version": "V22.214",
+ "version": "V22.215",
  "date": "2026-11-04",
  "notes": [
-  "Thể thức văn bản: dòng “ĐVT” luôn đi cùng bảng khi sang trang; “Tổng Giám đốc công ty / Đại diện công ty” → “Công ty”; khối ký “DUYỆT” → “Duyệt”.",
-  "Các dòng “Nhãn: nội dung” trong văn bản: chữ đầu sau dấu “:” viết hoa, cuối câu có dấu chấm (VD: Loại hợp đồng: Trọn gói. · Tùy chọn mua thêm: Không.)."
+  "Thể thức văn bản: giãn dòng nội dung 1,05 (Multiple 1,05); thụt đầu dòng đoạn văn 1,27 cm; nội dung trong bảng giữ dòng đơn (Single). Áp dụng cho Word xuất ra và khung xem."
  ],
  "history": [
+  {
+   "version": "V22.215",
+   "date": "2026-11-04",
+   "notes": [
+    "Thể thức văn bản: giãn dòng nội dung 1,05 (Multiple 1,05); thụt đầu dòng đoạn văn 1,27 cm; nội dung trong bảng giữ dòng đơn (Single). Áp dụng cho Word xuất ra và khung xem."
+   ]
+  },
   {
    "version": "V22.214",
    "date": "2026-11-04",
