@@ -1,10 +1,17 @@
 {
- "version": "V22.215",
+ "version": "V22.216",
  "date": "2026-11-04",
  "notes": [
-  "Thể thức văn bản: giãn dòng nội dung 1,05 (Multiple 1,05); thụt đầu dòng đoạn văn 1,27 cm; nội dung trong bảng giữ dòng đơn (Single). Áp dụng cho Word xuất ra và khung xem."
+  "Biên bản kiểm tra (XDCB, giá thành): giãn dòng nội dung 1,05 và thụt đầu dòng 1,27 cm như các văn bản khác; bảng giữ dòng đơn."
  ],
  "history": [
+  {
+   "version": "V22.216",
+   "date": "2026-11-04",
+   "notes": [
+    "Biên bản kiểm tra (XDCB, giá thành): giãn dòng nội dung 1,05 và thụt đầu dòng 1,27 cm như các văn bản khác; bảng giữ dòng đơn."
+   ]
+  },
   {
    "version": "V22.215",
    "date": "2026-11-04",
