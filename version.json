@@ -1,10 +1,17 @@
 {
- "version": "V22.225",
+ "version": "V22.226",
  "date": "2026-11-06",
  "notes": [
-  "Sổ đăng ký văn bản / Lấy số: cột “Người lấy số” hiển thị họ tên thành viên (theo tài khoản đã gắn trong KPI Phòng / danh sách cán bộ) thay cho email tài khoản – trên màn hình, bản in và Excel; tên người giao việc, người tải tệp cũng hiển thị theo họ tên. Tài khoản chưa gắn với thành viên nào vẫn hiện email."
+  "Lịch công tác: mỗi lần đăng nhập (hoặc mở lại chương trình) luôn ưu tiên hiển thị 👤 Việc của tôi; muốn xem lịch người khác chọn tên trong danh sách (hoặc bấm tên trong bảng cảnh báo thành viên) – lựa chọn giữ nguyên trong lúc làm việc, đăng nhập lần sau trở về Việc của tôi."
  ],
  "history": [
+  {
+   "version": "V22.226",
+   "date": "2026-11-06",
+   "notes": [
+    "Lịch công tác: mỗi lần đăng nhập (hoặc mở lại chương trình) luôn ưu tiên hiển thị 👤 Việc của tôi; muốn xem lịch người khác chọn tên trong danh sách (hoặc bấm tên trong bảng cảnh báo thành viên) – lựa chọn giữ nguyên trong lúc làm việc, đăng nhập lần sau trở về Việc của tôi."
+   ]
+  },
   {
    "version": "V22.225",
    "date": "2026-11-06",
