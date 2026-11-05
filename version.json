@@ -1,11 +1,17 @@
 {
- "version": "V22.222",
+ "version": "V22.223",
  "date": "2026-11-05",
  "notes": [
-  "Thiết lập KPI: nút ⟳ Tải lại KPI đổi thành 📥 Cập nhật KPI mới – nạp 1 file KPI (Excel .xlsx/.xls hoặc Word .docx) cho tất cả thành viên khi thay đổi đồng loạt / điều chỉnh tổng thể: tải file mẫu theo KPI hiện tại, xem trước từng người (thêm mới / thay đổi / không đổi / giữ hoặc bỏ người không có trong file), cập nhật căn cứ, áp dụng rồi Lưu.",
-  "Vẫn giữ chức năng lấy bản KPI mới nhất trên máy chủ trong mục Cập nhật KPI mới; tài khoản đơn vị phối hợp trong file tự bỏ qua."
+  "Quyết định (QĐ phê duyệt KHLCNT, dự toán/BC KTKT, tổ chuyên gia… và QĐ soạn trong Văn bản): dòng “QUYẾT ĐỊNH:” không còn rớt ở cuối trang – luôn đi cùng trang với Điều 1 khi xuất Word và khi in/PDF."
  ],
  "history": [
+  {
+   "version": "V22.223",
+   "date": "2026-11-05",
+   "notes": [
+    "Quyết định (QĐ phê duyệt KHLCNT, dự toán/BC KTKT, tổ chuyên gia… và QĐ soạn trong Văn bản): dòng “QUYẾT ĐỊNH:” không còn rớt ở cuối trang – luôn đi cùng trang với Điều 1 khi xuất Word và khi in/PDF."
+   ]
+  },
   {
    "version": "V22.222",
    "date": "2026-11-05",
