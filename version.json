@@ -1,10 +1,23 @@
 {
- "version": "V22.226",
+ "version": "V22.227",
  "date": "2026-11-06",
  "notes": [
-  "Lịch công tác: mỗi lần đăng nhập (hoặc mở lại chương trình) luôn ưu tiên hiển thị 👤 Việc của tôi; muốn xem lịch người khác chọn tên trong danh sách (hoặc bấm tên trong bảng cảnh báo thành viên) – lựa chọn giữ nguyên trong lúc làm việc, đăng nhập lần sau trở về Việc của tôi."
+  "Lịch công tác: bấm vào việc thuộc kế hoạch (bước gói thầu trong Bảng phân công) mở khung 📝 Cập nhật bước – ngày hoàn thành, số ngày, giá trị (dự toán / trúng thầu / nghiệm thu), kết quả, báo cáo, tệp đính kèm; kèm Bước tiếp theo (ngày bắt đầu, số ngày, kết thúc dự kiến) và các bước sau. Dữ liệu ghi thẳng vào Bảng phân công, tự cập nhật Kết quả thực hiện và gói chung BC KTKT.",
+  "Bảng phân công, Theo cán bộ, Việc cần làm, Biểu đồ tiến độ, Công việc khác, Kế hoạch sản xuất: mặc định hiển thị 👤 Việc của tôi (không có việc của mình thì hiện tất cả); chọn người khác để xem.",
+  "Lập kế hoạch: thêm mục 🏭 Kế hoạch sản xuất (sau KH thường xuyên) gồm 🚚 Kế hoạch vận chuyển mủ (ngày, nông trường/đội, loại mủ, KL kế hoạch / thực nhận, chênh lệch, xe, tài xế, nhà máy nhận, người phụ trách) và 🏭 Kế hoạch sản xuất PE (tháng, sản phẩm, ĐVT, kế hoạch, thực hiện, % đạt); lọc theo tháng, người phụ trách; nhân bản dòng; nhập / xuất Excel.",
+  "Máy chủ: người thực hiện có quyền Chỉ xem mục Lập kế hoạch vẫn cập nhật được bước của gói mình chủ trì / phối hợp (cần Code.gs bản V22.227)."
  ],
  "history": [
+  {
+   "version": "V22.227",
+   "date": "2026-11-06",
+   "notes": [
+    "Lịch công tác: bấm vào việc thuộc kế hoạch (bước gói thầu trong Bảng phân công) mở khung 📝 Cập nhật bước – ngày hoàn thành, số ngày, giá trị (dự toán / trúng thầu / nghiệm thu), kết quả, báo cáo, tệp đính kèm; kèm Bước tiếp theo (ngày bắt đầu, số ngày, kết thúc dự kiến) và các bước sau. Dữ liệu ghi thẳng vào Bảng phân công, tự cập nhật Kết quả thực hiện và gói chung BC KTKT.",
+    "Bảng phân công, Theo cán bộ, Việc cần làm, Biểu đồ tiến độ, Công việc khác, Kế hoạch sản xuất: mặc định hiển thị 👤 Việc của tôi (không có việc của mình thì hiện tất cả); chọn người khác để xem.",
+    "Lập kế hoạch: thêm mục 🏭 Kế hoạch sản xuất (sau KH thường xuyên) gồm 🚚 Kế hoạch vận chuyển mủ (ngày, nông trường/đội, loại mủ, KL kế hoạch / thực nhận, chênh lệch, xe, tài xế, nhà máy nhận, người phụ trách) và 🏭 Kế hoạch sản xuất PE (tháng, sản phẩm, ĐVT, kế hoạch, thực hiện, % đạt); lọc theo tháng, người phụ trách; nhân bản dòng; nhập / xuất Excel.",
+    "Máy chủ: người thực hiện có quyền Chỉ xem mục Lập kế hoạch vẫn cập nhật được bước của gói mình chủ trì / phối hợp (cần Code.gs bản V22.227)."
+   ]
+  },
   {
    "version": "V22.226",
    "date": "2026-11-06",
