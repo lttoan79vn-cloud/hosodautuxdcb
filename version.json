@@ -1,10 +1,17 @@
 {
- "version": "V22.223",
- "date": "2026-11-05",
+ "version": "V22.224",
+ "date": "2026-11-06",
  "notes": [
-  "Quyết định (QĐ phê duyệt KHLCNT, dự toán/BC KTKT, tổ chuyên gia… và QĐ soạn trong Văn bản): dòng “QUYẾT ĐỊNH:” không còn rớt ở cuối trang – luôn đi cùng trang với Điều 1 khi xuất Word và khi in/PDF."
+  "Quản trị tài khoản: thêm thẻ 🕘 Lịch sử đăng nhập (chỉ Admin) – máy chủ ghi mọi lần đăng ký, đăng nhập, đăng nhập thất bại (sai mật khẩu, bị khóa, tài khoản thu hồi), đăng xuất kèm thiết bị (trình duyệt · hệ điều hành); tổng hợp theo tài khoản (đăng nhập gần nhất, hoạt động gần nhất, đang hoạt động, số lượt / thất bại 30 ngày); lọc theo tài khoản, sự kiện, thời gian, tìm kiếm; xuất Excel. Người dùng khác không xem được. Cần cập nhật Code.gs bản V22.224 (Triển khai → Quản lý triển khai → Phiên bản mới)."
  ],
  "history": [
+  {
+   "version": "V22.224",
+   "date": "2026-11-06",
+   "notes": [
+    "Quản trị tài khoản: thêm thẻ 🕘 Lịch sử đăng nhập (chỉ Admin) – máy chủ ghi mọi lần đăng ký, đăng nhập, đăng nhập thất bại (sai mật khẩu, bị khóa, tài khoản thu hồi), đăng xuất kèm thiết bị (trình duyệt · hệ điều hành); tổng hợp theo tài khoản (đăng nhập gần nhất, hoạt động gần nhất, đang hoạt động, số lượt / thất bại 30 ngày); lọc theo tài khoản, sự kiện, thời gian, tìm kiếm; xuất Excel. Người dùng khác không xem được. Cần cập nhật Code.gs bản V22.224 (Triển khai → Quản lý triển khai → Phiên bản mới)."
+   ]
+  },
   {
    "version": "V22.223",
    "date": "2026-11-05",
