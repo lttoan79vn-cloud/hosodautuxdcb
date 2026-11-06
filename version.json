@@ -1,11 +1,17 @@
 {
- "version": "V22.229",
+ "version": "V22.230",
  "date": "2026-11-06",
  "notes": [
-  "Nhật ký CT (điện thoại): thanh tên công trình hiện Tiến độ tổng (bình quân theo số ngày từng hạng mục) so với % kế hoạch đến nay, thanh tiến độ, trạng thái, mốc thời gian (ngày n/tổng số ngày) – chạm để mở Kế hoạch tiến độ.",
-  "Thêm mục ⚠ Cảnh báo tiến độ: đếm hạng mục quá hạn / chậm (thực tế kém kế hoạch >10%) / sắp đến hạn (≤3 ngày); chạm để xem danh sách, chạm từng hạng mục để mở bảng kế hoạch."
+  "Nhật ký CT (điện thoại): dòng menu Hồ Sơ CT · Thiết Kế · Nhật Ký · Hồ Sơ KH · Tiến Độ · Lịch Sử · Ảnh sáng và đậm hơn – chữ đen đậm, biểu tượng xanh; mục đang mở tô nền xanh chữ trắng."
  ],
  "history": [
+  {
+   "version": "V22.230",
+   "date": "2026-11-06",
+   "notes": [
+    "Nhật ký CT (điện thoại): dòng menu Hồ Sơ CT · Thiết Kế · Nhật Ký · Hồ Sơ KH · Tiến Độ · Lịch Sử · Ảnh sáng và đậm hơn – chữ đen đậm, biểu tượng xanh; mục đang mở tô nền xanh chữ trắng."
+   ]
+  },
   {
    "version": "V22.229",
    "date": "2026-11-06",
