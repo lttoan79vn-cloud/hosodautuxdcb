@@ -1,10 +1,19 @@
 {
- "version": "V22.228",
+ "version": "V22.229",
  "date": "2026-11-06",
  "notes": [
-  "Nhật ký CT › Kế hoạch tiến độ thi công: trên điện thoại, ô Giám sát (tình trạng + % thực tế / % kế hoạch) đưa lên ngay dưới tên hạng mục, kèm thanh tiến độ (vạch đen = % kế hoạch đến hôm nay) để nắm tiến độ ngay khi mở."
+  "Nhật ký CT (điện thoại): thanh tên công trình hiện Tiến độ tổng (bình quân theo số ngày từng hạng mục) so với % kế hoạch đến nay, thanh tiến độ, trạng thái, mốc thời gian (ngày n/tổng số ngày) – chạm để mở Kế hoạch tiến độ.",
+  "Thêm mục ⚠ Cảnh báo tiến độ: đếm hạng mục quá hạn / chậm (thực tế kém kế hoạch >10%) / sắp đến hạn (≤3 ngày); chạm để xem danh sách, chạm từng hạng mục để mở bảng kế hoạch."
  ],
  "history": [
+  {
+   "version": "V22.229",
+   "date": "2026-11-06",
+   "notes": [
+    "Nhật ký CT (điện thoại): thanh tên công trình hiện Tiến độ tổng (bình quân theo số ngày từng hạng mục) so với % kế hoạch đến nay, thanh tiến độ, trạng thái, mốc thời gian (ngày n/tổng số ngày) – chạm để mở Kế hoạch tiến độ.",
+    "Thêm mục ⚠ Cảnh báo tiến độ: đếm hạng mục quá hạn / chậm (thực tế kém kế hoạch >10%) / sắp đến hạn (≤3 ngày); chạm để xem danh sách, chạm từng hạng mục để mở bảng kế hoạch."
+   ]
+  },
   {
    "version": "V22.228",
    "date": "2026-11-06",
