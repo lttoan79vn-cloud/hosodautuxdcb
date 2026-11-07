@@ -1,10 +1,17 @@
 {
- "version": "V22.246",
+ "version": "V22.247",
  "date": "2026-11-07",
  "notes": [
-  "Soạn hồ sơ: thanh menu nhóm hồ sơ dựng trực tiếp, luôn hiện kể cả khi dữ liệu chưa tải xong hoặc có phần khác báo lỗi; tự kiểm tra và vẽ lại sau 1,5 giây nếu bị thiếu; nếu không vẽ được thì tự hiện lại menu sổ dọc cũ – không bao giờ mất menu."
+  "Soạn hồ sơ: tự kiểm tra thanh menu nhóm hồ sơ có thực sự nhìn thấy được không; nếu không (bị che / ngoài màn hình) thì tự hiện lại menu chọn nhóm ở cột trái với đủ 6 mục (4 nhóm hồ sơ, Soạn thảo văn bản, Lấy số văn bản) và nút 📋 Gửi thông tin lỗi để khắc phục dứt điểm."
  ],
  "history": [
+  {
+   "version": "V22.247",
+   "date": "2026-11-07",
+   "notes": [
+    "Soạn hồ sơ: tự kiểm tra thanh menu nhóm hồ sơ có thực sự nhìn thấy được không; nếu không (bị che / ngoài màn hình) thì tự hiện lại menu chọn nhóm ở cột trái với đủ 6 mục (4 nhóm hồ sơ, Soạn thảo văn bản, Lấy số văn bản) và nút 📋 Gửi thông tin lỗi để khắc phục dứt điểm."
+   ]
+  },
   {
    "version": "V22.246",
    "date": "2026-11-07",
