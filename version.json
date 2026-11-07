@@ -1,13 +1,17 @@
 {
- "version": "V22.243",
+ "version": "V22.244",
  "date": "2026-11-07",
  "notes": [
-  "🚚 Thêm tab Điều hành sản xuất – Hệ thống quản lý điều hành sản xuất Đội xe - Cơ khí - PE: chấm công, chuyến xe, sản lượng, tính lương, 16 biểu mẫu; dùng chung tài khoản PHR; dữ liệu tại DATA SOURCE / PHR_SXDoiXe_DuLieu trên Google Drive của Admin, có trong bản sao lưu hằng ngày.",
-  "Menu Điều hành sản xuất: 🚚 Điều hành SX & tiền lương (đang chạy) và các mục định hướng phát triển: 👷 Định mức nhân công, 🔧 Chi phí sửa chữa, ⛽ Nhiên liệu vận chuyển, 📦 Nội dung khác (sắp có).",
-  "Phân quyền: thêm mục 🚚 Điều hành sản xuất (mặc định Ẩn vì có dữ liệu lương). Chỉ xem = Công nhân; Biên tập = vai trò gắn trong chương trình; danh mục, kỳ lương, tài khoản ngân hàng chỉ Phòng PT&QLKCN ghi; kỳ đã khóa chỉ Phòng PT&QLKCN sửa.",
-  "Admin: ⚙ Chuyển / sao lưu dữ liệu (nạp tệp PHR_SXDoiXe_ChuyenDuLieu.json, sao lưu JSON). Điện thoại: khung nằm dưới thanh tiêu đề, sát menu đáy. Cần cập nhật Code.gs và chạy caiDatLanDau 1 lần."
+  "Soạn hồ sơ: thanh menu nhóm hồ sơ hiện ngay khi mở chương trình / khi dữ liệu máy chủ tải xong (trước đây phải bấm chuyển tab mới hiện, gây cảm giác tải chậm); không còn lỗi khi dữ liệu chưa tải xong."
  ],
  "history": [
+  {
+   "version": "V22.244",
+   "date": "2026-11-07",
+   "notes": [
+    "Soạn hồ sơ: thanh menu nhóm hồ sơ hiện ngay khi mở chương trình / khi dữ liệu máy chủ tải xong (trước đây phải bấm chuyển tab mới hiện, gây cảm giác tải chậm); không còn lỗi khi dữ liệu chưa tải xong."
+   ]
+  },
   {
    "version": "V22.243",
    "date": "2026-11-07",
