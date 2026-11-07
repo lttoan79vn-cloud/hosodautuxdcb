@@ -1,10 +1,21 @@
 {
- "version": "V22.247",
- "date": "2026-11-07",
+ "version": "V22.248",
+ "date": "2026-11-08",
  "notes": [
-  "Soạn hồ sơ: tự kiểm tra thanh menu nhóm hồ sơ có thực sự nhìn thấy được không; nếu không (bị che / ngoài màn hình) thì tự hiện lại menu chọn nhóm ở cột trái với đủ 6 mục (4 nhóm hồ sơ, Soạn thảo văn bản, Lấy số văn bản) và nút 📋 Gửi thông tin lỗi để khắc phục dứt điểm."
+  "Soạn hồ sơ: thanh menu nhóm hồ sơ nằm ngay trong khung Soạn hồ sơ (trên 3 cột, giống menu Tổng quan); màn Soạn thảo văn bản / Lấy số cũng có thanh này ở đầu màn.",
+  "Thanh tiêu đề không còn tràn ra ngoài màn hình (trước đây mất nút ⏻ Thoát): dãy tab gọn lại, màn hình 1025–1500px đưa dãy tab xuống hàng 2; nút Tin nhắn chỉ hiện chữ trên màn hình rất rộng.",
+  "Đã kiểm tra trên 10 loại thiết bị (màn hình 1920, laptop 1366/1280, iPad ngang/dọc, Galaxy Tab, iPhone 13/SE, Pixel 7, Galaxy S8) ở mọi tab: không tràn ngang, nút Thoát luôn hiện, đủ tab."
  ],
  "history": [
+  {
+   "version": "V22.248",
+   "date": "2026-11-08",
+   "notes": [
+    "Soạn hồ sơ: thanh menu nhóm hồ sơ nằm ngay trong khung Soạn hồ sơ (trên 3 cột, giống menu Tổng quan); màn Soạn thảo văn bản / Lấy số cũng có thanh này ở đầu màn.",
+    "Thanh tiêu đề không còn tràn ra ngoài màn hình (trước đây mất nút ⏻ Thoát): dãy tab gọn lại, màn hình 1025–1500px đưa dãy tab xuống hàng 2; nút Tin nhắn chỉ hiện chữ trên màn hình rất rộng.",
+    "Đã kiểm tra trên 10 loại thiết bị (màn hình 1920, laptop 1366/1280, iPad ngang/dọc, Galaxy Tab, iPhone 13/SE, Pixel 7, Galaxy S8) ở mọi tab: không tràn ngang, nút Thoát luôn hiện, đủ tab."
+   ]
+  },
   {
    "version": "V22.247",
    "date": "2026-11-07",
