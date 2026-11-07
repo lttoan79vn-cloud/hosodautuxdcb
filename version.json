@@ -1,10 +1,19 @@
 {
- "version": "V22.231",
+ "version": "V22.232",
  "date": "2026-11-07",
  "notes": [
-  "Đồng bộ màu mọi thẻ menu con theo menu chính: thẻ chưa chọn nền xanh đậm chữ sáng, thẻ đang chọn nền trắng chữ xanh + vạch vàng – dễ phân biệt với vùng nhập liệu. Áp dụng: Lập kế hoạch (năm, nguồn kế hoạch, Bảng phân công…, vận chuyển mủ/SX PE), Lịch công tác, Báo cáo & KPI, Văn bản, Quản trị tài khoản, Nhật ký CT (thanh trên, menu bên trái, menu dưới trên điện thoại). Giữ nguyên bố cục."
+  "Menu chính (thanh trên và thanh dưới trên điện thoại) đổi sang màu xanh của nhóm Hồ sơ đầu tư XDCB; các thẻ menu con đồng bộ theo.",
+  "Ô “Tất cả hồ sơ” đổi từ xám đen sang xanh dương đậm."
  ],
  "history": [
+  {
+   "version": "V22.232",
+   "date": "2026-11-07",
+   "notes": [
+    "Menu chính (thanh trên và thanh dưới trên điện thoại) đổi sang màu xanh của nhóm Hồ sơ đầu tư XDCB; các thẻ menu con đồng bộ theo.",
+    "Ô “Tất cả hồ sơ” đổi từ xám đen sang xanh dương đậm."
+   ]
+  },
   {
    "version": "V22.231",
    "date": "2026-11-07",
