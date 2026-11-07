@@ -1,10 +1,17 @@
 {
- "version": "V22.245",
+ "version": "V22.246",
  "date": "2026-11-07",
  "notes": [
-  "Điều hành sản xuất: bấm các mục Nhập liệu, Xác nhận, Sản lượng, Kỳ lương, Danh mục, Lịch sử (máy tính và điện thoại) chuyển thẳng vào nội dung đó trong chương trình – không còn hiện màn đăng nhập PHR trong khung, không phải đăng nhập lại."
+  "Soạn hồ sơ: thanh menu nhóm hồ sơ dựng trực tiếp, luôn hiện kể cả khi dữ liệu chưa tải xong hoặc có phần khác báo lỗi; tự kiểm tra và vẽ lại sau 1,5 giây nếu bị thiếu; nếu không vẽ được thì tự hiện lại menu sổ dọc cũ – không bao giờ mất menu."
  ],
  "history": [
+  {
+   "version": "V22.246",
+   "date": "2026-11-07",
+   "notes": [
+    "Soạn hồ sơ: thanh menu nhóm hồ sơ dựng trực tiếp, luôn hiện kể cả khi dữ liệu chưa tải xong hoặc có phần khác báo lỗi; tự kiểm tra và vẽ lại sau 1,5 giây nếu bị thiếu; nếu không vẽ được thì tự hiện lại menu sổ dọc cũ – không bao giờ mất menu."
+   ]
+  },
   {
    "version": "V22.245",
    "date": "2026-11-07",
