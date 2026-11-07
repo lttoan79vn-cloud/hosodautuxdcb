@@ -1,21 +1,25 @@
 {
- "version": "V22.236",
+ "version": "V22.237",
  "date": "2026-11-07",
  "notes": [
-  "💬 Tin nhắn trao đổi công việc (nút 💬 trên thanh tiêu đề, có số tin chưa đọc): hội thoại Cả phòng, nhắn riêng từng thành viên, tạo nhóm trao đổi (người tạo / Admin sửa tên, thành viên; thành viên tự rời nhóm).",
-  "📎 Gắn công việc vào tin nhắn: gói kế hoạch (ưu tiên gói của tôi) hoặc công việc khác – bấm thẻ để mở đúng gói trong Bảng phân công.",
-  "Mã hóa AES-256-GCM ngay trên máy trước khi gửi; lưu trong thư mục chương trình PHR_XDCB_DuLieu/tin_nhan (theo hội thoại, theo tháng) – mở tệp trên Drive chỉ thấy chuỗi mã hóa. Khóa mỗi hội thoại sinh từ khóa gốc trong Script Properties, chỉ cấp cho thành viên hội thoại.",
-  "Thu hồi tin của mình; thông báo khi có tin mới; xem tin cũ hơn; giao diện điện thoại toàn màn hình. Cần cập nhật Code.gs."
+  "Tin nhắn: gọn giao diện, bỏ các dòng chú thích kỹ thuật trên khung tin nhắn (máy tính và điện thoại)."
  ],
  "history": [
+  {
+   "version": "V22.237",
+   "date": "2026-11-07",
+   "notes": [
+    "Tin nhắn: gọn giao diện, bỏ các dòng chú thích kỹ thuật trên khung tin nhắn (máy tính và điện thoại)."
+   ]
+  },
   {
    "version": "V22.236",
    "date": "2026-11-07",
    "notes": [
     "💬 Tin nhắn trao đổi công việc (nút 💬 trên thanh tiêu đề, có số tin chưa đọc): hội thoại Cả phòng, nhắn riêng từng thành viên, tạo nhóm trao đổi (người tạo / Admin sửa tên, thành viên; thành viên tự rời nhóm).",
     "📎 Gắn công việc vào tin nhắn: gói kế hoạch (ưu tiên gói của tôi) hoặc công việc khác – bấm thẻ để mở đúng gói trong Bảng phân công.",
-    "Mã hóa AES-256-GCM ngay trên máy trước khi gửi; lưu trong thư mục chương trình PHR_XDCB_DuLieu/tin_nhan (theo hội thoại, theo tháng) – mở tệp trên Drive chỉ thấy chuỗi mã hóa. Khóa mỗi hội thoại sinh từ khóa gốc trong Script Properties, chỉ cấp cho thành viên hội thoại.",
-    "Thu hồi tin của mình; thông báo khi có tin mới; xem tin cũ hơn; giao diện điện thoại toàn màn hình. Cần cập nhật Code.gs."
+    "Thu hồi tin của mình; thông báo khi có tin mới; xem tin cũ hơn; giao diện điện thoại toàn màn hình.",
+    "Tin nhắn lưu trong thư mục chương trình PHR_XDCB_DuLieu/tin_nhan (theo hội thoại, theo tháng). Cần cập nhật Code.gs."
    ]
   },
   {
