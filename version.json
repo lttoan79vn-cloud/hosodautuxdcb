@@ -1,10 +1,17 @@
 {
- "version": "V22.244",
+ "version": "V22.245",
  "date": "2026-11-07",
  "notes": [
-  "Soạn hồ sơ: thanh menu nhóm hồ sơ hiện ngay khi mở chương trình / khi dữ liệu máy chủ tải xong (trước đây phải bấm chuyển tab mới hiện, gây cảm giác tải chậm); không còn lỗi khi dữ liệu chưa tải xong."
+  "Điều hành sản xuất: bấm các mục Nhập liệu, Xác nhận, Sản lượng, Kỳ lương, Danh mục, Lịch sử (máy tính và điện thoại) chuyển thẳng vào nội dung đó trong chương trình – không còn hiện màn đăng nhập PHR trong khung, không phải đăng nhập lại."
  ],
  "history": [
+  {
+   "version": "V22.245",
+   "date": "2026-11-07",
+   "notes": [
+    "Điều hành sản xuất: bấm các mục Nhập liệu, Xác nhận, Sản lượng, Kỳ lương, Danh mục, Lịch sử (máy tính và điện thoại) chuyển thẳng vào nội dung đó trong chương trình – không còn hiện màn đăng nhập PHR trong khung, không phải đăng nhập lại."
+   ]
+  },
   {
    "version": "V22.244",
    "date": "2026-11-07",
