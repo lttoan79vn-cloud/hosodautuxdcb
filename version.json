@@ -1,10 +1,19 @@
 {
- "version": "V22.233",
+ "version": "V22.234",
  "date": "2026-11-07",
  "notes": [
-  "Menu chính (thanh trên, thanh dưới trên điện thoại) đổi sang màu xanh lá theo logo VRG Phước Hòa; logo đặt trên nền trắng để nổi rõ. Các thẻ menu con đồng bộ cùng màu xanh lá."
+  "Nhật ký CT (điện thoại): thanh menu Hồ Sơ CT … Ảnh nằm sát ngay trên menu chính (tự đo lại khi menu chính đổi chiều cao, hết khoảng trống), đổi sang màu xanh dương giống dải nền phía trên màn hình Nhật ký.",
+  "Menu chính dưới đáy: mục đang mở nền trắng chữ xanh lá + vạch vàng, không còn bị mờ."
  ],
  "history": [
+  {
+   "version": "V22.234",
+   "date": "2026-11-07",
+   "notes": [
+    "Nhật ký CT (điện thoại): thanh menu Hồ Sơ CT … Ảnh nằm sát ngay trên menu chính (tự đo lại khi menu chính đổi chiều cao, hết khoảng trống), đổi sang màu xanh dương giống dải nền phía trên màn hình Nhật ký.",
+    "Menu chính dưới đáy: mục đang mở nền trắng chữ xanh lá + vạch vàng, không còn bị mờ."
+   ]
+  },
   {
    "version": "V22.233",
    "date": "2026-11-07",
