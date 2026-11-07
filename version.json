@@ -1,10 +1,17 @@
 {
- "version": "V22.238",
+ "version": "V22.239",
  "date": "2026-11-07",
  "notes": [
-  "Điện thoại: thu gọn các khung nhập liệu – ô ngày cao bằng ô thường, vừa chữ, nằm cùng hàng với nút “Hôm nay”, không tràn mép màn hình (trước đây bị kéo cao gấp 3)."
+  "Sắp xếp lại menu: Danh mục chuyển vào Trợ giúp. Trợ giúp gồm 3 mục: 1. 🔄 Kiểm tra phiên bản · 2. ❓ Trợ giúp · 3. 📚 Danh mục. Menu chính (và thanh dưới trên điện thoại) còn 6 mục."
  ],
  "history": [
+  {
+   "version": "V22.239",
+   "date": "2026-11-07",
+   "notes": [
+    "Sắp xếp lại menu: Danh mục chuyển vào Trợ giúp. Trợ giúp gồm 3 mục: 1. 🔄 Kiểm tra phiên bản · 2. ❓ Trợ giúp · 3. 📚 Danh mục. Menu chính (và thanh dưới trên điện thoại) còn 6 mục."
+   ]
+  },
   {
    "version": "V22.238",
    "date": "2026-11-07",
