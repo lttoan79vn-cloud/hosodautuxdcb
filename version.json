@@ -1,12 +1,23 @@
 {
- "version": "V22.249",
+ "version": "V22.250",
  "date": "2026-11-08",
  "notes": [
-  "Tin nhắn: chữ lớn hơn (nội dung tin ~12pt, tên, tiêu đề, nút, ô nhập đều to hơn).",
-  "Thanh menu chính: chữ tab to hơn; máy tính dưới 2000px đưa dãy tab xuống hàng 2 cho đủ chỗ, không tab nào bị khuất.",
-  "Nút Hoàn tác / Làm lại: chữ trắng đậm trên nền xanh đậm, viền vàng – nhìn rõ cả khi chưa bấm được."
+  "Nhật ký CT trên điện thoại: thêm nút “＋ Tạo mới” ngay trên thanh tên công trình (trước đây nút chỉ có ở thanh bên của máy tính).",
+  "Tạo mới có thêm mẫu thứ 3: “Nhật ký thi công lắp đặt thiết bị” cho gói thầu mua sắm hàng hóa.",
+  "Mẫu lắp đặt: danh mục hàng hóa, thiết bị theo hợp đồng (tên, ký mã hiệu, xuất xứ, ĐVT, số lượng); trang ngày có mục 2.3 hàng hóa tiếp nhận / lắp đặt (tình trạng: tiếp nhận, đang lắp, lắp xong, chạy thử đạt, bàn giao) và 7 ý kiểm tra hàng hóa chọn nhanh.",
+  "Xuất Word / in sổ đúng mẫu lắp đặt thiết bị: bìa, trang thông tin, danh sách cán bộ, trang danh mục hàng hóa, trang ngày."
  ],
  "history": [
+  {
+   "version": "V22.250",
+   "date": "2026-11-08",
+   "notes": [
+    "Nhật ký CT trên điện thoại: thêm nút “＋ Tạo mới” ngay trên thanh tên công trình (trước đây nút chỉ có ở thanh bên của máy tính).",
+    "Tạo mới có thêm mẫu thứ 3: “Nhật ký thi công lắp đặt thiết bị” cho gói thầu mua sắm hàng hóa.",
+    "Mẫu lắp đặt: danh mục hàng hóa, thiết bị theo hợp đồng (tên, ký mã hiệu, xuất xứ, ĐVT, số lượng); trang ngày có mục 2.3 hàng hóa tiếp nhận / lắp đặt (tình trạng: tiếp nhận, đang lắp, lắp xong, chạy thử đạt, bàn giao) và 7 ý kiểm tra hàng hóa chọn nhanh.",
+    "Xuất Word / in sổ đúng mẫu lắp đặt thiết bị: bìa, trang thông tin, danh sách cán bộ, trang danh mục hàng hóa, trang ngày."
+   ]
+  },
   {
    "version": "V22.249",
    "date": "2026-11-08",
