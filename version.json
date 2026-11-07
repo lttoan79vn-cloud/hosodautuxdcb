@@ -1,12 +1,21 @@
 {
- "version": "V22.248",
+ "version": "V22.249",
  "date": "2026-11-08",
  "notes": [
-  "Soạn hồ sơ: thanh menu nhóm hồ sơ nằm ngay trong khung Soạn hồ sơ (trên 3 cột, giống menu Tổng quan); màn Soạn thảo văn bản / Lấy số cũng có thanh này ở đầu màn.",
-  "Thanh tiêu đề không còn tràn ra ngoài màn hình (trước đây mất nút ⏻ Thoát): dãy tab gọn lại, màn hình 1025–1500px đưa dãy tab xuống hàng 2; nút Tin nhắn chỉ hiện chữ trên màn hình rất rộng.",
-  "Đã kiểm tra trên 10 loại thiết bị (màn hình 1920, laptop 1366/1280, iPad ngang/dọc, Galaxy Tab, iPhone 13/SE, Pixel 7, Galaxy S8) ở mọi tab: không tràn ngang, nút Thoát luôn hiện, đủ tab."
+  "Tin nhắn: chữ lớn hơn (nội dung tin ~12pt, tên, tiêu đề, nút, ô nhập đều to hơn).",
+  "Thanh menu chính: chữ tab to hơn; máy tính dưới 2000px đưa dãy tab xuống hàng 2 cho đủ chỗ, không tab nào bị khuất.",
+  "Nút Hoàn tác / Làm lại: chữ trắng đậm trên nền xanh đậm, viền vàng – nhìn rõ cả khi chưa bấm được."
  ],
  "history": [
+  {
+   "version": "V22.249",
+   "date": "2026-11-08",
+   "notes": [
+    "Tin nhắn: chữ lớn hơn (nội dung tin ~12pt, tên, tiêu đề, nút, ô nhập đều to hơn).",
+    "Thanh menu chính: chữ tab to hơn; máy tính dưới 2000px đưa dãy tab xuống hàng 2 cho đủ chỗ, không tab nào bị khuất.",
+    "Nút Hoàn tác / Làm lại: chữ trắng đậm trên nền xanh đậm, viền vàng – nhìn rõ cả khi chưa bấm được."
+   ]
+  },
   {
    "version": "V22.248",
    "date": "2026-11-08",
