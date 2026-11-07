@@ -1,10 +1,19 @@
 {
- "version": "V22.240",
+ "version": "V22.241",
  "date": "2026-11-07",
  "notes": [
-  "Nút 💬 Tin nhắn trên thanh tiêu đề to gấp đôi, nền trắng chữ xanh “Tin nhắn” (điện thoại: biểu tượng lớn), số tin chưa đọc to rõ hơn."
+  "Soạn hồ sơ: menu chọn nhóm hồ sơ chuyển từ sổ dọc thành thanh ngang trên cùng – Hồ sơ đầu tư XDCB · thiết bị · giá thành XDCB · giá thành thiết bị · Soạn thảo văn bản · Lấy số văn bản (bấm 1 lần là chuyển, có số hồ sơ / văn bản). Điện thoại: tên ngắn, vuốt ngang.",
+  "Lập kế hoạch: thanh 5 nhóm kế hoạch (Đầu tư XDCB, Giá thành, Thường xuyên, Sản xuất, Công việc khác) đưa lên trên cùng, gọn một hàng; tiêu đề, nút chức năng, năm kế hoạch nằm bên dưới."
  ],
  "history": [
+  {
+   "version": "V22.241",
+   "date": "2026-11-07",
+   "notes": [
+    "Soạn hồ sơ: menu chọn nhóm hồ sơ chuyển từ sổ dọc thành thanh ngang trên cùng – Hồ sơ đầu tư XDCB · thiết bị · giá thành XDCB · giá thành thiết bị · Soạn thảo văn bản · Lấy số văn bản (bấm 1 lần là chuyển, có số hồ sơ / văn bản). Điện thoại: tên ngắn, vuốt ngang.",
+    "Lập kế hoạch: thanh 5 nhóm kế hoạch (Đầu tư XDCB, Giá thành, Thường xuyên, Sản xuất, Công việc khác) đưa lên trên cùng, gọn một hàng; tiêu đề, nút chức năng, năm kế hoạch nằm bên dưới."
+   ]
+  },
   {
    "version": "V22.240",
    "date": "2026-11-07",
