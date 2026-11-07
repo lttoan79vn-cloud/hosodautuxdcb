@@ -1,11 +1,17 @@
 {
- "version": "V22.232",
+ "version": "V22.233",
  "date": "2026-11-07",
  "notes": [
-  "Menu chính (thanh trên và thanh dưới trên điện thoại) đổi sang màu xanh của nhóm Hồ sơ đầu tư XDCB; các thẻ menu con đồng bộ theo.",
-  "Ô “Tất cả hồ sơ” đổi từ xám đen sang xanh dương đậm."
+  "Menu chính (thanh trên, thanh dưới trên điện thoại) đổi sang màu xanh lá theo logo VRG Phước Hòa; logo đặt trên nền trắng để nổi rõ. Các thẻ menu con đồng bộ cùng màu xanh lá."
  ],
  "history": [
+  {
+   "version": "V22.233",
+   "date": "2026-11-07",
+   "notes": [
+    "Menu chính (thanh trên, thanh dưới trên điện thoại) đổi sang màu xanh lá theo logo VRG Phước Hòa; logo đặt trên nền trắng để nổi rõ. Các thẻ menu con đồng bộ cùng màu xanh lá."
+   ]
+  },
   {
    "version": "V22.232",
    "date": "2026-11-07",
