@@ -1,14 +1,23 @@
 {
- "version": "V22.235",
+ "version": "V22.236",
  "date": "2026-11-07",
  "notes": [
-  "Lập kế hoạch › 🧭 Tiến độ theo tính chất công trình (áp dụng KH đầu tư XDCB và KH giá thành): mỗi gói chọn tính chất (tự nhận diện theo tên gói) + quy mô theo giá trị; bước lập hồ sơ, thẩm định – phê duyệt, thi công lấy số ngày theo tính chất, bước lựa chọn nhà thầu theo Bảng thời gian chuẩn của hình thức.",
-  "Tính 2 hướng: ➡ Tính xuôi (biết ngày bắt đầu → ngày hoàn thành) và ⬅ Tính ngược (biết hạn hoàn thành → ngày muộn nhất phải bắt đầu từng bước; báo không kịp hạn và ngày sớm nhất hoàn thành).",
-  "Lịch thi công thích hợp: trừ ngày nghỉ Tết, lễ; công trình mùa khô (đường, mương, san nền, hạ tầng vườn cây) không thi công trong mùa mưa (mặc định 01/05–30/11), tính ngược tự bố trí thi công trọn mùa khô nếu còn kịp; cảnh báo thi công bị mùa mưa cắt ngang, vượt năm kế hoạch; thanh thời gian tô mùa mưa, Tết.",
-  "Bảng tính chất soạn sẵn 10 loại công trình đặc thù Phước Hòa – điều chỉnh được số ngày, thêm loại mới, chỉnh mùa mưa, ngày nghỉ Tết, Chủ nhật, ngày nghỉ khác.",
-  "Lập hàng loạt cho các gói của kế hoạch đang xem; kết quả ghi thẳng vào Bảng phân công, Lịch công tác, cảnh báo tiến độ."
+  "💬 Tin nhắn trao đổi công việc (nút 💬 trên thanh tiêu đề, có số tin chưa đọc): hội thoại Cả phòng, nhắn riêng từng thành viên, tạo nhóm trao đổi (người tạo / Admin sửa tên, thành viên; thành viên tự rời nhóm).",
+  "📎 Gắn công việc vào tin nhắn: gói kế hoạch (ưu tiên gói của tôi) hoặc công việc khác – bấm thẻ để mở đúng gói trong Bảng phân công.",
+  "Mã hóa AES-256-GCM ngay trên máy trước khi gửi; lưu trong thư mục chương trình PHR_XDCB_DuLieu/tin_nhan (theo hội thoại, theo tháng) – mở tệp trên Drive chỉ thấy chuỗi mã hóa. Khóa mỗi hội thoại sinh từ khóa gốc trong Script Properties, chỉ cấp cho thành viên hội thoại.",
+  "Thu hồi tin của mình; thông báo khi có tin mới; xem tin cũ hơn; giao diện điện thoại toàn màn hình. Cần cập nhật Code.gs."
  ],
  "history": [
+  {
+   "version": "V22.236",
+   "date": "2026-11-07",
+   "notes": [
+    "💬 Tin nhắn trao đổi công việc (nút 💬 trên thanh tiêu đề, có số tin chưa đọc): hội thoại Cả phòng, nhắn riêng từng thành viên, tạo nhóm trao đổi (người tạo / Admin sửa tên, thành viên; thành viên tự rời nhóm).",
+    "📎 Gắn công việc vào tin nhắn: gói kế hoạch (ưu tiên gói của tôi) hoặc công việc khác – bấm thẻ để mở đúng gói trong Bảng phân công.",
+    "Mã hóa AES-256-GCM ngay trên máy trước khi gửi; lưu trong thư mục chương trình PHR_XDCB_DuLieu/tin_nhan (theo hội thoại, theo tháng) – mở tệp trên Drive chỉ thấy chuỗi mã hóa. Khóa mỗi hội thoại sinh từ khóa gốc trong Script Properties, chỉ cấp cho thành viên hội thoại.",
+    "Thu hồi tin của mình; thông báo khi có tin mới; xem tin cũ hơn; giao diện điện thoại toàn màn hình. Cần cập nhật Code.gs."
+   ]
+  },
   {
    "version": "V22.235",
    "date": "2026-11-07",
