@@ -1,10 +1,17 @@
 {
- "version": "V22.239",
+ "version": "V22.240",
  "date": "2026-11-07",
  "notes": [
-  "Sắp xếp lại menu: Danh mục chuyển vào Trợ giúp. Trợ giúp gồm 3 mục: 1. 🔄 Kiểm tra phiên bản · 2. ❓ Trợ giúp · 3. 📚 Danh mục. Menu chính (và thanh dưới trên điện thoại) còn 6 mục."
+  "Nút 💬 Tin nhắn trên thanh tiêu đề to gấp đôi, nền trắng chữ xanh “Tin nhắn” (điện thoại: biểu tượng lớn), số tin chưa đọc to rõ hơn."
  ],
  "history": [
+  {
+   "version": "V22.240",
+   "date": "2026-11-07",
+   "notes": [
+    "Nút 💬 Tin nhắn trên thanh tiêu đề to gấp đôi, nền trắng chữ xanh “Tin nhắn” (điện thoại: biểu tượng lớn), số tin chưa đọc to rõ hơn."
+   ]
+  },
   {
    "version": "V22.239",
    "date": "2026-11-07",
