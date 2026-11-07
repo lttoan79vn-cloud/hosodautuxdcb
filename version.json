@@ -1,10 +1,17 @@
 {
- "version": "V22.237",
+ "version": "V22.238",
  "date": "2026-11-07",
  "notes": [
-  "Tin nhắn: gọn giao diện, bỏ các dòng chú thích kỹ thuật trên khung tin nhắn (máy tính và điện thoại)."
+  "Điện thoại: thu gọn các khung nhập liệu – ô ngày cao bằng ô thường, vừa chữ, nằm cùng hàng với nút “Hôm nay”, không tràn mép màn hình (trước đây bị kéo cao gấp 3)."
  ],
  "history": [
+  {
+   "version": "V22.238",
+   "date": "2026-11-07",
+   "notes": [
+    "Điện thoại: thu gọn các khung nhập liệu – ô ngày cao bằng ô thường, vừa chữ, nằm cùng hàng với nút “Hôm nay”, không tràn mép màn hình (trước đây bị kéo cao gấp 3)."
+   ]
+  },
   {
    "version": "V22.237",
    "date": "2026-11-07",
