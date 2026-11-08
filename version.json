@@ -1,13 +1,25 @@
 {
- "version": "V22.250",
+ "version": "V22.251",
  "date": "2026-11-08",
  "notes": [
-  "Nhật ký CT trên điện thoại: thêm nút “＋ Tạo mới” ngay trên thanh tên công trình (trước đây nút chỉ có ở thanh bên của máy tính).",
-  "Tạo mới có thêm mẫu thứ 3: “Nhật ký thi công lắp đặt thiết bị” cho gói thầu mua sắm hàng hóa.",
-  "Mẫu lắp đặt: danh mục hàng hóa, thiết bị theo hợp đồng (tên, ký mã hiệu, xuất xứ, ĐVT, số lượng); trang ngày có mục 2.3 hàng hóa tiếp nhận / lắp đặt (tình trạng: tiếp nhận, đang lắp, lắp xong, chạy thử đạt, bàn giao) và 7 ý kiểm tra hàng hóa chọn nhanh.",
-  "Xuất Word / in sổ đúng mẫu lắp đặt thiết bị: bìa, trang thông tin, danh sách cán bộ, trang danh mục hàng hóa, trang ngày."
+  "Tin nhắn: có tin mới → hiện thẻ báo nổi trên màn hình (người gửi, hội thoại, nội dung), nút “Mở tin nhắn” đi thẳng vào hội thoại.",
+  "Âm báo, rung trên điện thoại; nút 💬 rung chuông và nhấp nháy số tin chưa đọc; tên tab trình duyệt hiện “(số tin)” và nhấp nháy khi đang ở tab khác.",
+  "Thông báo hệ thống (Windows / điện thoại) khi đang mở cửa sổ khác – bật trong 💬 › 🔔 Thông báo › Cho phép.",
+  "Vào chương trình có tin chưa đọc → báo “Bạn có … tin nhắn chưa đọc”.",
+  "Cài đặt riêng từng người: bật/tắt thẻ báo, âm báo, rung, thông báo hệ thống; nút Thử thông báo."
  ],
  "history": [
+  {
+   "version": "V22.251",
+   "date": "2026-11-08",
+   "notes": [
+    "Tin nhắn: có tin mới → hiện thẻ báo nổi trên màn hình (người gửi, hội thoại, nội dung), nút “Mở tin nhắn” đi thẳng vào hội thoại.",
+    "Âm báo, rung trên điện thoại; nút 💬 rung chuông và nhấp nháy số tin chưa đọc; tên tab trình duyệt hiện “(số tin)” và nhấp nháy khi đang ở tab khác.",
+    "Thông báo hệ thống (Windows / điện thoại) khi đang mở cửa sổ khác – bật trong 💬 › 🔔 Thông báo › Cho phép.",
+    "Vào chương trình có tin chưa đọc → báo “Bạn có … tin nhắn chưa đọc”.",
+    "Cài đặt riêng từng người: bật/tắt thẻ báo, âm báo, rung, thông báo hệ thống; nút Thử thông báo."
+   ]
+  },
   {
    "version": "V22.250",
    "date": "2026-11-08",
