@@ -1,11 +1,23 @@
 {
- "version": "V22.257",
+ "version": "V22.258",
  "date": "2026-11-08",
  "notes": [
-  "Điều hành SX – lái xe: trong 1 ngày dù vận chuyển loại gì, bao nhiêu chuyến vẫn tính 1 ngày công; tiền lương hưởng đủ theo từng công việc thực hiện: mủ nước theo tấn × đơn giá tuyến, mủ tạp và vận chuyển khác (vật tư, hóa chất…) theo số công nhập × đơn giá, phát sinh theo khoán (bỏ giới hạn tối đa 1 công lương mủ tạp/VC khác mỗi ngày của bản V22.254).",
-  "Cảnh báo vượt công chỉ còn áp dụng cho công phát sinh nhập vượt công chấm (rửa xe, cơ khí…)."
+  "Điều hành SX: mục mới “Theo ngày” – nạp dữ liệu từng ngày (Phiếu báo sản lượng mủ, file khối lượng, nhập tay), xác nhận các mục chờ của ngày, “Chốt ngày” để ghi số liệu ngày vào sổ lũy kế; báo khi số liệu ngày đã chốt bị sửa sau đó.",
+  "Bảng lũy kế công nhân: từng người, số trong ngày và lũy kế từ đầu tháng (chuyến mủ nước, tấn, công mủ tạp/VC khác, ngày công, tiền lương tạm tính); bấm tên xem sổ lũy kế từng ngày; tải Excel.",
+  "Phòng PT&QLKCN: “Xóa dữ liệu cũ…” – xóa chuyến, phát sinh, sản lượng PE, chấm công, đơn nghỉ, tham số các tháng trước 1 ngày chọn (mặc định 08/11/2026); bắt buộc tải bản sao lưu trước khi xóa; danh mục giữ nguyên.",
+  "Ngày có chuyến/công việc đã xác nhận tính đi làm kể cả khi nằm trong khung đơn nghỉ."
  ],
  "history": [
+  {
+   "version": "V22.258",
+   "date": "2026-11-08",
+   "notes": [
+    "Điều hành SX: mục mới “Theo ngày” – nạp dữ liệu từng ngày (Phiếu báo sản lượng mủ, file khối lượng, nhập tay), xác nhận các mục chờ của ngày, “Chốt ngày” để ghi số liệu ngày vào sổ lũy kế; báo khi số liệu ngày đã chốt bị sửa sau đó.",
+    "Bảng lũy kế công nhân: từng người, số trong ngày và lũy kế từ đầu tháng (chuyến mủ nước, tấn, công mủ tạp/VC khác, ngày công, tiền lương tạm tính); bấm tên xem sổ lũy kế từng ngày; tải Excel.",
+    "Phòng PT&QLKCN: “Xóa dữ liệu cũ…” – xóa chuyến, phát sinh, sản lượng PE, chấm công, đơn nghỉ, tham số các tháng trước 1 ngày chọn (mặc định 08/11/2026); bắt buộc tải bản sao lưu trước khi xóa; danh mục giữ nguyên.",
+    "Ngày có chuyến/công việc đã xác nhận tính đi làm kể cả khi nằm trong khung đơn nghỉ."
+   ]
+  },
   {
    "version": "V22.257",
    "date": "2026-11-08",
