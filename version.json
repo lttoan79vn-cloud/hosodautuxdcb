@@ -1,14 +1,25 @@
 {
- "version": "V22.253",
+ "version": "V22.254",
  "date": "2026-11-08",
  "notes": [
-  "Điều hành SX › Nhập liệu: nút mới “Phiếu báo sản lượng mủ” – đọc trực tiếp file Excel Phiếu báo sản lượng mủ (Phụ lục 3 – TT-CN-07/00) của Phòng QLCL: NMLT (Nhà máy ly tâm), NMBL (Nhà máy Bố Lá); chọn được nhiều file, mỗi sheet là 1 phiếu.",
-  "Mỗi dòng xe thành 1 chuyến Mủ nước của lái xe chính, tính lương theo đơn giá tuyến Đội SX → Nhà máy; “-2” là chuyến thứ 2, “-100P” là mủ 100% PEFC; mã chuyến tự đặt NM-ngày-xe nên tải lại không bị trùng; lưu kèm DRC, quy khô.",
-  "Tự đối chiếu: tổng sản lượng, tổng quy khô với dòng TỔNG CỘNG; báo xe có quy khô tính lệch. Gán mã nhà máy / nông trường (BL, HH, LU, NN, HN, TH) với danh mục, nhớ cho lần sau; chọn tính theo sản lượng thực tế hoặc quy đổi (trừ tỉ lệ).",
-  "Có “+ Nhập tay 1 phiếu” khi chỉ có ảnh/giấy và “Tải mẫu phiếu” – file Excel đúng bố cục phiếu QLCL, có sẵn công thức quy đổi, quy khô, tổng theo nông trường, PEFC, CS.",
-  "Đổi tên mục “Kỳ lương” thành “Ký lương” (trang Ký lương & biểu mẫu)."
+  "Điều hành SX › biểu mẫu in ký: bỏ dòng “(Ký, ghi rõ họ tên)” ở tất cả vị trí chữ ký (xem trước, Excel, Word, PDF).",
+  "Ký lương: mục mới “Người ký tháng …” – chọn thành viên ký cho từng vị trí theo phân công hằng tháng của Phó Tổng Giám đốc (tự điền chức vụ, sửa được chức danh in trên chữ ký); có “Lấy theo tháng trước”, “Dùng mặc định” và Danh sách thành viên ký. Chữ ký và thành phần Biên bản nghiệm thu in theo người đã chọn của tháng.",
+  "Thể thức văn bản (NĐ 30/2020): dưới tên phòng, dưới tiêu ngữ “Độc lập - Tự do - Hạnh phúc” và dưới tên biểu có đường kẻ ngang nét liền (thay cho gạch chân chữ); tên công ty in đứng, không đậm.",
+  "Đồng bộ chữ “Ký lương” trong toàn bộ Điều hành SX: ô chọn tháng, Trạng thái / Tham số / Khóa dữ liệu ký lương, hướng dẫn và thông báo.",
+  "Ngày công: ngày có công việc đã xác nhận tính 1 công, không tính theo số chuyến – ngày chưa chấm công mà có chuyến đã xác nhận được tự chấm “x”; công mủ tạp, vận chuyển khác cộng dồn trong ngày tối đa 1 công."
  ],
  "history": [
+  {
+   "version": "V22.254",
+   "date": "2026-11-08",
+   "notes": [
+    "Điều hành SX › biểu mẫu in ký: bỏ dòng “(Ký, ghi rõ họ tên)” ở tất cả vị trí chữ ký (xem trước, Excel, Word, PDF).",
+    "Ký lương: mục mới “Người ký tháng …” – chọn thành viên ký cho từng vị trí theo phân công hằng tháng của Phó Tổng Giám đốc (tự điền chức vụ, sửa được chức danh in trên chữ ký); có “Lấy theo tháng trước”, “Dùng mặc định” và Danh sách thành viên ký. Chữ ký và thành phần Biên bản nghiệm thu in theo người đã chọn của tháng.",
+    "Thể thức văn bản (NĐ 30/2020): dưới tên phòng, dưới tiêu ngữ “Độc lập - Tự do - Hạnh phúc” và dưới tên biểu có đường kẻ ngang nét liền (thay cho gạch chân chữ); tên công ty in đứng, không đậm.",
+    "Đồng bộ chữ “Ký lương” trong toàn bộ Điều hành SX: ô chọn tháng, Trạng thái / Tham số / Khóa dữ liệu ký lương, hướng dẫn và thông báo.",
+    "Ngày công: ngày có công việc đã xác nhận tính 1 công, không tính theo số chuyến – ngày chưa chấm công mà có chuyến đã xác nhận được tự chấm “x”; công mủ tạp, vận chuyển khác cộng dồn trong ngày tối đa 1 công."
+   ]
+  },
   {
    "version": "V22.253",
    "date": "2026-11-08",
