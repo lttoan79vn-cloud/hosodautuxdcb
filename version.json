@@ -1,14 +1,17 @@
 {
- "version": "V22.254",
+ "version": "V22.255",
  "date": "2026-11-08",
  "notes": [
-  "Điều hành SX › biểu mẫu in ký: bỏ dòng “(Ký, ghi rõ họ tên)” ở tất cả vị trí chữ ký (xem trước, Excel, Word, PDF).",
-  "Ký lương: mục mới “Người ký tháng …” – chọn thành viên ký cho từng vị trí theo phân công hằng tháng của Phó Tổng Giám đốc (tự điền chức vụ, sửa được chức danh in trên chữ ký); có “Lấy theo tháng trước”, “Dùng mặc định” và Danh sách thành viên ký. Chữ ký và thành phần Biên bản nghiệm thu in theo người đã chọn của tháng.",
-  "Thể thức văn bản (NĐ 30/2020): dưới tên phòng, dưới tiêu ngữ “Độc lập - Tự do - Hạnh phúc” và dưới tên biểu có đường kẻ ngang nét liền (thay cho gạch chân chữ); tên công ty in đứng, không đậm.",
-  "Đồng bộ chữ “Ký lương” trong toàn bộ Điều hành SX: ô chọn tháng, Trạng thái / Tham số / Khóa dữ liệu ký lương, hướng dẫn và thông báo.",
-  "Ngày công: ngày có công việc đã xác nhận tính 1 công, không tính theo số chuyến – ngày chưa chấm công mà có chuyến đã xác nhận được tự chấm “x”; công mủ tạp, vận chuyển khác cộng dồn trong ngày tối đa 1 công."
+  "Điều hành SX: đổi “Ký lương” thành “Tính lương” ở mọi vị trí – tên mục trên menu, trang “Tính lương & biểu mẫu”, ô chọn tháng, Trạng thái / Tham số / Khóa dữ liệu tính lương, mục Người ký, hướng dẫn và thông báo (kể cả thông báo từ máy chủ)."
  ],
  "history": [
+  {
+   "version": "V22.255",
+   "date": "2026-11-08",
+   "notes": [
+    "Điều hành SX: đổi “Ký lương” thành “Tính lương” ở mọi vị trí – tên mục trên menu, trang “Tính lương & biểu mẫu”, ô chọn tháng, Trạng thái / Tham số / Khóa dữ liệu tính lương, mục Người ký, hướng dẫn và thông báo (kể cả thông báo từ máy chủ)."
+   ]
+  },
   {
    "version": "V22.254",
    "date": "2026-11-08",
