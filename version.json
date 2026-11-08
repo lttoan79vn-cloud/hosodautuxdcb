@@ -1,13 +1,17 @@
 {
- "version": "V22.258",
+ "version": "V22.259",
  "date": "2026-11-08",
  "notes": [
-  "Điều hành SX: mục mới “Theo ngày” – nạp dữ liệu từng ngày (Phiếu báo sản lượng mủ, file khối lượng, nhập tay), xác nhận các mục chờ của ngày, “Chốt ngày” để ghi số liệu ngày vào sổ lũy kế; báo khi số liệu ngày đã chốt bị sửa sau đó.",
-  "Bảng lũy kế công nhân: từng người, số trong ngày và lũy kế từ đầu tháng (chuyến mủ nước, tấn, công mủ tạp/VC khác, ngày công, tiền lương tạm tính); bấm tên xem sổ lũy kế từng ngày; tải Excel.",
-  "Phòng PT&QLKCN: “Xóa dữ liệu cũ…” – xóa chuyến, phát sinh, sản lượng PE, chấm công, đơn nghỉ, tham số các tháng trước 1 ngày chọn (mặc định 08/11/2026); bắt buộc tải bản sao lưu trước khi xóa; danh mục giữ nguyên.",
-  "Ngày có chuyến/công việc đã xác nhận tính đi làm kể cả khi nằm trong khung đơn nghỉ."
+  "Danh mục › Tài khoản NH: nút “Nhập số TK từ danh sách chuyển khoản…” – đọc file Excel/CSV danh sách chuyển khoản lương của P.TCLĐTL hoặc văn bản dán từ PDF; cập nhật số TK, chi nhánh theo mã nhân viên, đối chiếu tên với Danh mục, báo số TK thay đổi, không xóa số TK của người khác."
  ],
  "history": [
+  {
+   "version": "V22.259",
+   "date": "2026-11-08",
+   "notes": [
+    "Danh mục › Tài khoản NH: nút “Nhập số TK từ danh sách chuyển khoản…” – đọc file Excel/CSV danh sách chuyển khoản lương của P.TCLĐTL hoặc văn bản dán từ PDF; cập nhật số TK, chi nhánh theo mã nhân viên, đối chiếu tên với Danh mục, báo số TK thay đổi, không xóa số TK của người khác."
+   ]
+  },
   {
    "version": "V22.258",
    "date": "2026-11-08",
