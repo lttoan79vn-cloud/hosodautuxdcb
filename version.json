@@ -1,10 +1,21 @@
 {
- "version": "V22.255",
+ "version": "V22.256",
  "date": "2026-11-08",
  "notes": [
-  "Điều hành SX: đổi “Ký lương” thành “Tính lương” ở mọi vị trí – tên mục trên menu, trang “Tính lương & biểu mẫu”, ô chọn tháng, Trạng thái / Tham số / Khóa dữ liệu tính lương, mục Người ký, hướng dẫn và thông báo (kể cả thông báo từ máy chủ)."
+  "Điều hành SX – ngày công lái xe: chỉ tính ngày có chuyến hoặc công việc đã xác nhận, mỗi ngày 1 công dù đi nhiều chuyến (mủ nước, mủ tạp cùng ngày vẫn 1 công); ngày chưa chấm công mà có chuyến đã xác nhận tự chấm 1 công.",
+  "Ngày chấm “Đi làm” nhưng không có chuyến/công việc đã xác nhận: không tính công, ô lịch gạch ngang, bảng chấm công in để trống; trang Tính lương có cảnh báo để rà lại. Tổ rửa xe, cơ khí, xưởng PE vẫn tính theo chấm công.",
+  "Bảng Sản lượng: cột “Chuyến mủ nước”, “Công mủ tạp, VC khác” (có cả vận chuyển khác) và ghi rõ các ngày làm việc dưới số ngày công."
  ],
  "history": [
+  {
+   "version": "V22.256",
+   "date": "2026-11-08",
+   "notes": [
+    "Điều hành SX – ngày công lái xe: chỉ tính ngày có chuyến hoặc công việc đã xác nhận, mỗi ngày 1 công dù đi nhiều chuyến (mủ nước, mủ tạp cùng ngày vẫn 1 công); ngày chưa chấm công mà có chuyến đã xác nhận tự chấm 1 công.",
+    "Ngày chấm “Đi làm” nhưng không có chuyến/công việc đã xác nhận: không tính công, ô lịch gạch ngang, bảng chấm công in để trống; trang Tính lương có cảnh báo để rà lại. Tổ rửa xe, cơ khí, xưởng PE vẫn tính theo chấm công.",
+    "Bảng Sản lượng: cột “Chuyến mủ nước”, “Công mủ tạp, VC khác” (có cả vận chuyển khác) và ghi rõ các ngày làm việc dưới số ngày công."
+   ]
+  },
   {
    "version": "V22.255",
    "date": "2026-11-08",
