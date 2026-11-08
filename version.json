@@ -1,13 +1,25 @@
 {
- "version": "V22.252",
+ "version": "V22.253",
  "date": "2026-11-08",
  "notes": [
-  "Nhật ký CT › Báo cáo: sửa màu chữ các mục trong menu (chữ xanh đậm trên nền trắng, dễ đọc), menu luôn nằm trọn trong màn hình điện thoại.",
-  "Mục mới “📊 Tổng quát tiến độ các gói thầu”: biểu đồ tiến độ của tất cả gói thầu có nhật ký, xem theo Tháng / Quý / Năm, chuyển kỳ trước – sau.",
-  "Mỗi gói thầu có thanh % thực tế (vạch đen là mức kế hoạch), thanh thời gian so với kỳ, tình trạng Hoàn thành / Đúng tiến độ / Chậm / Quá hạn; thống kê tổng số gói và TT bình quân.",
-  "Xem kỳ đã qua: % thực tế lấy theo % hạng mục ghi trong nhật ký đến cuối kỳ. Chạm vào gói thầu để mở kế hoạch tiến độ của gói đó; nút In xuất bảng tổng hợp khổ A4 ngang."
+  "Điều hành SX › Nhập liệu: nút mới “Phiếu báo sản lượng mủ” – đọc trực tiếp file Excel Phiếu báo sản lượng mủ (Phụ lục 3 – TT-CN-07/00) của Phòng QLCL: NMLT (Nhà máy ly tâm), NMBL (Nhà máy Bố Lá); chọn được nhiều file, mỗi sheet là 1 phiếu.",
+  "Mỗi dòng xe thành 1 chuyến Mủ nước của lái xe chính, tính lương theo đơn giá tuyến Đội SX → Nhà máy; “-2” là chuyến thứ 2, “-100P” là mủ 100% PEFC; mã chuyến tự đặt NM-ngày-xe nên tải lại không bị trùng; lưu kèm DRC, quy khô.",
+  "Tự đối chiếu: tổng sản lượng, tổng quy khô với dòng TỔNG CỘNG; báo xe có quy khô tính lệch. Gán mã nhà máy / nông trường (BL, HH, LU, NN, HN, TH) với danh mục, nhớ cho lần sau; chọn tính theo sản lượng thực tế hoặc quy đổi (trừ tỉ lệ).",
+  "Có “+ Nhập tay 1 phiếu” khi chỉ có ảnh/giấy và “Tải mẫu phiếu” – file Excel đúng bố cục phiếu QLCL, có sẵn công thức quy đổi, quy khô, tổng theo nông trường, PEFC, CS.",
+  "Đổi tên mục “Kỳ lương” thành “Ký lương” (trang Ký lương & biểu mẫu)."
  ],
  "history": [
+  {
+   "version": "V22.253",
+   "date": "2026-11-08",
+   "notes": [
+    "Điều hành SX › Nhập liệu: nút mới “Phiếu báo sản lượng mủ” – đọc trực tiếp file Excel Phiếu báo sản lượng mủ (Phụ lục 3 – TT-CN-07/00) của Phòng QLCL: NMLT (Nhà máy ly tâm), NMBL (Nhà máy Bố Lá); chọn được nhiều file, mỗi sheet là 1 phiếu.",
+    "Mỗi dòng xe thành 1 chuyến Mủ nước của lái xe chính, tính lương theo đơn giá tuyến Đội SX → Nhà máy; “-2” là chuyến thứ 2, “-100P” là mủ 100% PEFC; mã chuyến tự đặt NM-ngày-xe nên tải lại không bị trùng; lưu kèm DRC, quy khô.",
+    "Tự đối chiếu: tổng sản lượng, tổng quy khô với dòng TỔNG CỘNG; báo xe có quy khô tính lệch. Gán mã nhà máy / nông trường (BL, HH, LU, NN, HN, TH) với danh mục, nhớ cho lần sau; chọn tính theo sản lượng thực tế hoặc quy đổi (trừ tỉ lệ).",
+    "Có “+ Nhập tay 1 phiếu” khi chỉ có ảnh/giấy và “Tải mẫu phiếu” – file Excel đúng bố cục phiếu QLCL, có sẵn công thức quy đổi, quy khô, tổng theo nông trường, PEFC, CS.",
+    "Đổi tên mục “Kỳ lương” thành “Ký lương” (trang Ký lương & biểu mẫu)."
+   ]
+  },
   {
    "version": "V22.252",
    "date": "2026-11-08",
