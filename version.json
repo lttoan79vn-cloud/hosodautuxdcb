@@ -1,14 +1,23 @@
 {
- "version": "V22.251",
+ "version": "V22.252",
  "date": "2026-11-08",
  "notes": [
-  "Tin nhắn: có tin mới → hiện thẻ báo nổi trên màn hình (người gửi, hội thoại, nội dung), nút “Mở tin nhắn” đi thẳng vào hội thoại.",
-  "Âm báo, rung trên điện thoại; nút 💬 rung chuông và nhấp nháy số tin chưa đọc; tên tab trình duyệt hiện “(số tin)” và nhấp nháy khi đang ở tab khác.",
-  "Thông báo hệ thống (Windows / điện thoại) khi đang mở cửa sổ khác – bật trong 💬 › 🔔 Thông báo › Cho phép.",
-  "Vào chương trình có tin chưa đọc → báo “Bạn có … tin nhắn chưa đọc”.",
-  "Cài đặt riêng từng người: bật/tắt thẻ báo, âm báo, rung, thông báo hệ thống; nút Thử thông báo."
+  "Nhật ký CT › Báo cáo: sửa màu chữ các mục trong menu (chữ xanh đậm trên nền trắng, dễ đọc), menu luôn nằm trọn trong màn hình điện thoại.",
+  "Mục mới “📊 Tổng quát tiến độ các gói thầu”: biểu đồ tiến độ của tất cả gói thầu có nhật ký, xem theo Tháng / Quý / Năm, chuyển kỳ trước – sau.",
+  "Mỗi gói thầu có thanh % thực tế (vạch đen là mức kế hoạch), thanh thời gian so với kỳ, tình trạng Hoàn thành / Đúng tiến độ / Chậm / Quá hạn; thống kê tổng số gói và TT bình quân.",
+  "Xem kỳ đã qua: % thực tế lấy theo % hạng mục ghi trong nhật ký đến cuối kỳ. Chạm vào gói thầu để mở kế hoạch tiến độ của gói đó; nút In xuất bảng tổng hợp khổ A4 ngang."
  ],
  "history": [
+  {
+   "version": "V22.252",
+   "date": "2026-11-08",
+   "notes": [
+    "Nhật ký CT › Báo cáo: sửa màu chữ các mục trong menu (chữ xanh đậm trên nền trắng, dễ đọc), menu luôn nằm trọn trong màn hình điện thoại.",
+    "Mục mới “📊 Tổng quát tiến độ các gói thầu”: biểu đồ tiến độ của tất cả gói thầu có nhật ký, xem theo Tháng / Quý / Năm, chuyển kỳ trước – sau.",
+    "Mỗi gói thầu có thanh % thực tế (vạch đen là mức kế hoạch), thanh thời gian so với kỳ, tình trạng Hoàn thành / Đúng tiến độ / Chậm / Quá hạn; thống kê tổng số gói và TT bình quân.",
+    "Xem kỳ đã qua: % thực tế lấy theo % hạng mục ghi trong nhật ký đến cuối kỳ. Chạm vào gói thầu để mở kế hoạch tiến độ của gói đó; nút In xuất bảng tổng hợp khổ A4 ngang."
+   ]
+  },
   {
    "version": "V22.251",
    "date": "2026-11-08",
