@@ -1,10 +1,23 @@
 {
- "version": "V22.261",
+ "version": "V22.262",
  "date": "2026-11-09",
  "notes": [
-  "Lập kế hoạch – thanh thống kê: mỗi ô (Tổng số gói, Đang thực hiện, Quá hạn, Đến hạn ≤ 7 ngày, Hoàn thành, Đã hủy, Chưa có mốc) ghi thêm giá trị và tỷ lệ % so với tổng giá trị kế hoạch (gồm cả gói đã hủy); ô Tổng giá trị ghi % đã hủy; % HT bình quân thêm tỷ lệ theo giá trị."
+  "Dòng tiêu đề chương trình nền trắng, chữ xanh đậm theo logo; thanh thẻ và các nút giữ màu xanh logo VRG Phước Hòa.",
+  "Báo cáo: đổi “Báo cáo & KPI hoạt động” thành “Báo cáo kết quả và tiến độ thực hiện”.",
+  "Bảng “Đánh giá KPI thành viên” chuyển sang thẻ KPI Phòng (MT-CN-01), kèm nút Thiết lập KPI.",
+  "Thẻ mới “Tiến độ thực hiện”: liệt kê từng nội dung công việc (gói kế hoạch, hồ sơ) với các bước đã thực hiện (ngày hoàn thành, đúng hạn/chậm), kế hoạch bước tiếp theo (ngày bắt đầu – hoàn thành theo số ngày chuẩn) và cảnh báo: quá hạn, đến hạn ≤ 3/7 ngày, chưa có mốc, bước chưa ghi ngày hoàn thành, dự báo trễ, hồ sơ không cập nhật > 14 ngày, hồ sơ còn lỗi. Có danh mục bước chuẩn theo hình thức; xuất Word, Excel."
  ],
  "history": [
+  {
+   "version": "V22.262",
+   "date": "2026-11-09",
+   "notes": [
+    "Dòng tiêu đề chương trình nền trắng, chữ xanh đậm theo logo; thanh thẻ và các nút giữ màu xanh logo VRG Phước Hòa.",
+    "Báo cáo: đổi “Báo cáo & KPI hoạt động” thành “Báo cáo kết quả và tiến độ thực hiện”.",
+    "Bảng “Đánh giá KPI thành viên” chuyển sang thẻ KPI Phòng (MT-CN-01), kèm nút Thiết lập KPI.",
+    "Thẻ mới “Tiến độ thực hiện”: liệt kê từng nội dung công việc (gói kế hoạch, hồ sơ) với các bước đã thực hiện (ngày hoàn thành, đúng hạn/chậm), kế hoạch bước tiếp theo (ngày bắt đầu – hoàn thành theo số ngày chuẩn) và cảnh báo: quá hạn, đến hạn ≤ 3/7 ngày, chưa có mốc, bước chưa ghi ngày hoàn thành, dự báo trễ, hồ sơ không cập nhật > 14 ngày, hồ sơ còn lỗi. Có danh mục bước chuẩn theo hình thức; xuất Word, Excel."
+   ]
+  },
   {
    "version": "V22.261",
    "date": "2026-11-09",
