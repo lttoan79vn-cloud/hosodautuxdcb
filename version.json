@@ -1,10 +1,17 @@
 {
- "version": "V22.259",
- "date": "2026-11-08",
+ "version": "V22.260",
+ "date": "2026-11-09",
  "notes": [
-  "Danh mục › Tài khoản NH: nút “Nhập số TK từ danh sách chuyển khoản…” – đọc file Excel/CSV danh sách chuyển khoản lương của P.TCLĐTL hoặc văn bản dán từ PDF; cập nhật số TK, chi nhánh theo mã nhân viên, đối chiếu tên với Danh mục, báo số TK thay đổi, không xóa số TK của người khác."
+  "Nhập số TK từ danh sách chuyển khoản: đối chiếu mã NV (bỏ qua số 0 đầu), không trùng mã thì khớp theo họ tên; người chưa có trong Danh mục nhân sự có thể thêm ngay (chọn tổ, mặc định Xưởng PE) rồi lưu số TK."
  ],
  "history": [
+  {
+   "version": "V22.260",
+   "date": "2026-11-09",
+   "notes": [
+    "Nhập số TK từ danh sách chuyển khoản: đối chiếu mã NV (bỏ qua số 0 đầu), không trùng mã thì khớp theo họ tên; người chưa có trong Danh mục nhân sự có thể thêm ngay (chọn tổ, mặc định Xưởng PE) rồi lưu số TK."
+   ]
+  },
   {
    "version": "V22.259",
    "date": "2026-11-08",
