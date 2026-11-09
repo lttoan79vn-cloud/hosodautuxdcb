@@ -1,10 +1,21 @@
 {
- "version": "V22.266",
+ "version": "V22.267",
  "date": "2026-11-09",
  "notes": [
-  "Nhật ký CT trên điện thoại: 3 nút dưới thẻ công trình hiện cả chữ – “Hồ sơ CT”, “Xuất Excel A4”, “In Báo Cáo A4”."
+  "Tăng tốc Tin nhắn: tin gửi hiện ngay trên màn hình (⏳ đang gửi), gửi liên tiếp không phải chờ; mở hộp tin nhắn hiện ngay danh sách đang có; không còn biểu tượng “Đang lưu, gửi dữ liệu…” che màn hình.",
+  "Tăng tốc Điều hành sản xuất: gộp 12–15 lệnh nạp dữ liệu khi mở thành 1 lệnh.",
+  "Máy chủ (cần cập nhật Code.gs): xác thực mỗi yêu cầu dùng bộ nhớ đệm tài khoản thay vì đọc bảng tính; mở tệp tin nhắn / dữ liệu sản xuất theo ID đã nhớ thay vì dò tìm trên Drive; sao lưu tự động không còn giữ khóa chung (trước đây làm các thao tác ghi của mọi người phải chờ); lệnh kiểm tra kết nối và đọc sổ văn bản không chờ khóa."
  ],
  "history": [
+  {
+   "version": "V22.267",
+   "date": "2026-11-09",
+   "notes": [
+    "Tăng tốc Tin nhắn: tin gửi hiện ngay trên màn hình (⏳ đang gửi), gửi liên tiếp không phải chờ; mở hộp tin nhắn hiện ngay danh sách đang có; không còn biểu tượng “Đang lưu, gửi dữ liệu…” che màn hình.",
+    "Tăng tốc Điều hành sản xuất: gộp 12–15 lệnh nạp dữ liệu khi mở thành 1 lệnh.",
+    "Máy chủ (cần cập nhật Code.gs): xác thực mỗi yêu cầu dùng bộ nhớ đệm tài khoản thay vì đọc bảng tính; mở tệp tin nhắn / dữ liệu sản xuất theo ID đã nhớ thay vì dò tìm trên Drive; sao lưu tự động không còn giữ khóa chung (trước đây làm các thao tác ghi của mọi người phải chờ); lệnh kiểm tra kết nối và đọc sổ văn bản không chờ khóa."
+   ]
+  },
   {
    "version": "V22.266",
    "date": "2026-11-09",
