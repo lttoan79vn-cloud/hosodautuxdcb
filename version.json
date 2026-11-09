@@ -1,12 +1,17 @@
 {
- "version": "V22.265",
+ "version": "V22.266",
  "date": "2026-11-09",
  "notes": [
-  "Lập kế hoạch: 6 thẻ con xếp lưới đều – điện thoại / màn hẹp 2 hàng × 3 ô, máy tính 1 hàng 6 ô.",
-  "Báo cáo – Tiến độ thực hiện: cỡ chữ tăng 1,3 lần; đề mục “Bước đã thực hiện” và “Kế hoạch thực hiện bước tiếp theo” tô xanh, in đậm, có gạch chân; nội dung các bước chữ thường để phân biệt.",
-  "Đổi tên thẻ “Báo cáo kết quả và tiến độ thực hiện” thành “Báo cáo tiến độ”."
+  "Nhật ký CT trên điện thoại: 3 nút dưới thẻ công trình hiện cả chữ – “Hồ sơ CT”, “Xuất Excel A4”, “In Báo Cáo A4”."
  ],
  "history": [
+  {
+   "version": "V22.266",
+   "date": "2026-11-09",
+   "notes": [
+    "Nhật ký CT trên điện thoại: 3 nút dưới thẻ công trình hiện cả chữ – “Hồ sơ CT”, “Xuất Excel A4”, “In Báo Cáo A4”."
+   ]
+  },
   {
    "version": "V22.265",
    "date": "2026-11-09",
