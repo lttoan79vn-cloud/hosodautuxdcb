@@ -1,10 +1,17 @@
 {
- "version": "V22.260",
+ "version": "V22.261",
  "date": "2026-11-09",
  "notes": [
-  "Nhập số TK từ danh sách chuyển khoản: đối chiếu mã NV (bỏ qua số 0 đầu), không trùng mã thì khớp theo họ tên; người chưa có trong Danh mục nhân sự có thể thêm ngay (chọn tổ, mặc định Xưởng PE) rồi lưu số TK."
+  "Lập kế hoạch – thanh thống kê: mỗi ô (Tổng số gói, Đang thực hiện, Quá hạn, Đến hạn ≤ 7 ngày, Hoàn thành, Đã hủy, Chưa có mốc) ghi thêm giá trị và tỷ lệ % so với tổng giá trị kế hoạch (gồm cả gói đã hủy); ô Tổng giá trị ghi % đã hủy; % HT bình quân thêm tỷ lệ theo giá trị."
  ],
  "history": [
+  {
+   "version": "V22.261",
+   "date": "2026-11-09",
+   "notes": [
+    "Lập kế hoạch – thanh thống kê: mỗi ô (Tổng số gói, Đang thực hiện, Quá hạn, Đến hạn ≤ 7 ngày, Hoàn thành, Đã hủy, Chưa có mốc) ghi thêm giá trị và tỷ lệ % so với tổng giá trị kế hoạch (gồm cả gói đã hủy); ô Tổng giá trị ghi % đã hủy; % HT bình quân thêm tỷ lệ theo giá trị."
+   ]
+  },
   {
    "version": "V22.260",
    "date": "2026-11-09",
