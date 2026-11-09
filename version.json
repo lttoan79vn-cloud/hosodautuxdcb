@@ -1,11 +1,17 @@
 {
- "version": "V22.263",
+ "version": "V22.264",
  "date": "2026-11-09",
  "notes": [
-  "Lập kế hoạch – nút 🗑 Xóa thiết kế lại: chỉ xóa dữ liệu của thẻ đang chọn (gói và/hoặc kế hoạch gốc của thẻ đó trong năm đang xem; Công việc khác: việc đã hoàn thành hoặc tất cả; Kế hoạch sản xuất: dòng của năm đang xem), có hộp chọn mục, ô xác nhận và Hoàn tác.",
-  "Quyền mới “🗑 Xóa dữ liệu Lập kế hoạch” (Quản trị tài khoản → Phân quyền), mặc định Không được xóa; chỉ Admin và tài khoản được cấp mới thấy nút Xóa, xóa gói, xóa kế hoạch gốc, xóa công việc, tải lại file kế hoạch. Máy chủ chặn xóa cả mục kế hoạch khi chưa có quyền (cần cập nhật Code.gs)."
+  "Dòng tiêu đề: các nút đồng nhất một màu xanh logo – nút Hoàn tác / Làm lại không còn mờ khi chưa có thao tác; nút tin nhắn cùng màu với các nút khác."
  ],
  "history": [
+  {
+   "version": "V22.264",
+   "date": "2026-11-09",
+   "notes": [
+    "Dòng tiêu đề: các nút đồng nhất một màu xanh logo – nút Hoàn tác / Làm lại không còn mờ khi chưa có thao tác; nút tin nhắn cùng màu với các nút khác."
+   ]
+  },
   {
    "version": "V22.263",
    "date": "2026-11-09",
