@@ -1,12 +1,17 @@
 {
- "version": "V22.270",
+ "version": "V22.271",
  "date": "2026-11-10",
  "notes": [
-  "Điều hành SX › Tải file khối lượng và Phiếu báo sản lượng mủ: nhận thêm file PDF và ảnh (chụp điện thoại, ảnh màn hình, PDF scan). PDF có chữ đọc chính xác như file gốc; ảnh được nhận dạng chữ ngay trên máy (tiếng Việt), không gửi ảnh ra ngoài.",
-  "Phiếu báo sản lượng từ ảnh: đọc theo từng ô bảng (STT, xe, nông trường, sản lượng, DRC, quy đổi, quy khô), tự sửa số mất dấu thập phân bằng đối chiếu quy khô và TỔNG CỘNG, tự nhận tỉ lệ trừ; hiện ảnh gốc cạnh bảng để đối chiếu, sửa trực tiếp rồi mới nhập.",
-  "File khối lượng từ PDF / ảnh: nhận dòng tiêu đề cột, khớp tên đội / nhà máy với danh mục, có nút “Tải về Excel để sửa”."
+  "Giấy mời: các dòng Căn cứ in ngay dưới tiêu đề, trước “Kính mời” (ô Căn cứ riêng; giấy mời cũ có “Căn cứ …” ở đầu nội dung được tự chuyển lên). Bỏ 2 ô Thời gian, Địa điểm riêng – viết trong nội dung theo mẫu mới: 1. Thời gian, 2. Địa điểm, 3. Nội dung."
  ],
  "history": [
+  {
+   "version": "V22.271",
+   "date": "2026-11-10",
+   "notes": [
+    "Giấy mời: các dòng Căn cứ in ngay dưới tiêu đề, trước “Kính mời” (ô Căn cứ riêng; giấy mời cũ có “Căn cứ …” ở đầu nội dung được tự chuyển lên). Bỏ 2 ô Thời gian, Địa điểm riêng – viết trong nội dung theo mẫu mới: 1. Thời gian, 2. Địa điểm, 3. Nội dung."
+   ]
+  },
   {
    "version": "V22.270",
    "date": "2026-11-10",
