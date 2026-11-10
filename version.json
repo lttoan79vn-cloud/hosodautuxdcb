@@ -1,12 +1,19 @@
 {
- "version": "V22.268",
+ "version": "V22.269",
  "date": "2026-11-10",
  "notes": [
-  "Lập kế hoạch: nút “✂ Tách gói thầu” – tách 1 hạng mục (hoặc gói đã ghép nhiều hạng mục) thành nhiều gói thầu: xây lắp, thiết bị, tư vấn (khảo sát – thiết kế, thẩm tra, lập HSMT, giám sát…), phi tư vấn. Mỗi gói có tên, giá, hình thức LCNT (tự đề xuất theo hạn mức chỉ định thầu), chủ trì, các bước và cảnh báo riêng; các gói chung hạng mục kế hoạch, chung bước lập – phê duyệt dự toán / BC KTKT và kết quả dự toán. Hiện tổng giá các gói so với kế hoạch (còn chưa phân / vượt).",
-  "Liên kết Soạn hồ sơ: các gói tách dùng chung 1 hồ sơ PHR; lập hồ sơ từ kế hoạch tạo sẵn đủ gói thầu và liên kết từng gói (hồ sơ@gói thầu) để tự lấy ngày ban hành văn bản đúng gói. Bước “Danh sách gói thầu” của hồ sơ có thẻ “Gói thầu theo kế hoạch phân công”: thêm gói kế hoạch còn thiếu vào hồ sơ, hoặc đưa gói thầu mới lập trong hồ sơ vào kế hoạch – 1 bấm.",
-  "Tải lại file kế hoạch giữ nguyên các gói đã tách."
+  "Kế hoạch gốc: mỗi hạng mục có nút “✂ Tách gói thầu” (kể cả hạng mục chưa giao – chương trình tạo gói rồi mở hộp tách); hiện “đã tách N gói thầu”. Nút bỏ hạng mục khỏi gói ghép đổi tên “↩ Bỏ ghép” cho khỏi nhầm.",
+  "Số tổng ở dòng nhóm (đơn vị / nhà máy) và dòng mục trong bảng phân công hiện đậm, rõ."
  ],
  "history": [
+  {
+   "version": "V22.269",
+   "date": "2026-11-10",
+   "notes": [
+    "Kế hoạch gốc: mỗi hạng mục có nút “✂ Tách gói thầu” (kể cả hạng mục chưa giao – chương trình tạo gói rồi mở hộp tách); hiện “đã tách N gói thầu”. Nút bỏ hạng mục khỏi gói ghép đổi tên “↩ Bỏ ghép” cho khỏi nhầm.",
+    "Số tổng ở dòng nhóm (đơn vị / nhà máy) và dòng mục trong bảng phân công hiện đậm, rõ."
+   ]
+  },
   {
    "version": "V22.268",
    "date": "2026-11-10",
