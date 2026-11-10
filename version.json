@@ -1,10 +1,17 @@
 {
- "version": "V22.271",
+ "version": "V22.272",
  "date": "2026-11-10",
  "notes": [
-  "Giấy mời: các dòng Căn cứ in ngay dưới tiêu đề, trước “Kính mời” (ô Căn cứ riêng; giấy mời cũ có “Căn cứ …” ở đầu nội dung được tự chuyển lên). Bỏ 2 ô Thời gian, Địa điểm riêng – viết trong nội dung theo mẫu mới: 1. Thời gian, 2. Địa điểm, 3. Nội dung."
+  "Giấy mời: thứ tự Kính mời → Căn cứ → đoạn “Nay … như sau:” + 1. Thời gian, 2. Địa điểm (ô nhập riêng, nhãn tự in đậm) → 3. Nội dung (ô nhập riêng, mỗi dòng 1 ý, tự thêm gạch đầu dòng) → phần kết. Giấy mời đã soạn được tự tách vào các ô mới."
  ],
  "history": [
+  {
+   "version": "V22.272",
+   "date": "2026-11-10",
+   "notes": [
+    "Giấy mời: thứ tự Kính mời → Căn cứ → đoạn “Nay … như sau:” + 1. Thời gian, 2. Địa điểm (ô nhập riêng, nhãn tự in đậm) → 3. Nội dung (ô nhập riêng, mỗi dòng 1 ý, tự thêm gạch đầu dòng) → phần kết. Giấy mời đã soạn được tự tách vào các ô mới."
+   ]
+  },
   {
    "version": "V22.271",
    "date": "2026-11-10",
