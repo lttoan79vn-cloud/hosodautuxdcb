@@ -1,10 +1,23 @@
 {
- "version": "V22.274",
+ "version": "V22.275",
  "date": "2026-11-10",
  "notes": [
-  "Điều hành SX › Phiếu báo sản lượng: nút “⇩ Lấy từ phần mềm cân ZEN” – lấy phiếu cân nông trường (Nhà máy Bố Lá A01, Nhà máy CuaParis A02) theo ngày/khoảng ngày qua máy chủ PHR, tự khớp xe, nông trường, tạo phiếu NMBL/NMCP để kiểm tra rồi lưu chuyến (không trùng với phiếu đã nhập). Mủ tạp hiện riêng để đối chiếu. Tài khoản kết nối chỉ Quản lý khai báo, lưu trên máy chủ, không lộ ra trình duyệt."
+  "Người ký theo tháng: tên phòng (chức danh in) và chức vụ đi theo người ký. Chọn người cho vị trí Trưởng đoàn nghiệm thu thì in “TRƯỞNG ĐOÀN NGHIỆM THU / P.<phòng của người đó>”; chọn người đang ở ô ký khác thì hai người tự đổi chỗ, người cũ sang ô ký phòng kia với tên phòng của mình. Danh sách thành viên ký có thêm cột Đơn vị.",
+  "Mã xe chỉ lấy 3 ký tự đầu (vd. “20A - VĐ” → 20A) để gán lái xe – áp dụng cho phiếu báo sản lượng (Excel, PDF, ảnh), phần mềm cân ZEN và file khối lượng; giữ hậu tố chuyến -2 và -100P.",
+  "Đọc ảnh/PDF scan nhanh gấp ~3 lần (chỉ gửi từng ô vào bộ nhận dạng thay vì cả trang); đọc lại cùng file thì lấy ngay kết quả lần trước; bộ nhận dạng tự làm mới khi dùng lâu để không chậm dần. Tỉ lệ trừ lấy theo trung vị các dòng.",
+  "Phần mềm cân ZEN: tự thử các kiểu gửi mã truy cập khi bị từ chối (HTTP 401), báo rõ câu trả lời của ZEN; thêm hàm chẩn đoán kiemTraZEN trong Apps Script."
  ],
  "history": [
+  {
+   "version": "V22.275",
+   "date": "2026-11-10",
+   "notes": [
+    "Người ký theo tháng: tên phòng (chức danh in) và chức vụ đi theo người ký. Chọn người cho vị trí Trưởng đoàn nghiệm thu thì in “TRƯỞNG ĐOÀN NGHIỆM THU / P.<phòng của người đó>”; chọn người đang ở ô ký khác thì hai người tự đổi chỗ, người cũ sang ô ký phòng kia với tên phòng của mình. Danh sách thành viên ký có thêm cột Đơn vị.",
+    "Mã xe chỉ lấy 3 ký tự đầu (vd. “20A - VĐ” → 20A) để gán lái xe – áp dụng cho phiếu báo sản lượng (Excel, PDF, ảnh), phần mềm cân ZEN và file khối lượng; giữ hậu tố chuyến -2 và -100P.",
+    "Đọc ảnh/PDF scan nhanh gấp ~3 lần (chỉ gửi từng ô vào bộ nhận dạng thay vì cả trang); đọc lại cùng file thì lấy ngay kết quả lần trước; bộ nhận dạng tự làm mới khi dùng lâu để không chậm dần. Tỉ lệ trừ lấy theo trung vị các dòng.",
+    "Phần mềm cân ZEN: tự thử các kiểu gửi mã truy cập khi bị từ chối (HTTP 401), báo rõ câu trả lời của ZEN; thêm hàm chẩn đoán kiemTraZEN trong Apps Script."
+   ]
+  },
   {
    "version": "V22.274",
    "date": "2026-11-10",
