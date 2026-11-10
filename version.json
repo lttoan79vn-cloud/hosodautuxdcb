@@ -1,13 +1,19 @@
 {
- "version": "V22.275",
+ "version": "V22.276",
  "date": "2026-11-10",
  "notes": [
-  "Người ký theo tháng: tên phòng (chức danh in) và chức vụ đi theo người ký. Chọn người cho vị trí Trưởng đoàn nghiệm thu thì in “TRƯỞNG ĐOÀN NGHIỆM THU / P.<phòng của người đó>”; chọn người đang ở ô ký khác thì hai người tự đổi chỗ, người cũ sang ô ký phòng kia với tên phòng của mình. Danh sách thành viên ký có thêm cột Đơn vị.",
-  "Mã xe chỉ lấy 3 ký tự đầu (vd. “20A - VĐ” → 20A) để gán lái xe – áp dụng cho phiếu báo sản lượng (Excel, PDF, ảnh), phần mềm cân ZEN và file khối lượng; giữ hậu tố chuyến -2 và -100P.",
-  "Đọc ảnh/PDF scan nhanh gấp ~3 lần (chỉ gửi từng ô vào bộ nhận dạng thay vì cả trang); đọc lại cùng file thì lấy ngay kết quả lần trước; bộ nhận dạng tự làm mới khi dùng lâu để không chậm dần. Tỉ lệ trừ lấy theo trung vị các dòng.",
-  "Phần mềm cân ZEN: tự thử các kiểu gửi mã truy cập khi bị từ chối (HTTP 401), báo rõ câu trả lời của ZEN; thêm hàm chẩn đoán kiemTraZEN trong Apps Script."
+  "Hậu tố nguồn mủ sau mã xe được ghi nhận để phân biệt: -VĐ mủ đường vành đai, -TL mủ thanh lý, -TM mủ thu mua, -HK mủ hộ khoán (hậu tố khác ghi “Mủ …”). Mã xe vẫn lấy 3 ký tự đầu để gán lái xe; chuyến 20A, 20A-VĐ, 20A-TL cùng ngày là các chuyến khác nhau, không báo trùng. Áp dụng cho phiếu báo sản lượng (Excel, PDF, ảnh, phần mềm cân ZEN) và file khối lượng; danh sách chuyến hiện nhãn nguồn mủ.",
+  "Tính lương › Biểu mẫu: nút “⇩ Nhập liệu hằng ngày & lũy kế CN (Excel)” – sổ mọi chuyến xe, công việc phát sinh, sản lượng PE theo ngày (cột lũy kế tiền của từng công nhân), ma trận công nhân × ngày cho thành tiền, kg mủ nước, số công, và bảng tổng hợp lũy kế tháng của tất cả công nhân."
  ],
  "history": [
+  {
+   "version": "V22.276",
+   "date": "2026-11-10",
+   "notes": [
+    "Hậu tố nguồn mủ sau mã xe được ghi nhận để phân biệt: -VĐ mủ đường vành đai, -TL mủ thanh lý, -TM mủ thu mua, -HK mủ hộ khoán (hậu tố khác ghi “Mủ …”). Mã xe vẫn lấy 3 ký tự đầu để gán lái xe; chuyến 20A, 20A-VĐ, 20A-TL cùng ngày là các chuyến khác nhau, không báo trùng. Áp dụng cho phiếu báo sản lượng (Excel, PDF, ảnh, phần mềm cân ZEN) và file khối lượng; danh sách chuyến hiện nhãn nguồn mủ.",
+    "Tính lương › Biểu mẫu: nút “⇩ Nhập liệu hằng ngày & lũy kế CN (Excel)” – sổ mọi chuyến xe, công việc phát sinh, sản lượng PE theo ngày (cột lũy kế tiền của từng công nhân), ma trận công nhân × ngày cho thành tiền, kg mủ nước, số công, và bảng tổng hợp lũy kế tháng của tất cả công nhân."
+   ]
+  },
   {
    "version": "V22.275",
    "date": "2026-11-10",
