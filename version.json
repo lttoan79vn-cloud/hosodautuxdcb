@@ -1,10 +1,17 @@
 {
- "version": "V22.273",
+ "version": "V22.274",
  "date": "2026-11-10",
  "notes": [
-  "Giấy mời: 1. Thời gian chọn bằng ô giờ + ô ngày (tự ghi “thứ …”, xem trước dòng sẽ in); 2. Địa điểm gõ hoặc chọn từ danh sách (các địa điểm đã dùng). Chỗ trống trong mẫu giấy mời để “...” – nhấp đúp là bôi đen để gõ đè. Giấy mời đã soạn tự đưa giờ, ngày, địa điểm vào ô chọn."
+  "Điều hành SX › Phiếu báo sản lượng: nút “⇩ Lấy từ phần mềm cân ZEN” – lấy phiếu cân nông trường (Nhà máy Bố Lá A01, Nhà máy CuaParis A02) theo ngày/khoảng ngày qua máy chủ PHR, tự khớp xe, nông trường, tạo phiếu NMBL/NMCP để kiểm tra rồi lưu chuyến (không trùng với phiếu đã nhập). Mủ tạp hiện riêng để đối chiếu. Tài khoản kết nối chỉ Quản lý khai báo, lưu trên máy chủ, không lộ ra trình duyệt."
  ],
  "history": [
+  {
+   "version": "V22.274",
+   "date": "2026-11-10",
+   "notes": [
+    "Điều hành SX › Phiếu báo sản lượng: nút “⇩ Lấy từ phần mềm cân ZEN” – lấy phiếu cân nông trường (Nhà máy Bố Lá A01, Nhà máy CuaParis A02) theo ngày/khoảng ngày qua máy chủ PHR, tự khớp xe, nông trường, tạo phiếu NMBL/NMCP để kiểm tra rồi lưu chuyến (không trùng với phiếu đã nhập). Mủ tạp hiện riêng để đối chiếu. Tài khoản kết nối chỉ Quản lý khai báo, lưu trên máy chủ, không lộ ra trình duyệt."
+   ]
+  },
   {
    "version": "V22.273",
    "date": "2026-11-10",
