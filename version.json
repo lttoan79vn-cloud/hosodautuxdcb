@@ -1,10 +1,17 @@
 {
- "version": "V22.272",
+ "version": "V22.273",
  "date": "2026-11-10",
  "notes": [
-  "Giấy mời: thứ tự Kính mời → Căn cứ → đoạn “Nay … như sau:” + 1. Thời gian, 2. Địa điểm (ô nhập riêng, nhãn tự in đậm) → 3. Nội dung (ô nhập riêng, mỗi dòng 1 ý, tự thêm gạch đầu dòng) → phần kết. Giấy mời đã soạn được tự tách vào các ô mới."
+  "Giấy mời: 1. Thời gian chọn bằng ô giờ + ô ngày (tự ghi “thứ …”, xem trước dòng sẽ in); 2. Địa điểm gõ hoặc chọn từ danh sách (các địa điểm đã dùng). Chỗ trống trong mẫu giấy mời để “...” – nhấp đúp là bôi đen để gõ đè. Giấy mời đã soạn tự đưa giờ, ngày, địa điểm vào ô chọn."
  ],
  "history": [
+  {
+   "version": "V22.273",
+   "date": "2026-11-10",
+   "notes": [
+    "Giấy mời: 1. Thời gian chọn bằng ô giờ + ô ngày (tự ghi “thứ …”, xem trước dòng sẽ in); 2. Địa điểm gõ hoặc chọn từ danh sách (các địa điểm đã dùng). Chỗ trống trong mẫu giấy mời để “...” – nhấp đúp là bôi đen để gõ đè. Giấy mời đã soạn tự đưa giờ, ngày, địa điểm vào ô chọn."
+   ]
+  },
   {
    "version": "V22.272",
    "date": "2026-11-10",
