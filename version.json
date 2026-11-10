@@ -1,11 +1,21 @@
 {
- "version": "V22.269",
+ "version": "V22.270",
  "date": "2026-11-10",
  "notes": [
-  "Kế hoạch gốc: mỗi hạng mục có nút “✂ Tách gói thầu” (kể cả hạng mục chưa giao – chương trình tạo gói rồi mở hộp tách); hiện “đã tách N gói thầu”. Nút bỏ hạng mục khỏi gói ghép đổi tên “↩ Bỏ ghép” cho khỏi nhầm.",
-  "Số tổng ở dòng nhóm (đơn vị / nhà máy) và dòng mục trong bảng phân công hiện đậm, rõ."
+  "Điều hành SX › Tải file khối lượng và Phiếu báo sản lượng mủ: nhận thêm file PDF và ảnh (chụp điện thoại, ảnh màn hình, PDF scan). PDF có chữ đọc chính xác như file gốc; ảnh được nhận dạng chữ ngay trên máy (tiếng Việt), không gửi ảnh ra ngoài.",
+  "Phiếu báo sản lượng từ ảnh: đọc theo từng ô bảng (STT, xe, nông trường, sản lượng, DRC, quy đổi, quy khô), tự sửa số mất dấu thập phân bằng đối chiếu quy khô và TỔNG CỘNG, tự nhận tỉ lệ trừ; hiện ảnh gốc cạnh bảng để đối chiếu, sửa trực tiếp rồi mới nhập.",
+  "File khối lượng từ PDF / ảnh: nhận dòng tiêu đề cột, khớp tên đội / nhà máy với danh mục, có nút “Tải về Excel để sửa”."
  ],
  "history": [
+  {
+   "version": "V22.270",
+   "date": "2026-11-10",
+   "notes": [
+    "Điều hành SX › Tải file khối lượng và Phiếu báo sản lượng mủ: nhận thêm file PDF và ảnh (chụp điện thoại, ảnh màn hình, PDF scan). PDF có chữ đọc chính xác như file gốc; ảnh được nhận dạng chữ ngay trên máy (tiếng Việt), không gửi ảnh ra ngoài.",
+    "Phiếu báo sản lượng từ ảnh: đọc theo từng ô bảng (STT, xe, nông trường, sản lượng, DRC, quy đổi, quy khô), tự sửa số mất dấu thập phân bằng đối chiếu quy khô và TỔNG CỘNG, tự nhận tỉ lệ trừ; hiện ảnh gốc cạnh bảng để đối chiếu, sửa trực tiếp rồi mới nhập.",
+    "File khối lượng từ PDF / ảnh: nhận dòng tiêu đề cột, khớp tên đội / nhà máy với danh mục, có nút “Tải về Excel để sửa”."
+   ]
+  },
   {
    "version": "V22.269",
    "date": "2026-11-10",
