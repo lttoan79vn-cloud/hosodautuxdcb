@@ -1,11 +1,17 @@
 {
- "version": "V22.278",
+ "version": "V22.279",
  "date": "2026-11-11",
  "notes": [
-  "Soạn văn bản › Giấy mời: chọn Loại giấy mời – Họp, Làm việc (1 người ký + nơi nhận, lời mời và phần kết theo từng loại) hoặc Nghiệm thu nhiều thành phần cùng ký theo mẫu P.PT&QLKCN: căn cứ (hợp đồng, giấy mời nghiệm thu của nhà thầu) → “Nay Phòng … trân trọng kính mời: … cùng tham gia nghiệm thu với nội dung sau:” → 1. Nội dung, 2. Thời gian, 3. Địa điểm → Trân trọng./. → bảng các đơn vị cùng ký (chia hàng: các phòng, các đội; tên thẳng hàng), không có nơi nhận.",
-  "Nút “↻ Ghép thành phần vào lời mời” tự viết danh sách đơn vị được mời từ bảng người ký (trừ phòng ban hành, gộp “các Đội sản xuất …”)."
+  "Giấy mời: mọi loại (họp, làm việc, nghiệm thu nhiều thành phần) dùng chung thể thức đã xây dựng – Số, Kính mời, Căn cứ (nghiêng), lời mời “Nay …”, 1. Thời gian, 2. Địa điểm, 3. Nội dung, phần kết, Nơi nhận. Chỉ khác thành phần: giấy mời nghiệm thu thay 1 người ký bằng bảng các đơn vị cùng ký (chia hàng, tên thẳng hàng), nơi nhận in dưới vùng ký; nút “↻ Ghép thành phần” điền cả ô Kính mời và lời mời."
  ],
  "history": [
+  {
+   "version": "V22.279",
+   "date": "2026-11-11",
+   "notes": [
+    "Giấy mời: mọi loại (họp, làm việc, nghiệm thu nhiều thành phần) dùng chung thể thức đã xây dựng – Số, Kính mời, Căn cứ (nghiêng), lời mời “Nay …”, 1. Thời gian, 2. Địa điểm, 3. Nội dung, phần kết, Nơi nhận. Chỉ khác thành phần: giấy mời nghiệm thu thay 1 người ký bằng bảng các đơn vị cùng ký (chia hàng, tên thẳng hàng), nơi nhận in dưới vùng ký; nút “↻ Ghép thành phần” điền cả ô Kính mời và lời mời."
+   ]
+  },
   {
    "version": "V22.278",
    "date": "2026-11-11",
