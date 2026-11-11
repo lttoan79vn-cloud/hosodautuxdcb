@@ -1,11 +1,21 @@
 {
- "version": "V22.276",
- "date": "2026-11-10",
+ "version": "V22.277",
+ "date": "2026-11-11",
  "notes": [
-  "Hậu tố nguồn mủ sau mã xe được ghi nhận để phân biệt: -VĐ mủ đường vành đai, -TL mủ thanh lý, -TM mủ thu mua, -HK mủ hộ khoán (hậu tố khác ghi “Mủ …”). Mã xe vẫn lấy 3 ký tự đầu để gán lái xe; chuyến 20A, 20A-VĐ, 20A-TL cùng ngày là các chuyến khác nhau, không báo trùng. Áp dụng cho phiếu báo sản lượng (Excel, PDF, ảnh, phần mềm cân ZEN) và file khối lượng; danh sách chuyến hiện nhãn nguồn mủ.",
-  "Tính lương › Biểu mẫu: nút “⇩ Nhập liệu hằng ngày & lũy kế CN (Excel)” – sổ mọi chuyến xe, công việc phát sinh, sản lượng PE theo ngày (cột lũy kế tiền của từng công nhân), ma trận công nhân × ngày cho thành tiền, kg mủ nước, số công, và bảng tổng hợp lũy kế tháng của tất cả công nhân."
+  "Người ký: hằng tháng chỉ đổi Trưởng đoàn nghiệm thu, chỉ áp dụng cho Biên bản nghiệm thu chi phí SX (tên phòng đi theo người; nếu trưởng đoàn mới đang ở ô ký phòng mình thì trưởng đoàn mặc định ký thay ô đó). Các biểu mẫu khác giữ đúng người ký theo Danh mục (người lập biểu ký cùng Phòng PT&QLKCN); lựa chọn riêng tháng trước đây cho các vị trí khác không còn áp dụng.",
+  "Chữ ký thẳng hàng: chức danh trong cùng hàng có cùng số dòng nên tên người ký luôn cùng một hàng (kể cả “KT. TỔNG GIÁM ĐỐC / PHÓ TỔNG GIÁM ĐỐC”).",
+  "Ngắt trang khi in: khối ký không bị cắt và luôn đi cùng 2 dòng cuối của bảng, không còn trang chỉ có chữ ký; tràn ít thì tự thu nhỏ vừa 1 trang (PDF, Word, Excel); Excel lặp dòng tiêu đề bảng ở trang sau."
  ],
  "history": [
+  {
+   "version": "V22.277",
+   "date": "2026-11-11",
+   "notes": [
+    "Người ký: hằng tháng chỉ đổi Trưởng đoàn nghiệm thu, chỉ áp dụng cho Biên bản nghiệm thu chi phí SX (tên phòng đi theo người; nếu trưởng đoàn mới đang ở ô ký phòng mình thì trưởng đoàn mặc định ký thay ô đó). Các biểu mẫu khác giữ đúng người ký theo Danh mục (người lập biểu ký cùng Phòng PT&QLKCN); lựa chọn riêng tháng trước đây cho các vị trí khác không còn áp dụng.",
+    "Chữ ký thẳng hàng: chức danh trong cùng hàng có cùng số dòng nên tên người ký luôn cùng một hàng (kể cả “KT. TỔNG GIÁM ĐỐC / PHÓ TỔNG GIÁM ĐỐC”).",
+    "Ngắt trang khi in: khối ký không bị cắt và luôn đi cùng 2 dòng cuối của bảng, không còn trang chỉ có chữ ký; tràn ít thì tự thu nhỏ vừa 1 trang (PDF, Word, Excel); Excel lặp dòng tiêu đề bảng ở trang sau."
+   ]
+  },
   {
    "version": "V22.276",
    "date": "2026-11-10",
