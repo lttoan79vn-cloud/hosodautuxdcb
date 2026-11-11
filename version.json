@@ -1,10 +1,17 @@
 {
- "version": "V22.279",
+ "version": "V22.280",
  "date": "2026-11-11",
  "notes": [
-  "Giấy mời: mọi loại (họp, làm việc, nghiệm thu nhiều thành phần) dùng chung thể thức đã xây dựng – Số, Kính mời, Căn cứ (nghiêng), lời mời “Nay …”, 1. Thời gian, 2. Địa điểm, 3. Nội dung, phần kết, Nơi nhận. Chỉ khác thành phần: giấy mời nghiệm thu thay 1 người ký bằng bảng các đơn vị cùng ký (chia hàng, tên thẳng hàng), nơi nhận in dưới vùng ký; nút “↻ Ghép thành phần” điền cả ô Kính mời và lời mời."
+  "Phần mềm cân ZEN – Nhà máy Bố Lá (A01): tự tách thành 2 phiếu NMBL và NMLT (nhà máy ly tâm). Chuyến ly tâm được nhận biết vì phần mềm cân ghi sản lượng quy đổi (đã trừ 5%) và DRC quy đổi – chương trình đổi về sản lượng cân thực và DRC thực đúng như Phụ lục 3 NMLT. Giữ nguyên mã xe của phần mềm cân (25A-2, 17A-2-100P, 48A-100P…) nên mã chuyến khớp với phiếu QLCL. Nút “⇄” chuyển 1 dòng giữa NMBL và NMLT khi cần; bỏ cảnh báo lệch quy khô do làm tròn (≤ 0,5 kg)."
  ],
  "history": [
+  {
+   "version": "V22.280",
+   "date": "2026-11-11",
+   "notes": [
+    "Phần mềm cân ZEN – Nhà máy Bố Lá (A01): tự tách thành 2 phiếu NMBL và NMLT (nhà máy ly tâm). Chuyến ly tâm được nhận biết vì phần mềm cân ghi sản lượng quy đổi (đã trừ 5%) và DRC quy đổi – chương trình đổi về sản lượng cân thực và DRC thực đúng như Phụ lục 3 NMLT. Giữ nguyên mã xe của phần mềm cân (25A-2, 17A-2-100P, 48A-100P…) nên mã chuyến khớp với phiếu QLCL. Nút “⇄” chuyển 1 dòng giữa NMBL và NMLT khi cần; bỏ cảnh báo lệch quy khô do làm tròn (≤ 0,5 kg)."
+   ]
+  },
   {
    "version": "V22.279",
    "date": "2026-11-11",
