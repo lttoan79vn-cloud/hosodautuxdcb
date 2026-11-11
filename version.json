@@ -1,10 +1,19 @@
 {
- "version": "V22.282",
+ "version": "V22.283",
  "date": "2026-11-11",
  "notes": [
-  "Danh mục hậu tố nguồn mủ: VĐ4 – mủ đường vành đai 4; TLL – mủ thanh lý hộ Linh; TL4 – mủ thanh lý vành đai 4; LUL – mủ Lai Uyên L (tạm nhận, chưa rõ nguồn)."
+  "Lập kế hoạch › Kết quả thực hiện: nút “📊 Cập nhật số thực hiện từ file” – đọc file Theo dõi kế hoạch giá thành (sheet PHÒNG BAN TRÌNH: lũy kế thực hiện, thời điểm, hình thức, giá gói duyệt, giá trúng thầu, đơn vị thực hiện, ngày ký HĐ, giá HĐ, giá thanh toán) và đưa vào đúng hạng mục kế hoạch gốc (khớp mã → tên + đơn vị → tên gần đúng). Hạng mục có nhiều hợp đồng con (dòng “- …”) cộng các hợp đồng con; dưới tên hạng mục hiện nhà thầu, ngày ký HĐ, các hợp đồng con; phần PHÁT SINH ngoài kế hoạch thành nhóm riêng. Cột: dự toán = giá gói duyệt; trúng thầu / HĐ = giá HĐ; nghiệm thu / thanh toán = giá thanh toán hoặc lũy kế.",
+  "Kế hoạch gốc giá thành: dòng có STT và giá trị nhưng không ghi hình thức (VD Sửa chữa lò biomass, Sửa chữa thường xuyên HTXLNT, Bổ sung sân khấu TTVH) nay được tính là hạng mục, không bị bỏ sót."
  ],
  "history": [
+  {
+   "version": "V22.283",
+   "date": "2026-11-11",
+   "notes": [
+    "Lập kế hoạch › Kết quả thực hiện: nút “📊 Cập nhật số thực hiện từ file” – đọc file Theo dõi kế hoạch giá thành (sheet PHÒNG BAN TRÌNH: lũy kế thực hiện, thời điểm, hình thức, giá gói duyệt, giá trúng thầu, đơn vị thực hiện, ngày ký HĐ, giá HĐ, giá thanh toán) và đưa vào đúng hạng mục kế hoạch gốc (khớp mã → tên + đơn vị → tên gần đúng). Hạng mục có nhiều hợp đồng con (dòng “- …”) cộng các hợp đồng con; dưới tên hạng mục hiện nhà thầu, ngày ký HĐ, các hợp đồng con; phần PHÁT SINH ngoài kế hoạch thành nhóm riêng. Cột: dự toán = giá gói duyệt; trúng thầu / HĐ = giá HĐ; nghiệm thu / thanh toán = giá thanh toán hoặc lũy kế.",
+    "Kế hoạch gốc giá thành: dòng có STT và giá trị nhưng không ghi hình thức (VD Sửa chữa lò biomass, Sửa chữa thường xuyên HTXLNT, Bổ sung sân khấu TTVH) nay được tính là hạng mục, không bị bỏ sót."
+   ]
+  },
   {
    "version": "V22.282",
    "date": "2026-11-11",
