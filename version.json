@@ -1,11 +1,17 @@
 {
- "version": "V22.281",
+ "version": "V22.282",
  "date": "2026-11-11",
  "notes": [
-  "Mã xe theo quy ước phần mềm cân / Phòng QLCL: số 1-/2- đứng trước là mủ loại 1/2 (loại 2 ghi chú “Mủ loại 2”); sau mã xe là chuyến (-2, -3), hậu tố nguồn mủ (VĐ, VĐ4 vành đai; TL, TLL, TL4 thanh lý; ĐT đông tank; TM; HK; hậu tố khác giữ nguyên) và -100P. Mã chuyến giữ đủ các phần này (vd. 16A-2-TLL, 20A-VĐ4) nên không gộp nhầm chuyến; lái xe gán theo 3 ký tự đầu.",
-  "Phiếu báo sản lượng mủ: đọc được file Excel “PHIẾU BÁO SẢN LƯỢNG MỦ ĐỘI SẢN XUẤT” (Phụ lục 3 KH-QLCL-01/06) do phần mềm cân ZEN xuất (Cua Paris) – mỗi khối đội thành nông trường, mủ nước thành chuyến, mủ chén/dây/đông ghi nhận riêng; nhà máy theo tên file (mặc định NMCP)."
+  "Danh mục hậu tố nguồn mủ: VĐ4 – mủ đường vành đai 4; TLL – mủ thanh lý hộ Linh; TL4 – mủ thanh lý vành đai 4; LUL – mủ Lai Uyên L (tạm nhận, chưa rõ nguồn)."
  ],
  "history": [
+  {
+   "version": "V22.282",
+   "date": "2026-11-11",
+   "notes": [
+    "Danh mục hậu tố nguồn mủ: VĐ4 – mủ đường vành đai 4; TLL – mủ thanh lý hộ Linh; TL4 – mủ thanh lý vành đai 4; LUL – mủ Lai Uyên L (tạm nhận, chưa rõ nguồn)."
+   ]
+  },
   {
    "version": "V22.281",
    "date": "2026-11-11",
