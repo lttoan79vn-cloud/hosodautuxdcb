@@ -1,12 +1,19 @@
 {
- "version": "V22.277",
+ "version": "V22.278",
  "date": "2026-11-11",
  "notes": [
-  "Người ký: hằng tháng chỉ đổi Trưởng đoàn nghiệm thu, chỉ áp dụng cho Biên bản nghiệm thu chi phí SX (tên phòng đi theo người; nếu trưởng đoàn mới đang ở ô ký phòng mình thì trưởng đoàn mặc định ký thay ô đó). Các biểu mẫu khác giữ đúng người ký theo Danh mục (người lập biểu ký cùng Phòng PT&QLKCN); lựa chọn riêng tháng trước đây cho các vị trí khác không còn áp dụng.",
-  "Chữ ký thẳng hàng: chức danh trong cùng hàng có cùng số dòng nên tên người ký luôn cùng một hàng (kể cả “KT. TỔNG GIÁM ĐỐC / PHÓ TỔNG GIÁM ĐỐC”).",
-  "Ngắt trang khi in: khối ký không bị cắt và luôn đi cùng 2 dòng cuối của bảng, không còn trang chỉ có chữ ký; tràn ít thì tự thu nhỏ vừa 1 trang (PDF, Word, Excel); Excel lặp dòng tiêu đề bảng ở trang sau."
+  "Soạn văn bản › Giấy mời: chọn Loại giấy mời – Họp, Làm việc (1 người ký + nơi nhận, lời mời và phần kết theo từng loại) hoặc Nghiệm thu nhiều thành phần cùng ký theo mẫu P.PT&QLKCN: căn cứ (hợp đồng, giấy mời nghiệm thu của nhà thầu) → “Nay Phòng … trân trọng kính mời: … cùng tham gia nghiệm thu với nội dung sau:” → 1. Nội dung, 2. Thời gian, 3. Địa điểm → Trân trọng./. → bảng các đơn vị cùng ký (chia hàng: các phòng, các đội; tên thẳng hàng), không có nơi nhận.",
+  "Nút “↻ Ghép thành phần vào lời mời” tự viết danh sách đơn vị được mời từ bảng người ký (trừ phòng ban hành, gộp “các Đội sản xuất …”)."
  ],
  "history": [
+  {
+   "version": "V22.278",
+   "date": "2026-11-11",
+   "notes": [
+    "Soạn văn bản › Giấy mời: chọn Loại giấy mời – Họp, Làm việc (1 người ký + nơi nhận, lời mời và phần kết theo từng loại) hoặc Nghiệm thu nhiều thành phần cùng ký theo mẫu P.PT&QLKCN: căn cứ (hợp đồng, giấy mời nghiệm thu của nhà thầu) → “Nay Phòng … trân trọng kính mời: … cùng tham gia nghiệm thu với nội dung sau:” → 1. Nội dung, 2. Thời gian, 3. Địa điểm → Trân trọng./. → bảng các đơn vị cùng ký (chia hàng: các phòng, các đội; tên thẳng hàng), không có nơi nhận.",
+    "Nút “↻ Ghép thành phần vào lời mời” tự viết danh sách đơn vị được mời từ bảng người ký (trừ phòng ban hành, gộp “các Đội sản xuất …”)."
+   ]
+  },
   {
    "version": "V22.277",
    "date": "2026-11-11",
