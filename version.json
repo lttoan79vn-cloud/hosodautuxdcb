@@ -1,10 +1,19 @@
 {
- "version": "V22.280",
+ "version": "V22.281",
  "date": "2026-11-11",
  "notes": [
-  "Phần mềm cân ZEN – Nhà máy Bố Lá (A01): tự tách thành 2 phiếu NMBL và NMLT (nhà máy ly tâm). Chuyến ly tâm được nhận biết vì phần mềm cân ghi sản lượng quy đổi (đã trừ 5%) và DRC quy đổi – chương trình đổi về sản lượng cân thực và DRC thực đúng như Phụ lục 3 NMLT. Giữ nguyên mã xe của phần mềm cân (25A-2, 17A-2-100P, 48A-100P…) nên mã chuyến khớp với phiếu QLCL. Nút “⇄” chuyển 1 dòng giữa NMBL và NMLT khi cần; bỏ cảnh báo lệch quy khô do làm tròn (≤ 0,5 kg)."
+  "Mã xe theo quy ước phần mềm cân / Phòng QLCL: số 1-/2- đứng trước là mủ loại 1/2 (loại 2 ghi chú “Mủ loại 2”); sau mã xe là chuyến (-2, -3), hậu tố nguồn mủ (VĐ, VĐ4 vành đai; TL, TLL, TL4 thanh lý; ĐT đông tank; TM; HK; hậu tố khác giữ nguyên) và -100P. Mã chuyến giữ đủ các phần này (vd. 16A-2-TLL, 20A-VĐ4) nên không gộp nhầm chuyến; lái xe gán theo 3 ký tự đầu.",
+  "Phiếu báo sản lượng mủ: đọc được file Excel “PHIẾU BÁO SẢN LƯỢNG MỦ ĐỘI SẢN XUẤT” (Phụ lục 3 KH-QLCL-01/06) do phần mềm cân ZEN xuất (Cua Paris) – mỗi khối đội thành nông trường, mủ nước thành chuyến, mủ chén/dây/đông ghi nhận riêng; nhà máy theo tên file (mặc định NMCP)."
  ],
  "history": [
+  {
+   "version": "V22.281",
+   "date": "2026-11-11",
+   "notes": [
+    "Mã xe theo quy ước phần mềm cân / Phòng QLCL: số 1-/2- đứng trước là mủ loại 1/2 (loại 2 ghi chú “Mủ loại 2”); sau mã xe là chuyến (-2, -3), hậu tố nguồn mủ (VĐ, VĐ4 vành đai; TL, TLL, TL4 thanh lý; ĐT đông tank; TM; HK; hậu tố khác giữ nguyên) và -100P. Mã chuyến giữ đủ các phần này (vd. 16A-2-TLL, 20A-VĐ4) nên không gộp nhầm chuyến; lái xe gán theo 3 ký tự đầu.",
+    "Phiếu báo sản lượng mủ: đọc được file Excel “PHIẾU BÁO SẢN LƯỢNG MỦ ĐỘI SẢN XUẤT” (Phụ lục 3 KH-QLCL-01/06) do phần mềm cân ZEN xuất (Cua Paris) – mỗi khối đội thành nông trường, mủ nước thành chuyến, mủ chén/dây/đông ghi nhận riêng; nhà máy theo tên file (mặc định NMCP)."
+   ]
+  },
   {
    "version": "V22.280",
    "date": "2026-11-11",
