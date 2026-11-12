@@ -1,11 +1,19 @@
 {
- "version": "V22.283",
- "date": "2026-11-11",
+ "version": "V22.284",
+ "date": "2026-11-12",
  "notes": [
-  "Lập kế hoạch › Kết quả thực hiện: nút “📊 Cập nhật số thực hiện từ file” – đọc file Theo dõi kế hoạch giá thành (sheet PHÒNG BAN TRÌNH: lũy kế thực hiện, thời điểm, hình thức, giá gói duyệt, giá trúng thầu, đơn vị thực hiện, ngày ký HĐ, giá HĐ, giá thanh toán) và đưa vào đúng hạng mục kế hoạch gốc (khớp mã → tên + đơn vị → tên gần đúng). Hạng mục có nhiều hợp đồng con (dòng “- …”) cộng các hợp đồng con; dưới tên hạng mục hiện nhà thầu, ngày ký HĐ, các hợp đồng con; phần PHÁT SINH ngoài kế hoạch thành nhóm riêng. Cột: dự toán = giá gói duyệt; trúng thầu / HĐ = giá HĐ; nghiệm thu / thanh toán = giá thanh toán hoặc lũy kế.",
-  "Kế hoạch gốc giá thành: dòng có STT và giá trị nhưng không ghi hình thức (VD Sửa chữa lò biomass, Sửa chữa thường xuyên HTXLNT, Bổ sung sân khấu TTVH) nay được tính là hạng mục, không bị bỏ sót."
+  "Lập kế hoạch: các ô thống kê (tổng số gói, đang thực hiện, quá hạn, đến hạn, hoàn thành, đã hủy, chưa có mốc, tổng giá trị, % HT) gọn trên 1 hàng; điện thoại vuốt ngang. Bỏ dòng nhắc “tên chưa trùng danh sách KPI Phòng”.",
+  "Tab mới “Theo dõi hợp đồng”: lọc các gói đã ký hợp đồng (bước Ký HĐ có ngày hoàn thành) để kiểm soát tiến độ thực hiện HĐ – nhà thầu, giá HĐ, ngày ký, thời gian, hạn HĐ (= ngày ký + số ngày bước Thực hiện HĐ), thanh % thời gian đã qua, còn / quá hạn bao nhiêu ngày, người phụ trách; lọc Đang thực hiện / Quá hạn / Sắp hết hạn ≤ 15 ngày / Chuẩn bị ký / Đã hoàn thành; áp dụng cho kế hoạch đang chọn hoặc mọi kế hoạch; bấm tên gói mở trong Bảng phân công."
  ],
  "history": [
+  {
+   "version": "V22.284",
+   "date": "2026-11-12",
+   "notes": [
+    "Lập kế hoạch: các ô thống kê (tổng số gói, đang thực hiện, quá hạn, đến hạn, hoàn thành, đã hủy, chưa có mốc, tổng giá trị, % HT) gọn trên 1 hàng; điện thoại vuốt ngang. Bỏ dòng nhắc “tên chưa trùng danh sách KPI Phòng”.",
+    "Tab mới “Theo dõi hợp đồng”: lọc các gói đã ký hợp đồng (bước Ký HĐ có ngày hoàn thành) để kiểm soát tiến độ thực hiện HĐ – nhà thầu, giá HĐ, ngày ký, thời gian, hạn HĐ (= ngày ký + số ngày bước Thực hiện HĐ), thanh % thời gian đã qua, còn / quá hạn bao nhiêu ngày, người phụ trách; lọc Đang thực hiện / Quá hạn / Sắp hết hạn ≤ 15 ngày / Chuẩn bị ký / Đã hoàn thành; áp dụng cho kế hoạch đang chọn hoặc mọi kế hoạch; bấm tên gói mở trong Bảng phân công."
+   ]
+  },
   {
    "version": "V22.283",
    "date": "2026-11-11",
