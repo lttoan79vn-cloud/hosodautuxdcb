@@ -1,10 +1,17 @@
 {
- "version": "V22.295",
+ "version": "V22.296",
  "date": "2026-11-15",
  "notes": [
-  "Phiếu cân ZEN: nút “⇩ Tải dữ liệu gốc (Excel)” trong mục Dữ liệu gốc của từng phiếu – xuất đủ các cột phần mềm cân trả về để đối chiếu."
+  "Phiếu cân ZEN: nút “⇩ Tải dữ liệu gốc (Excel)” đưa lên đầu khung thông tin của từng phiếu (luôn hiện, không cần mở mục Dữ liệu gốc); tự tải trực tiếp nếu trình xem không hỗ trợ lưu file."
  ],
  "history": [
+  {
+   "version": "V22.296",
+   "date": "2026-11-15",
+   "notes": [
+    "Phiếu cân ZEN: nút “⇩ Tải dữ liệu gốc (Excel)” đưa lên đầu khung thông tin của từng phiếu (luôn hiện, không cần mở mục Dữ liệu gốc); tự tải trực tiếp nếu trình xem không hỗ trợ lưu file."
+   ]
+  },
   {
    "version": "V22.295",
    "date": "2026-11-15",
