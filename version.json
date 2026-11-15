@@ -1,13 +1,17 @@
 {
- "version": "V22.294",
+ "version": "V22.295",
  "date": "2026-11-15",
  "notes": [
-  "Điều hành SX: mở các mục Định mức nhân công, Chi phí sửa chữa, Nhiên liệu vận chuyển, Nội dung khác theo QĐ 867/QĐ-CSPH – định mức so với thực hiện trong tháng (công lái/bốc rửa xe mủ tạp, dọn kho, đăng kiểm, công PE theo sản lượng; khoán SCTX 9.005 đ/tấn, 21 hạng mục khoán sửa chữa, chi phí PE; nhiên liệu theo định mức; chi phí chung, xà bông, điện và nguyên liệu PE).",
-  "Bảng “Khối lượng vận chuyển theo xe” (xuất Excel): chuyến, mủ nước đội, mủ thu mua HK/HN, mủ tạp, tiền lương, dầu định mức; cân 2 dòng cùng xe cùng lần = 1 chuyến.",
-  "Phần mềm cân ZEN: nhận diện mủ thu mua (TMMN, khách hàng “(HK)” hộ khoán, “(HN)” hộ ngoài), gắn đơn vị theo tên khách hàng, tính lương theo đơn giá của đơn vị.",
-  "Nhập liệu: chấm công theo danh sách cho tổ Rửa xe và tổ Cơ khí – bấm chọn Đi làm, ½ công, Phép, Ốm, Việc riêng, Không lương, Lễ cho từng người; nút chấm cả tổ."
+  "Phiếu cân ZEN: nút “⇩ Tải dữ liệu gốc (Excel)” trong mục Dữ liệu gốc của từng phiếu – xuất đủ các cột phần mềm cân trả về để đối chiếu."
  ],
  "history": [
+  {
+   "version": "V22.295",
+   "date": "2026-11-15",
+   "notes": [
+    "Phiếu cân ZEN: nút “⇩ Tải dữ liệu gốc (Excel)” trong mục Dữ liệu gốc của từng phiếu – xuất đủ các cột phần mềm cân trả về để đối chiếu."
+   ]
+  },
   {
    "version": "V22.294",
    "date": "2026-11-15",
