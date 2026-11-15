@@ -1,12 +1,21 @@
 {
- "version": "V22.290",
+ "version": "V22.291",
  "date": "2026-11-15",
  "notes": [
-  "Danh mục › Định mức 2026 (QĐ 867/QĐ-CSPH ngày 17/7/2026, hiệu lực 01/7/2026): nhiên liệu VC mủ nước theo 6 ĐSX × NM Bố Lá/Cuaparis (dầu, nhớt hao hụt, nhớt bảo dưỡng, mở bơm), Ly Tâm +0,14 lít/tấn; nhiên liệu xe chở mủ tạp ĐSX → Cuaparis (lít/chuyến); xe tải thùng BL ↔ CP 10 lít/chuyến; đăng kiểm, chi phí chung, cắt mủ đông, sửa chữa (9.005 đ/tấn, 343.188.736 đ/năm), 21 hạng mục khoán sửa chữa; định mức Xưởng PE (lương, điện, nguyên liệu). Sửa và lưu được.",
-  "Tính lương: bảng “Nhiên liệu theo định mức” từ chuyến đã xác nhận – mủ nước theo tấn, xe 1T–4T theo số chuyến và đơn vị trên phiếu cân, xe tải thùng theo chuyến.",
-  "Nút “Áp dụng vào tham số & đơn giá”: cắt mủ đông 150.000 đ/tank, đơn giá lương sản phẩm PE (thực lãnh) theo định mức."
+  "Cắt mủ đông tính theo khung, không quy đổi: thêm công việc “Cắt mủ đông tank 300 – dưới 500 kg” (100.000 đ/tank) bên cạnh tank ≥ 500 kg (150.000 đ/tank); tank dưới 300 kg không tính. Biểu mẫu tách 2 dòng theo khung.",
+  "Nhiên liệu chở mủ nước về NM Ly Tâm = định mức về NM Bố Lá + 0,14 lít/tấn.",
+  "Danh mục › Nhân sự: nút “Cập nhật hệ số lương từ file HS lương (sheet CQ171)” – lấy Hệ số lương mới, khớp theo mã NV / họ tên, xem trước rồi cập nhật."
  ],
  "history": [
+  {
+   "version": "V22.291",
+   "date": "2026-11-15",
+   "notes": [
+    "Cắt mủ đông tính theo khung, không quy đổi: thêm công việc “Cắt mủ đông tank 300 – dưới 500 kg” (100.000 đ/tank) bên cạnh tank ≥ 500 kg (150.000 đ/tank); tank dưới 300 kg không tính. Biểu mẫu tách 2 dòng theo khung.",
+    "Nhiên liệu chở mủ nước về NM Ly Tâm = định mức về NM Bố Lá + 0,14 lít/tấn.",
+    "Danh mục › Nhân sự: nút “Cập nhật hệ số lương từ file HS lương (sheet CQ171)” – lấy Hệ số lương mới, khớp theo mã NV / họ tên, xem trước rồi cập nhật."
+   ]
+  },
   {
    "version": "V22.290",
    "date": "2026-11-15",
