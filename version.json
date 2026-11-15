@@ -1,11 +1,19 @@
 {
- "version": "V22.284",
- "date": "2026-11-12",
+ "version": "V22.285",
+ "date": "2026-11-15",
  "notes": [
-  "Lập kế hoạch: các ô thống kê (tổng số gói, đang thực hiện, quá hạn, đến hạn, hoàn thành, đã hủy, chưa có mốc, tổng giá trị, % HT) gọn trên 1 hàng; điện thoại vuốt ngang. Bỏ dòng nhắc “tên chưa trùng danh sách KPI Phòng”.",
-  "Tab mới “Theo dõi hợp đồng”: lọc các gói đã ký hợp đồng (bước Ký HĐ có ngày hoàn thành) để kiểm soát tiến độ thực hiện HĐ – nhà thầu, giá HĐ, ngày ký, thời gian, hạn HĐ (= ngày ký + số ngày bước Thực hiện HĐ), thanh % thời gian đã qua, còn / quá hạn bao nhiêu ngày, người phụ trách; lọc Đang thực hiện / Quá hạn / Sắp hết hạn ≤ 15 ngày / Chuẩn bị ký / Đã hoàn thành; áp dụng cho kế hoạch đang chọn hoặc mọi kế hoạch; bấm tên gói mở trong Bảng phân công."
+  "Nhật ký CT › Kho ảnh: xem ảnh phóng to – thu nhỏ (cuộn chuột, chụm 2 ngón trên điện thoại, nhấp đúp, nút − / + / 1:1, phím + − 0), kéo để di chuyển khi đã phóng to, chuyển ảnh trước / sau (nút ‹ ›, phím ← →, vuốt ngang); nút Tải ảnh, Tải tất cả; nút tải ở từng ảnh trong kho.",
+  "Soạn văn bản › Lấy số: Admin có nút ✏️ Sửa ở từng số trong sổ đăng ký – sửa ngày (trong năm của sổ), ký hiệu, loại, người ký, trích yếu, nơi nhận; bỏ liên kết văn bản; khôi phục số đã hủy. Số thứ tự và sổ giữ nguyên; cảnh báo khi ngày làm lệch thứ tự số."
  ],
  "history": [
+  {
+   "version": "V22.285",
+   "date": "2026-11-15",
+   "notes": [
+    "Nhật ký CT › Kho ảnh: xem ảnh phóng to – thu nhỏ (cuộn chuột, chụm 2 ngón trên điện thoại, nhấp đúp, nút − / + / 1:1, phím + − 0), kéo để di chuyển khi đã phóng to, chuyển ảnh trước / sau (nút ‹ ›, phím ← →, vuốt ngang); nút Tải ảnh, Tải tất cả; nút tải ở từng ảnh trong kho.",
+    "Soạn văn bản › Lấy số: Admin có nút ✏️ Sửa ở từng số trong sổ đăng ký – sửa ngày (trong năm của sổ), ký hiệu, loại, người ký, trích yếu, nơi nhận; bỏ liên kết văn bản; khôi phục số đã hủy. Số thứ tự và sổ giữ nguyên; cảnh báo khi ngày làm lệch thứ tự số."
+   ]
+  },
   {
    "version": "V22.284",
    "date": "2026-11-12",
