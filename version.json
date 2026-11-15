@@ -1,10 +1,23 @@
 {
- "version": "V22.297",
+ "version": "V22.298",
  "date": "2026-11-15",
  "notes": [
-  "Phiếu báo sản lượng / phiếu cân ZEN: dòng tổng cuối bảng hiện rõ lý do lỗi và số dòng (vd. MSNV không có trong danh mục, phiếu đã nhập trước đó, tài xế chưa gắn MSNV) để biết vì sao chuyến chưa hợp lệ."
+  "Danh mục: các bảng (Nhân sự, Xe…) giãn độ rộng cột theo nội dung để hiện đủ họ tên, trạng thái; Nhân sự thêm cột “Nhóm rửa xe (NM)”.",
+  "Chấm công tổ Rửa xe – Cơ khí: mỗi tổ, mỗi nhóm là mục thu gọn/mở được. Tổ rửa xe chia 2 nhóm NM Cuaparis và NM Bố Lá – Ly Tâm (đổi nhóm ngay trong bảng), mỗi nhóm hưởng quỹ rửa xe theo sản lượng mủ nước về nhà máy của nhóm, chia theo ngày công.",
+  "Tổ cơ khí tách công sửa chữa và công hỗ trợ nhà máy (nút “Hỗ trợ NM” tạo 1 công hỗ trợ theo đơn giá công thời gian); quỹ nhân công SCTX chia theo công sửa chữa.",
+  "Bảng lương tổ rửa xe ghi nhóm, tỷ lệ chia trong nhóm và quỹ từng nhóm."
  ],
  "history": [
+  {
+   "version": "V22.298",
+   "date": "2026-11-15",
+   "notes": [
+    "Danh mục: các bảng (Nhân sự, Xe…) giãn độ rộng cột theo nội dung để hiện đủ họ tên, trạng thái; Nhân sự thêm cột “Nhóm rửa xe (NM)”.",
+    "Chấm công tổ Rửa xe – Cơ khí: mỗi tổ, mỗi nhóm là mục thu gọn/mở được. Tổ rửa xe chia 2 nhóm NM Cuaparis và NM Bố Lá – Ly Tâm (đổi nhóm ngay trong bảng), mỗi nhóm hưởng quỹ rửa xe theo sản lượng mủ nước về nhà máy của nhóm, chia theo ngày công.",
+    "Tổ cơ khí tách công sửa chữa và công hỗ trợ nhà máy (nút “Hỗ trợ NM” tạo 1 công hỗ trợ theo đơn giá công thời gian); quỹ nhân công SCTX chia theo công sửa chữa.",
+    "Bảng lương tổ rửa xe ghi nhóm, tỷ lệ chia trong nhóm và quỹ từng nhóm."
+   ]
+  },
   {
    "version": "V22.297",
    "date": "2026-11-15",
