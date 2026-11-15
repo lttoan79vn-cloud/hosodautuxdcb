@@ -1,11 +1,23 @@
 {
- "version": "V22.293",
+ "version": "V22.294",
  "date": "2026-11-15",
  "notes": [
-  "Phiếu cân ZEN (API và file Phụ lục 3 xuất từ ZEN): khôi phục cách lấy sản lượng mủ nước theo từng nhà máy như trước (NMBL / NMLT, quy đổi ly tâm, xe “A” tính lương sản phẩm theo kg) – kết quả trùng khớp phiên bản cũ.",
-  "Mủ tạp của xe 1T–4T tách thành phiếu riêng cùng nhà máy (mỗi dòng cân 1 chuyến loại Mủ tạp, nông trường theo phiếu cân); vẫn tính lương thời gian 1 công/ngày/tài xế, số chuyến để tính nhiên liệu."
+  "Điều hành SX: mở các mục Định mức nhân công, Chi phí sửa chữa, Nhiên liệu vận chuyển, Nội dung khác theo QĐ 867/QĐ-CSPH – định mức so với thực hiện trong tháng (công lái/bốc rửa xe mủ tạp, dọn kho, đăng kiểm, công PE theo sản lượng; khoán SCTX 9.005 đ/tấn, 21 hạng mục khoán sửa chữa, chi phí PE; nhiên liệu theo định mức; chi phí chung, xà bông, điện và nguyên liệu PE).",
+  "Bảng “Khối lượng vận chuyển theo xe” (xuất Excel): chuyến, mủ nước đội, mủ thu mua HK/HN, mủ tạp, tiền lương, dầu định mức; cân 2 dòng cùng xe cùng lần = 1 chuyến.",
+  "Phần mềm cân ZEN: nhận diện mủ thu mua (TMMN, khách hàng “(HK)” hộ khoán, “(HN)” hộ ngoài), gắn đơn vị theo tên khách hàng, tính lương theo đơn giá của đơn vị.",
+  "Nhập liệu: chấm công theo danh sách cho tổ Rửa xe và tổ Cơ khí – bấm chọn Đi làm, ½ công, Phép, Ốm, Việc riêng, Không lương, Lễ cho từng người; nút chấm cả tổ."
  ],
  "history": [
+  {
+   "version": "V22.294",
+   "date": "2026-11-15",
+   "notes": [
+    "Điều hành SX: mở các mục Định mức nhân công, Chi phí sửa chữa, Nhiên liệu vận chuyển, Nội dung khác theo QĐ 867/QĐ-CSPH – định mức so với thực hiện trong tháng (công lái/bốc rửa xe mủ tạp, dọn kho, đăng kiểm, công PE theo sản lượng; khoán SCTX 9.005 đ/tấn, 21 hạng mục khoán sửa chữa, chi phí PE; nhiên liệu theo định mức; chi phí chung, xà bông, điện và nguyên liệu PE).",
+    "Bảng “Khối lượng vận chuyển theo xe” (xuất Excel): chuyến, mủ nước đội, mủ thu mua HK/HN, mủ tạp, tiền lương, dầu định mức; cân 2 dòng cùng xe cùng lần = 1 chuyến.",
+    "Phần mềm cân ZEN: nhận diện mủ thu mua (TMMN, khách hàng “(HK)” hộ khoán, “(HN)” hộ ngoài), gắn đơn vị theo tên khách hàng, tính lương theo đơn giá của đơn vị.",
+    "Nhập liệu: chấm công theo danh sách cho tổ Rửa xe và tổ Cơ khí – bấm chọn Đi làm, ½ công, Phép, Ốm, Việc riêng, Không lương, Lễ cho từng người; nút chấm cả tổ."
+   ]
+  },
   {
    "version": "V22.293",
    "date": "2026-11-15",
