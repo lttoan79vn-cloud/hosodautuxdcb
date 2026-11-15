@@ -1,10 +1,19 @@
 {
- "version": "V22.292",
+ "version": "V22.293",
  "date": "2026-11-15",
  "notes": [
-  "Danh mục › Xe: nút “Cập nhật biển số theo Bảng phân xe” – đọc file Bảng phân xe tài xế, chỉ đổi biển số cho xe có số nội bộ trùng mã xe trong danh mục (loại xe, MSNV lái giữ nguyên, không thêm/xóa xe), xem trước trước khi lưu."
+  "Phiếu cân ZEN (API và file Phụ lục 3 xuất từ ZEN): khôi phục cách lấy sản lượng mủ nước theo từng nhà máy như trước (NMBL / NMLT, quy đổi ly tâm, xe “A” tính lương sản phẩm theo kg) – kết quả trùng khớp phiên bản cũ.",
+  "Mủ tạp của xe 1T–4T tách thành phiếu riêng cùng nhà máy (mỗi dòng cân 1 chuyến loại Mủ tạp, nông trường theo phiếu cân); vẫn tính lương thời gian 1 công/ngày/tài xế, số chuyến để tính nhiên liệu."
  ],
  "history": [
+  {
+   "version": "V22.293",
+   "date": "2026-11-15",
+   "notes": [
+    "Phiếu cân ZEN (API và file Phụ lục 3 xuất từ ZEN): khôi phục cách lấy sản lượng mủ nước theo từng nhà máy như trước (NMBL / NMLT, quy đổi ly tâm, xe “A” tính lương sản phẩm theo kg) – kết quả trùng khớp phiên bản cũ.",
+    "Mủ tạp của xe 1T–4T tách thành phiếu riêng cùng nhà máy (mỗi dòng cân 1 chuyến loại Mủ tạp, nông trường theo phiếu cân); vẫn tính lương thời gian 1 công/ngày/tài xế, số chuyến để tính nhiên liệu."
+   ]
+  },
   {
    "version": "V22.292",
    "date": "2026-11-15",
