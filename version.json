@@ -1,11 +1,21 @@
 {
- "version": "V22.288",
+ "version": "V22.289",
  "date": "2026-11-15",
  "notes": [
-  "Danh mục › Xe: trả lại bảng như phiên bản trước (Mã xe, Biển số, Loại xe, MSNV lái chính), bỏ nút cập nhật từ Bảng phân xe.",
-  "Thêm nút “+ Thêm xe chở mủ tạp 1T–4T (Bảng phân xe 2026)”: 1T Phạm Minh Tuấn (Lai Uyên), 2T Nguyễn Xuân Chánh (Hội Nghĩa), 3T Võ Thanh Sơn (Tân Hưng), 4T Phạm Ngọc Lạc (Bố Lá); MSNV lấy theo xe mủ nước cùng tài xế (17A, 20A, 16A, 12A), không có thì khớp theo họ tên."
+  "Xe chở mủ tạp 1T–4T không gắn cố định đơn vị: phiếu cân ZEN ghi chở cho đơn vị (nông trường) nào thì chuyến tính cho đơn vị đó, tài xế theo xe.",
+  "Xe 1T–4T chỉ tính lương thời gian: mỗi tài xế mỗi ngày tối đa 1 công dù đi nhiều chuyến; không tính lương sản phẩm.",
+  "Tính lương: thêm bảng “Xe chở mủ tạp 1T–4T” – số chuyến theo xe, tài xế, đơn vị (để tính nhiên liệu), công thời gian, kg mủ tạp."
  ],
  "history": [
+  {
+   "version": "V22.289",
+   "date": "2026-11-15",
+   "notes": [
+    "Xe chở mủ tạp 1T–4T không gắn cố định đơn vị: phiếu cân ZEN ghi chở cho đơn vị (nông trường) nào thì chuyến tính cho đơn vị đó, tài xế theo xe.",
+    "Xe 1T–4T chỉ tính lương thời gian: mỗi tài xế mỗi ngày tối đa 1 công dù đi nhiều chuyến; không tính lương sản phẩm.",
+    "Tính lương: thêm bảng “Xe chở mủ tạp 1T–4T” – số chuyến theo xe, tài xế, đơn vị (để tính nhiên liệu), công thời gian, kg mủ tạp."
+   ]
+  },
   {
    "version": "V22.288",
    "date": "2026-11-15",
