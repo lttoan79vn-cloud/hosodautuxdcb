@@ -1,10 +1,21 @@
 {
- "version": "V22.286",
+ "version": "V22.287",
  "date": "2026-11-15",
  "notes": [
-  "Sổ đăng ký văn bản (📖 Xem sổ đăng ký): nổi trên thanh tiêu đề và menu chính, không còn bị che; trên điện thoại mở toàn màn hình (chừa tai thỏ và thanh điều hướng), nút Đóng đưa lên đầu, bảng cuộn ngang được, trang nền không cuộn theo."
+  "Danh mục › Xe: nút “⇩ Cập nhật từ Bảng phân xe tài xế” – đọc file .xls/.xlsx của Phòng PT&QLKCN, cập nhật theo số nội bộ: biển số, tài xế (tự gắn MSNV khi trùng tên), tổ vận chuyển (nông trường), loại xe (A = xe VC mủ nước, T = xe chở mủ tạp).",
+  "Phiếu cân ZEN (API và file Phụ lục 3 xuất từ ZEN): chỉ xe chở mủ tạp 1T–4T tạo chuyến tính lương (loại Mủ tạp, theo công, ghi chi tiết chén/dây/đông); mủ nước của xe “A” chỉ hiển thị đối chiếu kèm tên tài xế, không tính lương.",
+  "Nhập chuyến: thiếu nguồn thì lấy tổ vận chuyển của xe; báo rõ tài xế nào chưa gắn MSNV."
  ],
  "history": [
+  {
+   "version": "V22.287",
+   "date": "2026-11-15",
+   "notes": [
+    "Danh mục › Xe: nút “⇩ Cập nhật từ Bảng phân xe tài xế” – đọc file .xls/.xlsx của Phòng PT&QLKCN, cập nhật theo số nội bộ: biển số, tài xế (tự gắn MSNV khi trùng tên), tổ vận chuyển (nông trường), loại xe (A = xe VC mủ nước, T = xe chở mủ tạp).",
+    "Phiếu cân ZEN (API và file Phụ lục 3 xuất từ ZEN): chỉ xe chở mủ tạp 1T–4T tạo chuyến tính lương (loại Mủ tạp, theo công, ghi chi tiết chén/dây/đông); mủ nước của xe “A” chỉ hiển thị đối chiếu kèm tên tài xế, không tính lương.",
+    "Nhập chuyến: thiếu nguồn thì lấy tổ vận chuyển của xe; báo rõ tài xế nào chưa gắn MSNV."
+   ]
+  },
   {
    "version": "V22.286",
    "date": "2026-11-15",
