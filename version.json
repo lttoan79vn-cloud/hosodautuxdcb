@@ -1,12 +1,19 @@
 {
- "version": "V22.287",
+ "version": "V22.288",
  "date": "2026-11-15",
  "notes": [
-  "Danh mục › Xe: nút “⇩ Cập nhật từ Bảng phân xe tài xế” – đọc file .xls/.xlsx của Phòng PT&QLKCN, cập nhật theo số nội bộ: biển số, tài xế (tự gắn MSNV khi trùng tên), tổ vận chuyển (nông trường), loại xe (A = xe VC mủ nước, T = xe chở mủ tạp).",
-  "Phiếu cân ZEN (API và file Phụ lục 3 xuất từ ZEN): chỉ xe chở mủ tạp 1T–4T tạo chuyến tính lương (loại Mủ tạp, theo công, ghi chi tiết chén/dây/đông); mủ nước của xe “A” chỉ hiển thị đối chiếu kèm tên tài xế, không tính lương.",
-  "Nhập chuyến: thiếu nguồn thì lấy tổ vận chuyển của xe; báo rõ tài xế nào chưa gắn MSNV."
+  "Danh mục › Xe: trả lại bảng như phiên bản trước (Mã xe, Biển số, Loại xe, MSNV lái chính), bỏ nút cập nhật từ Bảng phân xe.",
+  "Thêm nút “+ Thêm xe chở mủ tạp 1T–4T (Bảng phân xe 2026)”: 1T Phạm Minh Tuấn (Lai Uyên), 2T Nguyễn Xuân Chánh (Hội Nghĩa), 3T Võ Thanh Sơn (Tân Hưng), 4T Phạm Ngọc Lạc (Bố Lá); MSNV lấy theo xe mủ nước cùng tài xế (17A, 20A, 16A, 12A), không có thì khớp theo họ tên."
  ],
  "history": [
+  {
+   "version": "V22.288",
+   "date": "2026-11-15",
+   "notes": [
+    "Danh mục › Xe: trả lại bảng như phiên bản trước (Mã xe, Biển số, Loại xe, MSNV lái chính), bỏ nút cập nhật từ Bảng phân xe.",
+    "Thêm nút “+ Thêm xe chở mủ tạp 1T–4T (Bảng phân xe 2026)”: 1T Phạm Minh Tuấn (Lai Uyên), 2T Nguyễn Xuân Chánh (Hội Nghĩa), 3T Võ Thanh Sơn (Tân Hưng), 4T Phạm Ngọc Lạc (Bố Lá); MSNV lấy theo xe mủ nước cùng tài xế (17A, 20A, 16A, 12A), không có thì khớp theo họ tên."
+   ]
+  },
   {
    "version": "V22.287",
    "date": "2026-11-15",
