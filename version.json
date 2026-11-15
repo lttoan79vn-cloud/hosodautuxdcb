@@ -1,12 +1,17 @@
 {
- "version": "V22.291",
+ "version": "V22.292",
  "date": "2026-11-15",
  "notes": [
-  "Cắt mủ đông tính theo khung, không quy đổi: thêm công việc “Cắt mủ đông tank 300 – dưới 500 kg” (100.000 đ/tank) bên cạnh tank ≥ 500 kg (150.000 đ/tank); tank dưới 300 kg không tính. Biểu mẫu tách 2 dòng theo khung.",
-  "Nhiên liệu chở mủ nước về NM Ly Tâm = định mức về NM Bố Lá + 0,14 lít/tấn.",
-  "Danh mục › Nhân sự: nút “Cập nhật hệ số lương từ file HS lương (sheet CQ171)” – lấy Hệ số lương mới, khớp theo mã NV / họ tên, xem trước rồi cập nhật."
+  "Danh mục › Xe: nút “Cập nhật biển số theo Bảng phân xe” – đọc file Bảng phân xe tài xế, chỉ đổi biển số cho xe có số nội bộ trùng mã xe trong danh mục (loại xe, MSNV lái giữ nguyên, không thêm/xóa xe), xem trước trước khi lưu."
  ],
  "history": [
+  {
+   "version": "V22.292",
+   "date": "2026-11-15",
+   "notes": [
+    "Danh mục › Xe: nút “Cập nhật biển số theo Bảng phân xe” – đọc file Bảng phân xe tài xế, chỉ đổi biển số cho xe có số nội bộ trùng mã xe trong danh mục (loại xe, MSNV lái giữ nguyên, không thêm/xóa xe), xem trước trước khi lưu."
+   ]
+  },
   {
    "version": "V22.291",
    "date": "2026-11-15",
