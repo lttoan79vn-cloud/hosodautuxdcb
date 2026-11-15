@@ -1,11 +1,17 @@
 {
- "version": "V22.285",
+ "version": "V22.286",
  "date": "2026-11-15",
  "notes": [
-  "Nhật ký CT › Kho ảnh: xem ảnh phóng to – thu nhỏ (cuộn chuột, chụm 2 ngón trên điện thoại, nhấp đúp, nút − / + / 1:1, phím + − 0), kéo để di chuyển khi đã phóng to, chuyển ảnh trước / sau (nút ‹ ›, phím ← →, vuốt ngang); nút Tải ảnh, Tải tất cả; nút tải ở từng ảnh trong kho.",
-  "Soạn văn bản › Lấy số: Admin có nút ✏️ Sửa ở từng số trong sổ đăng ký – sửa ngày (trong năm của sổ), ký hiệu, loại, người ký, trích yếu, nơi nhận; bỏ liên kết văn bản; khôi phục số đã hủy. Số thứ tự và sổ giữ nguyên; cảnh báo khi ngày làm lệch thứ tự số."
+  "Sổ đăng ký văn bản (📖 Xem sổ đăng ký): nổi trên thanh tiêu đề và menu chính, không còn bị che; trên điện thoại mở toàn màn hình (chừa tai thỏ và thanh điều hướng), nút Đóng đưa lên đầu, bảng cuộn ngang được, trang nền không cuộn theo."
  ],
  "history": [
+  {
+   "version": "V22.286",
+   "date": "2026-11-15",
+   "notes": [
+    "Sổ đăng ký văn bản (📖 Xem sổ đăng ký): nổi trên thanh tiêu đề và menu chính, không còn bị che; trên điện thoại mở toàn màn hình (chừa tai thỏ và thanh điều hướng), nút Đóng đưa lên đầu, bảng cuộn ngang được, trang nền không cuộn theo."
+   ]
+  },
   {
    "version": "V22.285",
    "date": "2026-11-15",
