@@ -1,10 +1,17 @@
 {
- "version": "V22.296",
+ "version": "V22.297",
  "date": "2026-11-15",
  "notes": [
-  "Phiếu cân ZEN: nút “⇩ Tải dữ liệu gốc (Excel)” đưa lên đầu khung thông tin của từng phiếu (luôn hiện, không cần mở mục Dữ liệu gốc); tự tải trực tiếp nếu trình xem không hỗ trợ lưu file."
+  "Phiếu báo sản lượng / phiếu cân ZEN: dòng tổng cuối bảng hiện rõ lý do lỗi và số dòng (vd. MSNV không có trong danh mục, phiếu đã nhập trước đó, tài xế chưa gắn MSNV) để biết vì sao chuyến chưa hợp lệ."
  ],
  "history": [
+  {
+   "version": "V22.297",
+   "date": "2026-11-15",
+   "notes": [
+    "Phiếu báo sản lượng / phiếu cân ZEN: dòng tổng cuối bảng hiện rõ lý do lỗi và số dòng (vd. MSNV không có trong danh mục, phiếu đã nhập trước đó, tài xế chưa gắn MSNV) để biết vì sao chuyến chưa hợp lệ."
+   ]
+  },
   {
    "version": "V22.296",
    "date": "2026-11-15",
