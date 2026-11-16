@@ -1,12 +1,17 @@
 {
- "version": "V22.301",
+ "version": "V22.302",
  "date": "2026-11-16",
  "notes": [
-  "Phần mềm cân ZEN: lấy thêm phiếu cân THU MUA (mủ thu mua hộ khoán HK, hộ ngoài HN) cùng lúc với phiếu cân nông trường; mỗi phiếu thu mua thành 1 chuyến mủ nước của đơn vị (tính lương theo đơn giá đơn vị), ghi số phiếu, giờ cân.",
-  "Phiếu thu mua không có số xe: chương trình gợi ý xe cùng đơn vị đang chở ít nhất trong ngày (đánh dấu “xe gợi ý – kiểm tra”), sửa ô Xe nếu khác; cân 2 dòng cùng xe cùng lần vẫn tính 1 chuyến.",
-  "Tải dữ liệu gốc (Excel) có thêm sheet THU MUA. Cần cập nhật Code.gs (thêm zenThuMua, bỏ trường CMND/địa chỉ trước khi gửi về)."
+  "Phiếu cân thu mua ZEN: chỉ lấy phiếu có gắn số xe nội bộ (1A, 2A, 13A-2, 1T…) – đọc ở trường số xe hoặc trong tên khách hàng/ghi chú; phiếu không gắn số xe bỏ qua và liệt kê để kiểm tra, không còn gợi ý xe."
  ],
  "history": [
+  {
+   "version": "V22.302",
+   "date": "2026-11-16",
+   "notes": [
+    "Phiếu cân thu mua ZEN: chỉ lấy phiếu có gắn số xe nội bộ (1A, 2A, 13A-2, 1T…) – đọc ở trường số xe hoặc trong tên khách hàng/ghi chú; phiếu không gắn số xe bỏ qua và liệt kê để kiểm tra, không còn gợi ý xe."
+   ]
+  },
   {
    "version": "V22.301",
    "date": "2026-11-16",
