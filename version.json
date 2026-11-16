@@ -1,11 +1,17 @@
 {
- "version": "V22.306",
+ "version": "V22.307",
  "date": "2026-11-16",
  "notes": [
-  "Đọc ảnh cân xe mủ thu mua chính xác hơn: cắt riêng ô cột “Xe” của từng dòng và đọc lại chỉ với chữ số + chữ in hoa (không dính cột Loại KH, không còn nhầm 44A → 4A), đối chiếu danh mục xe; ảnh không có dòng tiêu đề tự dò vị trí cột Xe.",
-  "Tự chỉnh số đọc lệch dấu thập phân (vd. 2 140,0 → 21400) để SLg vào − SLg ra = Slg thực; sửa ngày đọc nhầm tháng theo kỳ đang tính lương; mọi chỉnh sửa đều ghi cảnh báo trên phiếu để kiểm tra."
+  "Đọc ảnh cân xe mủ thu mua: ô cột Xe được đọc 3 lượt (cắt từ ảnh gốc phóng to, từ ảnh đã làm rõ, và cả dòng) rồi chọn theo danh mục xe – nếu một lượt bị mất 1 ký tự (44A → 4A, 11A → 1A) thì lấy bản đủ; còn lại theo số lượt trùng và độ tin cậy. Khắc phục lỗi đọc 44A thành 4A."
  ],
  "history": [
+  {
+   "version": "V22.307",
+   "date": "2026-11-16",
+   "notes": [
+    "Đọc ảnh cân xe mủ thu mua: ô cột Xe được đọc 3 lượt (cắt từ ảnh gốc phóng to, từ ảnh đã làm rõ, và cả dòng) rồi chọn theo danh mục xe – nếu một lượt bị mất 1 ký tự (44A → 4A, 11A → 1A) thì lấy bản đủ; còn lại theo số lượt trùng và độ tin cậy. Khắc phục lỗi đọc 44A thành 4A."
+   ]
+  },
   {
    "version": "V22.306",
    "date": "2026-11-16",
