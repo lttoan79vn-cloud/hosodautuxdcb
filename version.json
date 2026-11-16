@@ -1,13 +1,19 @@
 {
- "version": "V22.298",
- "date": "2026-11-15",
+ "version": "V22.299",
+ "date": "2026-11-16",
  "notes": [
-  "Danh mục: các bảng (Nhân sự, Xe…) giãn độ rộng cột theo nội dung để hiện đủ họ tên, trạng thái; Nhân sự thêm cột “Nhóm rửa xe (NM)”.",
-  "Chấm công tổ Rửa xe – Cơ khí: mỗi tổ, mỗi nhóm là mục thu gọn/mở được. Tổ rửa xe chia 2 nhóm NM Cuaparis và NM Bố Lá – Ly Tâm (đổi nhóm ngay trong bảng), mỗi nhóm hưởng quỹ rửa xe theo sản lượng mủ nước về nhà máy của nhóm, chia theo ngày công.",
-  "Tổ cơ khí tách công sửa chữa và công hỗ trợ nhà máy (nút “Hỗ trợ NM” tạo 1 công hỗ trợ theo đơn giá công thời gian); quỹ nhân công SCTX chia theo công sửa chữa.",
-  "Bảng lương tổ rửa xe ghi nhóm, tỷ lệ chia trong nhóm và quỹ từng nhóm."
+  "Bảng biểu trong soạn thảo văn bản: độ rộng cột tự động cân đối hơn – mỗi cột đủ chứa từ dài nhất (cột STT, số thứ tự không bị bẻ chữ), phần còn lại chia theo lượng chữ nên cột ít chữ không để trống nhiều; áp dụng cả khung xem, PDF, Word.",
+  "Kéo trực tiếp đường kẻ dọc giữa 2 cột (chuột hoặc chạm) để nới rộng / thu hẹp cột; vẫn chỉnh được theo % hoặc bấm “Tự động” ở nút Độ rộng cột."
  ],
  "history": [
+  {
+   "version": "V22.299",
+   "date": "2026-11-16",
+   "notes": [
+    "Bảng biểu trong soạn thảo văn bản: độ rộng cột tự động cân đối hơn – mỗi cột đủ chứa từ dài nhất (cột STT, số thứ tự không bị bẻ chữ), phần còn lại chia theo lượng chữ nên cột ít chữ không để trống nhiều; áp dụng cả khung xem, PDF, Word.",
+    "Kéo trực tiếp đường kẻ dọc giữa 2 cột (chuột hoặc chạm) để nới rộng / thu hẹp cột; vẫn chỉnh được theo % hoặc bấm “Tự động” ở nút Độ rộng cột."
+   ]
+  },
   {
    "version": "V22.298",
    "date": "2026-11-15",
