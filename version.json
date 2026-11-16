@@ -1,10 +1,17 @@
 {
- "version": "V22.302",
+ "version": "V22.303",
  "date": "2026-11-16",
  "notes": [
-  "Phiếu cân thu mua ZEN: chỉ lấy phiếu có gắn số xe nội bộ (1A, 2A, 13A-2, 1T…) – đọc ở trường số xe hoặc trong tên khách hàng/ghi chú; phiếu không gắn số xe bỏ qua và liệt kê để kiểm tra, không còn gợi ý xe."
+  "Phiếu cân thu mua ZEN: không hiển thị/không xuất họ tên hộ bán mủ (chỉ số phiếu, mã khách hàng); khung thông tin ghi tổng kg phiếu thu mua không có số xe để đối chiếu với nhà máy."
  ],
  "history": [
+  {
+   "version": "V22.303",
+   "date": "2026-11-16",
+   "notes": [
+    "Phiếu cân thu mua ZEN: không hiển thị/không xuất họ tên hộ bán mủ (chỉ số phiếu, mã khách hàng); khung thông tin ghi tổng kg phiếu thu mua không có số xe để đối chiếu với nhà máy."
+   ]
+  },
   {
    "version": "V22.302",
    "date": "2026-11-16",
