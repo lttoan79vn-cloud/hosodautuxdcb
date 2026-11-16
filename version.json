@@ -1,10 +1,19 @@
 {
- "version": "V22.307",
+ "version": "V22.308",
  "date": "2026-11-16",
  "notes": [
-  "Đọc ảnh cân xe mủ thu mua: ô cột Xe được đọc 3 lượt (cắt từ ảnh gốc phóng to, từ ảnh đã làm rõ, và cả dòng) rồi chọn theo danh mục xe – nếu một lượt bị mất 1 ký tự (44A → 4A, 11A → 1A) thì lấy bản đủ; còn lại theo số lượt trùng và độ tin cậy. Khắc phục lỗi đọc 44A thành 4A."
+  "Nhật ký công trình: tài khoản Admin có nút “🔓 Mở cập nhật ngày trước” ở mục Lịch sử nhật ký của từng công trình – chọn khoảng ngày, hạn mở, người được mở (mọi người được giao hoặc email cụ thể), lý do; hiện các ngày chưa có nhật ký 45 ngày gần nhất để chọn nhanh; thu hồi được.",
+  "Trong khoảng ngày và thời hạn mở, người được mở ghi được nhật ký cho ngày chưa có và sửa, bổ sung nhật ký đã khóa của các ngày đó (kể cả nhập từ file, tự lưu); hết hạn tự khóa lại; nhật ký được mở đánh dấu “🔓 Được bổ sung”, thanh thông báo ghi rõ khoảng ngày đang mở."
  ],
  "history": [
+  {
+   "version": "V22.308",
+   "date": "2026-11-16",
+   "notes": [
+    "Nhật ký công trình: tài khoản Admin có nút “🔓 Mở cập nhật ngày trước” ở mục Lịch sử nhật ký của từng công trình – chọn khoảng ngày, hạn mở, người được mở (mọi người được giao hoặc email cụ thể), lý do; hiện các ngày chưa có nhật ký 45 ngày gần nhất để chọn nhanh; thu hồi được.",
+    "Trong khoảng ngày và thời hạn mở, người được mở ghi được nhật ký cho ngày chưa có và sửa, bổ sung nhật ký đã khóa của các ngày đó (kể cả nhập từ file, tự lưu); hết hạn tự khóa lại; nhật ký được mở đánh dấu “🔓 Được bổ sung”, thanh thông báo ghi rõ khoảng ngày đang mở."
+   ]
+  },
   {
    "version": "V22.307",
    "date": "2026-11-16",
