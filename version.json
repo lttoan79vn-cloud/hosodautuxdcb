@@ -1,11 +1,17 @@
 {
- "version": "V22.299",
+ "version": "V22.300",
  "date": "2026-11-16",
  "notes": [
-  "Bảng biểu trong soạn thảo văn bản: độ rộng cột tự động cân đối hơn – mỗi cột đủ chứa từ dài nhất (cột STT, số thứ tự không bị bẻ chữ), phần còn lại chia theo lượng chữ nên cột ít chữ không để trống nhiều; áp dụng cả khung xem, PDF, Word.",
-  "Kéo trực tiếp đường kẻ dọc giữa 2 cột (chuột hoặc chạm) để nới rộng / thu hẹp cột; vẫn chỉnh được theo % hoặc bấm “Tự động” ở nút Độ rộng cột."
+  "Soạn thảo văn bản – chế độ Sửa trực tiếp: khoảng cách dòng và khoảng cách giữa các đoạn trong vùng nội dung bằng đúng phần căn cứ phía trên và bằng bản in/PDF/Word (dãn dòng 1,2; trước đoạn 6pt), không còn chỗ dày chỗ thưa."
  ],
  "history": [
+  {
+   "version": "V22.300",
+   "date": "2026-11-16",
+   "notes": [
+    "Soạn thảo văn bản – chế độ Sửa trực tiếp: khoảng cách dòng và khoảng cách giữa các đoạn trong vùng nội dung bằng đúng phần căn cứ phía trên và bằng bản in/PDF/Word (dãn dòng 1,2; trước đoạn 6pt), không còn chỗ dày chỗ thưa."
+   ]
+  },
   {
    "version": "V22.299",
    "date": "2026-11-16",
