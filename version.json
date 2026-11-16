@@ -1,11 +1,19 @@
 {
- "version": "V22.305",
+ "version": "V22.306",
  "date": "2026-11-16",
  "notes": [
-  "Phiếu báo sản lượng: các nút nguồn dữ liệu sắp xếp lại thành các ô đều nhau có biểu tượng và mô tả (Chọn file phiếu · Lấy từ phần mềm cân ZEN · Cân xe mủ thu mua · Nhập tay · Tải mẫu); ô đang mở được tô nổi.",
-  "Cân xe mủ thu mua: thêm đọc ảnh chụp màn hình cân ZEN (chọn ảnh hoặc dán thẳng ảnh bằng Ctrl+V) – nhận ngày, giờ vào, khách hàng (HK/HN), số xe, SLg vào/ra/thực; tự sửa SLg vào khi lệch, sửa năm đọc nhầm; dòng không đọc được số xe vẫn giữ lại để nhập tay."
+  "Đọc ảnh cân xe mủ thu mua chính xác hơn: cắt riêng ô cột “Xe” của từng dòng và đọc lại chỉ với chữ số + chữ in hoa (không dính cột Loại KH, không còn nhầm 44A → 4A), đối chiếu danh mục xe; ảnh không có dòng tiêu đề tự dò vị trí cột Xe.",
+  "Tự chỉnh số đọc lệch dấu thập phân (vd. 2 140,0 → 21400) để SLg vào − SLg ra = Slg thực; sửa ngày đọc nhầm tháng theo kỳ đang tính lương; mọi chỉnh sửa đều ghi cảnh báo trên phiếu để kiểm tra."
  ],
  "history": [
+  {
+   "version": "V22.306",
+   "date": "2026-11-16",
+   "notes": [
+    "Đọc ảnh cân xe mủ thu mua chính xác hơn: cắt riêng ô cột “Xe” của từng dòng và đọc lại chỉ với chữ số + chữ in hoa (không dính cột Loại KH, không còn nhầm 44A → 4A), đối chiếu danh mục xe; ảnh không có dòng tiêu đề tự dò vị trí cột Xe.",
+    "Tự chỉnh số đọc lệch dấu thập phân (vd. 2 140,0 → 21400) để SLg vào − SLg ra = Slg thực; sửa ngày đọc nhầm tháng theo kỳ đang tính lương; mọi chỉnh sửa đều ghi cảnh báo trên phiếu để kiểm tra."
+   ]
+  },
   {
    "version": "V22.305",
    "date": "2026-11-16",
