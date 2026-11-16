@@ -1,11 +1,19 @@
 {
- "version": "V22.304",
+ "version": "V22.305",
  "date": "2026-11-16",
  "notes": [
-  "Phiếu báo sản lượng: nút “⇩ Cân xe thu mua (Excel / dán bảng)” – dán bảng copy từ màn hình cân ZEN (Ngày nhập, Giờ vào, Khách hàng, Xe, Sản phẩm, SLg vào, SLg ra, Slg thực) hoặc chọn file Excel; mỗi dòng thành 1 chuyến mủ nước thu mua của xe đó, đơn vị theo tên NTCS, hộ khoán (HK) / hộ ngoài (HN, HN1, HN2) theo khách hàng; chọn nhà máy nhận.",
-  "Kiểm tra Slg thực = SLg vào − SLg ra, bỏ dòng thiếu xe/ngày/khối lượng; dán lại không bị trùng; xe chở cả mủ đội trong cùng lần vẫn tính 1 chuyến."
+  "Phiếu báo sản lượng: các nút nguồn dữ liệu sắp xếp lại thành các ô đều nhau có biểu tượng và mô tả (Chọn file phiếu · Lấy từ phần mềm cân ZEN · Cân xe mủ thu mua · Nhập tay · Tải mẫu); ô đang mở được tô nổi.",
+  "Cân xe mủ thu mua: thêm đọc ảnh chụp màn hình cân ZEN (chọn ảnh hoặc dán thẳng ảnh bằng Ctrl+V) – nhận ngày, giờ vào, khách hàng (HK/HN), số xe, SLg vào/ra/thực; tự sửa SLg vào khi lệch, sửa năm đọc nhầm; dòng không đọc được số xe vẫn giữ lại để nhập tay."
  ],
  "history": [
+  {
+   "version": "V22.305",
+   "date": "2026-11-16",
+   "notes": [
+    "Phiếu báo sản lượng: các nút nguồn dữ liệu sắp xếp lại thành các ô đều nhau có biểu tượng và mô tả (Chọn file phiếu · Lấy từ phần mềm cân ZEN · Cân xe mủ thu mua · Nhập tay · Tải mẫu); ô đang mở được tô nổi.",
+    "Cân xe mủ thu mua: thêm đọc ảnh chụp màn hình cân ZEN (chọn ảnh hoặc dán thẳng ảnh bằng Ctrl+V) – nhận ngày, giờ vào, khách hàng (HK/HN), số xe, SLg vào/ra/thực; tự sửa SLg vào khi lệch, sửa năm đọc nhầm; dòng không đọc được số xe vẫn giữ lại để nhập tay."
+   ]
+  },
   {
    "version": "V22.304",
    "date": "2026-11-16",
