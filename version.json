@@ -1,10 +1,19 @@
 {
- "version": "V22.303",
+ "version": "V22.304",
  "date": "2026-11-16",
  "notes": [
-  "Phiếu cân thu mua ZEN: không hiển thị/không xuất họ tên hộ bán mủ (chỉ số phiếu, mã khách hàng); khung thông tin ghi tổng kg phiếu thu mua không có số xe để đối chiếu với nhà máy."
+  "Phiếu báo sản lượng: nút “⇩ Cân xe thu mua (Excel / dán bảng)” – dán bảng copy từ màn hình cân ZEN (Ngày nhập, Giờ vào, Khách hàng, Xe, Sản phẩm, SLg vào, SLg ra, Slg thực) hoặc chọn file Excel; mỗi dòng thành 1 chuyến mủ nước thu mua của xe đó, đơn vị theo tên NTCS, hộ khoán (HK) / hộ ngoài (HN, HN1, HN2) theo khách hàng; chọn nhà máy nhận.",
+  "Kiểm tra Slg thực = SLg vào − SLg ra, bỏ dòng thiếu xe/ngày/khối lượng; dán lại không bị trùng; xe chở cả mủ đội trong cùng lần vẫn tính 1 chuyến."
  ],
  "history": [
+  {
+   "version": "V22.304",
+   "date": "2026-11-16",
+   "notes": [
+    "Phiếu báo sản lượng: nút “⇩ Cân xe thu mua (Excel / dán bảng)” – dán bảng copy từ màn hình cân ZEN (Ngày nhập, Giờ vào, Khách hàng, Xe, Sản phẩm, SLg vào, SLg ra, Slg thực) hoặc chọn file Excel; mỗi dòng thành 1 chuyến mủ nước thu mua của xe đó, đơn vị theo tên NTCS, hộ khoán (HK) / hộ ngoài (HN, HN1, HN2) theo khách hàng; chọn nhà máy nhận.",
+    "Kiểm tra Slg thực = SLg vào − SLg ra, bỏ dòng thiếu xe/ngày/khối lượng; dán lại không bị trùng; xe chở cả mủ đội trong cùng lần vẫn tính 1 chuyến."
+   ]
+  },
   {
    "version": "V22.303",
    "date": "2026-11-16",
