@@ -1,12 +1,17 @@
 {
- "version": "V22.309",
- "date": "2026-11-17",
+ "version": "V22.310",
+ "date": "2026-11-18",
  "notes": [
-  "Lập kế hoạch: thanh chọn Năm kế hoạch đưa lên cùng dòng tiêu đề “Lập kế hoạch & phân công thực hiện”, bỏ dòng mô tả bên dưới tiêu đề – áp dụng cho mọi thẻ kế hoạch.",
-  "Soạn hồ sơ: hàng nút Hồ sơ đầu tư XDCB… nằm sát menu chính, thẳng mép trái/phải và cùng khoảng cách với các nút menu chính (màn hình máy tính).",
-  "Thông báo cập nhật phiên bản: chỉ hiện trong 1 màn hình – tiêu đề và nút luôn hiện, nội dung dài được thu trong khung cuộn (kéo thanh cuộn hoặc vuốt lên để xem tiếp)."
+  "Nhật ký công trình – in / xuất Word: nội dung thực hiện trong hạng mục (công việc, vị trí, khối lượng, vật liệu) được gạch đầu dòng, mỗi dòng một đoạn lùi đầu dòng thẳng cột với các nội dung khác (không còn dòng sát lề trái)."
  ],
  "history": [
+  {
+   "version": "V22.310",
+   "date": "2026-11-18",
+   "notes": [
+    "Nhật ký công trình – in / xuất Word: nội dung thực hiện trong hạng mục (công việc, vị trí, khối lượng, vật liệu) được gạch đầu dòng, mỗi dòng một đoạn lùi đầu dòng thẳng cột với các nội dung khác (không còn dòng sát lề trái)."
+   ]
+  },
   {
    "version": "V22.309",
    "date": "2026-11-17",
