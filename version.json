@@ -1,10 +1,19 @@
 {
- "version": "V22.318",
+ "version": "V22.319",
  "date": "2026-11-18",
  "notes": [
-  "Thẻ Lấy số: chọn Loại văn bản thì danh sách Sổ đăng ký bên dưới tự lọc theo loại đó (các ô đang nhập được giữ nguyên); mở thẻ Lấy số mặc định hiện tất cả loại văn bản"
+  "Tài khoản: tài khoản đã được Admin phê duyệt (đăng nhập qua máy chủ) không còn bị khóa theo thời hạn dùng thử 30 ngày của máy, không bị ngắt cứng sau 24 giờ; phiên máy chủ tự gia hạn khi đang sử dụng – cần cập nhật Code.gs",
+  "Chỉ định thầu rút gọn: thêm bước Thư mời thương thảo hợp đồng giữa Biên bản xét chọn và Biên bản thương thảo (thời gian, địa điểm, thành phần, nội dung thương thảo, tài liệu mang theo); tắt/bật theo gói ở Danh sách gói thầu; Biên bản thương thảo dẫn căn cứ thư mời"
  ],
  "history": [
+  {
+   "version": "V22.319",
+   "date": "2026-11-18",
+   "notes": [
+    "Tài khoản: tài khoản đã được Admin phê duyệt (đăng nhập qua máy chủ) không còn bị khóa theo thời hạn dùng thử 30 ngày của máy, không bị ngắt cứng sau 24 giờ; phiên máy chủ tự gia hạn khi đang sử dụng – cần cập nhật Code.gs",
+    "Chỉ định thầu rút gọn: thêm bước Thư mời thương thảo hợp đồng giữa Biên bản xét chọn và Biên bản thương thảo (thời gian, địa điểm, thành phần, nội dung thương thảo, tài liệu mang theo); tắt/bật theo gói ở Danh sách gói thầu; Biên bản thương thảo dẫn căn cứ thư mời"
+   ]
+  },
   {
    "version": "V22.318",
    "date": "2026-11-18",
