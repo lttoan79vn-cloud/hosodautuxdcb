@@ -1,12 +1,17 @@
 {
- "version": "V22.317",
+ "version": "V22.318",
  "date": "2026-11-18",
  "notes": [
-  "Ô ký các phòng: “Phó phòng PT&QLKCN” in thành “PHÒNG PT&QLKCN” trên 1 dòng (thẳng hàng tên người ký)",
-  "TTr duyệt kết quả LCNT gói chỉ định thầu: các phòng chuyên môn ký như Biên bản xét chọn + DUYỆT Lãnh đạo khối; nơi nhận Như trên – P.KHVT, P.TCKT – Lưu P.PT&QLKCN",
-  "TTr duyệt kết quả LCNT gói CHCT/ĐTRR/ĐTHC có Tổ chuyên gia: tiêu đề Tổ chuyên gia, ký hiệu TTr-TCG, TM. TỔ CHUYÊN GIA – TỔ TRƯỞNG ký"
+  "Thẻ Lấy số: chọn Loại văn bản thì danh sách Sổ đăng ký bên dưới tự lọc theo loại đó (các ô đang nhập được giữ nguyên); mở thẻ Lấy số mặc định hiện tất cả loại văn bản"
  ],
  "history": [
+  {
+   "version": "V22.318",
+   "date": "2026-11-18",
+   "notes": [
+    "Thẻ Lấy số: chọn Loại văn bản thì danh sách Sổ đăng ký bên dưới tự lọc theo loại đó (các ô đang nhập được giữ nguyên); mở thẻ Lấy số mặc định hiện tất cả loại văn bản"
+   ]
+  },
   {
    "version": "V22.317",
    "date": "2026-11-18",
