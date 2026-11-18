@@ -1,12 +1,17 @@
 {
- "version": "V22.323",
+ "version": "V22.324",
  "date": "2026-11-18",
  "notes": [
-  "Trợ lý AI theo ngữ cảnh hồ sơ: thanh 🤖 Trợ lý AI đầu biểu mẫu mỗi văn bản – 🔎 AI rà soát (thể thức, căn cứ, số liệu không khớp hồ sơ, nội dung chưa phù hợp loại văn bản / tính chất công trình) và 💡 Gợi ý nội dung",
-  "Ô nhập nhiều dòng: nút 💡 Gợi ý theo hồ sơ trong hộp AI – đề xuất nội dung cho ô theo loại văn bản, quy mô, hạng mục, dự toán, gói thầu, hình thức, nhà thầu, hiện trạng; Thay hoặc Thêm vào ô",
-  "Văn bản giãn sang trang 2: trích yếu (V/v dưới số) 14pt, đoạn Kính gửi cách trên/dưới 12pt"
+  "Trích yếu (dòng V/v dưới số văn bản) luôn 14pt cho mọi văn bản, mọi trường hợp (kể cả khi thu gọn vừa trang)"
  ],
  "history": [
+  {
+   "version": "V22.324",
+   "date": "2026-11-18",
+   "notes": [
+    "Trích yếu (dòng V/v dưới số văn bản) luôn 14pt cho mọi văn bản, mọi trường hợp (kể cả khi thu gọn vừa trang)"
+   ]
+  },
   {
    "version": "V22.323",
    "date": "2026-11-18",
