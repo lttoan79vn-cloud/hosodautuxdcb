@@ -1,11 +1,21 @@
 {
- "version": "V22.331",
+ "version": "V22.332",
  "date": "2026-11-18",
  "notes": [
-  "Trợ lý AI: sửa lỗi báo nhầm “trình duyệt chặn gửi thông tin đăng nhập” – nguyên nhân là chương trình chỉ chờ 30 giây rồi gửi lặp yêu cầu AI; nay chờ tối đa gần 3 phút, không gửi lặp (không tốn thêm lượt), báo đúng lỗi (AI phản hồi quá lâu / quá tải)",
-  "Máy chủ tự thử lại khi AI quá tải: 3 lần, giãn cách 3–6 giây – cần cập nhật Code.gs"
+  "Trợ lý AI nhanh hơn: máy chủ tắt/giảm chế độ “suy nghĩ” dài của Gemini (văn bản hành chính không cần), gửi nội dung gọn hơn và yêu cầu trả lời ngắn gọn – cần cập nhật Code.gs",
+  "Cùng một yêu cầu trên cùng văn bản trong 6 giờ: trả kết quả ngay, không gọi lại AI, không tính lượt",
+  "Khung Trợ lý AI hiện số giây đang chờ và thời gian xử lý"
  ],
  "history": [
+  {
+   "version": "V22.332",
+   "date": "2026-11-18",
+   "notes": [
+    "Trợ lý AI nhanh hơn: máy chủ tắt/giảm chế độ “suy nghĩ” dài của Gemini (văn bản hành chính không cần), gửi nội dung gọn hơn và yêu cầu trả lời ngắn gọn – cần cập nhật Code.gs",
+    "Cùng một yêu cầu trên cùng văn bản trong 6 giờ: trả kết quả ngay, không gọi lại AI, không tính lượt",
+    "Khung Trợ lý AI hiện số giây đang chờ và thời gian xử lý"
+   ]
+  },
   {
    "version": "V22.331",
    "date": "2026-11-18",
