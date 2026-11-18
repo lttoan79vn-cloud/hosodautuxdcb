@@ -1,10 +1,19 @@
 {
- "version": "V22.326",
+ "version": "V22.327",
  "date": "2026-11-18",
  "notes": [
-  "Biên bản gói chỉ định thầu rút gọn: trích yếu đổi thành “Về việc thương thảo, hoàn thiện hợp đồng gói thầu: …”; tên bước trên menu: Biên bản thương thảo HĐ"
+  "Trợ lý AI to rõ, dễ thấy: nút nổi 🤖 Trợ lý AI góc phải dưới màn hình Soạn hồ sơ; khung trợ lý bên phải với nút lớn 🔎 Rà soát văn bản, 💡 Gợi ý nội dung, ô Hỏi / yêu cầu riêng; báo rõ trạng thái kết nối (chưa thiết lập khóa, cần đăng nhập máy chủ…), Admin thiết lập khóa ngay trong khung",
+  "Thanh Trợ lý AI ở đầu biểu mẫu mỗi văn bản luôn hiện (kể cả khi chưa thiết lập) với nút lớn"
  ],
  "history": [
+  {
+   "version": "V22.327",
+   "date": "2026-11-18",
+   "notes": [
+    "Trợ lý AI to rõ, dễ thấy: nút nổi 🤖 Trợ lý AI góc phải dưới màn hình Soạn hồ sơ; khung trợ lý bên phải với nút lớn 🔎 Rà soát văn bản, 💡 Gợi ý nội dung, ô Hỏi / yêu cầu riêng; báo rõ trạng thái kết nối (chưa thiết lập khóa, cần đăng nhập máy chủ…), Admin thiết lập khóa ngay trong khung",
+    "Thanh Trợ lý AI ở đầu biểu mẫu mỗi văn bản luôn hiện (kể cả khi chưa thiết lập) với nút lớn"
+   ]
+  },
   {
    "version": "V22.326",
    "date": "2026-11-18",
