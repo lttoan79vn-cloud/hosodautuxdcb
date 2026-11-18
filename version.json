@@ -1,10 +1,19 @@
 {
- "version": "V22.320",
+ "version": "V22.321",
  "date": "2026-11-18",
  "notes": [
-  "Hồ sơ giá thành (thiết bị, XDCB): thêm Thư mời thương thảo hợp đồng trước Biên bản thương thảo – cho cả Mua sắm nhỏ lẻ và Chào hàng cạnh tranh; tắt/bật theo từng gói ở Phân chia gói thầu; Biên bản thương thảo dẫn căn cứ thư mời"
+  "Phần ký cuối văn bản (tất cả văn bản): cụm ký (các phòng ký, nơi nhận, người ký/duyệt) luôn nằm gọn trong 1 trang, không bị tách; nếu không đủ chỗ thì cả cụm sang trang sau kèm 1–2 đoạn nội dung cuối – trang ký luôn có nội dung văn bản (bản Word, In/PDF, Xem trước bản in)",
+  "Chữ chức danh, họ tên người ký tối thiểu 13pt – không co nhỏ để ép vừa trang"
  ],
  "history": [
+  {
+   "version": "V22.321",
+   "date": "2026-11-18",
+   "notes": [
+    "Phần ký cuối văn bản (tất cả văn bản): cụm ký (các phòng ký, nơi nhận, người ký/duyệt) luôn nằm gọn trong 1 trang, không bị tách; nếu không đủ chỗ thì cả cụm sang trang sau kèm 1–2 đoạn nội dung cuối – trang ký luôn có nội dung văn bản (bản Word, In/PDF, Xem trước bản in)",
+    "Chữ chức danh, họ tên người ký tối thiểu 13pt – không co nhỏ để ép vừa trang"
+   ]
+  },
   {
    "version": "V22.320",
    "date": "2026-11-18",
