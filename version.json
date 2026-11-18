@@ -1,11 +1,19 @@
 {
- "version": "V22.330",
+ "version": "V22.331",
  "date": "2026-11-18",
  "notes": [
-  "Trợ lý AI: khi máy chủ AI của nhà cung cấp quá tải (503) hoặc tạm vượt hạn mức (429), máy chủ Công ty tự thử lại tối đa 4 lần (giãn cách 2–4–8 giây) trước khi báo lỗi – cần cập nhật Code.gs",
-  "Thông báo lỗi quá tải rõ ràng bằng tiếng Việt: khóa API và model vẫn đúng, chỉ cần thử lại sau ít phút"
+  "Trợ lý AI: sửa lỗi báo nhầm “trình duyệt chặn gửi thông tin đăng nhập” – nguyên nhân là chương trình chỉ chờ 30 giây rồi gửi lặp yêu cầu AI; nay chờ tối đa gần 3 phút, không gửi lặp (không tốn thêm lượt), báo đúng lỗi (AI phản hồi quá lâu / quá tải)",
+  "Máy chủ tự thử lại khi AI quá tải: 3 lần, giãn cách 3–6 giây – cần cập nhật Code.gs"
  ],
  "history": [
+  {
+   "version": "V22.331",
+   "date": "2026-11-18",
+   "notes": [
+    "Trợ lý AI: sửa lỗi báo nhầm “trình duyệt chặn gửi thông tin đăng nhập” – nguyên nhân là chương trình chỉ chờ 30 giây rồi gửi lặp yêu cầu AI; nay chờ tối đa gần 3 phút, không gửi lặp (không tốn thêm lượt), báo đúng lỗi (AI phản hồi quá lâu / quá tải)",
+    "Máy chủ tự thử lại khi AI quá tải: 3 lần, giãn cách 3–6 giây – cần cập nhật Code.gs"
+   ]
+  },
   {
    "version": "V22.330",
    "date": "2026-11-18",
