@@ -1,11 +1,19 @@
 {
- "version": "V22.327",
+ "version": "V22.328",
  "date": "2026-11-18",
  "notes": [
-  "Trợ lý AI to rõ, dễ thấy: nút nổi 🤖 Trợ lý AI góc phải dưới màn hình Soạn hồ sơ; khung trợ lý bên phải với nút lớn 🔎 Rà soát văn bản, 💡 Gợi ý nội dung, ô Hỏi / yêu cầu riêng; báo rõ trạng thái kết nối (chưa thiết lập khóa, cần đăng nhập máy chủ…), Admin thiết lập khóa ngay trong khung",
-  "Thanh Trợ lý AI ở đầu biểu mẫu mỗi văn bản luôn hiện (kể cả khi chưa thiết lập) với nút lớn"
+  "Thiết lập Trợ lý AI chuyển vào menu Trợ giúp › 🤖 Thiết lập Trợ lý AI – chỉ tài khoản Admin thấy và thiết lập được; có hướng dẫn từng bước lấy và dán khóa API (Google Gemini miễn phí, Claude, ChatGPT), trạng thái đang bật/tắt, Lưu & thử kết nối, Thử kết nối, Xóa khóa",
+  "Khung Trợ lý AI và trình soạn thảo văn bản không còn ô nhập khóa – Admin được dẫn tới Trợ giúp"
  ],
  "history": [
+  {
+   "version": "V22.328",
+   "date": "2026-11-18",
+   "notes": [
+    "Thiết lập Trợ lý AI chuyển vào menu Trợ giúp › 🤖 Thiết lập Trợ lý AI – chỉ tài khoản Admin thấy và thiết lập được; có hướng dẫn từng bước lấy và dán khóa API (Google Gemini miễn phí, Claude, ChatGPT), trạng thái đang bật/tắt, Lưu & thử kết nối, Thử kết nối, Xóa khóa",
+    "Khung Trợ lý AI và trình soạn thảo văn bản không còn ô nhập khóa – Admin được dẫn tới Trợ giúp"
+   ]
+  },
   {
    "version": "V22.327",
    "date": "2026-11-18",
