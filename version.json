@@ -1,10 +1,17 @@
 {
- "version": "V22.325",
+ "version": "V22.326",
  "date": "2026-11-18",
  "notes": [
-  "Trích yếu (V/v dưới số) và trích yếu dưới tên loại văn bản: không còn rớt 1 chữ xuống dòng cuối – 2 từ cuối luôn đi liền, các dòng chia cân đối (màn hình, In/PDF, Word)"
+  "Biên bản gói chỉ định thầu rút gọn: trích yếu đổi thành “Về việc thương thảo, hoàn thiện hợp đồng gói thầu: …”; tên bước trên menu: Biên bản thương thảo HĐ"
  ],
  "history": [
+  {
+   "version": "V22.326",
+   "date": "2026-11-18",
+   "notes": [
+    "Biên bản gói chỉ định thầu rút gọn: trích yếu đổi thành “Về việc thương thảo, hoàn thiện hợp đồng gói thầu: …”; tên bước trên menu: Biên bản thương thảo HĐ"
+   ]
+  },
   {
    "version": "V22.325",
    "date": "2026-11-18",
