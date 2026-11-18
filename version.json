@@ -1,11 +1,21 @@
 {
- "version": "V22.316",
+ "version": "V22.317",
  "date": "2026-11-18",
  "notes": [
-  "Báo cáo thẩm định (Phòng chuyên môn): thêm chế độ ✍ Soạn nội dung trên phần mềm – căn cứ, hồ sơ trình, kết quả thẩm định (phù hợp kế hoạch, sự cần thiết, giải pháp thiết kế, dự toán đề nghị – thẩm định – tăng giảm), kết luận, kiến nghị; xuất Word, in",
-  "Bước mới Báo cáo thẩm tra (Đơn vị tư vấn) trước TTr duyệt BC KTKT: bật khi có thuê tư vấn thẩm tra; nạp file hoặc soạn báo cáo kết quả thẩm tra theo tiêu đề đơn vị tư vấn; tự đưa vào căn cứ của Tờ trình, Quyết định và báo cáo thẩm định"
+  "Ô ký các phòng: “Phó phòng PT&QLKCN” in thành “PHÒNG PT&QLKCN” trên 1 dòng (thẳng hàng tên người ký)",
+  "TTr duyệt kết quả LCNT gói chỉ định thầu: các phòng chuyên môn ký như Biên bản xét chọn + DUYỆT Lãnh đạo khối; nơi nhận Như trên – P.KHVT, P.TCKT – Lưu P.PT&QLKCN",
+  "TTr duyệt kết quả LCNT gói CHCT/ĐTRR/ĐTHC có Tổ chuyên gia: tiêu đề Tổ chuyên gia, ký hiệu TTr-TCG, TM. TỔ CHUYÊN GIA – TỔ TRƯỞNG ký"
  ],
  "history": [
+  {
+   "version": "V22.317",
+   "date": "2026-11-18",
+   "notes": [
+    "Ô ký các phòng: “Phó phòng PT&QLKCN” in thành “PHÒNG PT&QLKCN” trên 1 dòng (thẳng hàng tên người ký)",
+    "TTr duyệt kết quả LCNT gói chỉ định thầu: các phòng chuyên môn ký như Biên bản xét chọn + DUYỆT Lãnh đạo khối; nơi nhận Như trên – P.KHVT, P.TCKT – Lưu P.PT&QLKCN",
+    "TTr duyệt kết quả LCNT gói CHCT/ĐTRR/ĐTHC có Tổ chuyên gia: tiêu đề Tổ chuyên gia, ký hiệu TTr-TCG, TM. TỔ CHUYÊN GIA – TỔ TRƯỞNG ký"
+   ]
+  },
   {
    "version": "V22.316",
    "date": "2026-11-18",
