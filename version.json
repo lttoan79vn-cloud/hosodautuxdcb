@@ -1,11 +1,19 @@
 {
- "version": "V22.329",
+ "version": "V22.330",
  "date": "2026-11-18",
  "notes": [
-  "Trợ lý AI: model Gemini mặc định đổi sang gemini-3.8-flash (gemini-2.5-flash đã ngừng cấp cho người dùng mới); khi nhà cung cấp báo model ngừng, chương trình và máy chủ tự chuyển sang model được đề nghị và thử lại – cần cập nhật Code.gs",
-  "Mục Thiết lập Trợ lý AI: các nút gọn, thông báo kết quả hiển thị riêng một dòng"
+  "Trợ lý AI: khi máy chủ AI của nhà cung cấp quá tải (503) hoặc tạm vượt hạn mức (429), máy chủ Công ty tự thử lại tối đa 4 lần (giãn cách 2–4–8 giây) trước khi báo lỗi – cần cập nhật Code.gs",
+  "Thông báo lỗi quá tải rõ ràng bằng tiếng Việt: khóa API và model vẫn đúng, chỉ cần thử lại sau ít phút"
  ],
  "history": [
+  {
+   "version": "V22.330",
+   "date": "2026-11-18",
+   "notes": [
+    "Trợ lý AI: khi máy chủ AI của nhà cung cấp quá tải (503) hoặc tạm vượt hạn mức (429), máy chủ Công ty tự thử lại tối đa 4 lần (giãn cách 2–4–8 giây) trước khi báo lỗi – cần cập nhật Code.gs",
+    "Thông báo lỗi quá tải rõ ràng bằng tiếng Việt: khóa API và model vẫn đúng, chỉ cần thử lại sau ít phút"
+   ]
+  },
   {
    "version": "V22.329",
    "date": "2026-11-18",
