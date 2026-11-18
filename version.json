@@ -1,11 +1,19 @@
 {
- "version": "V22.338",
+ "version": "V22.339",
  "date": "2026-11-18",
  "notes": [
-  "Trợ lý AI: nút ✍ Cập nhật vào văn bản cạnh nút Sao chép – AI đối chiếu gợi ý với từng ô nhập của văn bản đang soạn, loại bỏ phần thừa (tiêu đề mục, lời giải thích), chỉ lấy nội dung chuẩn theo loại văn bản, có căn cứ/cơ sở, không suy diễn số liệu",
-  "Người dùng duyệt từng ô (nội dung cũ, nội dung mới sửa được, căn cứ/cơ sở, chọn/bỏ chọn) rồi mới Cập nhật; không tự sửa số hiệu, ngày, thông tin định danh (tên, địa chỉ, MST, người đại diện…)"
+  "Đoạn 'Kính gửi' luôn cách trên/dưới 12pt cho mọi văn bản (dạng danh sách: 12pt trước dòng 'Kính gửi:' và sau dòng cuối)",
+  "Trích yếu công văn (V/v) canh đều 2 bên nhưng không giãn chữ: tự điều chỉnh độ rộng khung theo độ dài chữ (đo chữ thực tế), áp dụng cả bản xem và file Word"
  ],
  "history": [
+  {
+   "version": "V22.339",
+   "date": "2026-11-18",
+   "notes": [
+    "Đoạn 'Kính gửi' luôn cách trên/dưới 12pt cho mọi văn bản (dạng danh sách: 12pt trước dòng 'Kính gửi:' và sau dòng cuối)",
+    "Trích yếu công văn (V/v) canh đều 2 bên nhưng không giãn chữ: tự điều chỉnh độ rộng khung theo độ dài chữ (đo chữ thực tế), áp dụng cả bản xem và file Word"
+   ]
+  },
   {
    "version": "V22.338",
    "date": "2026-11-18",
