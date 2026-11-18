@@ -1,12 +1,21 @@
 {
- "version": "V22.314",
+ "version": "V22.315",
  "date": "2026-11-18",
  "notes": [
-  "Biên bản xem xét lựa chọn nhà thầu (xét chọn) có ô Số biên bản – in “Số: …/BB-PTQLKCN”, dẫn số khi làm căn cứ ở văn bản sau",
-  "Rà soát toàn bộ văn bản: bổ sung số cho Yêu cầu mua sắm nhỏ lẻ / Yêu cầu báo giá thi công (…/YC-PTQLKCN) và Biên bản thương thảo HĐ tư vấn; các văn bản số tùy chọn để trống thì không in dòng Số",
-  "Danh mục → ký hiệu văn bản: thêm ô Thư mời báo giá và Yêu cầu mua sắm"
+  "Văn bản nội bộ của Phòng (biên bản, tờ trình phòng, yêu cầu mua sắm…): tiêu đề dòng 1 CÔNG TY CỔ PHẦN CAO SU PHƯỚC HÒA, dòng 2 PHÒNG PT&QLKCN",
+  "Nút 🔢 Lấy số cho Biên bản xem xét lựa chọn nhà thầu; nút ✖ Hủy số – ghi hủy trong Sổ đăng ký và xóa số khỏi văn bản; lấy lại số thì số cũ tự hủy",
+  "Sổ đăng ký: số bị hủy ở cuối sổ (chưa ai lấy số kế tiếp) được cấp lại cho người lấy số tiếp theo – cần cập nhật Code.gs"
  ],
  "history": [
+  {
+   "version": "V22.315",
+   "date": "2026-11-18",
+   "notes": [
+    "Văn bản nội bộ của Phòng (biên bản, tờ trình phòng, yêu cầu mua sắm…): tiêu đề dòng 1 CÔNG TY CỔ PHẦN CAO SU PHƯỚC HÒA, dòng 2 PHÒNG PT&QLKCN",
+    "Nút 🔢 Lấy số cho Biên bản xem xét lựa chọn nhà thầu; nút ✖ Hủy số – ghi hủy trong Sổ đăng ký và xóa số khỏi văn bản; lấy lại số thì số cũ tự hủy",
+    "Sổ đăng ký: số bị hủy ở cuối sổ (chưa ai lấy số kế tiếp) được cấp lại cho người lấy số tiếp theo – cần cập nhật Code.gs"
+   ]
+  },
   {
    "version": "V22.314",
    "date": "2026-11-18",
