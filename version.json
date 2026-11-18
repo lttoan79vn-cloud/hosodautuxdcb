@@ -1,10 +1,19 @@
 {
- "version": "V22.311",
+ "version": "V22.312",
  "date": "2026-11-18",
  "notes": [
-  "Nhật ký công trình – in / xuất Word: gạch đầu dòng thống nhất cho các mục: mỗi hạng mục một dòng riêng (kèm lũy kế), thiết bị / máy móc, nhân công (công nhân, cán bộ kỹ thuật, khác), hàng hóa và nội dung kiểm tra (nhật ký lắp đặt), công việc tư vấn, nhân sự tư vấn, kết quả – sản phẩm bàn giao (nhật ký tư vấn); mỗi ý một dòng lùi thẳng cột."
+  "Hồ sơ giá thành: sắp xếp menu theo cùng trình tự 5 bước như hồ sơ đầu tư XDCB (Khởi tạo → Chuẩn bị đầu tư → Kế hoạch LCNT → Lựa chọn nhà thầu theo hình thức → Đồng bộ)",
+  "Thư mục hình thức hiển thị số gói và tên gói giống hồ sơ đầu tư"
  ],
  "history": [
+  {
+   "version": "V22.312",
+   "date": "2026-11-18",
+   "notes": [
+    "Hồ sơ giá thành: sắp xếp menu theo cùng trình tự 5 bước như hồ sơ đầu tư XDCB (Khởi tạo → Chuẩn bị đầu tư → Kế hoạch LCNT → Lựa chọn nhà thầu theo hình thức → Đồng bộ)",
+    "Thư mục hình thức hiển thị số gói và tên gói giống hồ sơ đầu tư"
+   ]
+  },
   {
    "version": "V22.311",
    "date": "2026-11-18",
