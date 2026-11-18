@@ -1,11 +1,17 @@
 {
- "version": "V22.321",
+ "version": "V22.322",
  "date": "2026-11-18",
  "notes": [
-  "Phần ký cuối văn bản (tất cả văn bản): cụm ký (các phòng ký, nơi nhận, người ký/duyệt) luôn nằm gọn trong 1 trang, không bị tách; nếu không đủ chỗ thì cả cụm sang trang sau kèm 1–2 đoạn nội dung cuối – trang ký luôn có nội dung văn bản (bản Word, In/PDF, Xem trước bản in)",
-  "Chữ chức danh, họ tên người ký tối thiểu 13pt – không co nhỏ để ép vừa trang"
+  "Văn bản phải giãn sang trang 2 vì cụm ký: chữ chức danh, họ tên người ký tăng lên 14pt; nội dung trang 1 tự giãn đều khoảng cách đoạn từ lề trên xuống lề dưới, không còn khoảng trống lớn cuối trang (bản Word, In/PDF, xem trước)"
  ],
  "history": [
+  {
+   "version": "V22.322",
+   "date": "2026-11-18",
+   "notes": [
+    "Văn bản phải giãn sang trang 2 vì cụm ký: chữ chức danh, họ tên người ký tăng lên 14pt; nội dung trang 1 tự giãn đều khoảng cách đoạn từ lề trên xuống lề dưới, không còn khoảng trống lớn cuối trang (bản Word, In/PDF, xem trước)"
+   ]
+  },
   {
    "version": "V22.321",
    "date": "2026-11-18",
