@@ -1,13 +1,21 @@
 {
- "version": "V22.313",
+ "version": "V22.314",
  "date": "2026-11-18",
  "notes": [
-  "Hồ sơ giá thành: chọn quy trình chuyển vào bước TTr duyệt dự toán & KHLCNT – tạo, chia, gộp gói; mỗi gói chọn hình thức (Chào hàng cạnh tranh / Mua sắm nhỏ lẻ), nhà cung cấp và gán hàng hóa/hạng mục riêng",
-  "Văn bản từng gói (E-HSMT, thương thảo, kết quả, hợp đồng, nghiệm thu…) tự lấy tên, giá trị, danh mục và quy trình của gói; tờ trình/quyết định dự toán & phụ lục KHLCNT liệt kê đủ các gói",
-  "Biên bản kiểm tra hiện trạng: nút + Thêm hạng mục kiểm tra, biên bản đánh số 1, 2… cho từng hạng mục",
-  "Thư viện pháp luật gắn vào dòng Thông tin chung trên menu"
+  "Biên bản xem xét lựa chọn nhà thầu (xét chọn) có ô Số biên bản – in “Số: …/BB-PTQLKCN”, dẫn số khi làm căn cứ ở văn bản sau",
+  "Rà soát toàn bộ văn bản: bổ sung số cho Yêu cầu mua sắm nhỏ lẻ / Yêu cầu báo giá thi công (…/YC-PTQLKCN) và Biên bản thương thảo HĐ tư vấn; các văn bản số tùy chọn để trống thì không in dòng Số",
+  "Danh mục → ký hiệu văn bản: thêm ô Thư mời báo giá và Yêu cầu mua sắm"
  ],
  "history": [
+  {
+   "version": "V22.314",
+   "date": "2026-11-18",
+   "notes": [
+    "Biên bản xem xét lựa chọn nhà thầu (xét chọn) có ô Số biên bản – in “Số: …/BB-PTQLKCN”, dẫn số khi làm căn cứ ở văn bản sau",
+    "Rà soát toàn bộ văn bản: bổ sung số cho Yêu cầu mua sắm nhỏ lẻ / Yêu cầu báo giá thi công (…/YC-PTQLKCN) và Biên bản thương thảo HĐ tư vấn; các văn bản số tùy chọn để trống thì không in dòng Số",
+    "Danh mục → ký hiệu văn bản: thêm ô Thư mời báo giá và Yêu cầu mua sắm"
+   ]
+  },
   {
    "version": "V22.313",
    "date": "2026-11-18",
