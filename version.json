@@ -1,11 +1,23 @@
 {
- "version": "V22.312",
+ "version": "V22.313",
  "date": "2026-11-18",
  "notes": [
-  "Hồ sơ giá thành: sắp xếp menu theo cùng trình tự 5 bước như hồ sơ đầu tư XDCB (Khởi tạo → Chuẩn bị đầu tư → Kế hoạch LCNT → Lựa chọn nhà thầu theo hình thức → Đồng bộ)",
-  "Thư mục hình thức hiển thị số gói và tên gói giống hồ sơ đầu tư"
+  "Hồ sơ giá thành: chọn quy trình chuyển vào bước TTr duyệt dự toán & KHLCNT – tạo, chia, gộp gói; mỗi gói chọn hình thức (Chào hàng cạnh tranh / Mua sắm nhỏ lẻ), nhà cung cấp và gán hàng hóa/hạng mục riêng",
+  "Văn bản từng gói (E-HSMT, thương thảo, kết quả, hợp đồng, nghiệm thu…) tự lấy tên, giá trị, danh mục và quy trình của gói; tờ trình/quyết định dự toán & phụ lục KHLCNT liệt kê đủ các gói",
+  "Biên bản kiểm tra hiện trạng: nút + Thêm hạng mục kiểm tra, biên bản đánh số 1, 2… cho từng hạng mục",
+  "Thư viện pháp luật gắn vào dòng Thông tin chung trên menu"
  ],
  "history": [
+  {
+   "version": "V22.313",
+   "date": "2026-11-18",
+   "notes": [
+    "Hồ sơ giá thành: chọn quy trình chuyển vào bước TTr duyệt dự toán & KHLCNT – tạo, chia, gộp gói; mỗi gói chọn hình thức (Chào hàng cạnh tranh / Mua sắm nhỏ lẻ), nhà cung cấp và gán hàng hóa/hạng mục riêng",
+    "Văn bản từng gói (E-HSMT, thương thảo, kết quả, hợp đồng, nghiệm thu…) tự lấy tên, giá trị, danh mục và quy trình của gói; tờ trình/quyết định dự toán & phụ lục KHLCNT liệt kê đủ các gói",
+    "Biên bản kiểm tra hiện trạng: nút + Thêm hạng mục kiểm tra, biên bản đánh số 1, 2… cho từng hạng mục",
+    "Thư viện pháp luật gắn vào dòng Thông tin chung trên menu"
+   ]
+  },
   {
    "version": "V22.312",
    "date": "2026-11-18",
