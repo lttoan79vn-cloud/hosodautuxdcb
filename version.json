@@ -1,12 +1,21 @@
 {
- "version": "V22.332",
+ "version": "V22.333",
  "date": "2026-11-18",
  "notes": [
-  "Trợ lý AI nhanh hơn: máy chủ tắt/giảm chế độ “suy nghĩ” dài của Gemini (văn bản hành chính không cần), gửi nội dung gọn hơn và yêu cầu trả lời ngắn gọn – cần cập nhật Code.gs",
-  "Cùng một yêu cầu trên cùng văn bản trong 6 giờ: trả kết quả ngay, không gọi lại AI, không tính lượt",
-  "Khung Trợ lý AI hiện số giây đang chờ và thời gian xử lý"
+  "Trợ lý AI nhanh hơn: Gemini tắt gần hết chế độ suy nghĩ (minimal); khi quá tải chuyển NGAY sang model dự phòng thay vì chờ – cần cập nhật Code.gs",
+  "Trợ giúp › Thiết lập Trợ lý AI: 📋 Lấy danh sách model thật của nhà cung cấp, ⚡ Đo tốc độ & chọn model nhanh (Dùng làm chính / Dự phòng), ô Model dự phòng khi quá tải",
+  "Khung Trợ lý AI ghi thời gian AI xử lý, model đã dùng, số lần thử; câu hỏi riêng gửi gọn hơn"
  ],
  "history": [
+  {
+   "version": "V22.333",
+   "date": "2026-11-18",
+   "notes": [
+    "Trợ lý AI nhanh hơn: Gemini tắt gần hết chế độ suy nghĩ (minimal); khi quá tải chuyển NGAY sang model dự phòng thay vì chờ – cần cập nhật Code.gs",
+    "Trợ giúp › Thiết lập Trợ lý AI: 📋 Lấy danh sách model thật của nhà cung cấp, ⚡ Đo tốc độ & chọn model nhanh (Dùng làm chính / Dự phòng), ô Model dự phòng khi quá tải",
+    "Khung Trợ lý AI ghi thời gian AI xử lý, model đã dùng, số lần thử; câu hỏi riêng gửi gọn hơn"
+   ]
+  },
   {
    "version": "V22.332",
    "date": "2026-11-18",
