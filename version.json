@@ -1,11 +1,21 @@
 {
- "version": "V22.339",
+ "version": "V22.340",
  "date": "2026-11-18",
  "notes": [
-  "Đoạn 'Kính gửi' luôn cách trên/dưới 12pt cho mọi văn bản (dạng danh sách: 12pt trước dòng 'Kính gửi:' và sau dòng cuối)",
-  "Trích yếu công văn (V/v) canh đều 2 bên nhưng không giãn chữ: tự điều chỉnh độ rộng khung theo độ dài chữ (đo chữ thực tế), áp dụng cả bản xem và file Word"
+  "Thanh công cụ bản xem Soạn thảo văn bản luôn nằm trên 1 hàng: thiếu chỗ thì tự thu gọn nút, rồi chỉ giữ biểu tượng (rê chuột xem tên); Xuất Word và Trợ lý AI luôn giữ chữ",
+  "Không vẽ lại / đồng bộ tức thời khi đang gõ: bản xem văn bản và hồ sơ chờ ngừng gõ ~1 giây (tự tăng theo độ nặng văn bản, tối đa 8 giây) mới cập nhật; đếm trang, cập nhật vùng soạn trái và lịch sử hoàn tác cũng chờ ngừng gõ",
+  "Tự lưu 7 phút và đồng bộ máy chủ: nếu đang gõ thì lùi lại, gửi khi ngừng gõ (tự lưu chờ ngừng 4 giây, tối đa 2 phút; đồng bộ chờ ngừng 8 giây, tối đa thêm 5 phút); bấm Lưu vẫn gửi ngay"
  ],
  "history": [
+  {
+   "version": "V22.340",
+   "date": "2026-11-18",
+   "notes": [
+    "Thanh công cụ bản xem Soạn thảo văn bản luôn nằm trên 1 hàng: thiếu chỗ thì tự thu gọn nút, rồi chỉ giữ biểu tượng (rê chuột xem tên); Xuất Word và Trợ lý AI luôn giữ chữ",
+    "Không vẽ lại / đồng bộ tức thời khi đang gõ: bản xem văn bản và hồ sơ chờ ngừng gõ ~1 giây (tự tăng theo độ nặng văn bản, tối đa 8 giây) mới cập nhật; đếm trang, cập nhật vùng soạn trái và lịch sử hoàn tác cũng chờ ngừng gõ",
+    "Tự lưu 7 phút và đồng bộ máy chủ: nếu đang gõ thì lùi lại, gửi khi ngừng gõ (tự lưu chờ ngừng 4 giây, tối đa 2 phút; đồng bộ chờ ngừng 8 giây, tối đa thêm 5 phút); bấm Lưu vẫn gửi ngay"
+   ]
+  },
   {
    "version": "V22.339",
    "date": "2026-11-18",
