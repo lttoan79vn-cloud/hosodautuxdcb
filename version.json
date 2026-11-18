@@ -1,11 +1,19 @@
 {
- "version": "V22.335",
+ "version": "V22.336",
  "date": "2026-11-18",
  "notes": [
-  "Trợ lý AI có ở menu Soạn thảo văn bản: nút 🤖 AI trên thanh công cụ của vùng soạn (cùng các chức năng soạn, viết tiếp, sửa chính tả, văn phong, rút gọn/mở rộng, chuyển bảng, rà soát thể thức); nút nổi 🤖 Trợ lý AI và khung trợ lý Chuyên sâu/Nhanh đọc văn bản đang soạn",
-  "Ô nhập nhiều dòng ở Lập kế hoạch cũng có hộp AI"
+  "Nút 🤖 Trợ lý AI đặt trên thanh công cụ của khung xem văn bản, ngay cạnh nút Xuất Word, cùng kích thước – ở menu Soạn thảo văn bản và Soạn hồ sơ",
+  "Nút nổi Trợ lý AI thu nhỏ, chỉ hiện khi không thấy nút trên thanh công cụ (cuộn xuống, màn hình điện thoại)"
  ],
  "history": [
+  {
+   "version": "V22.336",
+   "date": "2026-11-18",
+   "notes": [
+    "Nút 🤖 Trợ lý AI đặt trên thanh công cụ của khung xem văn bản, ngay cạnh nút Xuất Word, cùng kích thước – ở menu Soạn thảo văn bản và Soạn hồ sơ",
+    "Nút nổi Trợ lý AI thu nhỏ, chỉ hiện khi không thấy nút trên thanh công cụ (cuộn xuống, màn hình điện thoại)"
+   ]
+  },
   {
    "version": "V22.335",
    "date": "2026-11-18",
