@@ -1,11 +1,19 @@
 {
- "version": "V22.336",
+ "version": "V22.337",
  "date": "2026-11-18",
  "notes": [
-  "Nút 🤖 Trợ lý AI đặt trên thanh công cụ của khung xem văn bản, ngay cạnh nút Xuất Word, cùng kích thước – ở menu Soạn thảo văn bản và Soạn hồ sơ",
-  "Nút nổi Trợ lý AI thu nhỏ, chỉ hiện khi không thấy nút trên thanh công cụ (cuộn xuống, màn hình điện thoại)"
+  "Khung Trợ lý AI gọn hơn: bỏ 2 ô lớn Rà soát văn bản / Gợi ý nội dung, thay bằng 2 nút nhỏ cạnh ô Hỏi / yêu cầu riêng; nút chế độ Chuyên sâu / Nhanh thu gọn – giữ nguyên mọi chức năng",
+  "Thanh Trợ lý AI đầu biểu mẫu văn bản: tiêu đề và 2 nút Rà soát, Gợi ý nội dung trên cùng 1 hàng"
  ],
  "history": [
+  {
+   "version": "V22.337",
+   "date": "2026-11-18",
+   "notes": [
+    "Khung Trợ lý AI gọn hơn: bỏ 2 ô lớn Rà soát văn bản / Gợi ý nội dung, thay bằng 2 nút nhỏ cạnh ô Hỏi / yêu cầu riêng; nút chế độ Chuyên sâu / Nhanh thu gọn – giữ nguyên mọi chức năng",
+    "Thanh Trợ lý AI đầu biểu mẫu văn bản: tiêu đề và 2 nút Rà soát, Gợi ý nội dung trên cùng 1 hàng"
+   ]
+  },
   {
    "version": "V22.336",
    "date": "2026-11-18",
