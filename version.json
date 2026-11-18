@@ -1,12 +1,19 @@
 {
- "version": "V22.315",
+ "version": "V22.316",
  "date": "2026-11-18",
  "notes": [
-  "Văn bản nội bộ của Phòng (biên bản, tờ trình phòng, yêu cầu mua sắm…): tiêu đề dòng 1 CÔNG TY CỔ PHẦN CAO SU PHƯỚC HÒA, dòng 2 PHÒNG PT&QLKCN",
-  "Nút 🔢 Lấy số cho Biên bản xem xét lựa chọn nhà thầu; nút ✖ Hủy số – ghi hủy trong Sổ đăng ký và xóa số khỏi văn bản; lấy lại số thì số cũ tự hủy",
-  "Sổ đăng ký: số bị hủy ở cuối sổ (chưa ai lấy số kế tiếp) được cấp lại cho người lấy số tiếp theo – cần cập nhật Code.gs"
+  "Báo cáo thẩm định (Phòng chuyên môn): thêm chế độ ✍ Soạn nội dung trên phần mềm – căn cứ, hồ sơ trình, kết quả thẩm định (phù hợp kế hoạch, sự cần thiết, giải pháp thiết kế, dự toán đề nghị – thẩm định – tăng giảm), kết luận, kiến nghị; xuất Word, in",
+  "Bước mới Báo cáo thẩm tra (Đơn vị tư vấn) trước TTr duyệt BC KTKT: bật khi có thuê tư vấn thẩm tra; nạp file hoặc soạn báo cáo kết quả thẩm tra theo tiêu đề đơn vị tư vấn; tự đưa vào căn cứ của Tờ trình, Quyết định và báo cáo thẩm định"
  ],
  "history": [
+  {
+   "version": "V22.316",
+   "date": "2026-11-18",
+   "notes": [
+    "Báo cáo thẩm định (Phòng chuyên môn): thêm chế độ ✍ Soạn nội dung trên phần mềm – căn cứ, hồ sơ trình, kết quả thẩm định (phù hợp kế hoạch, sự cần thiết, giải pháp thiết kế, dự toán đề nghị – thẩm định – tăng giảm), kết luận, kiến nghị; xuất Word, in",
+    "Bước mới Báo cáo thẩm tra (Đơn vị tư vấn) trước TTr duyệt BC KTKT: bật khi có thuê tư vấn thẩm tra; nạp file hoặc soạn báo cáo kết quả thẩm tra theo tiêu đề đơn vị tư vấn; tự đưa vào căn cứ của Tờ trình, Quyết định và báo cáo thẩm định"
+   ]
+  },
   {
    "version": "V22.315",
    "date": "2026-11-18",
