@@ -1,11 +1,19 @@
 {
- "version": "V22.337",
+ "version": "V22.338",
  "date": "2026-11-18",
  "notes": [
-  "Khung Trợ lý AI gọn hơn: bỏ 2 ô lớn Rà soát văn bản / Gợi ý nội dung, thay bằng 2 nút nhỏ cạnh ô Hỏi / yêu cầu riêng; nút chế độ Chuyên sâu / Nhanh thu gọn – giữ nguyên mọi chức năng",
-  "Thanh Trợ lý AI đầu biểu mẫu văn bản: tiêu đề và 2 nút Rà soát, Gợi ý nội dung trên cùng 1 hàng"
+  "Trợ lý AI: nút ✍ Cập nhật vào văn bản cạnh nút Sao chép – AI đối chiếu gợi ý với từng ô nhập của văn bản đang soạn, loại bỏ phần thừa (tiêu đề mục, lời giải thích), chỉ lấy nội dung chuẩn theo loại văn bản, có căn cứ/cơ sở, không suy diễn số liệu",
+  "Người dùng duyệt từng ô (nội dung cũ, nội dung mới sửa được, căn cứ/cơ sở, chọn/bỏ chọn) rồi mới Cập nhật; không tự sửa số hiệu, ngày, thông tin định danh (tên, địa chỉ, MST, người đại diện…)"
  ],
  "history": [
+  {
+   "version": "V22.338",
+   "date": "2026-11-18",
+   "notes": [
+    "Trợ lý AI: nút ✍ Cập nhật vào văn bản cạnh nút Sao chép – AI đối chiếu gợi ý với từng ô nhập của văn bản đang soạn, loại bỏ phần thừa (tiêu đề mục, lời giải thích), chỉ lấy nội dung chuẩn theo loại văn bản, có căn cứ/cơ sở, không suy diễn số liệu",
+    "Người dùng duyệt từng ô (nội dung cũ, nội dung mới sửa được, căn cứ/cơ sở, chọn/bỏ chọn) rồi mới Cập nhật; không tự sửa số hiệu, ngày, thông tin định danh (tên, địa chỉ, MST, người đại diện…)"
+   ]
+  },
   {
    "version": "V22.337",
    "date": "2026-11-18",
