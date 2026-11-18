@@ -1,10 +1,17 @@
 {
- "version": "V22.310",
+ "version": "V22.311",
  "date": "2026-11-18",
  "notes": [
-  "Nhật ký công trình – in / xuất Word: nội dung thực hiện trong hạng mục (công việc, vị trí, khối lượng, vật liệu) được gạch đầu dòng, mỗi dòng một đoạn lùi đầu dòng thẳng cột với các nội dung khác (không còn dòng sát lề trái)."
+  "Nhật ký công trình – in / xuất Word: gạch đầu dòng thống nhất cho các mục: mỗi hạng mục một dòng riêng (kèm lũy kế), thiết bị / máy móc, nhân công (công nhân, cán bộ kỹ thuật, khác), hàng hóa và nội dung kiểm tra (nhật ký lắp đặt), công việc tư vấn, nhân sự tư vấn, kết quả – sản phẩm bàn giao (nhật ký tư vấn); mỗi ý một dòng lùi thẳng cột."
  ],
  "history": [
+  {
+   "version": "V22.311",
+   "date": "2026-11-18",
+   "notes": [
+    "Nhật ký công trình – in / xuất Word: gạch đầu dòng thống nhất cho các mục: mỗi hạng mục một dòng riêng (kèm lũy kế), thiết bị / máy móc, nhân công (công nhân, cán bộ kỹ thuật, khác), hàng hóa và nội dung kiểm tra (nhật ký lắp đặt), công việc tư vấn, nhân sự tư vấn, kết quả – sản phẩm bàn giao (nhật ký tư vấn); mỗi ý một dòng lùi thẳng cột."
+   ]
+  },
   {
    "version": "V22.310",
    "date": "2026-11-18",
