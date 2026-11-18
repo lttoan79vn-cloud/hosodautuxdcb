@@ -1,10 +1,17 @@
 {
- "version": "V22.324",
+ "version": "V22.325",
  "date": "2026-11-18",
  "notes": [
-  "Trích yếu (dòng V/v dưới số văn bản) luôn 14pt cho mọi văn bản, mọi trường hợp (kể cả khi thu gọn vừa trang)"
+  "Trích yếu (V/v dưới số) và trích yếu dưới tên loại văn bản: không còn rớt 1 chữ xuống dòng cuối – 2 từ cuối luôn đi liền, các dòng chia cân đối (màn hình, In/PDF, Word)"
  ],
  "history": [
+  {
+   "version": "V22.325",
+   "date": "2026-11-18",
+   "notes": [
+    "Trích yếu (V/v dưới số) và trích yếu dưới tên loại văn bản: không còn rớt 1 chữ xuống dòng cuối – 2 từ cuối luôn đi liền, các dòng chia cân đối (màn hình, In/PDF, Word)"
+   ]
+  },
   {
    "version": "V22.324",
    "date": "2026-11-18",
