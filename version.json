@@ -1,11 +1,19 @@
 {
- "version": "V22.328",
+ "version": "V22.329",
  "date": "2026-11-18",
  "notes": [
-  "Thiết lập Trợ lý AI chuyển vào menu Trợ giúp › 🤖 Thiết lập Trợ lý AI – chỉ tài khoản Admin thấy và thiết lập được; có hướng dẫn từng bước lấy và dán khóa API (Google Gemini miễn phí, Claude, ChatGPT), trạng thái đang bật/tắt, Lưu & thử kết nối, Thử kết nối, Xóa khóa",
-  "Khung Trợ lý AI và trình soạn thảo văn bản không còn ô nhập khóa – Admin được dẫn tới Trợ giúp"
+  "Trợ lý AI: model Gemini mặc định đổi sang gemini-3.8-flash (gemini-2.5-flash đã ngừng cấp cho người dùng mới); khi nhà cung cấp báo model ngừng, chương trình và máy chủ tự chuyển sang model được đề nghị và thử lại – cần cập nhật Code.gs",
+  "Mục Thiết lập Trợ lý AI: các nút gọn, thông báo kết quả hiển thị riêng một dòng"
  ],
  "history": [
+  {
+   "version": "V22.329",
+   "date": "2026-11-18",
+   "notes": [
+    "Trợ lý AI: model Gemini mặc định đổi sang gemini-3.8-flash (gemini-2.5-flash đã ngừng cấp cho người dùng mới); khi nhà cung cấp báo model ngừng, chương trình và máy chủ tự chuyển sang model được đề nghị và thử lại – cần cập nhật Code.gs",
+    "Mục Thiết lập Trợ lý AI: các nút gọn, thông báo kết quả hiển thị riêng một dòng"
+   ]
+  },
   {
    "version": "V22.328",
    "date": "2026-11-18",
