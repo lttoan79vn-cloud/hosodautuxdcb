@@ -1,12 +1,19 @@
 {
- "version": "V22.334",
+ "version": "V22.335",
  "date": "2026-11-18",
  "notes": [
-  "Trợ lý AI chế độ 🧠 Chuyên sâu (mặc định): AI suy luận kỹ, đọc đủ hồ sơ (danh mục văn bản đã/chưa ban hành, căn cứ pháp lý của văn bản, nội dung văn bản), trả lời theo 3 phần: Trả lời / nội dung đề xuất – Phân tích & căn cứ – Gợi ý định hướng; kèm nút 💬 Hỏi tiếp bấm được",
-  "Nhớ hội thoại trong từng văn bản để hỏi tiếp; chuyển ⚡ Nhanh khi cần trả lời gấp; nút Xóa hội thoại",
-  "Admin chọn Model chuyên sâu (bản pro) trong Trợ giúp › Thiết lập Trợ lý AI – cần cập nhật Code.gs"
+  "Trợ lý AI có ở menu Soạn thảo văn bản: nút 🤖 AI trên thanh công cụ của vùng soạn (cùng các chức năng soạn, viết tiếp, sửa chính tả, văn phong, rút gọn/mở rộng, chuyển bảng, rà soát thể thức); nút nổi 🤖 Trợ lý AI và khung trợ lý Chuyên sâu/Nhanh đọc văn bản đang soạn",
+  "Ô nhập nhiều dòng ở Lập kế hoạch cũng có hộp AI"
  ],
  "history": [
+  {
+   "version": "V22.335",
+   "date": "2026-11-18",
+   "notes": [
+    "Trợ lý AI có ở menu Soạn thảo văn bản: nút 🤖 AI trên thanh công cụ của vùng soạn (cùng các chức năng soạn, viết tiếp, sửa chính tả, văn phong, rút gọn/mở rộng, chuyển bảng, rà soát thể thức); nút nổi 🤖 Trợ lý AI và khung trợ lý Chuyên sâu/Nhanh đọc văn bản đang soạn",
+    "Ô nhập nhiều dòng ở Lập kế hoạch cũng có hộp AI"
+   ]
+  },
   {
    "version": "V22.334",
    "date": "2026-11-18",
