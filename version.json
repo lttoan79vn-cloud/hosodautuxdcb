@@ -1,10 +1,17 @@
 {
- "version": "V22.361",
+ "version": "V22.362",
  "date": "2026-11-19",
  "notes": [
-  "Sửa lỗi: các nút của Trợ lý AI soạn thảo trong trình soạn thảo (Soạn nội dung, Viết tiếp, Sửa chính tả, Văn phong hành chính, Rút gọn, Mở rộng, Thành bảng, Rà soát, Gợi ý trích yếu, Gửi yêu cầu) không có tác dụng với tài khoản Admin – lỗi phát sinh khi bỏ nút Thiết lập ở V22.345"
+  "Trích yếu (V/v) cách dòng Số văn bản 6pt – tách biệt rõ giữa số văn bản và trích yếu (bản xem và file Word)"
  ],
  "history": [
+  {
+   "version": "V22.362",
+   "date": "2026-11-19",
+   "notes": [
+    "Trích yếu (V/v) cách dòng Số văn bản 6pt – tách biệt rõ giữa số văn bản và trích yếu (bản xem và file Word)"
+   ]
+  },
   {
    "version": "V22.361",
    "date": "2026-11-19",
