@@ -1,12 +1,21 @@
 {
- "version": "V22.380",
+ "version": "V22.381",
  "date": "2026-11-19",
  "notes": [
-  "Biên bản (kiểm tra, thương thảo, nghiệm thu – hồ sơ giá thành): tên các thành phần không tô đậm",
-  "BB kiểm tra giá thành thiết bị: thêm vùng bảng nhập 1. Máy móc, thiết bị kiểm tra (Stt, nội dung, đvt, số lượng, ghi chú; thêm/xóa dòng; lấy từ danh mục báo giá) – để trống thì lấy danh mục hàng hóa như trước",
-  "Bỏ lặp chữ \"tại tại\" khi địa điểm kiểm tra nhập có sẵn chữ \"tại\""
+  "BB kiểm tra giá thành thiết bị: có dòng lấy số biên bản (Số: ……/BB-PTQLKCN) như các văn bản khác",
+  "Trợ lý AI: nút ⇩ Cập nhật vào bảng biên bản – đưa bảng AI lập vào bảng 1. Máy móc, thiết bị kiểm tra (nhận cột STT, nội dung, ĐVT, số lượng, ghi chú; bỏ trích dẫn tên file)",
+  "Bảng thiết bị kiểm tra: cột Stt sửa được; ghi I, II… không ĐVT/SL = dòng nhóm in đậm, đánh số theo nhóm"
  ],
  "history": [
+  {
+   "version": "V22.381",
+   "date": "2026-11-19",
+   "notes": [
+    "BB kiểm tra giá thành thiết bị: có dòng lấy số biên bản (Số: ……/BB-PTQLKCN) như các văn bản khác",
+    "Trợ lý AI: nút ⇩ Cập nhật vào bảng biên bản – đưa bảng AI lập vào bảng 1. Máy móc, thiết bị kiểm tra (nhận cột STT, nội dung, ĐVT, số lượng, ghi chú; bỏ trích dẫn tên file)",
+    "Bảng thiết bị kiểm tra: cột Stt sửa được; ghi I, II… không ĐVT/SL = dòng nhóm in đậm, đánh số theo nhóm"
+   ]
+  },
   {
    "version": "V22.380",
    "date": "2026-11-19",
