@@ -1,11 +1,21 @@
 {
- "version": "V22.370",
+ "version": "V22.371",
  "date": "2026-11-19",
  "notes": [
-  "Hồ sơ giá thành – văn bản trước làm căn cứ cho văn bản sau: TTr / QĐ phê duyệt dự toán & KHLCNT tự trích căn cứ Tờ trình (văn bản đề nghị) của đơn vị và Biên bản kiểm tra hiện trạng (số, ngày); mục 'Văn bản làm căn cứ' liệt kê đúng các văn bản này",
-  "Chỉ định thầu: Thư mời chỉ định thầu căn cứ QĐ dự toán & KHLCNT; Thư mời / BB thương thảo, TTr / QĐ kết quả căn cứ Thư mời chỉ định thầu và biên bản thương thảo (không còn ghi 'kết quả đánh giá E-HSDT', 'QĐ phê duyệt E-HSMT'); Dự thảo hợp đồng bỏ dòng QĐ phê duyệt KHLCNT trống số"
+  "Soạn thảo văn bản: lưu trữ văn bản đã soạn – mỗi lần lưu bản thảo có thay đổi, máy chủ ghi 1 phiên bản vào thư mục Data source › so_van_ban › van_ban_da_soan › <tài khoản> › <mã văn bản> (giữ 40 phiên bản gần nhất); cần dán Code.gs mới",
+  "Nút 🕘 Bản đã lưu (cạnh + Mới): xem các phiên bản của văn bản đang soạn và ↩ Lấy lại nội dung; mục Văn bản đã xóa – ♻ Khôi phục vào danh sách Bản thảo",
+  "Đổi Loại văn bản không còn làm mất nội dung: nội dung chung (kính gửi, nội dung, nơi nhận, người ký, phụ lục…) mang sang loại mới; bản của loại cũ được cất lại – đổi về là khôi phục đủ"
  ],
  "history": [
+  {
+   "version": "V22.371",
+   "date": "2026-11-19",
+   "notes": [
+    "Soạn thảo văn bản: lưu trữ văn bản đã soạn – mỗi lần lưu bản thảo có thay đổi, máy chủ ghi 1 phiên bản vào thư mục Data source › so_van_ban › van_ban_da_soan › <tài khoản> › <mã văn bản> (giữ 40 phiên bản gần nhất); cần dán Code.gs mới",
+    "Nút 🕘 Bản đã lưu (cạnh + Mới): xem các phiên bản của văn bản đang soạn và ↩ Lấy lại nội dung; mục Văn bản đã xóa – ♻ Khôi phục vào danh sách Bản thảo",
+    "Đổi Loại văn bản không còn làm mất nội dung: nội dung chung (kính gửi, nội dung, nơi nhận, người ký, phụ lục…) mang sang loại mới; bản của loại cũ được cất lại – đổi về là khôi phục đủ"
+   ]
+  },
   {
    "version": "V22.370",
    "date": "2026-11-19",
