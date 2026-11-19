@@ -1,11 +1,21 @@
 {
- "version": "V22.368",
+ "version": "V22.369",
  "date": "2026-11-19",
  "notes": [
-  "Hồ sơ giá thành: chọn hình thức lựa chọn nhà thầu (Chào hàng cạnh tranh / Chỉ định thầu rút gọn / Mua sắm nhỏ lẻ) và phân gói ngay tại Thông tin chung; chọn hình thức nào thì danh sách bước tự đổi theo quy trình của hình thức đó",
-  "Nút '⚙ Chọn hình thức / phân gói' trên danh sách bước mở thẳng mục chọn; sửa lỗi chọn 'Chỉ định thầu' bị trả về Chào hàng cạnh tranh"
+  "Hồ sơ giá thành: thêm hình thức 'Đấu thầu rộng rãi' – quy trình: TTr/QĐ dự toán & KHLCNT → TTr/QĐ Tổ chuyên gia → TTr/QĐ E-HSMT → Phát hành E-HSMT, đánh giá E-HSDT → Thư mời & BB thương thảo → TTr/QĐ kết quả → Công khai kết quả → Hợp đồng → Nghiệm thu (căn cứ Điều 21 Luật Đấu thầu); biểu KH LCNT, E-HSMT ghi đúng hình thức, có ô lý do áp dụng",
+  "Thẻ tím hình thức trên danh sách bước: tên hình thức hiển thị trước (1 dòng), nút '⚙ Chọn hình thức / phân gói' bên dưới",
+  "Ô nhập nhiều dòng (Nơi nhận, phòng ký, tóm tắt…) thu gọn vừa nội dung (tối thiểu 2 dòng), tự giãn khi gõ thêm – không còn khoảng trắng thừa"
  ],
  "history": [
+  {
+   "version": "V22.369",
+   "date": "2026-11-19",
+   "notes": [
+    "Hồ sơ giá thành: thêm hình thức 'Đấu thầu rộng rãi' – quy trình: TTr/QĐ dự toán & KHLCNT → TTr/QĐ Tổ chuyên gia → TTr/QĐ E-HSMT → Phát hành E-HSMT, đánh giá E-HSDT → Thư mời & BB thương thảo → TTr/QĐ kết quả → Công khai kết quả → Hợp đồng → Nghiệm thu (căn cứ Điều 21 Luật Đấu thầu); biểu KH LCNT, E-HSMT ghi đúng hình thức, có ô lý do áp dụng",
+    "Thẻ tím hình thức trên danh sách bước: tên hình thức hiển thị trước (1 dòng), nút '⚙ Chọn hình thức / phân gói' bên dưới",
+    "Ô nhập nhiều dòng (Nơi nhận, phòng ký, tóm tắt…) thu gọn vừa nội dung (tối thiểu 2 dòng), tự giãn khi gõ thêm – không còn khoảng trắng thừa"
+   ]
+  },
   {
    "version": "V22.368",
    "date": "2026-11-19",
