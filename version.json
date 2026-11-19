@@ -1,12 +1,19 @@
 {
- "version": "V22.369",
+ "version": "V22.370",
  "date": "2026-11-19",
  "notes": [
-  "Hồ sơ giá thành: thêm hình thức 'Đấu thầu rộng rãi' – quy trình: TTr/QĐ dự toán & KHLCNT → TTr/QĐ Tổ chuyên gia → TTr/QĐ E-HSMT → Phát hành E-HSMT, đánh giá E-HSDT → Thư mời & BB thương thảo → TTr/QĐ kết quả → Công khai kết quả → Hợp đồng → Nghiệm thu (căn cứ Điều 21 Luật Đấu thầu); biểu KH LCNT, E-HSMT ghi đúng hình thức, có ô lý do áp dụng",
-  "Thẻ tím hình thức trên danh sách bước: tên hình thức hiển thị trước (1 dòng), nút '⚙ Chọn hình thức / phân gói' bên dưới",
-  "Ô nhập nhiều dòng (Nơi nhận, phòng ký, tóm tắt…) thu gọn vừa nội dung (tối thiểu 2 dòng), tự giãn khi gõ thêm – không còn khoảng trắng thừa"
+  "Hồ sơ giá thành – văn bản trước làm căn cứ cho văn bản sau: TTr / QĐ phê duyệt dự toán & KHLCNT tự trích căn cứ Tờ trình (văn bản đề nghị) của đơn vị và Biên bản kiểm tra hiện trạng (số, ngày); mục 'Văn bản làm căn cứ' liệt kê đúng các văn bản này",
+  "Chỉ định thầu: Thư mời chỉ định thầu căn cứ QĐ dự toán & KHLCNT; Thư mời / BB thương thảo, TTr / QĐ kết quả căn cứ Thư mời chỉ định thầu và biên bản thương thảo (không còn ghi 'kết quả đánh giá E-HSDT', 'QĐ phê duyệt E-HSMT'); Dự thảo hợp đồng bỏ dòng QĐ phê duyệt KHLCNT trống số"
  ],
  "history": [
+  {
+   "version": "V22.370",
+   "date": "2026-11-19",
+   "notes": [
+    "Hồ sơ giá thành – văn bản trước làm căn cứ cho văn bản sau: TTr / QĐ phê duyệt dự toán & KHLCNT tự trích căn cứ Tờ trình (văn bản đề nghị) của đơn vị và Biên bản kiểm tra hiện trạng (số, ngày); mục 'Văn bản làm căn cứ' liệt kê đúng các văn bản này",
+    "Chỉ định thầu: Thư mời chỉ định thầu căn cứ QĐ dự toán & KHLCNT; Thư mời / BB thương thảo, TTr / QĐ kết quả căn cứ Thư mời chỉ định thầu và biên bản thương thảo (không còn ghi 'kết quả đánh giá E-HSDT', 'QĐ phê duyệt E-HSMT'); Dự thảo hợp đồng bỏ dòng QĐ phê duyệt KHLCNT trống số"
+   ]
+  },
   {
    "version": "V22.369",
    "date": "2026-11-19",
