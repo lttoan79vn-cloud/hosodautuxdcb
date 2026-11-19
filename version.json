@@ -1,12 +1,23 @@
 {
- "version": "V22.374",
+ "version": "22.375",
  "date": "2026-11-19",
  "notes": [
-  "Hồ sơ giá thành – hạn mức theo quy định mua sắm: Chỉ định thầu (rút gọn) giá gói ≤ 500 triệu đồng, Mua sắm nhỏ lẻ ≤ 200 triệu đồng; Chào hàng cạnh tranh và Đấu thầu rộng rãi theo hạn mức Luật Đấu thầu",
-  "Ô chọn hình thức ghi rõ hạn mức; gói vượt hạn mức hiện cảnh báo đỏ ngay dưới gói và trong Kiểm tra hồ sơ (gợi ý hình thức phù hợp hoặc chia gói)",
-  "Giải trình mục d) của chỉ định thầu, mua sắm nhỏ lẻ nêu giá gói thầu và hạn mức 500 triệu / 200 triệu đồng áp dụng cho chi phí giá thành"
+  "Hồ sơ giá thành – giải trình KH LCNT phân biệt đúng loại hồ sơ: giá thành XDCB luôn là gói thầu xây lắp (thi công, sửa chữa); giá thành thiết bị luôn là gói thầu mua sắm hàng hóa – không còn đoán theo tên gói",
+  "Câu từ mục a), b), d) (chỉ định thầu, mua sắm nhỏ lẻ, chào hàng cạnh tranh, đấu thầu rộng rãi) viết riêng cho từng loại",
+  "Giá gói thầu / nguồn vốn chưa nhập hiện ô trống cần điền thay vì '0 đồng' hoặc dấu '.'",
+  "Nhãn bảng dự toán, nhắc lỗi, BB kiểm tra dùng 'hạng mục công việc' cho XDCB và 'hàng hóa' cho thiết bị"
  ],
  "history": [
+  {
+   "version": "22.375",
+   "date": "2026-11-19",
+   "notes": [
+    "Hồ sơ giá thành – giải trình KH LCNT phân biệt đúng loại hồ sơ: giá thành XDCB luôn là gói thầu xây lắp (thi công, sửa chữa); giá thành thiết bị luôn là gói thầu mua sắm hàng hóa – không còn đoán theo tên gói",
+    "Câu từ mục a), b), d) (chỉ định thầu, mua sắm nhỏ lẻ, chào hàng cạnh tranh, đấu thầu rộng rãi) viết riêng cho từng loại",
+    "Giá gói thầu / nguồn vốn chưa nhập hiện ô trống cần điền thay vì '0 đồng' hoặc dấu '.'",
+    "Nhãn bảng dự toán, nhắc lỗi, BB kiểm tra dùng 'hạng mục công việc' cho XDCB và 'hàng hóa' cho thiết bị"
+   ]
+  },
   {
    "version": "V22.374",
    "date": "2026-11-19",
