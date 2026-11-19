@@ -1,12 +1,19 @@
 {
- "version": "V22.343",
+ "version": "V22.344",
  "date": "2026-11-19",
  "notes": [
-  "Trợ lý AI: thêm 📎 Tải file dữ liệu (PDF, Word .docx, Excel, CSV, TXT, ảnh; tối đa 6 file, kéo thả được) – AI đọc nội dung file làm nguồn căn cứ, trích đúng số liệu, số hiệu, ngày, giá trị và ghi nguồn [tên file – trang/sheet]",
-  "Nút 📊 Phân tích file: tóm tắt từng file, trích số liệu dùng được cho văn bản đang soạn, văn bản dùng làm căn cứ (đúng dạng 'Căn cứ … số … ngày …'), đối chiếu số liệu hồ sơ (cũ → mới) và đề xuất câu chữ cho từng mục",
-  "File đính kèm dùng chung cho mọi câu hỏi, Rà soát, Gợi ý và ✍ Cập nhật vào văn bản (căn cứ của từng ô ghi rõ file nguồn); PDF có chữ, Word, Excel đọc ngay trên máy; PDF scan và ảnh gửi kèm để AI đọc trực tiếp (cần dán Code.gs mới)"
+  "Thanh công cụ các trang soạn thảo bố trí thống nhất và cố định khi cuộn: hàng 1 tên văn bản · hàng 2 nút thao tác · hàng 3 thông báo / cảnh báo (còn chỗ trống, lệch dữ liệu, file Word cũ, lỗi / cảnh báo)",
+  "Nút 🤖 Trợ lý AI chuyển lên đầu hàng nút ở mọi trang soạn thảo (Soạn hồ sơ, Dự toán, Soạn thảo văn bản); nút 'Sửa trực tiếp' đổi thành '✏️ Sửa'"
  ],
  "history": [
+  {
+   "version": "V22.344",
+   "date": "2026-11-19",
+   "notes": [
+    "Thanh công cụ các trang soạn thảo bố trí thống nhất và cố định khi cuộn: hàng 1 tên văn bản · hàng 2 nút thao tác · hàng 3 thông báo / cảnh báo (còn chỗ trống, lệch dữ liệu, file Word cũ, lỗi / cảnh báo)",
+    "Nút 🤖 Trợ lý AI chuyển lên đầu hàng nút ở mọi trang soạn thảo (Soạn hồ sơ, Dự toán, Soạn thảo văn bản); nút 'Sửa trực tiếp' đổi thành '✏️ Sửa'"
+   ]
+  },
   {
    "version": "V22.343",
    "date": "2026-11-19",
