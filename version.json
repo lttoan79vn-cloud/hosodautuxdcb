@@ -1,10 +1,17 @@
 {
- "version": "V22.363",
+ "version": "V22.364",
  "date": "2026-11-19",
  "notes": [
-  "Chỗ trống lấy số văn bản (Số: …/ký hiệu) dài hơn – đủ ghi số 4 chữ số cỡ 14pt (văn bản hồ sơ và Soạn thảo văn bản; bản xem và file Word)"
+  "Soạn thảo văn bản: thêm ô 📁 Tên văn bản lưu trữ ngay dưới Bản thảo – tên hiện trong danh sách Bản thảo (thay cho trích yếu) và dùng đặt tên file Word khi xuất; để trống thì lấy theo trích yếu như cũ"
  ],
  "history": [
+  {
+   "version": "V22.364",
+   "date": "2026-11-19",
+   "notes": [
+    "Soạn thảo văn bản: thêm ô 📁 Tên văn bản lưu trữ ngay dưới Bản thảo – tên hiện trong danh sách Bản thảo (thay cho trích yếu) và dùng đặt tên file Word khi xuất; để trống thì lấy theo trích yếu như cũ"
+   ]
+  },
   {
    "version": "V22.363",
    "date": "2026-11-19",
