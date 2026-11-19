@@ -1,11 +1,23 @@
 {
- "version": "V22.347",
+ "version": "V22.348",
  "date": "2026-11-19",
  "notes": [
-  "✍ Cập nhật vào văn bản từ Trợ lý AI giữ đúng bố cục: mỗi đoạn, mỗi ý gạch đầu dòng (-), mỗi mục đánh số (I., 1., a), Điều n.) xuống dòng riêng; câu kết / đề nghị sau danh sách thành đoạn riêng – không còn dồn thành một đoạn; trình bày theo thể thức của trình soạn thảo (lùi đầu dòng, gạch đầu dòng)",
-  "Trợ lý AI được yêu cầu trả nội dung cập nhật theo đúng bố cục văn bản hành chính; phần xem lại trước khi cập nhật hiển thị đúng các dòng"
+  "Phụ lục bảng biểu (tùy chọn) cho mọi văn bản – Soạn hồ sơ và Soạn thảo văn bản: bấm '+ Thêm phụ lục' trong biểu mẫu; in sau trang ký (trang mới, bảng nhiều cột tự in trang ngang), có tiêu đề 'PHỤ LỤC 01…', tên bảng và dòng '(Kèm theo … số … ngày …)'",
+  "Nhập bảng phụ lục: gõ trực tiếp, thêm/xóa dòng – cột, đánh số TT, dán từ Excel / Word (Ctrl+V vào ô), ghi chú dưới bảng; nút 🤖 AI lập bảng theo yêu cầu (dùng dữ liệu hồ sơ, văn bản và file đính kèm của Trợ lý AI, có dòng Tổng cộng)",
+  "Trợ lý AI: yêu cầu lập bảng → câu trả lời hiển thị dạng bảng, có nút '📊 Thêm vào phụ lục' và (Soạn thảo văn bản) '⊞ Chèn bảng vào nội dung'",
+  "Ô nội dung soạn thảo lớn hơn, tự giãn cao theo chữ; danh sách thành phần gọn lại (chữ, ô nhập nhỏ hơn)"
  ],
  "history": [
+  {
+   "version": "V22.348",
+   "date": "2026-11-19",
+   "notes": [
+    "Phụ lục bảng biểu (tùy chọn) cho mọi văn bản – Soạn hồ sơ và Soạn thảo văn bản: bấm '+ Thêm phụ lục' trong biểu mẫu; in sau trang ký (trang mới, bảng nhiều cột tự in trang ngang), có tiêu đề 'PHỤ LỤC 01…', tên bảng và dòng '(Kèm theo … số … ngày …)'",
+    "Nhập bảng phụ lục: gõ trực tiếp, thêm/xóa dòng – cột, đánh số TT, dán từ Excel / Word (Ctrl+V vào ô), ghi chú dưới bảng; nút 🤖 AI lập bảng theo yêu cầu (dùng dữ liệu hồ sơ, văn bản và file đính kèm của Trợ lý AI, có dòng Tổng cộng)",
+    "Trợ lý AI: yêu cầu lập bảng → câu trả lời hiển thị dạng bảng, có nút '📊 Thêm vào phụ lục' và (Soạn thảo văn bản) '⊞ Chèn bảng vào nội dung'",
+    "Ô nội dung soạn thảo lớn hơn, tự giãn cao theo chữ; danh sách thành phần gọn lại (chữ, ô nhập nhỏ hơn)"
+   ]
+  },
   {
    "version": "V22.347",
    "date": "2026-11-19",
