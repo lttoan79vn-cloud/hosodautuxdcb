@@ -1,11 +1,21 @@
 {
- "version": "V22.384",
- "date": "2026-11-19",
+ "version": "V22.385",
+ "date": "2026-11-20",
  "notes": [
-  "Tất cả văn bản (Soạn hồ sơ, Soạn văn bản – xem trước, In/PDF, Xuất Word): dòng căn cứ cuối luôn kết thúc dấu chấm (.), các dòng căn cứ trước kết thúc dấu chấm phẩy (;) – riêng quyết định có dòng Xét đề nghị/Xét Tờ trình ngay sau thì giữ (;) theo NĐ 30/2020",
-  "BB kiểm tra: không lặp dòng Căn cứ tình hình thực tế khi người dùng đã tự nhập"
+  "Biên bản kiểm tra: thêm mục 📷 Ảnh hiện trạng – chụp bằng điện thoại hoặc tải ảnh (nhiều ảnh, tối đa 12), ảnh tự thu nhỏ JPEG; nhập chú thích, đổi thứ tự, xóa",
+  "Ảnh chèn cuối biên bản dưới tiêu đề HÌNH ẢNH HIỆN TRẠNG KÈM THEO BIÊN BẢN, đánh số Hình 1, 2…; bố cục 2 ảnh/hàng hoặc 1 ảnh/hàng; có trong xem trước, In/PDF và Xuất Word",
+  "Áp dụng cho BB kiểm tra hồ sơ giá thành thiết bị, giá thành XDCB và hồ sơ XDCB"
  ],
  "history": [
+  {
+   "version": "V22.385",
+   "date": "2026-11-20",
+   "notes": [
+    "Biên bản kiểm tra: thêm mục 📷 Ảnh hiện trạng – chụp bằng điện thoại hoặc tải ảnh (nhiều ảnh, tối đa 12), ảnh tự thu nhỏ JPEG; nhập chú thích, đổi thứ tự, xóa",
+    "Ảnh chèn cuối biên bản dưới tiêu đề HÌNH ẢNH HIỆN TRẠNG KÈM THEO BIÊN BẢN, đánh số Hình 1, 2…; bố cục 2 ảnh/hàng hoặc 1 ảnh/hàng; có trong xem trước, In/PDF và Xuất Word",
+    "Áp dụng cho BB kiểm tra hồ sơ giá thành thiết bị, giá thành XDCB và hồ sơ XDCB"
+   ]
+  },
   {
    "version": "V22.384",
    "date": "2026-11-19",
