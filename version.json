@@ -1,11 +1,19 @@
 {
- "version": "V22.349",
+ "version": "V22.350",
  "date": "2026-11-19",
  "notes": [
-  "Mục 📎 Phụ lục bảng biểu chuyển lên ngay dưới ô nội dung chính của văn bản (VD 'Các nội dung khác đã thống nhất', 'Kiến nghị', 'Kết luận')",
-  "Nút ✏️ Sửa (sửa trực tiếp trên văn bản) hiện cho mọi tài khoản có quyền Biên tập hồ sơ – không chỉ Admin – nằm ngay sau 🤖 Trợ lý AI ở Soạn hồ sơ; ở Soạn thảo văn bản nút ✏️ Sửa luôn hiện chữ (không thu gọn thành biểu tượng)"
+  "Bảng phụ lục: độ rộng cột tính theo bề rộng chữ thật – số tiền, khối lượng, tiêu đề cột không còn tràn ra ngoài ô; cột chữ (tên công việc) nhận phần rộng còn lại; thiếu chỗ tự giảm cỡ chữ; tên bảng đã có chữ 'Phụ lục' thì không in lặp dòng 'PHỤ LỤC'",
+  "Đoạn văn có xuống dòng (VD ô 'Tạm ứng, thanh toán' nhập 2 dòng): dòng sau lùi đầu dòng như đoạn mới (thẳng tab), file Word không còn giãn chữ ở dòng trước – áp dụng mọi văn bản"
  ],
  "history": [
+  {
+   "version": "V22.350",
+   "date": "2026-11-19",
+   "notes": [
+    "Bảng phụ lục: độ rộng cột tính theo bề rộng chữ thật – số tiền, khối lượng, tiêu đề cột không còn tràn ra ngoài ô; cột chữ (tên công việc) nhận phần rộng còn lại; thiếu chỗ tự giảm cỡ chữ; tên bảng đã có chữ 'Phụ lục' thì không in lặp dòng 'PHỤ LỤC'",
+    "Đoạn văn có xuống dòng (VD ô 'Tạm ứng, thanh toán' nhập 2 dòng): dòng sau lùi đầu dòng như đoạn mới (thẳng tab), file Word không còn giãn chữ ở dòng trước – áp dụng mọi văn bản"
+   ]
+  },
   {
    "version": "V22.349",
    "date": "2026-11-19",
