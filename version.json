@@ -1,10 +1,19 @@
 {
- "version": "V22.341",
+ "version": "V22.342",
  "date": "2026-11-19",
  "notes": [
-  "Trích yếu (V/v) của mọi văn bản (hồ sơ, thư mời, công văn…) canh đều 2 bên mà không giãn chữ: tự chọn độ rộng khung và chỗ xuống dòng, phần dư chia đều vào khoảng cách ký tự từng dòng thay vì dồn vào khoảng trắng; áp dụng cả bản xem và file Word"
+  "Sắp xếp lại thanh công cụ khung xem văn bản hồ sơ: hàng trên gồm tên văn bản và các nút thao tác (✏️ Sửa · 🖨 In / PDF · ⬇ Xuất Word · 🤖 Trợ lý AI · 🕘 Lịch sử); hàng dưới dồn các thông báo (còn chỗ trống, lệch dữ liệu, file Word cũ, lỗi / cảnh báo)",
+  "Bỏ nút 'Copy sang Word' và 'Xuất cả bộ' khỏi thanh này; đổi 'Sửa trực tiếp' thành 'Sửa'"
  ],
  "history": [
+  {
+   "version": "V22.342",
+   "date": "2026-11-19",
+   "notes": [
+    "Sắp xếp lại thanh công cụ khung xem văn bản hồ sơ: hàng trên gồm tên văn bản và các nút thao tác (✏️ Sửa · 🖨 In / PDF · ⬇ Xuất Word · 🤖 Trợ lý AI · 🕘 Lịch sử); hàng dưới dồn các thông báo (còn chỗ trống, lệch dữ liệu, file Word cũ, lỗi / cảnh báo)",
+    "Bỏ nút 'Copy sang Word' và 'Xuất cả bộ' khỏi thanh này; đổi 'Sửa trực tiếp' thành 'Sửa'"
+   ]
+  },
   {
    "version": "V22.341",
    "date": "2026-11-19",
