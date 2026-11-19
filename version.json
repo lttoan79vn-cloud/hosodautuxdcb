@@ -1,11 +1,19 @@
 {
- "version": "V22.344",
+ "version": "V22.345",
  "date": "2026-11-19",
  "notes": [
-  "Thanh công cụ các trang soạn thảo bố trí thống nhất và cố định khi cuộn: hàng 1 tên văn bản · hàng 2 nút thao tác · hàng 3 thông báo / cảnh báo (còn chỗ trống, lệch dữ liệu, file Word cũ, lỗi / cảnh báo)",
-  "Nút 🤖 Trợ lý AI chuyển lên đầu hàng nút ở mọi trang soạn thảo (Soạn hồ sơ, Dự toán, Soạn thảo văn bản); nút 'Sửa trực tiếp' đổi thành '✏️ Sửa'"
+  "Trợ lý AI: bỏ nút '⚙ Thiết lập' trong khung trợ lý và trình soạn thảo (Admin thiết lập tại menu Trợ giúp)",
+  "Khung Trợ lý AI hẹp lại (440px) để thấy rõ văn bản; thêm nút ▁ Thu nhỏ – đưa trợ lý xuống góc dưới, vẫn giữ hội thoại, file đính kèm và yêu cầu đang chạy (có kết quả sẽ báo '✔ Có kết quả'); bấm ▢ hoặc thanh tiêu đề để mở rộng lại"
  ],
  "history": [
+  {
+   "version": "V22.345",
+   "date": "2026-11-19",
+   "notes": [
+    "Trợ lý AI: bỏ nút '⚙ Thiết lập' trong khung trợ lý và trình soạn thảo (Admin thiết lập tại menu Trợ giúp)",
+    "Khung Trợ lý AI hẹp lại (440px) để thấy rõ văn bản; thêm nút ▁ Thu nhỏ – đưa trợ lý xuống góc dưới, vẫn giữ hội thoại, file đính kèm và yêu cầu đang chạy (có kết quả sẽ báo '✔ Có kết quả'); bấm ▢ hoặc thanh tiêu đề để mở rộng lại"
+   ]
+  },
   {
    "version": "V22.344",
    "date": "2026-11-19",
