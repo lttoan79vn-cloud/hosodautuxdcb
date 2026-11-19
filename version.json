@@ -1,11 +1,19 @@
 {
- "version": "V22.366",
+ "version": "V22.367",
  "date": "2026-11-19",
  "notes": [
-  "Hồ sơ giá thành – Mua sắm nhỏ lẻ: bước 'TTr duyệt dự toán & KHLCNT' gộp phê duyệt dự toán và kế hoạch lựa chọn nhà thầu trong 1 văn bản (Lãnh đạo khối ký DUYỆT): I. dự toán, II. kế hoạch LCNT (biểu KH theo phụ lục, giải trình giá gói thầu, hình thức Mua sắm nhỏ lẻ theo QĐ 585/QĐ-HĐQTCSVN, bố trí vốn), III. kết luận, kèm phụ lục Biểu kế hoạch lựa chọn nhà thầu",
-  "Biểu mẫu bước này hiện mục 'Kế hoạch lựa chọn nhà thầu (phụ lục)' cho cả mua sắm nhỏ lẻ; trích yếu và căn cứ ở các văn bản sau ghi 'phê duyệt dự toán và kế hoạch lựa chọn nhà thầu'"
+  "Hồ sơ giá thành: thêm hình thức 'Chỉ định thầu (rút gọn)' bên cạnh Chào hàng cạnh tranh và Mua sắm nhỏ lẻ – chọn cho từng gói tại bước TTr duyệt dự toán & KHLCNT (Phân gói, hình thức)",
+  "Chỉ định thầu: thủ tục chuẩn bị như CHCT (TTr + QĐ phê duyệt dự toán & KHLCNT, biểu KH ghi hình thức Chỉ định thầu rút gọn, lý do áp dụng theo Điều 23 Luật Đấu thầu, Điều 80 NĐ 214/2025); quy trình gói: Thư mời chỉ định thầu → Dự thảo hợp đồng → Thư mời & BB thương thảo → TTr/QĐ kết quả → Công khai kết quả → Hợp đồng → Nghiệm thu; không cần Tổ chuyên gia (trừ khi có gói CHCT)"
  ],
  "history": [
+  {
+   "version": "V22.367",
+   "date": "2026-11-19",
+   "notes": [
+    "Hồ sơ giá thành: thêm hình thức 'Chỉ định thầu (rút gọn)' bên cạnh Chào hàng cạnh tranh và Mua sắm nhỏ lẻ – chọn cho từng gói tại bước TTr duyệt dự toán & KHLCNT (Phân gói, hình thức)",
+    "Chỉ định thầu: thủ tục chuẩn bị như CHCT (TTr + QĐ phê duyệt dự toán & KHLCNT, biểu KH ghi hình thức Chỉ định thầu rút gọn, lý do áp dụng theo Điều 23 Luật Đấu thầu, Điều 80 NĐ 214/2025); quy trình gói: Thư mời chỉ định thầu → Dự thảo hợp đồng → Thư mời & BB thương thảo → TTr/QĐ kết quả → Công khai kết quả → Hợp đồng → Nghiệm thu; không cần Tổ chuyên gia (trừ khi có gói CHCT)"
+   ]
+  },
   {
    "version": "V22.366",
    "date": "2026-11-19",
