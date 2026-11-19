@@ -1,13 +1,19 @@
 {
- "version": "V22.348",
+ "version": "V22.349",
  "date": "2026-11-19",
  "notes": [
-  "Phụ lục bảng biểu (tùy chọn) cho mọi văn bản – Soạn hồ sơ và Soạn thảo văn bản: bấm '+ Thêm phụ lục' trong biểu mẫu; in sau trang ký (trang mới, bảng nhiều cột tự in trang ngang), có tiêu đề 'PHỤ LỤC 01…', tên bảng và dòng '(Kèm theo … số … ngày …)'",
-  "Nhập bảng phụ lục: gõ trực tiếp, thêm/xóa dòng – cột, đánh số TT, dán từ Excel / Word (Ctrl+V vào ô), ghi chú dưới bảng; nút 🤖 AI lập bảng theo yêu cầu (dùng dữ liệu hồ sơ, văn bản và file đính kèm của Trợ lý AI, có dòng Tổng cộng)",
-  "Trợ lý AI: yêu cầu lập bảng → câu trả lời hiển thị dạng bảng, có nút '📊 Thêm vào phụ lục' và (Soạn thảo văn bản) '⊞ Chèn bảng vào nội dung'",
-  "Ô nội dung soạn thảo lớn hơn, tự giãn cao theo chữ; danh sách thành phần gọn lại (chữ, ô nhập nhỏ hơn)"
+  "Mục 📎 Phụ lục bảng biểu chuyển lên ngay dưới ô nội dung chính của văn bản (VD 'Các nội dung khác đã thống nhất', 'Kiến nghị', 'Kết luận')",
+  "Nút ✏️ Sửa (sửa trực tiếp trên văn bản) hiện cho mọi tài khoản có quyền Biên tập hồ sơ – không chỉ Admin – nằm ngay sau 🤖 Trợ lý AI ở Soạn hồ sơ; ở Soạn thảo văn bản nút ✏️ Sửa luôn hiện chữ (không thu gọn thành biểu tượng)"
  ],
  "history": [
+  {
+   "version": "V22.349",
+   "date": "2026-11-19",
+   "notes": [
+    "Mục 📎 Phụ lục bảng biểu chuyển lên ngay dưới ô nội dung chính của văn bản (VD 'Các nội dung khác đã thống nhất', 'Kiến nghị', 'Kết luận')",
+    "Nút ✏️ Sửa (sửa trực tiếp trên văn bản) hiện cho mọi tài khoản có quyền Biên tập hồ sơ – không chỉ Admin – nằm ngay sau 🤖 Trợ lý AI ở Soạn hồ sơ; ở Soạn thảo văn bản nút ✏️ Sửa luôn hiện chữ (không thu gọn thành biểu tượng)"
+   ]
+  },
   {
    "version": "V22.348",
    "date": "2026-11-19",
