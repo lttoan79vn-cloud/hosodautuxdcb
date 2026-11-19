@@ -1,10 +1,17 @@
 {
- "version": "V22.362",
+ "version": "V22.363",
  "date": "2026-11-19",
  "notes": [
-  "Trích yếu (V/v) cách dòng Số văn bản 6pt – tách biệt rõ giữa số văn bản và trích yếu (bản xem và file Word)"
+  "Chỗ trống lấy số văn bản (Số: …/ký hiệu) dài hơn – đủ ghi số 4 chữ số cỡ 14pt (văn bản hồ sơ và Soạn thảo văn bản; bản xem và file Word)"
  ],
  "history": [
+  {
+   "version": "V22.363",
+   "date": "2026-11-19",
+   "notes": [
+    "Chỗ trống lấy số văn bản (Số: …/ký hiệu) dài hơn – đủ ghi số 4 chữ số cỡ 14pt (văn bản hồ sơ và Soạn thảo văn bản; bản xem và file Word)"
+   ]
+  },
   {
    "version": "V22.362",
    "date": "2026-11-19",
