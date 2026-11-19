@@ -1,12 +1,21 @@
 {
- "version": "V22.373",
+ "version": "V22.374",
  "date": "2026-11-19",
  "notes": [
-  "Biểu kế hoạch lựa chọn nhà thầu (mọi hồ sơ): gói chỉ định thầu và mua sắm nhỏ lẻ ghi '--' ở cột Phương thức lựa chọn nhà thầu",
-  "Hồ sơ giá thành – TTr dự toán & KHLCNT: mục '2. Giải trình nội dung kế hoạch lựa chọn nhà thầu' tự dựng theo từng gói và từng hình thức: a) tên gói & cơ sở phân chia, b) giá gói thầu, c) nguồn vốn, d) hình thức & phương thức (Điều 21/23/24 Luật Đấu thầu 22/2023/QH15; khoản 4 Điều 78, Điều 79/80 NĐ 214/2025/NĐ-CP sửa đổi bởi NĐ 349/2026/NĐ-CP; QĐ 585 cho mua sắm nhỏ lẻ), đ) thời gian LCNT, e) loại hợp đồng & thời gian thực hiện; ô lý do tự nhập vẫn được ưu tiên",
-  "Sửa hạn mức chỉ định thầu theo NĐ 349/2026/NĐ-CP: gói thầu thuộc dự án (tư vấn, phi tư vấn, hàng hóa, xây lắp, hỗn hợp) không quá 03 tỷ đồng"
+  "Hồ sơ giá thành – hạn mức theo quy định mua sắm: Chỉ định thầu (rút gọn) giá gói ≤ 500 triệu đồng, Mua sắm nhỏ lẻ ≤ 200 triệu đồng; Chào hàng cạnh tranh và Đấu thầu rộng rãi theo hạn mức Luật Đấu thầu",
+  "Ô chọn hình thức ghi rõ hạn mức; gói vượt hạn mức hiện cảnh báo đỏ ngay dưới gói và trong Kiểm tra hồ sơ (gợi ý hình thức phù hợp hoặc chia gói)",
+  "Giải trình mục d) của chỉ định thầu, mua sắm nhỏ lẻ nêu giá gói thầu và hạn mức 500 triệu / 200 triệu đồng áp dụng cho chi phí giá thành"
  ],
  "history": [
+  {
+   "version": "V22.374",
+   "date": "2026-11-19",
+   "notes": [
+    "Hồ sơ giá thành – hạn mức theo quy định mua sắm: Chỉ định thầu (rút gọn) giá gói ≤ 500 triệu đồng, Mua sắm nhỏ lẻ ≤ 200 triệu đồng; Chào hàng cạnh tranh và Đấu thầu rộng rãi theo hạn mức Luật Đấu thầu",
+    "Ô chọn hình thức ghi rõ hạn mức; gói vượt hạn mức hiện cảnh báo đỏ ngay dưới gói và trong Kiểm tra hồ sơ (gợi ý hình thức phù hợp hoặc chia gói)",
+    "Giải trình mục d) của chỉ định thầu, mua sắm nhỏ lẻ nêu giá gói thầu và hạn mức 500 triệu / 200 triệu đồng áp dụng cho chi phí giá thành"
+   ]
+  },
   {
    "version": "V22.373",
    "date": "2026-11-19",
