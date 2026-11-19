@@ -1,10 +1,19 @@
 {
- "version": "V22.354",
+ "version": "V22.355",
  "date": "2026-11-19",
  "notes": [
-  "Sửa nhỏ: \"Gói thầu số …\" trong trích yếu cũng viết hoa chữ G"
+  "Biên bản thương thảo / hoàn thiện hợp đồng: mục '8. Các nội dung khác' nhập nhiều dòng tự đánh số 8.1, 8.2, 8.3… (bỏ số 1., 2. tự gõ), dòng cuối kết thúc dấu chấm; tự bỏ dòng trùng câu kết 'Biên bản được lập thành…'",
+  "Chữ ký các phòng chuyên môn xếp hàng ngang (tối đa 3 phòng / hàng), dồn về phía Chủ đầu tư – chừa trống phía Nhà thầu để phân biệt thành phần 2 bên; tên người ký thẳng hàng"
  ],
  "history": [
+  {
+   "version": "V22.355",
+   "date": "2026-11-19",
+   "notes": [
+    "Biên bản thương thảo / hoàn thiện hợp đồng: mục '8. Các nội dung khác' nhập nhiều dòng tự đánh số 8.1, 8.2, 8.3… (bỏ số 1., 2. tự gõ), dòng cuối kết thúc dấu chấm; tự bỏ dòng trùng câu kết 'Biên bản được lập thành…'",
+    "Chữ ký các phòng chuyên môn xếp hàng ngang (tối đa 3 phòng / hàng), dồn về phía Chủ đầu tư – chừa trống phía Nhà thầu để phân biệt thành phần 2 bên; tên người ký thẳng hàng"
+   ]
+  },
   {
    "version": "V22.354",
    "date": "2026-11-19",
