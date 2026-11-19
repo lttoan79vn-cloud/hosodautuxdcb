@@ -1,12 +1,17 @@
 {
- "version": "V22.358",
+ "version": "V22.359",
  "date": "2026-11-19",
  "notes": [
-  "Thành phần tham dự trong biên bản (- Ông (Bà): …): họ tên in chữ thường, không bôi đậm",
-  "Biên bản thương thảo gói tư vấn: khi có phụ lục bảng biểu, dòng ghi chú tự in '* Chi tiết đơn giá: theo phụ lục đính kèm.' (nếu người dùng không tự nhập)",
-  "Tiêu đề phụ lục: dòng 1 'PHỤ LỤC <TÊN BẢNG>', dòng 2 'Gói thầu: …' (hoặc 'Công trình: …'), dòng 3 '(Kèm theo … số … ngày …)'; dòng 'Bằng chữ:' bỏ bôi đậm"
+  "Biên bản thương thảo: khi có phụ lục bảng biểu (ở văn bản này hoặc văn bản cùng gói thầu), dòng ghi chú in \"* Chi tiết theo phụ lục đính kèm.\" – thay cả nội dung mặc định cũ \"Trong hồ sơ nhiệm vụ và dự toán kèm theo thư chào giá\" đã lưu"
  ],
  "history": [
+  {
+   "version": "V22.359",
+   "date": "2026-11-19",
+   "notes": [
+    "Biên bản thương thảo: khi có phụ lục bảng biểu (ở văn bản này hoặc văn bản cùng gói thầu), dòng ghi chú in \"* Chi tiết theo phụ lục đính kèm.\" – thay cả nội dung mặc định cũ \"Trong hồ sơ nhiệm vụ và dự toán kèm theo thư chào giá\" đã lưu"
+   ]
+  },
   {
    "version": "V22.358",
    "date": "2026-11-19",
