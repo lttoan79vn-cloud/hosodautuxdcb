@@ -1,11 +1,21 @@
 {
- "version": "V22.342",
+ "version": "V22.343",
  "date": "2026-11-19",
  "notes": [
-  "Sắp xếp lại thanh công cụ khung xem văn bản hồ sơ: hàng trên gồm tên văn bản và các nút thao tác (✏️ Sửa · 🖨 In / PDF · ⬇ Xuất Word · 🤖 Trợ lý AI · 🕘 Lịch sử); hàng dưới dồn các thông báo (còn chỗ trống, lệch dữ liệu, file Word cũ, lỗi / cảnh báo)",
-  "Bỏ nút 'Copy sang Word' và 'Xuất cả bộ' khỏi thanh này; đổi 'Sửa trực tiếp' thành 'Sửa'"
+  "Trợ lý AI: thêm 📎 Tải file dữ liệu (PDF, Word .docx, Excel, CSV, TXT, ảnh; tối đa 6 file, kéo thả được) – AI đọc nội dung file làm nguồn căn cứ, trích đúng số liệu, số hiệu, ngày, giá trị và ghi nguồn [tên file – trang/sheet]",
+  "Nút 📊 Phân tích file: tóm tắt từng file, trích số liệu dùng được cho văn bản đang soạn, văn bản dùng làm căn cứ (đúng dạng 'Căn cứ … số … ngày …'), đối chiếu số liệu hồ sơ (cũ → mới) và đề xuất câu chữ cho từng mục",
+  "File đính kèm dùng chung cho mọi câu hỏi, Rà soát, Gợi ý và ✍ Cập nhật vào văn bản (căn cứ của từng ô ghi rõ file nguồn); PDF có chữ, Word, Excel đọc ngay trên máy; PDF scan và ảnh gửi kèm để AI đọc trực tiếp (cần dán Code.gs mới)"
  ],
  "history": [
+  {
+   "version": "V22.343",
+   "date": "2026-11-19",
+   "notes": [
+    "Trợ lý AI: thêm 📎 Tải file dữ liệu (PDF, Word .docx, Excel, CSV, TXT, ảnh; tối đa 6 file, kéo thả được) – AI đọc nội dung file làm nguồn căn cứ, trích đúng số liệu, số hiệu, ngày, giá trị và ghi nguồn [tên file – trang/sheet]",
+    "Nút 📊 Phân tích file: tóm tắt từng file, trích số liệu dùng được cho văn bản đang soạn, văn bản dùng làm căn cứ (đúng dạng 'Căn cứ … số … ngày …'), đối chiếu số liệu hồ sơ (cũ → mới) và đề xuất câu chữ cho từng mục",
+    "File đính kèm dùng chung cho mọi câu hỏi, Rà soát, Gợi ý và ✍ Cập nhật vào văn bản (căn cứ của từng ô ghi rõ file nguồn); PDF có chữ, Word, Excel đọc ngay trên máy; PDF scan và ảnh gửi kèm để AI đọc trực tiếp (cần dán Code.gs mới)"
+   ]
+  },
   {
    "version": "V22.342",
    "date": "2026-11-19",
