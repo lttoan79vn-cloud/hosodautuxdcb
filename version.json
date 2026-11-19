@@ -1,11 +1,17 @@
 {
- "version": "V22.345",
+ "version": "V22.346",
  "date": "2026-11-19",
  "notes": [
-  "Trợ lý AI: bỏ nút '⚙ Thiết lập' trong khung trợ lý và trình soạn thảo (Admin thiết lập tại menu Trợ giúp)",
-  "Khung Trợ lý AI hẹp lại (440px) để thấy rõ văn bản; thêm nút ▁ Thu nhỏ – đưa trợ lý xuống góc dưới, vẫn giữ hội thoại, file đính kèm và yêu cầu đang chạy (có kết quả sẽ báo '✔ Có kết quả'); bấm ▢ hoặc thanh tiêu đề để mở rộng lại"
+  "Trích yếu không còn lặp 'V/v V/v': phần mềm tự bỏ chữ 'V/v' / 'Về việc' người dùng hoặc Trợ lý AI ghi sẵn ở đầu ô trích yếu (áp dụng mọi văn bản, bản xem và file Word); Trợ lý AI khi ✍ Cập nhật vào văn bản không ghi 'V/v' vào ô trích yếu"
  ],
  "history": [
+  {
+   "version": "V22.346",
+   "date": "2026-11-19",
+   "notes": [
+    "Trích yếu không còn lặp 'V/v V/v': phần mềm tự bỏ chữ 'V/v' / 'Về việc' người dùng hoặc Trợ lý AI ghi sẵn ở đầu ô trích yếu (áp dụng mọi văn bản, bản xem và file Word); Trợ lý AI khi ✍ Cập nhật vào văn bản không ghi 'V/v' vào ô trích yếu"
+   ]
+  },
   {
    "version": "V22.345",
    "date": "2026-11-19",
