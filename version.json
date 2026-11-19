@@ -1,10 +1,17 @@
 {
- "version": "V22.364",
+ "version": "V22.365",
  "date": "2026-11-19",
  "notes": [
-  "Soạn thảo văn bản: thêm ô 📁 Tên văn bản lưu trữ ngay dưới Bản thảo – tên hiện trong danh sách Bản thảo (thay cho trích yếu) và dùng đặt tên file Word khi xuất; để trống thì lấy theo trích yếu như cũ"
+  "Soạn thảo văn bản: nhãn và ô chọn \"Bản thảo\" – \"Loại văn bản\" – nút Mới canh thẳng cùng một hàng (không bị lệch khi ô Bản thảo hiện dòng tên đầy đủ bên dưới)"
  ],
  "history": [
+  {
+   "version": "V22.365",
+   "date": "2026-11-19",
+   "notes": [
+    "Soạn thảo văn bản: nhãn và ô chọn \"Bản thảo\" – \"Loại văn bản\" – nút Mới canh thẳng cùng một hàng (không bị lệch khi ô Bản thảo hiện dòng tên đầy đủ bên dưới)"
+   ]
+  },
   {
    "version": "V22.364",
    "date": "2026-11-19",
