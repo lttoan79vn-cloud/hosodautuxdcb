@@ -1,11 +1,23 @@
 {
- "version": "V22.352",
+ "version": "V22.353",
  "date": "2026-11-19",
  "notes": [
-  "Biên bản thương thảo / hoàn thiện hợp đồng: các phòng chuyên môn Công ty ký cùng phía Chủ đầu tư – xếp lần lượt ngay dưới chữ ký Chủ đầu tư (không còn trải ngang dưới cả nhà thầu)",
-  "Bảng phụ lục: dòng Tổng cộng có thêm 'Bằng chữ: …' cho số tiền (lấy cột Thành tiền / Giá trị / Số tiền); 'Tổng cộng' ở cột đầu (STT/TT) luôn chuyển sang cột tên"
+  "Tắt nền vàng ở các đoạn đã sửa tay trong bản xem văn bản – chỉ hiện khi đang bật chế độ ✏️ Sửa",
+  "Bảng phụ lục: cột Đơn vị, Khối lượng (và các cột ngắn) thu hẹp vừa chữ, canh giữa; phần rộng dư dành cho cột tên công việc",
+  "Văn bản ký 2 bên (Chủ đầu tư / Nhà thầu, Bên A / Bên B, Bên giao / Bên nhận…): tiêu đề cấp Công ty – dòng 1 TẬP ĐOÀN CÔNG NGHIỆP CAO SU VIỆT NAM, dòng 2 CÔNG TY CỔ PHẦN CAO SU PHƯỚC HÒA (không ghi Phòng)",
+  "Trích yếu các văn bản: 'Gói thầu:' / 'Gói thầu số' viết hoa chữ G (đồng bộ mọi biên bản, tờ trình, quyết định)"
  ],
  "history": [
+  {
+   "version": "V22.353",
+   "date": "2026-11-19",
+   "notes": [
+    "Tắt nền vàng ở các đoạn đã sửa tay trong bản xem văn bản – chỉ hiện khi đang bật chế độ ✏️ Sửa",
+    "Bảng phụ lục: cột Đơn vị, Khối lượng (và các cột ngắn) thu hẹp vừa chữ, canh giữa; phần rộng dư dành cho cột tên công việc",
+    "Văn bản ký 2 bên (Chủ đầu tư / Nhà thầu, Bên A / Bên B, Bên giao / Bên nhận…): tiêu đề cấp Công ty – dòng 1 TẬP ĐOÀN CÔNG NGHIỆP CAO SU VIỆT NAM, dòng 2 CÔNG TY CỔ PHẦN CAO SU PHƯỚC HÒA (không ghi Phòng)",
+    "Trích yếu các văn bản: 'Gói thầu:' / 'Gói thầu số' viết hoa chữ G (đồng bộ mọi biên bản, tờ trình, quyết định)"
+   ]
+  },
   {
    "version": "V22.352",
    "date": "2026-11-19",
