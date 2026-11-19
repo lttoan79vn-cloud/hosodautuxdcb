@@ -1,10 +1,21 @@
 {
- "version": "V22.357",
+ "version": "V22.358",
  "date": "2026-11-19",
  "notes": [
-  "Hàng chữ ký các phòng chuyên môn: rút ngắn khoảng trắng giữa các phòng còn 1/2, các phòng xích lại gần nhau và dồn về phía Chủ đầu tư; tên phòng vẫn trên 1 dòng"
+  "Thành phần tham dự trong biên bản (- Ông (Bà): …): họ tên in chữ thường, không bôi đậm",
+  "Biên bản thương thảo gói tư vấn: khi có phụ lục bảng biểu, dòng ghi chú tự in '* Chi tiết đơn giá: theo phụ lục đính kèm.' (nếu người dùng không tự nhập)",
+  "Tiêu đề phụ lục: dòng 1 'PHỤ LỤC <TÊN BẢNG>', dòng 2 'Gói thầu: …' (hoặc 'Công trình: …'), dòng 3 '(Kèm theo … số … ngày …)'; dòng 'Bằng chữ:' bỏ bôi đậm"
  ],
  "history": [
+  {
+   "version": "V22.358",
+   "date": "2026-11-19",
+   "notes": [
+    "Thành phần tham dự trong biên bản (- Ông (Bà): …): họ tên in chữ thường, không bôi đậm",
+    "Biên bản thương thảo gói tư vấn: khi có phụ lục bảng biểu, dòng ghi chú tự in '* Chi tiết đơn giá: theo phụ lục đính kèm.' (nếu người dùng không tự nhập)",
+    "Tiêu đề phụ lục: dòng 1 'PHỤ LỤC <TÊN BẢNG>', dòng 2 'Gói thầu: …' (hoặc 'Công trình: …'), dòng 3 '(Kèm theo … số … ngày …)'; dòng 'Bằng chữ:' bỏ bôi đậm"
+   ]
+  },
   {
    "version": "V22.357",
    "date": "2026-11-19",
