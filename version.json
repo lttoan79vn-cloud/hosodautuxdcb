@@ -1,13 +1,17 @@
 {
- "version": "V22.353",
+ "version": "V22.354",
  "date": "2026-11-19",
  "notes": [
-  "Tắt nền vàng ở các đoạn đã sửa tay trong bản xem văn bản – chỉ hiện khi đang bật chế độ ✏️ Sửa",
-  "Bảng phụ lục: cột Đơn vị, Khối lượng (và các cột ngắn) thu hẹp vừa chữ, canh giữa; phần rộng dư dành cho cột tên công việc",
-  "Văn bản ký 2 bên (Chủ đầu tư / Nhà thầu, Bên A / Bên B, Bên giao / Bên nhận…): tiêu đề cấp Công ty – dòng 1 TẬP ĐOÀN CÔNG NGHIỆP CAO SU VIỆT NAM, dòng 2 CÔNG TY CỔ PHẦN CAO SU PHƯỚC HÒA (không ghi Phòng)",
-  "Trích yếu các văn bản: 'Gói thầu:' / 'Gói thầu số' viết hoa chữ G (đồng bộ mọi biên bản, tờ trình, quyết định)"
+  "Sửa nhỏ: \"Gói thầu số …\" trong trích yếu cũng viết hoa chữ G"
  ],
  "history": [
+  {
+   "version": "V22.354",
+   "date": "2026-11-19",
+   "notes": [
+    "Sửa nhỏ: \"Gói thầu số …\" trong trích yếu cũng viết hoa chữ G"
+   ]
+  },
   {
    "version": "V22.353",
    "date": "2026-11-19",
