@@ -1,15 +1,23 @@
 {
- "version": "22.375",
+ "version": "V22.376",
  "date": "2026-11-19",
  "notes": [
-  "Hồ sơ giá thành – giải trình KH LCNT phân biệt đúng loại hồ sơ: giá thành XDCB luôn là gói thầu xây lắp (thi công, sửa chữa); giá thành thiết bị luôn là gói thầu mua sắm hàng hóa – không còn đoán theo tên gói",
-  "Câu từ mục a), b), d) (chỉ định thầu, mua sắm nhỏ lẻ, chào hàng cạnh tranh, đấu thầu rộng rãi) viết riêng cho từng loại",
-  "Giá gói thầu / nguồn vốn chưa nhập hiện ô trống cần điền thay vì '0 đồng' hoặc dấu '.'",
-  "Nhãn bảng dự toán, nhắc lỗi, BB kiểm tra dùng 'hạng mục công việc' cho XDCB và 'hàng hóa' cho thiết bị"
+  "Hạn mức chỉ định thầu cập nhật theo văn bản gốc NĐ 349/2026/NĐ-CP (ký và hiệu lực 09/9/2026, khoản 5 Điều 4 sửa khoản 4 Điều 78 NĐ 214): gói thầu thuộc dự án – tư vấn ≤ 03 tỷ; phi tư vấn, hàng hóa, xây lắp, hỗn hợp ≤ 05 tỷ đồng; dự toán mua sắm không hình thành dự án ≤ 01 tỷ đồng",
+  "Sửa lại số 03 tỷ (hàng hóa, xây lắp) đã ghi nhầm ở V22.373; số 03 tỷ lưu nhầm trong Danh mục tự động bỏ qua",
+  "Căn cứ pháp lý: Luật Đấu thầu sửa đổi bởi Luật 57/2024, 90/2025, 116/2025, 133/2025, 142/2025; NĐ 214/2025 sửa đổi bởi NĐ 165/2026, 170/2026, 349/2026"
  ],
  "history": [
   {
-   "version": "22.375",
+   "version": "V22.376",
+   "date": "2026-11-19",
+   "notes": [
+    "Hạn mức chỉ định thầu cập nhật theo văn bản gốc NĐ 349/2026/NĐ-CP (ký và hiệu lực 09/9/2026, khoản 5 Điều 4 sửa khoản 4 Điều 78 NĐ 214): gói thầu thuộc dự án – tư vấn ≤ 03 tỷ; phi tư vấn, hàng hóa, xây lắp, hỗn hợp ≤ 05 tỷ đồng; dự toán mua sắm không hình thành dự án ≤ 01 tỷ đồng",
+    "Sửa lại số 03 tỷ (hàng hóa, xây lắp) đã ghi nhầm ở V22.373; số 03 tỷ lưu nhầm trong Danh mục tự động bỏ qua",
+    "Căn cứ pháp lý: Luật Đấu thầu sửa đổi bởi Luật 57/2024, 90/2025, 116/2025, 133/2025, 142/2025; NĐ 214/2025 sửa đổi bởi NĐ 165/2026, 170/2026, 349/2026"
+   ]
+  },
+  {
+   "version": "V22.375",
    "date": "2026-11-19",
    "notes": [
     "Hồ sơ giá thành – giải trình KH LCNT phân biệt đúng loại hồ sơ: giá thành XDCB luôn là gói thầu xây lắp (thi công, sửa chữa); giá thành thiết bị luôn là gói thầu mua sắm hàng hóa – không còn đoán theo tên gói",
