@@ -1,10 +1,17 @@
 {
- "version": "V22.359",
+ "version": "V22.360",
  "date": "2026-11-19",
  "notes": [
-  "Biên bản thương thảo: khi có phụ lục bảng biểu (ở văn bản này hoặc văn bản cùng gói thầu), dòng ghi chú in \"* Chi tiết theo phụ lục đính kèm.\" – thay cả nội dung mặc định cũ \"Trong hồ sơ nhiệm vụ và dự toán kèm theo thư chào giá\" đã lưu"
+  "Biên bản thương thảo: không có phụ lục đính kèm và không tự nhập ghi chú → bỏ hẳn dòng \"* Chi tiết đơn giá…\"; có phụ lục → \"* Chi tiết theo phụ lục đính kèm.\""
  ],
  "history": [
+  {
+   "version": "V22.360",
+   "date": "2026-11-19",
+   "notes": [
+    "Biên bản thương thảo: không có phụ lục đính kèm và không tự nhập ghi chú → bỏ hẳn dòng \"* Chi tiết đơn giá…\"; có phụ lục → \"* Chi tiết theo phụ lục đính kèm.\""
+   ]
+  },
   {
    "version": "V22.359",
    "date": "2026-11-19",
