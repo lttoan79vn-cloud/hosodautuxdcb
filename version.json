@@ -1,11 +1,21 @@
 {
- "version": "V22.382",
+ "version": "V22.383",
  "date": "2026-11-19",
  "notes": [
-  "Bảng Máy móc, thiết bị kiểm tra: dòng tiêu đề in hoa (STT, NỘI DUNG, ĐVT, SỐ LƯỢNG, GHI CHÚ); thu hẹp Ghi chú, mở rộng Nội dung",
-  "Thêm ô chỉnh độ rộng từng cột (%) ngay dưới bảng nhập, nút ↺ về mặc định"
+  "Văn bản đã 💾 Lưu: thanh công cụ giữ nguyên bố cục (Trợ lý AI, ✏️ Sửa, In/PDF, Xuất Word, Lịch sử) – trạng thái gộp thành 1 nút 🔒 Đã lưu …, bấm để mở lại chỉnh sửa",
+  "Khi văn bản đã lưu mà bấm ✏️ Sửa hoặc dùng Trợ lý AI cập nhật nội dung / bảng / phụ lục: hỏi mở lại rồi cập nhật ngay (trước đây sửa nhưng văn bản không đổi)",
+  "Biểu mẫu văn bản đã lưu: khóa cả các nút thêm/xóa dòng, chỉnh bảng (trừ lấy số, ngày, tệp đã ký, Trợ lý AI)"
  ],
  "history": [
+  {
+   "version": "V22.383",
+   "date": "2026-11-19",
+   "notes": [
+    "Văn bản đã 💾 Lưu: thanh công cụ giữ nguyên bố cục (Trợ lý AI, ✏️ Sửa, In/PDF, Xuất Word, Lịch sử) – trạng thái gộp thành 1 nút 🔒 Đã lưu …, bấm để mở lại chỉnh sửa",
+    "Khi văn bản đã lưu mà bấm ✏️ Sửa hoặc dùng Trợ lý AI cập nhật nội dung / bảng / phụ lục: hỏi mở lại rồi cập nhật ngay (trước đây sửa nhưng văn bản không đổi)",
+    "Biểu mẫu văn bản đã lưu: khóa cả các nút thêm/xóa dòng, chỉnh bảng (trừ lấy số, ngày, tệp đã ký, Trợ lý AI)"
+   ]
+  },
   {
    "version": "V22.382",
    "date": "2026-11-19",
