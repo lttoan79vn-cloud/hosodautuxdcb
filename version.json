@@ -1,11 +1,21 @@
 {
- "version": "V22.379",
+ "version": "V22.380",
  "date": "2026-11-19",
  "notes": [
-  "Biên bản kiểm tra bố cục Hiện trạng → Nguyên nhân → Đề xuất: giá thành thiết bị (1. Máy móc, thiết bị kiểm tra; 2. Hiện trạng; 3. Nguyên nhân; 4. Đề xuất); giá thành XDCB và hồ sơ XDCB (I. Hiện trạng, nguyên nhân và nội dung đề xuất: a. Hiện trạng, b. Nguyên nhân, c. Đề xuất – từng hạng mục)",
-  "Thêm ô nhập Nguyên nhân, ô nhập sắp theo đúng thứ tự trong biên bản"
+  "Biên bản (kiểm tra, thương thảo, nghiệm thu – hồ sơ giá thành): tên các thành phần không tô đậm",
+  "BB kiểm tra giá thành thiết bị: thêm vùng bảng nhập 1. Máy móc, thiết bị kiểm tra (Stt, nội dung, đvt, số lượng, ghi chú; thêm/xóa dòng; lấy từ danh mục báo giá) – để trống thì lấy danh mục hàng hóa như trước",
+  "Bỏ lặp chữ \"tại tại\" khi địa điểm kiểm tra nhập có sẵn chữ \"tại\""
  ],
  "history": [
+  {
+   "version": "V22.380",
+   "date": "2026-11-19",
+   "notes": [
+    "Biên bản (kiểm tra, thương thảo, nghiệm thu – hồ sơ giá thành): tên các thành phần không tô đậm",
+    "BB kiểm tra giá thành thiết bị: thêm vùng bảng nhập 1. Máy móc, thiết bị kiểm tra (Stt, nội dung, đvt, số lượng, ghi chú; thêm/xóa dòng; lấy từ danh mục báo giá) – để trống thì lấy danh mục hàng hóa như trước",
+    "Bỏ lặp chữ \"tại tại\" khi địa điểm kiểm tra nhập có sẵn chữ \"tại\""
+   ]
+  },
   {
    "version": "V22.379",
    "date": "2026-11-19",
