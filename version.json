@@ -1,13 +1,17 @@
 {
- "version": "V22.377",
+ "version": "V22.378",
  "date": "2026-11-19",
  "notes": [
-  "Tiếp tục cập nhật theo NĐ 349/2026: báo giá xác định giá dự toán – tối thiểu 01 báo giá (khuyến khích nhiều hơn); cảnh báo đỏ chỉ khi chưa có báo giá nào",
-  "Tùy chọn loại trừ báo giá cao/thấp hơn 30% giá trung bình khi tính đơn giá bình quân (từ 03 báo giá); bảng so sánh đánh dấu (*) và ghi chú căn cứ",
-  "Thư mời báo giá: tùy chọn đăng tải trên Hệ thống mạng đấu thầu quốc gia – ghi căn cứ và thời hạn tối thiểu 03 ngày làm việc",
-  "Gói chỉ định thầu ≤ 100 triệu đồng: giải trình bổ sung quyền Thủ trưởng đơn vị quyết định mua sắm theo khoản 4 Điều 80 NĐ 214 (sửa đổi bởi NĐ 349)"
+  "Trang Thông tin chung: sắp xếp theo thứ tự nhập liệu – Thông tin chung của dự án và Hồ sơ thiết kế lên đầu, sau đó là thông tin dùng chung, phân chia gói thầu & hình thức LCNT, trình tự thực hiện, căn cứ (áp dụng cho hồ sơ giá thành XDCB, thiết bị và hồ sơ XDCB)"
  ],
  "history": [
+  {
+   "version": "V22.378",
+   "date": "2026-11-19",
+   "notes": [
+    "Trang Thông tin chung: sắp xếp theo thứ tự nhập liệu – Thông tin chung của dự án và Hồ sơ thiết kế lên đầu, sau đó là thông tin dùng chung, phân chia gói thầu & hình thức LCNT, trình tự thực hiện, căn cứ (áp dụng cho hồ sơ giá thành XDCB, thiết bị và hồ sơ XDCB)"
+   ]
+  },
   {
    "version": "V22.377",
    "date": "2026-11-19",
