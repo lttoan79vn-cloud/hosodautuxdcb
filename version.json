@@ -1,10 +1,19 @@
 {
- "version": "V22.351",
+ "version": "V22.352",
  "date": "2026-11-19",
  "notes": [
-  "Bảng phụ lục: dòng 'Tổng cộng' ghi ở cột STT tự chuyển sang cột tên công việc (ô STT để trống); cột STT chỉ rộng vừa chữ 'STT' và số thứ tự – phần rộng dư dành cho cột tên công việc; AI lập bảng ghi 'Tổng cộng' đúng cột tên"
+  "Biên bản thương thảo / hoàn thiện hợp đồng: các phòng chuyên môn Công ty ký cùng phía Chủ đầu tư – xếp lần lượt ngay dưới chữ ký Chủ đầu tư (không còn trải ngang dưới cả nhà thầu)",
+  "Bảng phụ lục: dòng Tổng cộng có thêm 'Bằng chữ: …' cho số tiền (lấy cột Thành tiền / Giá trị / Số tiền); 'Tổng cộng' ở cột đầu (STT/TT) luôn chuyển sang cột tên"
  ],
  "history": [
+  {
+   "version": "V22.352",
+   "date": "2026-11-19",
+   "notes": [
+    "Biên bản thương thảo / hoàn thiện hợp đồng: các phòng chuyên môn Công ty ký cùng phía Chủ đầu tư – xếp lần lượt ngay dưới chữ ký Chủ đầu tư (không còn trải ngang dưới cả nhà thầu)",
+    "Bảng phụ lục: dòng Tổng cộng có thêm 'Bằng chữ: …' cho số tiền (lấy cột Thành tiền / Giá trị / Số tiền); 'Tổng cộng' ở cột đầu (STT/TT) luôn chuyển sang cột tên"
+   ]
+  },
   {
    "version": "V22.351",
    "date": "2026-11-19",
