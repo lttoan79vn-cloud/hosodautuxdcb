@@ -1,12 +1,19 @@
 {
- "version": "V22.383",
+ "version": "V22.384",
  "date": "2026-11-19",
  "notes": [
-  "Văn bản đã 💾 Lưu: thanh công cụ giữ nguyên bố cục (Trợ lý AI, ✏️ Sửa, In/PDF, Xuất Word, Lịch sử) – trạng thái gộp thành 1 nút 🔒 Đã lưu …, bấm để mở lại chỉnh sửa",
-  "Khi văn bản đã lưu mà bấm ✏️ Sửa hoặc dùng Trợ lý AI cập nhật nội dung / bảng / phụ lục: hỏi mở lại rồi cập nhật ngay (trước đây sửa nhưng văn bản không đổi)",
-  "Biểu mẫu văn bản đã lưu: khóa cả các nút thêm/xóa dòng, chỉnh bảng (trừ lấy số, ngày, tệp đã ký, Trợ lý AI)"
+  "Tất cả văn bản (Soạn hồ sơ, Soạn văn bản – xem trước, In/PDF, Xuất Word): dòng căn cứ cuối luôn kết thúc dấu chấm (.), các dòng căn cứ trước kết thúc dấu chấm phẩy (;) – riêng quyết định có dòng Xét đề nghị/Xét Tờ trình ngay sau thì giữ (;) theo NĐ 30/2020",
+  "BB kiểm tra: không lặp dòng Căn cứ tình hình thực tế khi người dùng đã tự nhập"
  ],
  "history": [
+  {
+   "version": "V22.384",
+   "date": "2026-11-19",
+   "notes": [
+    "Tất cả văn bản (Soạn hồ sơ, Soạn văn bản – xem trước, In/PDF, Xuất Word): dòng căn cứ cuối luôn kết thúc dấu chấm (.), các dòng căn cứ trước kết thúc dấu chấm phẩy (;) – riêng quyết định có dòng Xét đề nghị/Xét Tờ trình ngay sau thì giữ (;) theo NĐ 30/2020",
+    "BB kiểm tra: không lặp dòng Căn cứ tình hình thực tế khi người dùng đã tự nhập"
+   ]
+  },
   {
    "version": "V22.383",
    "date": "2026-11-19",
