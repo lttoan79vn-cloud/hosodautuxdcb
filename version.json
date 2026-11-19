@@ -1,10 +1,19 @@
 {
- "version": "V22.346",
+ "version": "V22.347",
  "date": "2026-11-19",
  "notes": [
-  "Trích yếu không còn lặp 'V/v V/v': phần mềm tự bỏ chữ 'V/v' / 'Về việc' người dùng hoặc Trợ lý AI ghi sẵn ở đầu ô trích yếu (áp dụng mọi văn bản, bản xem và file Word); Trợ lý AI khi ✍ Cập nhật vào văn bản không ghi 'V/v' vào ô trích yếu"
+  "✍ Cập nhật vào văn bản từ Trợ lý AI giữ đúng bố cục: mỗi đoạn, mỗi ý gạch đầu dòng (-), mỗi mục đánh số (I., 1., a), Điều n.) xuống dòng riêng; câu kết / đề nghị sau danh sách thành đoạn riêng – không còn dồn thành một đoạn; trình bày theo thể thức của trình soạn thảo (lùi đầu dòng, gạch đầu dòng)",
+  "Trợ lý AI được yêu cầu trả nội dung cập nhật theo đúng bố cục văn bản hành chính; phần xem lại trước khi cập nhật hiển thị đúng các dòng"
  ],
  "history": [
+  {
+   "version": "V22.347",
+   "date": "2026-11-19",
+   "notes": [
+    "✍ Cập nhật vào văn bản từ Trợ lý AI giữ đúng bố cục: mỗi đoạn, mỗi ý gạch đầu dòng (-), mỗi mục đánh số (I., 1., a), Điều n.) xuống dòng riêng; câu kết / đề nghị sau danh sách thành đoạn riêng – không còn dồn thành một đoạn; trình bày theo thể thức của trình soạn thảo (lùi đầu dòng, gạch đầu dòng)",
+    "Trợ lý AI được yêu cầu trả nội dung cập nhật theo đúng bố cục văn bản hành chính; phần xem lại trước khi cập nhật hiển thị đúng các dòng"
+   ]
+  },
   {
    "version": "V22.346",
    "date": "2026-11-19",
