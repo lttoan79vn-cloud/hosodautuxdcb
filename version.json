@@ -1,12 +1,21 @@
 {
- "version": "V22.371",
+ "version": "V22.372",
  "date": "2026-11-19",
  "notes": [
-  "Soạn thảo văn bản: lưu trữ văn bản đã soạn – mỗi lần lưu bản thảo có thay đổi, máy chủ ghi 1 phiên bản vào thư mục Data source › so_van_ban › van_ban_da_soan › <tài khoản> › <mã văn bản> (giữ 40 phiên bản gần nhất); cần dán Code.gs mới",
-  "Nút 🕘 Bản đã lưu (cạnh + Mới): xem các phiên bản của văn bản đang soạn và ↩ Lấy lại nội dung; mục Văn bản đã xóa – ♻ Khôi phục vào danh sách Bản thảo",
-  "Đổi Loại văn bản không còn làm mất nội dung: nội dung chung (kính gửi, nội dung, nơi nhận, người ký, phụ lục…) mang sang loại mới; bản của loại cũ được cất lại – đổi về là khôi phục đủ"
+  "Nút 💾 Lưu cho mọi trình soạn thảo (Hồ sơ đầu tư XDCB, thiết bị, giá thành XDCB, giá thành thiết bị và Soạn thảo văn bản): văn bản đã hoàn chỉnh để trình ký hoặc đang soạn dở, bấm Lưu → nội dung giữ nguyên, hệ thống không tự chỉnh sửa (đổi dữ liệu hồ sơ không làm đổi văn bản; vẫn lấy số, nhập ngày ban hành được)",
+  "Văn bản đã lưu hiện '🔒 Đã lưu <thời điểm>', biểu mẫu khóa ô nhập; bấm ✏️ Sửa lại để chỉnh, sửa xong bấm 💾 Lưu lại",
+  "Lưu trữ: hồ sơ → Data source › du_an › <mã hồ sơ> › van_ban_da_luu › <văn bản> (30 lần lưu gần nhất); Soạn thảo văn bản → so_van_ban › van_ban_da_soan; cần dán Code.gs mới"
  ],
  "history": [
+  {
+   "version": "V22.372",
+   "date": "2026-11-19",
+   "notes": [
+    "Nút 💾 Lưu cho mọi trình soạn thảo (Hồ sơ đầu tư XDCB, thiết bị, giá thành XDCB, giá thành thiết bị và Soạn thảo văn bản): văn bản đã hoàn chỉnh để trình ký hoặc đang soạn dở, bấm Lưu → nội dung giữ nguyên, hệ thống không tự chỉnh sửa (đổi dữ liệu hồ sơ không làm đổi văn bản; vẫn lấy số, nhập ngày ban hành được)",
+    "Văn bản đã lưu hiện '🔒 Đã lưu <thời điểm>', biểu mẫu khóa ô nhập; bấm ✏️ Sửa lại để chỉnh, sửa xong bấm 💾 Lưu lại",
+    "Lưu trữ: hồ sơ → Data source › du_an › <mã hồ sơ> › van_ban_da_luu › <văn bản> (30 lần lưu gần nhất); Soạn thảo văn bản → so_van_ban › van_ban_da_soan; cần dán Code.gs mới"
+   ]
+  },
   {
    "version": "V22.371",
    "date": "2026-11-19",
