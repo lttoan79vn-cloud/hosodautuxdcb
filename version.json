@@ -1,10 +1,17 @@
 {
- "version": "V22.360",
+ "version": "V22.361",
  "date": "2026-11-19",
  "notes": [
-  "Biên bản thương thảo: không có phụ lục đính kèm và không tự nhập ghi chú → bỏ hẳn dòng \"* Chi tiết đơn giá…\"; có phụ lục → \"* Chi tiết theo phụ lục đính kèm.\""
+  "Sửa lỗi: các nút của Trợ lý AI soạn thảo trong trình soạn thảo (Soạn nội dung, Viết tiếp, Sửa chính tả, Văn phong hành chính, Rút gọn, Mở rộng, Thành bảng, Rà soát, Gợi ý trích yếu, Gửi yêu cầu) không có tác dụng với tài khoản Admin – lỗi phát sinh khi bỏ nút Thiết lập ở V22.345"
  ],
  "history": [
+  {
+   "version": "V22.361",
+   "date": "2026-11-19",
+   "notes": [
+    "Sửa lỗi: các nút của Trợ lý AI soạn thảo trong trình soạn thảo (Soạn nội dung, Viết tiếp, Sửa chính tả, Văn phong hành chính, Rút gọn, Mở rộng, Thành bảng, Rà soát, Gợi ý trích yếu, Gửi yêu cầu) không có tác dụng với tài khoản Admin – lỗi phát sinh khi bỏ nút Thiết lập ở V22.345"
+   ]
+  },
   {
    "version": "V22.360",
    "date": "2026-11-19",
