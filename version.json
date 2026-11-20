@@ -1,11 +1,17 @@
 {
- "version": "V22.388",
+ "version": "V22.389",
  "date": "2026-11-20",
  "notes": [
-  "Ảnh hiện trạng (BB kiểm tra): vùng bấm lớn 📷 Bấm để chụp ảnh / chọn ảnh hiện trạng, hỗ trợ kéo thả ảnh trên máy tính; đặt ngay sau thẻ nội dung biên bản",
-  "Biên bản đã lưu: hiện rõ thông báo đang khóa kèm nút 🔓 Mở lại để thêm / sửa ảnh (trước đây nút tải ảnh bị ẩn mà không báo)"
+  "Ảnh hiện trạng BB kiểm tra sang trang riêng (không chung trang ký), tiêu đề HÌNH ẢNH HIỆN TRẠNG KÈM THEO BIÊN BẢN và dòng (Kèm theo Biên bản kiểm tra số … ngày …)"
  ],
  "history": [
+  {
+   "version": "V22.389",
+   "date": "2026-11-20",
+   "notes": [
+    "Ảnh hiện trạng BB kiểm tra sang trang riêng (không chung trang ký), tiêu đề HÌNH ẢNH HIỆN TRẠNG KÈM THEO BIÊN BẢN và dòng (Kèm theo Biên bản kiểm tra số … ngày …)"
+   ]
+  },
   {
    "version": "V22.388",
    "date": "2026-11-20",
