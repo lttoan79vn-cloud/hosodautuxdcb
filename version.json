@@ -1,12 +1,19 @@
 {
- "version": "V22.387",
+ "version": "V22.388",
  "date": "2026-11-20",
  "notes": [
-  "Chống rớt trang vùng ký (văn bản Soạn hồ sơ): khi vùng ký bị đẩy sang trang sau để lại khoảng trống lớn – tự thu cỡ chữ nội dung xuống 13pt, dòng đơn; nếu vẫn không vừa thì giữ 14pt, tăng cỡ chữ/giãn đoạn để trang ký luôn có nội dung đi kèm",
-  "Xem trước bản in: trang trước trang ký được canh đều trên – dưới (không còn khoảng trắng lớn cuối trang)",
-  "Áp dụng cho xem trước, In/PDF và Xuất Word"
+  "Ảnh hiện trạng (BB kiểm tra): vùng bấm lớn 📷 Bấm để chụp ảnh / chọn ảnh hiện trạng, hỗ trợ kéo thả ảnh trên máy tính; đặt ngay sau thẻ nội dung biên bản",
+  "Biên bản đã lưu: hiện rõ thông báo đang khóa kèm nút 🔓 Mở lại để thêm / sửa ảnh (trước đây nút tải ảnh bị ẩn mà không báo)"
  ],
  "history": [
+  {
+   "version": "V22.388",
+   "date": "2026-11-20",
+   "notes": [
+    "Ảnh hiện trạng (BB kiểm tra): vùng bấm lớn 📷 Bấm để chụp ảnh / chọn ảnh hiện trạng, hỗ trợ kéo thả ảnh trên máy tính; đặt ngay sau thẻ nội dung biên bản",
+    "Biên bản đã lưu: hiện rõ thông báo đang khóa kèm nút 🔓 Mở lại để thêm / sửa ảnh (trước đây nút tải ảnh bị ẩn mà không báo)"
+   ]
+  },
   {
    "version": "V22.387",
    "date": "2026-11-20",
