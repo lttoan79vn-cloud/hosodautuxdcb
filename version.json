@@ -1,10 +1,19 @@
 {
- "version": "V22.389",
+ "version": "V22.390",
  "date": "2026-11-20",
  "notes": [
-  "Ảnh hiện trạng BB kiểm tra sang trang riêng (không chung trang ký), tiêu đề HÌNH ẢNH HIỆN TRẠNG KÈM THEO BIÊN BẢN và dòng (Kèm theo Biên bản kiểm tra số … ngày …)"
+  "Mọi văn bản (Soạn hồ sơ, Soạn văn bản – xem trước, In/PDF, Xuất Word): đoạn nội dung hết câu xuống dòng mà thiếu dấu kết thúc sẽ tự thêm dấu chấm (.), kể cả nội dung người dùng tự gõ",
+  "Giữ nguyên: đề mục/tiêu đề (in đậm, in hoa, căn giữa), dòng kết thúc : ; , ! ? …, dòng họ tên – chức vụ, dòng dạng Nhãn: giá trị, ô chưa nhập, bảng biểu"
  ],
  "history": [
+  {
+   "version": "V22.390",
+   "date": "2026-11-20",
+   "notes": [
+    "Mọi văn bản (Soạn hồ sơ, Soạn văn bản – xem trước, In/PDF, Xuất Word): đoạn nội dung hết câu xuống dòng mà thiếu dấu kết thúc sẽ tự thêm dấu chấm (.), kể cả nội dung người dùng tự gõ",
+    "Giữ nguyên: đề mục/tiêu đề (in đậm, in hoa, căn giữa), dòng kết thúc : ; , ! ? …, dòng họ tên – chức vụ, dòng dạng Nhãn: giá trị, ô chưa nhập, bảng biểu"
+   ]
+  },
   {
    "version": "V22.389",
    "date": "2026-11-20",
