@@ -1,12 +1,17 @@
 {
- "version": "V22.385",
+ "version": "V22.386",
  "date": "2026-11-20",
  "notes": [
-  "Biên bản kiểm tra: thêm mục 📷 Ảnh hiện trạng – chụp bằng điện thoại hoặc tải ảnh (nhiều ảnh, tối đa 12), ảnh tự thu nhỏ JPEG; nhập chú thích, đổi thứ tự, xóa",
-  "Ảnh chèn cuối biên bản dưới tiêu đề HÌNH ẢNH HIỆN TRẠNG KÈM THEO BIÊN BẢN, đánh số Hình 1, 2…; bố cục 2 ảnh/hàng hoặc 1 ảnh/hàng; có trong xem trước, In/PDF và Xuất Word",
-  "Áp dụng cho BB kiểm tra hồ sơ giá thành thiết bị, giá thành XDCB và hồ sơ XDCB"
+  "BB kiểm tra (hồ sơ giá thành): thành phần ký tự lấy đúng theo danh sách Đại diện công ty + Đại diện đơn vị, đúng thứ tự – tên đơn vị rút gọn (Phòng TCKT → P.TCKT), lãnh đạo phê duyệt ký ở khối KT. Tổng Giám đốc; nhiều thành phần tự chia hàng 3 người"
  ],
  "history": [
+  {
+   "version": "V22.386",
+   "date": "2026-11-20",
+   "notes": [
+    "BB kiểm tra (hồ sơ giá thành): thành phần ký tự lấy đúng theo danh sách Đại diện công ty + Đại diện đơn vị, đúng thứ tự – tên đơn vị rút gọn (Phòng TCKT → P.TCKT), lãnh đạo phê duyệt ký ở khối KT. Tổng Giám đốc; nhiều thành phần tự chia hàng 3 người"
+   ]
+  },
   {
    "version": "V22.385",
    "date": "2026-11-20",
