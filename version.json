@@ -1,11 +1,21 @@
 {
- "version": "V22.390",
- "date": "2026-11-20",
+ "version": "V22.391",
+ "date": "2026-11-21",
  "notes": [
-  "Mọi văn bản (Soạn hồ sơ, Soạn văn bản – xem trước, In/PDF, Xuất Word): đoạn nội dung hết câu xuống dòng mà thiếu dấu kết thúc sẽ tự thêm dấu chấm (.), kể cả nội dung người dùng tự gõ",
-  "Giữ nguyên: đề mục/tiêu đề (in đậm, in hoa, căn giữa), dòng kết thúc : ; , ! ? …, dòng họ tên – chức vụ, dòng dạng Nhãn: giá trị, ô chưa nhập, bảng biểu"
+  "Tin nhắn: thêm nút 📷 chụp ảnh gửi ngay (điện thoại mở máy ảnh) và 📁 gửi ảnh / tệp (Word, Excel, PDF… tối đa 10 MB, chọn nhiều tệp); dán ảnh (Ctrl+V) vào ô nhập cũng gửi được",
+  "Ảnh tự thu nhỏ (≤1600px JPEG), hiện ảnh xem nhanh trong khung chat – bấm để xem ảnh gốc / tải về; tệp hiện tên, dung lượng, bấm để tải",
+  "Tệp được mã hóa AES-GCM bằng khóa hội thoại trước khi gửi, lưu riêng tại tin_nhan/<hội thoại>/tep – cần cập nhật Code.gs"
  ],
  "history": [
+  {
+   "version": "V22.391",
+   "date": "2026-11-21",
+   "notes": [
+    "Tin nhắn: thêm nút 📷 chụp ảnh gửi ngay (điện thoại mở máy ảnh) và 📁 gửi ảnh / tệp (Word, Excel, PDF… tối đa 10 MB, chọn nhiều tệp); dán ảnh (Ctrl+V) vào ô nhập cũng gửi được",
+    "Ảnh tự thu nhỏ (≤1600px JPEG), hiện ảnh xem nhanh trong khung chat – bấm để xem ảnh gốc / tải về; tệp hiện tên, dung lượng, bấm để tải",
+    "Tệp được mã hóa AES-GCM bằng khóa hội thoại trước khi gửi, lưu riêng tại tin_nhan/<hội thoại>/tep – cần cập nhật Code.gs"
+   ]
+  },
   {
    "version": "V22.390",
    "date": "2026-11-20",
