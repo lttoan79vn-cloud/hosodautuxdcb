@@ -1,10 +1,17 @@
 {
- "version": "V22.395",
+ "version": "V22.396",
  "date": "2026-11-23",
  "notes": [
-  "Lập kế hoạch – bảng các bước của mọi gói: số thứ tự, nội dung bước, ngày kết thúc KH cùng cỡ chữ với ô ngày (16px) và in đậm; chữ trong các ô ngày, số ngày cũng in đậm"
+  "Hợp đồng / Dự thảo hợp đồng: thêm nút 📋 Lấy từ BB thương thảo (và Lấy từ Dự thảo HĐ) trong mục Phụ lục bảng biểu – sao chép nguyên bảng phụ lục của biên bản thương thảo cùng gói sang hợp đồng, dòng Kèm theo tự đổi theo hợp đồng, sửa tiếp được; BB thương thảo chưa có phụ lục thì lấy bảng kinh phí thương thảo"
  ],
  "history": [
+  {
+   "version": "V22.396",
+   "date": "2026-11-23",
+   "notes": [
+    "Hợp đồng / Dự thảo hợp đồng: thêm nút 📋 Lấy từ BB thương thảo (và Lấy từ Dự thảo HĐ) trong mục Phụ lục bảng biểu – sao chép nguyên bảng phụ lục của biên bản thương thảo cùng gói sang hợp đồng, dòng Kèm theo tự đổi theo hợp đồng, sửa tiếp được; BB thương thảo chưa có phụ lục thì lấy bảng kinh phí thương thảo"
+   ]
+  },
   {
    "version": "V22.395",
    "date": "2026-11-23",
