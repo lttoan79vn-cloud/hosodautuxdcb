@@ -1,10 +1,21 @@
 {
- "version": "V22.396",
+ "version": "V22.397",
  "date": "2026-11-23",
  "notes": [
-  "Hợp đồng / Dự thảo hợp đồng: thêm nút 📋 Lấy từ BB thương thảo (và Lấy từ Dự thảo HĐ) trong mục Phụ lục bảng biểu – sao chép nguyên bảng phụ lục của biên bản thương thảo cùng gói sang hợp đồng, dòng Kèm theo tự đổi theo hợp đồng, sửa tiếp được; BB thương thảo chưa có phụ lục thì lấy bảng kinh phí thương thảo"
+  "Hợp đồng: thêm mẫu Hợp đồng thi công xây dựng 18 điều (đồng bộ nội dung với Dự thảo hợp đồng) và đặt làm mặc định cho gói không phải tư vấn; khung rút gọn 9 điều thành lựa chọn riêng",
+  "Hợp đồng chính thức luôn ghi giá trúng thầu; tỷ lệ tạm ứng, thanh toán, bảo hành, VAT lấy theo Dự thảo HĐ khi để trống",
+  "Văn bản hợp đồng đã 💾 Lưu theo mẫu khác mẫu đang chọn: hiện cảnh báo ⚠ trên thanh công cụ để mở lại cập nhật (nguyên nhân vùng hiển thị khác vùng điều chỉnh mẫu)"
  ],
  "history": [
+  {
+   "version": "V22.397",
+   "date": "2026-11-23",
+   "notes": [
+    "Hợp đồng: thêm mẫu Hợp đồng thi công xây dựng 18 điều (đồng bộ nội dung với Dự thảo hợp đồng) và đặt làm mặc định cho gói không phải tư vấn; khung rút gọn 9 điều thành lựa chọn riêng",
+    "Hợp đồng chính thức luôn ghi giá trúng thầu; tỷ lệ tạm ứng, thanh toán, bảo hành, VAT lấy theo Dự thảo HĐ khi để trống",
+    "Văn bản hợp đồng đã 💾 Lưu theo mẫu khác mẫu đang chọn: hiện cảnh báo ⚠ trên thanh công cụ để mở lại cập nhật (nguyên nhân vùng hiển thị khác vùng điều chỉnh mẫu)"
+   ]
+  },
   {
    "version": "V22.396",
    "date": "2026-11-23",
