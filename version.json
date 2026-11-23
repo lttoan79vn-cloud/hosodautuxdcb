@@ -1,12 +1,21 @@
 {
- "version": "V22.398",
+ "version": "V22.399",
  "date": "2026-11-23",
  "notes": [
-  "Phụ lục bảng biểu (hợp đồng, biên bản, mọi văn bản): cột tiền (đơn giá, thành tiền, giá trị, kinh phí, thuế…) bỏ phần lẻ sau dấu phẩy, làm tròn đến đồng; cột khối lượng, số lượng giữ nguyên số lẻ",
-  "Dòng Bằng chữ lấy đúng số tổng đã làm tròn đang hiển thị – bằng số và bằng chữ luôn khớp",
-  "Dãy số trong ô không bị ngắt xuống dòng"
+  "Hợp đồng thi công 18 điều – Phụ lục 01 tự động đủ khối lượng, đơn giá, thành tiền: khối lượng lấy từ Dự thảo HĐ / file dự toán, đơn giá trúng thầu lấy từ phụ lục Biên bản thương thảo (khớp theo tên công tác)",
+  "Bước Hợp đồng có bảng chỉnh Phụ lục 01: sửa từng dòng, Tải file Excel bảng phụ lục mới để thay thế, Lập lại tự động, Trả lại bảng cũ",
+  "Phụ lục bảng biểu thêm mới (+ Thêm phụ lục / Lấy từ BB thương thảo) tự đánh số tiếp PHỤ LỤC 02, 03… sau Phụ lục 01 của hợp đồng"
  ],
  "history": [
+  {
+   "version": "V22.399",
+   "date": "2026-11-23",
+   "notes": [
+    "Hợp đồng thi công 18 điều – Phụ lục 01 tự động đủ khối lượng, đơn giá, thành tiền: khối lượng lấy từ Dự thảo HĐ / file dự toán, đơn giá trúng thầu lấy từ phụ lục Biên bản thương thảo (khớp theo tên công tác)",
+    "Bước Hợp đồng có bảng chỉnh Phụ lục 01: sửa từng dòng, Tải file Excel bảng phụ lục mới để thay thế, Lập lại tự động, Trả lại bảng cũ",
+    "Phụ lục bảng biểu thêm mới (+ Thêm phụ lục / Lấy từ BB thương thảo) tự đánh số tiếp PHỤ LỤC 02, 03… sau Phụ lục 01 của hợp đồng"
+   ]
+  },
   {
    "version": "V22.398",
    "date": "2026-11-23",
