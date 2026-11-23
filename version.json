@@ -1,12 +1,19 @@
 {
- "version": "V22.399",
+ "version": "V22.400",
  "date": "2026-11-23",
  "notes": [
-  "Hợp đồng thi công 18 điều – Phụ lục 01 tự động đủ khối lượng, đơn giá, thành tiền: khối lượng lấy từ Dự thảo HĐ / file dự toán, đơn giá trúng thầu lấy từ phụ lục Biên bản thương thảo (khớp theo tên công tác)",
-  "Bước Hợp đồng có bảng chỉnh Phụ lục 01: sửa từng dòng, Tải file Excel bảng phụ lục mới để thay thế, Lập lại tự động, Trả lại bảng cũ",
-  "Phụ lục bảng biểu thêm mới (+ Thêm phụ lục / Lấy từ BB thương thảo) tự đánh số tiếp PHỤ LỤC 02, 03… sau Phụ lục 01 của hợp đồng"
+  "Hủy gói / hạng mục đầu tư (Lập kế hoạch): hồ sơ gắn với gói đã hủy không còn tính vào Tổng quan (số hồ sơ, tổng dự toán, lỗi), Báo cáo (hồ sơ đang thực hiện, tiến độ) – hiện nhãn ⛔ gói đã hủy khi xem cả lưu trữ",
+  "Soạn hồ sơ: hồ sơ thuộc gói đã hủy hiện khung đỏ ⛔ Hạng mục / gói đã hủy (ngày, căn cứ, lý do); khôi phục gói tại Lập kế hoạch thì hồ sơ tự tính lại"
  ],
  "history": [
+  {
+   "version": "V22.400",
+   "date": "2026-11-23",
+   "notes": [
+    "Hủy gói / hạng mục đầu tư (Lập kế hoạch): hồ sơ gắn với gói đã hủy không còn tính vào Tổng quan (số hồ sơ, tổng dự toán, lỗi), Báo cáo (hồ sơ đang thực hiện, tiến độ) – hiện nhãn ⛔ gói đã hủy khi xem cả lưu trữ",
+    "Soạn hồ sơ: hồ sơ thuộc gói đã hủy hiện khung đỏ ⛔ Hạng mục / gói đã hủy (ngày, căn cứ, lý do); khôi phục gói tại Lập kế hoạch thì hồ sơ tự tính lại"
+   ]
+  },
   {
    "version": "V22.399",
    "date": "2026-11-23",
