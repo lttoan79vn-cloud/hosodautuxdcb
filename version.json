@@ -1,12 +1,21 @@
 {
- "version": "V22.397",
+ "version": "V22.398",
  "date": "2026-11-23",
  "notes": [
-  "Hợp đồng: thêm mẫu Hợp đồng thi công xây dựng 18 điều (đồng bộ nội dung với Dự thảo hợp đồng) và đặt làm mặc định cho gói không phải tư vấn; khung rút gọn 9 điều thành lựa chọn riêng",
-  "Hợp đồng chính thức luôn ghi giá trúng thầu; tỷ lệ tạm ứng, thanh toán, bảo hành, VAT lấy theo Dự thảo HĐ khi để trống",
-  "Văn bản hợp đồng đã 💾 Lưu theo mẫu khác mẫu đang chọn: hiện cảnh báo ⚠ trên thanh công cụ để mở lại cập nhật (nguyên nhân vùng hiển thị khác vùng điều chỉnh mẫu)"
+  "Phụ lục bảng biểu (hợp đồng, biên bản, mọi văn bản): cột tiền (đơn giá, thành tiền, giá trị, kinh phí, thuế…) bỏ phần lẻ sau dấu phẩy, làm tròn đến đồng; cột khối lượng, số lượng giữ nguyên số lẻ",
+  "Dòng Bằng chữ lấy đúng số tổng đã làm tròn đang hiển thị – bằng số và bằng chữ luôn khớp",
+  "Dãy số trong ô không bị ngắt xuống dòng"
  ],
  "history": [
+  {
+   "version": "V22.398",
+   "date": "2026-11-23",
+   "notes": [
+    "Phụ lục bảng biểu (hợp đồng, biên bản, mọi văn bản): cột tiền (đơn giá, thành tiền, giá trị, kinh phí, thuế…) bỏ phần lẻ sau dấu phẩy, làm tròn đến đồng; cột khối lượng, số lượng giữ nguyên số lẻ",
+    "Dòng Bằng chữ lấy đúng số tổng đã làm tròn đang hiển thị – bằng số và bằng chữ luôn khớp",
+    "Dãy số trong ô không bị ngắt xuống dòng"
+   ]
+  },
   {
    "version": "V22.397",
    "date": "2026-11-23",
