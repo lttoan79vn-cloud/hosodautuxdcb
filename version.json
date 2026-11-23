@@ -1,12 +1,21 @@
 {
- "version": "V22.392",
+ "version": "V22.393",
  "date": "2026-11-23",
  "notes": [
-  "Báo cáo: thêm chế độ 📋 Báo cáo chung (gộp các nhóm hồ sơ đã chọn) và 🗂 Báo cáo riêng (bảng so sánh + số liệu, danh sách hồ sơ tách từng nhóm); chọn nhiều nhóm hồ sơ cùng lúc; Xuất Word có bảng số liệu riêng theo nhóm",
-  "Thông báo cập nhật: người dùng chỉ được báo có phiên bản mới (không hiện nội dung chi tiết); nội dung từng phiên bản chỉ Admin xem",
-  "Sửa dòng phiên bản trên đầu trang bị đứng ở 22.375"
+  "Báo cáo: thêm mục Chi tiết đã làm / chưa làm theo nhóm hồ sơ và người thực hiện – mỗi người: số nội dung, đã hoàn thành (liệt kê), chưa hoàn thành (bước đang làm, tình trạng, số bước), quá hạn; Báo cáo riêng tách theo từng nhóm; có trên màn hình và Xuất Word",
+  "Chọn nhanh Nhóm đầu tư (XDCB + thiết bị) / Nhóm giá thành (giá thành XDCB + thiết bị)",
+  "Mục Tiến độ kế hoạch phân công: danh sách gói quá hạn chỉ tính các nhóm hồ sơ đã chọn"
  ],
  "history": [
+  {
+   "version": "V22.393",
+   "date": "2026-11-23",
+   "notes": [
+    "Báo cáo: thêm mục Chi tiết đã làm / chưa làm theo nhóm hồ sơ và người thực hiện – mỗi người: số nội dung, đã hoàn thành (liệt kê), chưa hoàn thành (bước đang làm, tình trạng, số bước), quá hạn; Báo cáo riêng tách theo từng nhóm; có trên màn hình và Xuất Word",
+    "Chọn nhanh Nhóm đầu tư (XDCB + thiết bị) / Nhóm giá thành (giá thành XDCB + thiết bị)",
+    "Mục Tiến độ kế hoạch phân công: danh sách gói quá hạn chỉ tính các nhóm hồ sơ đã chọn"
+   ]
+  },
   {
    "version": "V22.392",
    "date": "2026-11-23",
