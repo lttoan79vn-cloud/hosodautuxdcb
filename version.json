@@ -1,12 +1,17 @@
 {
- "version": "V22.393",
+ "version": "V22.394",
  "date": "2026-11-23",
  "notes": [
-  "Báo cáo: thêm mục Chi tiết đã làm / chưa làm theo nhóm hồ sơ và người thực hiện – mỗi người: số nội dung, đã hoàn thành (liệt kê), chưa hoàn thành (bước đang làm, tình trạng, số bước), quá hạn; Báo cáo riêng tách theo từng nhóm; có trên màn hình và Xuất Word",
-  "Chọn nhanh Nhóm đầu tư (XDCB + thiết bị) / Nhóm giá thành (giá thành XDCB + thiết bị)",
-  "Mục Tiến độ kế hoạch phân công: danh sách gói quá hạn chỉ tính các nhóm hồ sơ đã chọn"
+  "Lập kế hoạch – bảng các bước của mọi gói: số thứ tự, nội dung bước, ngày kết thúc KH cùng cỡ chữ với ô ngày (16px) và in đậm; chữ trong các ô ngày, số ngày cũng in đậm"
  ],
  "history": [
+  {
+   "version": "V22.394",
+   "date": "2026-11-23",
+   "notes": [
+    "Lập kế hoạch – bảng các bước của mọi gói: số thứ tự, nội dung bước, ngày kết thúc KH cùng cỡ chữ với ô ngày (16px) và in đậm; chữ trong các ô ngày, số ngày cũng in đậm"
+   ]
+  },
   {
    "version": "V22.393",
    "date": "2026-11-23",
