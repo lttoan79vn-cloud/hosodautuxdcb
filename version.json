@@ -1,10 +1,17 @@
 {
- "version": "V22.394",
+ "version": "V22.395",
  "date": "2026-11-23",
  "notes": [
   "Lập kế hoạch – bảng các bước của mọi gói: số thứ tự, nội dung bước, ngày kết thúc KH cùng cỡ chữ với ô ngày (16px) và in đậm; chữ trong các ô ngày, số ngày cũng in đậm"
  ],
  "history": [
+  {
+   "version": "V22.395",
+   "date": "2026-11-23",
+   "notes": [
+    "Lập kế hoạch – bảng các bước của mọi gói: số thứ tự, nội dung bước, ngày kết thúc KH cùng cỡ chữ với ô ngày (16px) và in đậm; chữ trong các ô ngày, số ngày cũng in đậm"
+   ]
+  },
   {
    "version": "V22.394",
    "date": "2026-11-23",
