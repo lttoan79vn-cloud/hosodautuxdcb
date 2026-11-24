@@ -1,10 +1,19 @@
 {
- "version": "V22.406",
+ "version": "V22.407",
  "date": "2026-11-25",
  "notes": [
-  "Lập kế hoạch – dòng Đối chiếu có thêm mục 🔎 Tổng … lấy từ đâu?: phân tích từng nhóm (giao từ 1 hạng mục kế hoạch gốc, gói ghép nhiều hạng mục, gói tách, gói chuyển tiếp / kế hoạch gốc khác, gói thêm thủ công / phát sinh, hạng mục hủy chưa giao, hạng mục chưa giao) kèm số lượng, giá trị và danh sách"
+  "Lập kế hoạch – số tổng khớp số chi tiết: Bảng phân công liệt kê thêm hạng mục kế hoạch gốc chưa giao (chưa lập gói) và hạng mục hủy chưa giao, cùng mẫu dòng; dòng đếm ghi n/tổng dòng (x gói + y hạng mục chưa lập gói)",
+  "Ô Quá hạn, Đến hạn hiển thị là ↳ phần thuộc Đang thực hiện; tổng = đang thực hiện + chưa đến + chưa có mốc + hoàn thành + đã hủy + chưa giao (ghi rõ ở dòng Đối chiếu); lọc Chưa giao dùng được ở mọi tab"
  ],
  "history": [
+  {
+   "version": "V22.407",
+   "date": "2026-11-25",
+   "notes": [
+    "Lập kế hoạch – số tổng khớp số chi tiết: Bảng phân công liệt kê thêm hạng mục kế hoạch gốc chưa giao (chưa lập gói) và hạng mục hủy chưa giao, cùng mẫu dòng; dòng đếm ghi n/tổng dòng (x gói + y hạng mục chưa lập gói)",
+    "Ô Quá hạn, Đến hạn hiển thị là ↳ phần thuộc Đang thực hiện; tổng = đang thực hiện + chưa đến + chưa có mốc + hoàn thành + đã hủy + chưa giao (ghi rõ ở dòng Đối chiếu); lọc Chưa giao dùng được ở mọi tab"
+   ]
+  },
   {
    "version": "V22.406",
    "date": "2026-11-25",
