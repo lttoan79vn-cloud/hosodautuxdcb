@@ -1,11 +1,21 @@
 {
- "version": "V22.400",
- "date": "2026-11-23",
+ "version": "V22.401",
+ "date": "2026-11-24",
  "notes": [
-  "Hủy gói / hạng mục đầu tư (Lập kế hoạch): hồ sơ gắn với gói đã hủy không còn tính vào Tổng quan (số hồ sơ, tổng dự toán, lỗi), Báo cáo (hồ sơ đang thực hiện, tiến độ) – hiện nhãn ⛔ gói đã hủy khi xem cả lưu trữ",
-  "Soạn hồ sơ: hồ sơ thuộc gói đã hủy hiện khung đỏ ⛔ Hạng mục / gói đã hủy (ngày, căn cứ, lý do); khôi phục gói tại Lập kế hoạch thì hồ sơ tự tính lại"
+  "Lập kế hoạch – bảng kế hoạch gốc: thêm nút ⛔ Hủy / ↺ Khôi phục cho từng hạng mục (cả hạng mục đã giao gói và chưa giao), bắt buộc nêu lý do; hạng mục đã hủy hiện Đã hủy, không đưa vào bảng phân công, không tính chưa giao",
+  "Tạo hồ sơ mới: bắt buộc nhập Tên dự án / công trình (hạng mục mua sắm với hồ sơ giá thành) trước – có tên mới cấp mã hồ sơ và lưu",
+  "Hồ sơ chưa có tên: khóa các bước sau Thông tin chung cho đến khi đặt tên"
  ],
  "history": [
+  {
+   "version": "V22.401",
+   "date": "2026-11-24",
+   "notes": [
+    "Lập kế hoạch – bảng kế hoạch gốc: thêm nút ⛔ Hủy / ↺ Khôi phục cho từng hạng mục (cả hạng mục đã giao gói và chưa giao), bắt buộc nêu lý do; hạng mục đã hủy hiện Đã hủy, không đưa vào bảng phân công, không tính chưa giao",
+    "Tạo hồ sơ mới: bắt buộc nhập Tên dự án / công trình (hạng mục mua sắm với hồ sơ giá thành) trước – có tên mới cấp mã hồ sơ và lưu",
+    "Hồ sơ chưa có tên: khóa các bước sau Thông tin chung cho đến khi đặt tên"
+   ]
+  },
   {
    "version": "V22.400",
    "date": "2026-11-23",
