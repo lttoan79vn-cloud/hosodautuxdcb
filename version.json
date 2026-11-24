@@ -1,11 +1,19 @@
 {
- "version": "V22.404",
+ "version": "V22.405",
  "date": "2026-11-25",
  "notes": [
-  "Kế hoạch gốc: áp dụng bộ lọc chung – tìm, cán bộ, nhóm, hình thức, tình trạng (thêm Chưa giao); VD lọc Đã hủy chỉ hiện hạng mục đã hủy; tiêu đề hiện số hạng mục, giá trị đang lọc",
-  "Tiêu đề kế hoạch gốc ghi rõ N hạng mục → M gói trong bảng phân công (gói đã hủy, hạng mục hủy chưa giao) để đối chiếu số gói và số hạng mục; số đã giao không lẫn hạng mục hủy"
+  "Lập kế hoạch – ô tổng hợp: Tổng số gồm cả hạng mục kế hoạch gốc chưa giao gói và hạng mục hủy chưa giao; thêm ô Chưa giao (bấm để mở kế hoạch gốc lọc chưa giao) và Chưa đến; Tổng giá trị gồm phần chưa giao",
+  "Thêm dòng 📐 Đối chiếu: tổng = đang theo dõi + đã hủy + chưa giao, giá trị khớp với kế hoạch gốc (báo khớp ✓ hoặc số chênh lệch)"
  ],
  "history": [
+  {
+   "version": "V22.405",
+   "date": "2026-11-25",
+   "notes": [
+    "Lập kế hoạch – ô tổng hợp: Tổng số gồm cả hạng mục kế hoạch gốc chưa giao gói và hạng mục hủy chưa giao; thêm ô Chưa giao (bấm để mở kế hoạch gốc lọc chưa giao) và Chưa đến; Tổng giá trị gồm phần chưa giao",
+    "Thêm dòng 📐 Đối chiếu: tổng = đang theo dõi + đã hủy + chưa giao, giá trị khớp với kế hoạch gốc (báo khớp ✓ hoặc số chênh lệch)"
+   ]
+  },
   {
    "version": "V22.404",
    "date": "2026-11-25",
