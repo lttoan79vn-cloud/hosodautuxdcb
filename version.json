@@ -1,12 +1,19 @@
 {
- "version": "V22.401",
+ "version": "V22.402",
  "date": "2026-11-24",
  "notes": [
-  "Lập kế hoạch – bảng kế hoạch gốc: thêm nút ⛔ Hủy / ↺ Khôi phục cho từng hạng mục (cả hạng mục đã giao gói và chưa giao), bắt buộc nêu lý do; hạng mục đã hủy hiện Đã hủy, không đưa vào bảng phân công, không tính chưa giao",
-  "Tạo hồ sơ mới: bắt buộc nhập Tên dự án / công trình (hạng mục mua sắm với hồ sơ giá thành) trước – có tên mới cấp mã hồ sơ và lưu",
-  "Hồ sơ chưa có tên: khóa các bước sau Thông tin chung cho đến khi đặt tên"
+  "Kế hoạch gốc: trạng thái và các nút ✂ Tách gói, ⛔ Hủy / ↺ Khôi phục nằm trên 1 hàng",
+  "Hạng mục hủy khi chưa giao gói: cộng vào ô tổng hợp Đã hủy (số lượng, giá trị, % KH) và giá trị đã hủy trong ô Tổng giá trị; bấm ô Đã hủy / lọc Đã hủy hiện thêm bảng Hạng mục kế hoạch đã hủy khi chưa giao gói (lý do, căn cứ, nút Khôi phục); đưa vào danh sách gói đã hủy trong báo cáo"
  ],
  "history": [
+  {
+   "version": "V22.402",
+   "date": "2026-11-24",
+   "notes": [
+    "Kế hoạch gốc: trạng thái và các nút ✂ Tách gói, ⛔ Hủy / ↺ Khôi phục nằm trên 1 hàng",
+    "Hạng mục hủy khi chưa giao gói: cộng vào ô tổng hợp Đã hủy (số lượng, giá trị, % KH) và giá trị đã hủy trong ô Tổng giá trị; bấm ô Đã hủy / lọc Đã hủy hiện thêm bảng Hạng mục kế hoạch đã hủy khi chưa giao gói (lý do, căn cứ, nút Khôi phục); đưa vào danh sách gói đã hủy trong báo cáo"
+   ]
+  },
   {
    "version": "V22.401",
    "date": "2026-11-24",
