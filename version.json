@@ -1,11 +1,17 @@
 {
- "version": "V22.402",
+ "version": "V22.403",
  "date": "2026-11-24",
  "notes": [
-  "Kế hoạch gốc: trạng thái và các nút ✂ Tách gói, ⛔ Hủy / ↺ Khôi phục nằm trên 1 hàng",
-  "Hạng mục hủy khi chưa giao gói: cộng vào ô tổng hợp Đã hủy (số lượng, giá trị, % KH) và giá trị đã hủy trong ô Tổng giá trị; bấm ô Đã hủy / lọc Đã hủy hiện thêm bảng Hạng mục kế hoạch đã hủy khi chưa giao gói (lý do, căn cứ, nút Khôi phục); đưa vào danh sách gói đã hủy trong báo cáo"
+  "Lọc Đã hủy: hạng mục hủy khi chưa giao gói trình bày cùng mẫu dòng với gói đã hủy, trong cùng bảng phân công (nhóm theo khu vực, tên gạch ngang, dòng nguồn KH – khu vực – mã, dòng ⛔ Hủy hạng mục ngày: lý do, giá trị, % HT, cảnh báo Đã hủy, nút Khôi phục)"
  ],
  "history": [
+  {
+   "version": "V22.403",
+   "date": "2026-11-24",
+   "notes": [
+    "Lọc Đã hủy: hạng mục hủy khi chưa giao gói trình bày cùng mẫu dòng với gói đã hủy, trong cùng bảng phân công (nhóm theo khu vực, tên gạch ngang, dòng nguồn KH – khu vực – mã, dòng ⛔ Hủy hạng mục ngày: lý do, giá trị, % HT, cảnh báo Đã hủy, nút Khôi phục)"
+   ]
+  },
   {
    "version": "V22.402",
    "date": "2026-11-24",
