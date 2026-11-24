@@ -1,10 +1,19 @@
 {
- "version": "V22.403",
- "date": "2026-11-24",
+ "version": "V22.404",
+ "date": "2026-11-25",
  "notes": [
-  "Lọc Đã hủy: hạng mục hủy khi chưa giao gói trình bày cùng mẫu dòng với gói đã hủy, trong cùng bảng phân công (nhóm theo khu vực, tên gạch ngang, dòng nguồn KH – khu vực – mã, dòng ⛔ Hủy hạng mục ngày: lý do, giá trị, % HT, cảnh báo Đã hủy, nút Khôi phục)"
+  "Kế hoạch gốc: áp dụng bộ lọc chung – tìm, cán bộ, nhóm, hình thức, tình trạng (thêm Chưa giao); VD lọc Đã hủy chỉ hiện hạng mục đã hủy; tiêu đề hiện số hạng mục, giá trị đang lọc",
+  "Tiêu đề kế hoạch gốc ghi rõ N hạng mục → M gói trong bảng phân công (gói đã hủy, hạng mục hủy chưa giao) để đối chiếu số gói và số hạng mục; số đã giao không lẫn hạng mục hủy"
  ],
  "history": [
+  {
+   "version": "V22.404",
+   "date": "2026-11-25",
+   "notes": [
+    "Kế hoạch gốc: áp dụng bộ lọc chung – tìm, cán bộ, nhóm, hình thức, tình trạng (thêm Chưa giao); VD lọc Đã hủy chỉ hiện hạng mục đã hủy; tiêu đề hiện số hạng mục, giá trị đang lọc",
+    "Tiêu đề kế hoạch gốc ghi rõ N hạng mục → M gói trong bảng phân công (gói đã hủy, hạng mục hủy chưa giao) để đối chiếu số gói và số hạng mục; số đã giao không lẫn hạng mục hủy"
+   ]
+  },
   {
    "version": "V22.403",
    "date": "2026-11-24",
