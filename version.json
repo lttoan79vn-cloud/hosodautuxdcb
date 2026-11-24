@@ -1,11 +1,17 @@
 {
- "version": "V22.405",
+ "version": "V22.406",
  "date": "2026-11-25",
  "notes": [
-  "Lập kế hoạch – ô tổng hợp: Tổng số gồm cả hạng mục kế hoạch gốc chưa giao gói và hạng mục hủy chưa giao; thêm ô Chưa giao (bấm để mở kế hoạch gốc lọc chưa giao) và Chưa đến; Tổng giá trị gồm phần chưa giao",
-  "Thêm dòng 📐 Đối chiếu: tổng = đang theo dõi + đã hủy + chưa giao, giá trị khớp với kế hoạch gốc (báo khớp ✓ hoặc số chênh lệch)"
+  "Lập kế hoạch – dòng Đối chiếu có thêm mục 🔎 Tổng … lấy từ đâu?: phân tích từng nhóm (giao từ 1 hạng mục kế hoạch gốc, gói ghép nhiều hạng mục, gói tách, gói chuyển tiếp / kế hoạch gốc khác, gói thêm thủ công / phát sinh, hạng mục hủy chưa giao, hạng mục chưa giao) kèm số lượng, giá trị và danh sách"
  ],
  "history": [
+  {
+   "version": "V22.406",
+   "date": "2026-11-25",
+   "notes": [
+    "Lập kế hoạch – dòng Đối chiếu có thêm mục 🔎 Tổng … lấy từ đâu?: phân tích từng nhóm (giao từ 1 hạng mục kế hoạch gốc, gói ghép nhiều hạng mục, gói tách, gói chuyển tiếp / kế hoạch gốc khác, gói thêm thủ công / phát sinh, hạng mục hủy chưa giao, hạng mục chưa giao) kèm số lượng, giá trị và danh sách"
+   ]
+  },
   {
    "version": "V22.405",
    "date": "2026-11-25",
