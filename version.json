@@ -1,11 +1,17 @@
 {
- "version": "V22.407",
+ "version": "V22.408",
  "date": "2026-11-25",
  "notes": [
-  "Lập kế hoạch – số tổng khớp số chi tiết: Bảng phân công liệt kê thêm hạng mục kế hoạch gốc chưa giao (chưa lập gói) và hạng mục hủy chưa giao, cùng mẫu dòng; dòng đếm ghi n/tổng dòng (x gói + y hạng mục chưa lập gói)",
-  "Ô Quá hạn, Đến hạn hiển thị là ↳ phần thuộc Đang thực hiện; tổng = đang thực hiện + chưa đến + chưa có mốc + hoàn thành + đã hủy + chưa giao (ghi rõ ở dòng Đối chiếu); lọc Chưa giao dùng được ở mọi tab"
+  "Lập kế hoạch – dòng Đối chiếu có thêm 🧮 Phân tích chênh lệch: liệt kê từng gói / hạng mục gây chênh giữa bảng phân công và kế hoạch gốc (giá trị gói đã sửa, gói tách tổng khác hạng mục gốc, gói phát sinh, gói chuyển tiếp, hạng mục giao cho gói năm khác), số chênh từng dòng và cộng chênh lệch"
  ],
  "history": [
+  {
+   "version": "V22.408",
+   "date": "2026-11-25",
+   "notes": [
+    "Lập kế hoạch – dòng Đối chiếu có thêm 🧮 Phân tích chênh lệch: liệt kê từng gói / hạng mục gây chênh giữa bảng phân công và kế hoạch gốc (giá trị gói đã sửa, gói tách tổng khác hạng mục gốc, gói phát sinh, gói chuyển tiếp, hạng mục giao cho gói năm khác), số chênh từng dòng và cộng chênh lệch"
+   ]
+  },
   {
    "version": "V22.407",
    "date": "2026-11-25",
