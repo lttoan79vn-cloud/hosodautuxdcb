@@ -1,10 +1,17 @@
 {
- "version": "V22.408",
- "date": "2026-11-25",
+ "version": "V22.409",
+ "date": "2026-11-26",
  "notes": [
-  "Lập kế hoạch – dòng Đối chiếu có thêm 🧮 Phân tích chênh lệch: liệt kê từng gói / hạng mục gây chênh giữa bảng phân công và kế hoạch gốc (giá trị gói đã sửa, gói tách tổng khác hạng mục gốc, gói phát sinh, gói chuyển tiếp, hạng mục giao cho gói năm khác), số chênh từng dòng và cộng chênh lệch"
+  "Hồ sơ XDCB: đổi trình tự – Báo cáo thẩm định (Phòng chuyên môn) đứng trước TTr duyệt BC KTKT (BC KTKT → phòng chuyên môn thẩm định → TTr trình HĐQT → BC Tổ quản trị → Nghị quyết HĐQT → QĐ duyệt); kiểm tra ngày theo trình tự mới; nhắc khi TTr đã ban hành mà chưa có BC thẩm định phòng"
  ],
  "history": [
+  {
+   "version": "V22.409",
+   "date": "2026-11-26",
+   "notes": [
+    "Hồ sơ XDCB: đổi trình tự – Báo cáo thẩm định (Phòng chuyên môn) đứng trước TTr duyệt BC KTKT (BC KTKT → phòng chuyên môn thẩm định → TTr trình HĐQT → BC Tổ quản trị → Nghị quyết HĐQT → QĐ duyệt); kiểm tra ngày theo trình tự mới; nhắc khi TTr đã ban hành mà chưa có BC thẩm định phòng"
+   ]
+  },
   {
    "version": "V22.408",
    "date": "2026-11-25",
