@@ -1,10 +1,19 @@
 {
- "version": "V22.410",
+ "version": "V22.411",
  "date": "2026-11-27",
  "notes": [
-  "Điều hành sản xuất: tăng tốc mạnh khi nhập chuyến xe từ phần mềm cân ZEN / phiếu báo sản lượng / file Excel — gửi gộp 150 chuyến mỗi lượt thay vì từng chuyến một, màn hình chỉ vẽ lại 1 lần khi xong."
+  "Điều hành sản xuất › Tính lương: bộ mẫu lương Xưởng PE theo đúng biểu công ty — Biên bản nghiệm thu chi phí xưởng PE, Giấy đề nghị nhập kho thành phẩm PE, Giấy đề nghị xuất kho hạt nhựa, Bảng thanh toán lương xưởng PE (mẫu P.TCLĐTL), Danh sách chuyển khoản lương xưởng PE riêng.",
+  "Lương sản phẩm xưởng PE chia theo ngày công (đúng bảng thanh toán); có thẻ nhập số liệu nghiệm thu tháng: phụ cấp bảo dưỡng, sửa chữa, vật tư, lũy kế SCTX, điện, tồn kho thành phẩm và nguyên liệu, lấy số dư từ kỳ trước."
  ],
  "history": [
+  {
+   "version": "V22.411",
+   "date": "2026-11-27",
+   "notes": [
+    "Điều hành sản xuất › Tính lương: bộ mẫu lương Xưởng PE theo đúng biểu công ty — Biên bản nghiệm thu chi phí xưởng PE, Giấy đề nghị nhập kho thành phẩm PE, Giấy đề nghị xuất kho hạt nhựa, Bảng thanh toán lương xưởng PE (mẫu P.TCLĐTL), Danh sách chuyển khoản lương xưởng PE riêng.",
+    "Lương sản phẩm xưởng PE chia theo ngày công (đúng bảng thanh toán); có thẻ nhập số liệu nghiệm thu tháng: phụ cấp bảo dưỡng, sửa chữa, vật tư, lũy kế SCTX, điện, tồn kho thành phẩm và nguyên liệu, lấy số dư từ kỳ trước."
+   ]
+  },
   {
    "version": "V22.410",
    "date": "2026-11-27",
