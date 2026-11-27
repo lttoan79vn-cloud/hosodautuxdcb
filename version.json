@@ -1,11 +1,21 @@
 {
- "version": "V22.411",
+ "version": "V22.412",
  "date": "2026-11-27",
  "notes": [
-  "Điều hành sản xuất › Tính lương: bộ mẫu lương Xưởng PE theo đúng biểu công ty — Biên bản nghiệm thu chi phí xưởng PE, Giấy đề nghị nhập kho thành phẩm PE, Giấy đề nghị xuất kho hạt nhựa, Bảng thanh toán lương xưởng PE (mẫu P.TCLĐTL), Danh sách chuyển khoản lương xưởng PE riêng.",
-  "Lương sản phẩm xưởng PE chia theo ngày công (đúng bảng thanh toán); có thẻ nhập số liệu nghiệm thu tháng: phụ cấp bảo dưỡng, sửa chữa, vật tư, lũy kế SCTX, điện, tồn kho thành phẩm và nguyên liệu, lấy số dư từ kỳ trước."
+  "Điều hành sản xuất › Nhập liệu: thêm mục Xưởng PE trong bảng chấm công tổ — chấm công từng người / cả xưởng và nhập sản lượng nhập kho trong ngày.",
+  "Mặc định thu gọn: chỉ mở Tổ rửa xe, các nhóm và Tổ cơ khí, Xưởng PE thu gọn.",
+  "Lương tổ rửa xe: tổng sản lượng mủ nước về các nhà máy chia đều cả tổ theo ngày công, không tính riêng từng nhà máy."
  ],
  "history": [
+  {
+   "version": "V22.412",
+   "date": "2026-11-27",
+   "notes": [
+    "Điều hành sản xuất › Nhập liệu: thêm mục Xưởng PE trong bảng chấm công tổ — chấm công từng người / cả xưởng và nhập sản lượng nhập kho trong ngày.",
+    "Mặc định thu gọn: chỉ mở Tổ rửa xe, các nhóm và Tổ cơ khí, Xưởng PE thu gọn.",
+    "Lương tổ rửa xe: tổng sản lượng mủ nước về các nhà máy chia đều cả tổ theo ngày công, không tính riêng từng nhà máy."
+   ]
+  },
   {
    "version": "V22.411",
    "date": "2026-11-27",
