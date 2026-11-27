@@ -1,12 +1,17 @@
 {
- "version": "V22.415",
+ "version": "V22.416",
  "date": "2026-11-27",
  "notes": [
-  "Biên bản nghiệm thu (Đội xe và Xưởng PE): thành phần nghiệm thu canh tab — tên và chức vụ thẳng cột trên màn hình, Word, Excel, PDF.",
-  "Xưởng PE: bổ sung ô nhập cho mọi nội dung của biên bản — câu căn cứ, ghi chú từng dòng phụ cấp bảo dưỡng / lương sửa chữa, đơn giá khoán SCTX, điện định mức, tỷ lệ phế phẩm (để trống = tự tính), ghi chú từng thành phẩm, nguyên liệu và ghi chú cuối biên bản; nút xem nhanh biên bản, giấy nhập kho, xuất kho.",
-  "Đội xe - Cơ khí: thêm thẻ nhập nội dung Biên bản nghiệm thu ở mục Tính lương — câu căn cứ, ghi chú in trên từng dòng của biên bản, ghi chú cuối biên bản, nút xem nhanh."
+  "Biên bản nghiệm thu Đội xe - Cơ khí và Xưởng PE: thêm vùng nhập Chi phí khác nghiệm thu trong tháng (ngoài tiền lương sản lượng) — nội dung, ĐVT, khối lượng × đơn giá hoặc nhập thẳng thành tiền, ghi chú; tự cộng vào tổng chi phí nghiệm thu, in thành mục riêng trên biên bản và khối lượng nghiệm thu."
  ],
  "history": [
+  {
+   "version": "V22.416",
+   "date": "2026-11-27",
+   "notes": [
+    "Biên bản nghiệm thu Đội xe - Cơ khí và Xưởng PE: thêm vùng nhập Chi phí khác nghiệm thu trong tháng (ngoài tiền lương sản lượng) — nội dung, ĐVT, khối lượng × đơn giá hoặc nhập thẳng thành tiền, ghi chú; tự cộng vào tổng chi phí nghiệm thu, in thành mục riêng trên biên bản và khối lượng nghiệm thu."
+   ]
+  },
   {
    "version": "V22.415",
    "date": "2026-11-27",
