@@ -1,10 +1,21 @@
 {
- "version": "V22.414",
+ "version": "V22.415",
  "date": "2026-11-27",
  "notes": [
-  "Điều hành sản xuất: tách 2 khu dữ liệu riêng — 🚚 Đội xe - Cơ khí và 🏭 Xưởng PE (nút chuyển ở đầu các màn hình Nhập liệu, Xác nhận, Sản lượng, Theo ngày, Tính lương). Mỗi khu chỉ hiện công nhân, mục chờ xác nhận, số liệu, biểu mẫu và bộ in trọn bộ của khu đó; thêm Bảng chấm công xưởng PE riêng."
+  "Biên bản nghiệm thu (Đội xe và Xưởng PE): thành phần nghiệm thu canh tab — tên và chức vụ thẳng cột trên màn hình, Word, Excel, PDF.",
+  "Xưởng PE: bổ sung ô nhập cho mọi nội dung của biên bản — câu căn cứ, ghi chú từng dòng phụ cấp bảo dưỡng / lương sửa chữa, đơn giá khoán SCTX, điện định mức, tỷ lệ phế phẩm (để trống = tự tính), ghi chú từng thành phẩm, nguyên liệu và ghi chú cuối biên bản; nút xem nhanh biên bản, giấy nhập kho, xuất kho.",
+  "Đội xe - Cơ khí: thêm thẻ nhập nội dung Biên bản nghiệm thu ở mục Tính lương — câu căn cứ, ghi chú in trên từng dòng của biên bản, ghi chú cuối biên bản, nút xem nhanh."
  ],
  "history": [
+  {
+   "version": "V22.415",
+   "date": "2026-11-27",
+   "notes": [
+    "Biên bản nghiệm thu (Đội xe và Xưởng PE): thành phần nghiệm thu canh tab — tên và chức vụ thẳng cột trên màn hình, Word, Excel, PDF.",
+    "Xưởng PE: bổ sung ô nhập cho mọi nội dung của biên bản — câu căn cứ, ghi chú từng dòng phụ cấp bảo dưỡng / lương sửa chữa, đơn giá khoán SCTX, điện định mức, tỷ lệ phế phẩm (để trống = tự tính), ghi chú từng thành phẩm, nguyên liệu và ghi chú cuối biên bản; nút xem nhanh biên bản, giấy nhập kho, xuất kho.",
+    "Đội xe - Cơ khí: thêm thẻ nhập nội dung Biên bản nghiệm thu ở mục Tính lương — câu căn cứ, ghi chú in trên từng dòng của biên bản, ghi chú cuối biên bản, nút xem nhanh."
+   ]
+  },
   {
    "version": "V22.414",
    "date": "2026-11-27",
