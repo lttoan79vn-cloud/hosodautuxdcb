@@ -1,10 +1,19 @@
 {
- "version": "V22.419",
+ "version": "V22.420",
  "date": "2026-11-28",
  "notes": [
-  "Điều hành sản xuất (Đội xe - Cơ khí và Xưởng PE): mọi ô nhập số hiển thị dấu chấm phân cách hàng nghìn và dấu phẩy thập phân (1.500.000 · 1,43), tự định dạng khi gõ; phím dấu chấm trên bàn phím số tự thành dấu phẩy thập phân."
+  "BBNT Đội xe - Cơ khí: dòng B.II có tổng chi phí sửa chữa thực tế (vật tư + gia công + nhân công) với các dòng chi tiết; thêm dòng B.IV Chi phí chung lấy theo định mức (Nội dung khác) hoặc số đề nghị thanh toán đã nhập, liên kết vào Kết luận mục II.",
+  "Đổi tên dòng chi phí bốc xếp thành “Chi phí bốc xếp NH3 chống đông” (dùng chung cho các loại mủ)."
  ],
  "history": [
+  {
+   "version": "V22.420",
+   "date": "2026-11-28",
+   "notes": [
+    "BBNT Đội xe - Cơ khí: dòng B.II có tổng chi phí sửa chữa thực tế (vật tư + gia công + nhân công) với các dòng chi tiết; thêm dòng B.IV Chi phí chung lấy theo định mức (Nội dung khác) hoặc số đề nghị thanh toán đã nhập, liên kết vào Kết luận mục II.",
+    "Đổi tên dòng chi phí bốc xếp thành “Chi phí bốc xếp NH3 chống đông” (dùng chung cho các loại mủ)."
+   ]
+  },
   {
    "version": "V22.419",
    "date": "2026-11-28",
