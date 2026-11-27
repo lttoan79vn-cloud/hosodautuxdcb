@@ -1,11 +1,19 @@
 {
- "version": "V22.417",
+ "version": "V22.418",
  "date": "2026-11-27",
  "notes": [
-  "Điều hành sản xuất › biểu mẫu in ký: lề trang 1,5 cm (màn hình xem, PDF, Word, Excel).",
-  "Tham số tính lương và số liệu nghiệm thu tháng chuyển sang mục Nhập liệu (khung ⚙ thu gọn được) cho cả Đội xe - Cơ khí và Xưởng PE; mục Tính lương có nút mở nhanh."
+  "Vật tư sửa chữa nhập theo bảng có nút + Thêm dòng (nội dung, ĐVT, khối lượng × đơn giá hoặc nhập thẳng thành tiền, ghi chú) cho cả Xưởng PE và Đội xe - Cơ khí; Đội xe in chi tiết từng vật tư dưới mục B.II biên bản nghiệm thu.",
+  "Các ô trong bảng nhập chi phí khác / vật tư có khung viền rõ ràng."
  ],
  "history": [
+  {
+   "version": "V22.418",
+   "date": "2026-11-27",
+   "notes": [
+    "Vật tư sửa chữa nhập theo bảng có nút + Thêm dòng (nội dung, ĐVT, khối lượng × đơn giá hoặc nhập thẳng thành tiền, ghi chú) cho cả Xưởng PE và Đội xe - Cơ khí; Đội xe in chi tiết từng vật tư dưới mục B.II biên bản nghiệm thu.",
+    "Các ô trong bảng nhập chi phí khác / vật tư có khung viền rõ ràng."
+   ]
+  },
   {
    "version": "V22.417",
    "date": "2026-11-27",
