@@ -1,12 +1,17 @@
 {
- "version": "V22.412",
+ "version": "V22.413",
  "date": "2026-11-27",
  "notes": [
-  "Điều hành sản xuất › Nhập liệu: thêm mục Xưởng PE trong bảng chấm công tổ — chấm công từng người / cả xưởng và nhập sản lượng nhập kho trong ngày.",
-  "Mặc định thu gọn: chỉ mở Tổ rửa xe, các nhóm và Tổ cơ khí, Xưởng PE thu gọn.",
-  "Lương tổ rửa xe: tổng sản lượng mủ nước về các nhà máy chia đều cả tổ theo ngày công, không tính riêng từng nhà máy."
+  "Điều hành sản xuất: tăng tốc mở danh mục — danh mục nạp riêng một lượt nhẹ, không chờ gói chuyến xe lớn của tháng; lần mở sau hiện ngay danh mục đã lưu trên máy rồi tự cập nhật (xóa khi đăng xuất)."
  ],
  "history": [
+  {
+   "version": "V22.413",
+   "date": "2026-11-27",
+   "notes": [
+    "Điều hành sản xuất: tăng tốc mở danh mục — danh mục nạp riêng một lượt nhẹ, không chờ gói chuyến xe lớn của tháng; lần mở sau hiện ngay danh mục đã lưu trên máy rồi tự cập nhật (xóa khi đăng xuất)."
+   ]
+  },
   {
    "version": "V22.412",
    "date": "2026-11-27",
