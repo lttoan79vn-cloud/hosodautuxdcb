@@ -1,10 +1,17 @@
 {
- "version": "V22.413",
+ "version": "V22.414",
  "date": "2026-11-27",
  "notes": [
-  "Điều hành sản xuất: tăng tốc mở danh mục — danh mục nạp riêng một lượt nhẹ, không chờ gói chuyến xe lớn của tháng; lần mở sau hiện ngay danh mục đã lưu trên máy rồi tự cập nhật (xóa khi đăng xuất)."
+  "Điều hành sản xuất: tách 2 khu dữ liệu riêng — 🚚 Đội xe - Cơ khí và 🏭 Xưởng PE (nút chuyển ở đầu các màn hình Nhập liệu, Xác nhận, Sản lượng, Theo ngày, Tính lương). Mỗi khu chỉ hiện công nhân, mục chờ xác nhận, số liệu, biểu mẫu và bộ in trọn bộ của khu đó; thêm Bảng chấm công xưởng PE riêng."
  ],
  "history": [
+  {
+   "version": "V22.414",
+   "date": "2026-11-27",
+   "notes": [
+    "Điều hành sản xuất: tách 2 khu dữ liệu riêng — 🚚 Đội xe - Cơ khí và 🏭 Xưởng PE (nút chuyển ở đầu các màn hình Nhập liệu, Xác nhận, Sản lượng, Theo ngày, Tính lương). Mỗi khu chỉ hiện công nhân, mục chờ xác nhận, số liệu, biểu mẫu và bộ in trọn bộ của khu đó; thêm Bảng chấm công xưởng PE riêng."
+   ]
+  },
   {
    "version": "V22.413",
    "date": "2026-11-27",
