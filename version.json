@@ -1,11 +1,17 @@
 {
- "version": "V22.420",
+ "version": "V22.421",
  "date": "2026-11-28",
  "notes": [
-  "BBNT Đội xe - Cơ khí: dòng B.II có tổng chi phí sửa chữa thực tế (vật tư + gia công + nhân công) với các dòng chi tiết; thêm dòng B.IV Chi phí chung lấy theo định mức (Nội dung khác) hoặc số đề nghị thanh toán đã nhập, liên kết vào Kết luận mục II.",
-  "Đổi tên dòng chi phí bốc xếp thành “Chi phí bốc xếp NH3 chống đông” (dùng chung cho các loại mủ)."
+  "BBNT Đội xe - Cơ khí: chi phí chung trình bày theo mẫu công ty — Định mức khoán năm, Lũy kế thực hiện (đến kỳ trước + tháng này), Số tiền còn lại, Thực hiện trong tháng; Kết luận mục II lấy số thực hiện trong tháng. Thêm ô nhập “lũy kế thực hiện đến kỳ trước”, nút lấy lũy kế kỳ trước tự cộng dồn chi phí chung."
  ],
  "history": [
+  {
+   "version": "V22.421",
+   "date": "2026-11-28",
+   "notes": [
+    "BBNT Đội xe - Cơ khí: chi phí chung trình bày theo mẫu công ty — Định mức khoán năm, Lũy kế thực hiện (đến kỳ trước + tháng này), Số tiền còn lại, Thực hiện trong tháng; Kết luận mục II lấy số thực hiện trong tháng. Thêm ô nhập “lũy kế thực hiện đến kỳ trước”, nút lấy lũy kế kỳ trước tự cộng dồn chi phí chung."
+   ]
+  },
   {
    "version": "V22.420",
    "date": "2026-11-28",
