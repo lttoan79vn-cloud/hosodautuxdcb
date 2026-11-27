@@ -1,10 +1,17 @@
 {
- "version": "V22.409",
- "date": "2026-11-26",
+ "version": "V22.410",
+ "date": "2026-11-27",
  "notes": [
-  "Hồ sơ XDCB: đổi trình tự – Báo cáo thẩm định (Phòng chuyên môn) đứng trước TTr duyệt BC KTKT (BC KTKT → phòng chuyên môn thẩm định → TTr trình HĐQT → BC Tổ quản trị → Nghị quyết HĐQT → QĐ duyệt); kiểm tra ngày theo trình tự mới; nhắc khi TTr đã ban hành mà chưa có BC thẩm định phòng"
+  "Điều hành sản xuất: tăng tốc mạnh khi nhập chuyến xe từ phần mềm cân ZEN / phiếu báo sản lượng / file Excel — gửi gộp 150 chuyến mỗi lượt thay vì từng chuyến một, màn hình chỉ vẽ lại 1 lần khi xong."
  ],
  "history": [
+  {
+   "version": "V22.410",
+   "date": "2026-11-27",
+   "notes": [
+    "Điều hành sản xuất: tăng tốc mạnh khi nhập chuyến xe từ phần mềm cân ZEN / phiếu báo sản lượng / file Excel — gửi gộp 150 chuyến mỗi lượt thay vì từng chuyến một, màn hình chỉ vẽ lại 1 lần khi xong."
+   ]
+  },
   {
    "version": "V22.409",
    "date": "2026-11-26",
