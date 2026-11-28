@@ -1,11 +1,21 @@
 {
- "version": "V22.428",
+ "version": "V22.429",
  "date": "2026-11-28",
  "notes": [
-  "Danh mục xe: đổi XT01 thành xe 64A (61C-121.27 – Trần Ngọc Lợi), xác định là xe chở mủ tạp và vật tư (NM BL-LT → CP) – tự cập nhật khi Phòng PT&QLKCN mở Điều hành SX; “XT01” giữ làm mã phụ nên chuyến đã nhập vẫn nhận đúng tài xế.",
-  "Xe có loại “chở vật tư / tải thùng” luôn tính lương thời gian (tối đa 1 công/ngày), không tính lương sản phẩm mủ nước dù số nội bộ có đuôi A; dữ liệu cân ZEN của xe 64A tách thành phiếu xe chở mủ tạp, vật tư."
+  "Xe 64A (tài xế Trần Ngọc Lợi): nhận đúng xe cả khi danh mục còn ghi XT01 hoặc đã đổi sang 64A (dữ liệu cân ZEN, file nhập, chuyến cũ); tự đổi danh mục XT01 → 64A mỗi lần Phòng PT&QLKCN mở Nhập liệu nếu lần trước chưa đổi được.",
+  "Lấy từ phần mềm cân ZEN: báo số dòng cân của xe chở mủ tạp, vật tư (hoặc báo không thấy) và liệt kê mã xe trên phần mềm cân chưa có trong danh mục.",
+  "Tính lương › Trạng thái: cảnh báo tài xế của xe chưa có trong danh sách công nhân."
  ],
  "history": [
+  {
+   "version": "V22.429",
+   "date": "2026-11-28",
+   "notes": [
+    "Xe 64A (tài xế Trần Ngọc Lợi): nhận đúng xe cả khi danh mục còn ghi XT01 hoặc đã đổi sang 64A (dữ liệu cân ZEN, file nhập, chuyến cũ); tự đổi danh mục XT01 → 64A mỗi lần Phòng PT&QLKCN mở Nhập liệu nếu lần trước chưa đổi được.",
+    "Lấy từ phần mềm cân ZEN: báo số dòng cân của xe chở mủ tạp, vật tư (hoặc báo không thấy) và liệt kê mã xe trên phần mềm cân chưa có trong danh mục.",
+    "Tính lương › Trạng thái: cảnh báo tài xế của xe chưa có trong danh sách công nhân."
+   ]
+  },
   {
    "version": "V22.428",
    "date": "2026-11-28",
