@@ -1,10 +1,17 @@
 {
- "version": "V22.433",
+ "version": "V22.434",
  "date": "2026-11-28",
  "notes": [
-  "Tách Điều hành sản xuất thành trang riêng tại …/hosodautuxdcb/dieuhanhsx/: đăng nhập bằng tài khoản PHR (dùng chung phiên trên cùng trình duyệt), dùng chung máy chủ, dữ liệu Google Drive của Admin và phân quyền mục Sản xuất; có đủ 5 mục chức năng, cài được như ứng dụng trên điện thoại, tự báo khi có phiên bản mới. Cùng một mã nguồn với mục Điều hành sản xuất trong PHR (vẫn giữ song song); trong PHR có thêm nút “↗ Trang riêng”."
+  "Điều hành sản xuất (trang riêng): màn hình đăng nhập riêng, nhận diện khác PHR; phiên đăng nhập độc lập – đăng nhập, thoát ở Điều hành SX không ảnh hưởng chương trình PHR và ngược lại. Chỉ tài khoản đã được cấp quyền mục Sản xuất mới vào được, chưa có quyền thì có thông báo nhờ Admin cấp. Chuẩn bị kho riêng cho Điều hành SX; mục Điều hành sản xuất trong PHR vẫn chạy song song."
  ],
  "history": [
+  {
+   "version": "V22.434",
+   "date": "2026-11-28",
+   "notes": [
+    "Điều hành sản xuất (trang riêng): màn hình đăng nhập riêng, nhận diện khác PHR; phiên đăng nhập độc lập – đăng nhập, thoát ở Điều hành SX không ảnh hưởng chương trình PHR và ngược lại. Chỉ tài khoản đã được cấp quyền mục Sản xuất mới vào được, chưa có quyền thì có thông báo nhờ Admin cấp. Chuẩn bị kho riêng cho Điều hành SX; mục Điều hành sản xuất trong PHR vẫn chạy song song."
+   ]
+  },
   {
    "version": "V22.433",
    "date": "2026-11-28",

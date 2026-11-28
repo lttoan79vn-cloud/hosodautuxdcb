@@ -7,8 +7,8 @@
 <meta name="description" content="Hệ thống quản lý điều hành sản xuất Đội xe - Cơ khí - Xưởng PE – Công ty CP Cao su Phước Hòa">
 <meta name="theme-color" content="#0f766e">
 <link rel="manifest" href="manifest.webmanifest">
-<link rel="icon" href="../icon-192.png">
-<link rel="apple-touch-icon" href="../icon-192.png">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Điều hành SX">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -46,8 +46,13 @@ button{font:inherit}
 .wait{flex:1;display:grid;place-items:center;color:#475569;font-size:15px;padding:20px;text-align:center;line-height:1.6}
 .wait .bx{max-width:540px}
 /* đăng nhập */
-#login{position:fixed;inset:0;z-index:50;display:grid;place-items:center;padding:16px;background:radial-gradient(circle at 20% 10%,#14958a 0,#0f766e 35%,#0b3b37 100%);overflow:auto}
-.card{width:100%;max-width:400px;background:var(--card);border-radius:16px;padding:24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.25)}
+#login{position:fixed;inset:0;z-index:50;display:grid;place-items:center;padding:16px;background:linear-gradient(160deg,#fbbf24 0,#f59e0b 14%,#0f766e 14.2%,#0f766e 55%,#0b3b37 100%);overflow:auto}
+.lgw{width:100%;max-width:400px;display:flex;flex-direction:column;gap:14px}
+.brand{display:flex;gap:12px;align-items:center;color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.25)}
+.brand .ic{width:54px;height:54px;border-radius:14px;background:#fff;display:grid;place-items:center;font-size:30px;flex:none;text-shadow:none;box-shadow:0 6px 18px rgba(0,0,0,.2)}
+.brand b{display:block;font-size:17px;letter-spacing:.3px;line-height:1.2}.brand span{display:block;font-size:13px;opacity:.95}.brand .co{font-size:12px;opacity:.8}
+.ver{color:rgba(255,255,255,.75);font-size:12px;text-align:center}
+.card{width:100%;background:var(--card);border-radius:16px;padding:22px 22px;box-shadow:0 18px 50px rgba(0,0,0,.25);border-top:5px solid #fbbf24}
 .card .hd{display:flex;gap:12px;align-items:center;margin-bottom:16px}
 .card .hd img{width:46px;height:46px;border-radius:12px}
 .card h1{font-size:18px;margin:0;color:var(--pri);line-height:1.25}
@@ -82,12 +87,12 @@ button{font:inherit}
 </head>
 <body>
 <div id="bar">
-  <div class="lg"><img src="../icon-192.png" alt=""><div class="t"><span class="tl">Điều hành sản xuất</span><span class="ts">Điều hành SX</span><small>Đội xe - Cơ khí - Xưởng PE · PHR</small></div></div>
+  <div class="lg"><img src="icon-192.png" alt=""><div class="t"><span class="tl">Điều hành sản xuất</span><span class="ts">Điều hành SX</span><small>Đội xe - Cơ khí - Xưởng PE · PHR</small></div></div>
   <span class="sp"></span>
   <span id="chip">…</span>
   <span id="who"></span>
   <button type="button" class="tb" id="b-reload" title="Tải lại chương trình">↻<span class="tx"> Tải lại</span></button>
-  <a class="tb" id="b-phr" href="../" title="Mở chương trình PHR – Hồ sơ đầu tư XDCB">⇱<span class="tx"> PHR</span></a>
+  <a class="tb" id="b-phr" href="https://lttoan79vn-cloud.github.io/hosodautuxdcb/" target="_blank" rel="noopener" title="Mở chương trình PHR – Hồ sơ đầu tư XDCB">⇱<span class="tx"> PHR</span></a>
   <button type="button" class="tb" id="b-out" title="Đăng xuất">⏻<span class="tx"> Thoát</span></button>
 </div>
 <div id="sub" role="tablist"></div>
@@ -95,14 +100,18 @@ button{font:inherit}
 <div id="host"><div class="wait">Đang mở chương trình…</div></div>
 
 <div id="login" hidden>
+  <div class="lgw">
+  <div class="brand"><div class="ic">🚚</div><div><b>HỆ THỐNG ĐIỀU HÀNH SẢN XUẤT</b><span>Đội xe - Cơ khí - Xưởng PE</span><span class="co">Công ty Cổ phần Cao su Phước Hòa</span></div></div>
   <form class="card" id="lg-form" autocomplete="on">
-    <div class="hd"><img src="../icon-192.png" alt=""><h1>Điều hành sản xuất<small>Đăng nhập bằng tài khoản PHR</small></h1></div>
+    <div class="hd"><img src="icon-192.png" alt=""><h1>Đăng nhập Điều hành SX<small>Phiên đăng nhập riêng, độc lập với chương trình PHR</small></h1></div>
     <div class="msg" id="lg-msg"></div>
     <label class="fld"><span>Tên đăng nhập hoặc email</span><input id="lg-id" autocomplete="username" autocapitalize="none" spellcheck="false" required></label>
     <label class="fld"><span>Mật khẩu</span><input id="lg-pw" type="password" autocomplete="current-password" required></label>
     <button class="btn" id="lg-go" type="submit">Đăng nhập</button>
-    <div class="lnk">Dùng chung tài khoản và phân quyền với chương trình PHR.<br>Chưa có tài khoản hoặc quên mật khẩu? <a href="../">Mở PHR</a> để đăng ký / đặt lại bằng mã PIN.</div>
+    <div class="lnk">Tài khoản do Admin PHR cấp – người đã được cấp quyền mục <b>Sản xuất</b> mới vào được.<br>Chưa có tài khoản hoặc quên mật khẩu? <a href="https://lttoan79vn-cloud.github.io/hosodautuxdcb/" target="_blank" rel="noopener">Mở PHR</a> để đăng ký / đặt lại bằng mã PIN.</div>
   </form>
+  <div class="ver" id="lg-ver"></div>
+  </div>
 </div>
 <div id="toast"></div>
 
@@ -111,9 +120,11 @@ button{font:inherit}
    Dùng chung máy chủ PHR (Apps Script), dữ liệu trên Google Drive của Admin và tài khoản, phân quyền PHR.
    Chương trình Điều hành SX (app.html) là cùng một mã nguồn với mục “Điều hành sản xuất” trong PHR, chạy trong khung bên dưới
    qua cầu nối window.phrSxBridge. Tài khoản phần mềm cân ZEN và khóa AI chỉ nằm trên máy chủ. */
-const SXA_VERSION = 'V22.433';
+const SXA_VERSION = 'V22.434';
+const PHR_URL = 'https://lttoan79vn-cloud.github.io/hosodautuxdcb/';
 const PHR_AUTH_API_URL = 'https://script.google.com/macros/s/AKfycbwwhWYlyQHzNussNTiMOXy0fbOFsXHeXKedQE4zAz_i-20gWh0q_0KFm5grr-xGoBj_Gg/exec';
-const K = { tok: 'phr_auth_token', srv: 'phr_pwd_srv_', uname: 'phr_uname_map_v1', unameLast: 'phr_login_uname', roles: 'phr_account_roles_audit_v1', me: 'phr_sxa_email' };
+/* V22.434: phiên đăng nhập RIÊNG của trang Điều hành SX – khóa lưu trên máy khác hoàn toàn với chương trình PHR (đăng nhập, thoát độc lập) */
+const K = { tok: 'sxa_auth_token', srv: 'sxa_pwd_srv_', uname: 'sxa_uname_map', unameLast: 'sxa_login_uname', me: 'sxa_email' };
 const $ = s => document.querySelector(s);
 const LS = { get(k) { try { return localStorage.getItem(k); } catch (_) { return null; } }, set(k, v) { try { localStorage.setItem(k, v); } catch (_) { } }, del(k) { try { localStorage.removeItem(k); } catch (_) { } } };
 const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -130,7 +141,7 @@ function devInfo() {
   const br = /Zalo/i.test(ua) ? 'Zalo' : /FBAN|FBAV/i.test(ua) ? 'Facebook' : /coc_coc|CocCoc/i.test(ua) ? 'Cốc Cốc' : /Edg\//.test(ua) ? 'Edge' : /Firefox\//.test(ua) ? 'Firefox' : /CriOS|Chrome\//.test(ua) ? 'Chrome' : /Safari\//.test(ua) ? 'Safari' : 'Trình duyệt khác';
   const os = /iPhone/.test(ua) ? 'iPhone' : /iPad/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1) ? 'iPad' : /Android/.test(ua) ? 'Android' : /Windows/.test(ua) ? 'Windows' : /Mac OS X/.test(ua) ? 'macOS' : /Linux/.test(ua) ? 'Linux' : 'Không rõ';
   const app = (matchMedia('(display-mode: standalone)').matches || navigator.standalone) ? ' · ứng dụng cài đặt' : '';
-  return br + ' · ' + os + app + ' · trang Điều hành SX';
+  return br + ' · ' + os + app + ' · Điều hành SX';
 }
 async function api(action, data) {
   if (/^(login|me|logout)$/.test(action)) data = Object.assign({ dev: devInfo() }, data || {});
@@ -180,7 +191,6 @@ async function doLogin(ev) {
     }
     LS.set(K.tok, res.token); LS.set(K.me, email);
     try { LS.set(K.srv + email, JSON.stringify({ salt, h: await sha(hash), role: res.role, at: new Date().toISOString() })); } catch (_) { }
-    try { const r = JSON.parse(LS.get(K.roles) || '{}'); r[email] = { level: res.role || 'viewer' }; LS.set(K.roles, JSON.stringify(r)); } catch (_) { }
     if (res.username) { const m = unameMap(); Object.keys(m).forEach(k => { if (m[k] === email) delete m[k]; }); m[res.username.toLowerCase()] = email; LS.set(K.uname, JSON.stringify(m)); LS.set(K.unameLast, res.username.toLowerCase()); }
     $('#lg-pw').value = ''; $('#login').hidden = true;
     await boot(true);
@@ -254,24 +264,24 @@ async function ping() {
   if (r && !r.ok && (r.code === 'expired' || r.code === 'revoked')) { if (r.code === 'revoked') LS.del(K.tok); chip('warn', '⚠ ' + r.msg); showLogin(r.msg); }
 }
 async function logout(silent) {
-  if (!silent && !confirm('Đăng xuất khỏi Điều hành sản xuất?\nChương trình PHR mở trên trình duyệt này cũng sẽ phải đăng nhập lại (dùng chung phiên).')) return;
+  if (!silent && !confirm('Đăng xuất khỏi Điều hành sản xuất?')) return;
   const t = tok(); LS.del(K.tok);
   try { Object.keys(localStorage).filter(k => k.indexOf('phr_sx_cache_') === 0).forEach(k => localStorage.removeItem(k)); } catch (_) { }
   if (t) api('logout', { token: t }).catch(() => { });
   clearInterval(watch); opened = false; $('#who').textContent = ''; chip('', 'Chưa đăng nhập');
   waitBox('Đã đăng xuất. Nếu dùng máy chung, hãy đóng cửa sổ trình duyệt.'); $('#lg-pw').value = ''; showLogin('');
 }
-/* phiên bị thay đổi ở thẻ PHR khác trên cùng trình duyệt */
+/* đăng nhập / thoát ở thẻ Điều hành SX khác trên cùng trình duyệt */
 window.addEventListener('storage', e => {
   if (e.key !== K.tok) return;
-  if (!e.newValue && opened) { opened = false; chip('warn', '⚠ Đã đăng xuất ở PHR'); waitBox('Tài khoản đã đăng xuất ở chương trình PHR trên trình duyệt này.'); showLogin('Đã đăng xuất ở chương trình PHR. Vui lòng đăng nhập lại.'); }
+  if (!e.newValue && opened) { opened = false; clearInterval(watch); $('#who').textContent = ''; chip('', 'Chưa đăng nhập'); waitBox('Đã đăng xuất ở cửa sổ Điều hành sản xuất khác.'); showLogin(''); }
   else if (e.newValue && !$('#login').hidden) { $('#login').hidden = true; boot(true); }
 });
 
 /* ---------- phiên bản mới ---------- */
 async function checkVer() {
   try {
-    const v = await (await fetch('../version.json?t=' + Date.now(), { cache: 'no-store' })).json();
+    const v = await (await fetch('version.json?t=' + Date.now(), { cache: 'no-store' })).json();
     if (v && v.version && v.version !== SXA_VERSION) { const u = $('#upd'); u.hidden = false; u.innerHTML = `🔔 Đã có phiên bản mới <b>${esc(v.version)}</b>. <button type="button" id="upd-go">Cập nhật ngay</button>`; $('#upd-go').onclick = () => { if (navigator.serviceWorker && navigator.serviceWorker.controller) navigator.serviceWorker.getRegistration().then(r => r && r.update()).finally(() => location.reload()); else location.reload(); }; }
   } catch (_) { }
 }
@@ -279,6 +289,7 @@ document.addEventListener('visibilitychange', () => { if (!document.hidden) { ch
 setInterval(checkVer, 30 * 60 * 1000);
 
 $('#lg-form').addEventListener('submit', doLogin);
+$('#lg-ver').textContent = 'Điều hành sản xuất PHR · ' + SXA_VERSION;
 $('#b-out').onclick = () => logout(false);
 $('#b-reload').onclick = () => { if (opened) openFrame(); else boot(); };
 if ('serviceWorker' in navigator && location.protocol === 'https:') navigator.serviceWorker.register('sw.js').catch(() => { });
