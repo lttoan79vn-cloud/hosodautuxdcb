@@ -1,11 +1,19 @@
 {
- "version": "V22.422",
+ "version": "V22.423",
  "date": "2026-11-28",
  "notes": [
-  "Biểu mẫu Điều hành sản xuất: lề trên/dưới 2 cm (trái/phải 1,5 cm) cho màn hình xem, PDF, Word, Excel.",
-  "PDF dựng từng trang từ các dòng bảng nguyên vẹn — không còn cắt ngang dòng ở chỗ sang trang, không tách dòng tiêu đề bảng khỏi dòng số liệu; trang ký luôn kèm ít nhất 2 dòng nội dung cuối của bảng."
+  "Xưởng PE: tách riêng “Bọc PE 0,04mm (có in nhãn CSR10 Green)” – sản phẩm Campuchia – khỏi “Bọc PE 0,04mm (có in)” của PHR (danh mục sản phẩm tự bổ sung, BBNT ghi thành 2 dòng); sửa lỗi sản phẩm tên “0,04mm” bị tách thành dòng thừa cuối bảng lương sản phẩm.",
+  "BBNT Đội xe - Cơ khí và Xưởng PE: các ô lũy kế (SCTX, chi phí chung, sửa chữa theo giá thành), tồn đầu kỳ thành phẩm/nguyên liệu tự lấy số của tháng trước khi tháng mới chưa nhập; tháng 1 lũy kế bắt đầu lại."
  ],
  "history": [
+  {
+   "version": "V22.423",
+   "date": "2026-11-28",
+   "notes": [
+    "Xưởng PE: tách riêng “Bọc PE 0,04mm (có in nhãn CSR10 Green)” – sản phẩm Campuchia – khỏi “Bọc PE 0,04mm (có in)” của PHR (danh mục sản phẩm tự bổ sung, BBNT ghi thành 2 dòng); sửa lỗi sản phẩm tên “0,04mm” bị tách thành dòng thừa cuối bảng lương sản phẩm.",
+    "BBNT Đội xe - Cơ khí và Xưởng PE: các ô lũy kế (SCTX, chi phí chung, sửa chữa theo giá thành), tồn đầu kỳ thành phẩm/nguyên liệu tự lấy số của tháng trước khi tháng mới chưa nhập; tháng 1 lũy kế bắt đầu lại."
+   ]
+  },
   {
    "version": "V22.422",
    "date": "2026-11-28",
