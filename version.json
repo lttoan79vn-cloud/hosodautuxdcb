@@ -1,10 +1,17 @@
 {
- "version": "V22.431",
+ "version": "V22.432",
  "date": "2026-11-28",
  "notes": [
-  "Xe chở mủ tạp, vật tư 64A (XT01): chỉ tính tuyến NM Bố Lá – Ly Tâm → NM Cuaparis, 1 chuyến gồm cả đi và về = 10 lít/chuyến; bỏ tuyến ngược Cuaparis → NM BL-LT; dòng cân của xe tại NM Bố Lá không tính thêm chuyến (có ghi chú ở phiếu)."
+  "Xe chở mủ tạp, vật tư 64A (XT01): khi lấy phiếu cân ZEN hoặc đọc file Phụ lục 3, chương trình dò xe theo mã xe, mã cân 64A/XT01 (kể cả dạng “1-XT01”, “64A-2”) và biển số 61C-121.27; sau khi lấy hiện thông báo rõ: đã tìm thấy bao nhiêu dòng cân theo ngày, nhà máy, tài xế, số chuyến được tính – hoặc cảnh báo không tìm thấy kèm cách xử lý (lấy thêm A02, nhập tay chuyến, kiểm tra Danh mục xe/tài xế)."
  ],
  "history": [
+  {
+   "version": "V22.432",
+   "date": "2026-11-28",
+   "notes": [
+    "Xe chở mủ tạp, vật tư 64A (XT01): khi lấy phiếu cân ZEN hoặc đọc file Phụ lục 3, chương trình dò xe theo mã xe, mã cân 64A/XT01 (kể cả dạng “1-XT01”, “64A-2”) và biển số 61C-121.27; sau khi lấy hiện thông báo rõ: đã tìm thấy bao nhiêu dòng cân theo ngày, nhà máy, tài xế, số chuyến được tính – hoặc cảnh báo không tìm thấy kèm cách xử lý (lấy thêm A02, nhập tay chuyến, kiểm tra Danh mục xe/tài xế)."
+   ]
+  },
   {
    "version": "V22.431",
    "date": "2026-11-28",
