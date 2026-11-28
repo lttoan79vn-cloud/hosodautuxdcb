@@ -1,10 +1,19 @@
 {
- "version": "V22.421",
+ "version": "V22.422",
  "date": "2026-11-28",
  "notes": [
-  "BBNT Đội xe - Cơ khí: chi phí chung trình bày theo mẫu công ty — Định mức khoán năm, Lũy kế thực hiện (đến kỳ trước + tháng này), Số tiền còn lại, Thực hiện trong tháng; Kết luận mục II lấy số thực hiện trong tháng. Thêm ô nhập “lũy kế thực hiện đến kỳ trước”, nút lấy lũy kế kỳ trước tự cộng dồn chi phí chung."
+  "Biểu mẫu Điều hành sản xuất: lề trên/dưới 2 cm (trái/phải 1,5 cm) cho màn hình xem, PDF, Word, Excel.",
+  "PDF dựng từng trang từ các dòng bảng nguyên vẹn — không còn cắt ngang dòng ở chỗ sang trang, không tách dòng tiêu đề bảng khỏi dòng số liệu; trang ký luôn kèm ít nhất 2 dòng nội dung cuối của bảng."
  ],
  "history": [
+  {
+   "version": "V22.422",
+   "date": "2026-11-28",
+   "notes": [
+    "Biểu mẫu Điều hành sản xuất: lề trên/dưới 2 cm (trái/phải 1,5 cm) cho màn hình xem, PDF, Word, Excel.",
+    "PDF dựng từng trang từ các dòng bảng nguyên vẹn — không còn cắt ngang dòng ở chỗ sang trang, không tách dòng tiêu đề bảng khỏi dòng số liệu; trang ký luôn kèm ít nhất 2 dòng nội dung cuối của bảng."
+   ]
+  },
   {
    "version": "V22.421",
    "date": "2026-11-28",
