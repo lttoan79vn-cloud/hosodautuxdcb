@@ -1,12 +1,19 @@
 {
- "version": "V22.427",
+ "version": "V22.428",
  "date": "2026-11-28",
  "notes": [
-  "Biểu mẫu Điều hành sản xuất: lề trái/phải 2 cm (trên/dưới 2 cm) cho xem, PDF, Word, Excel.",
-  "Bảng chấm công, bảng thanh toán lương, quyết toán AGC, danh sách chuyển khoản, chi tiết lương…: độ rộng cột tự cân theo nội dung thực (họ tên không xuống dòng, cột số vừa số lớn nhất), trải đều hết khổ giấy; bảng quá nhiều cột tự thu nhỏ chữ vừa trang.",
-  "Sửa lỗi chữ trong bảng hiển thị to bất thường (trang Điều hành SX chạy chế độ chuẩn); trang ký luôn đi kèm 2 dòng số liệu cuối của bảng (không tính dòng cộng)."
+  "Danh mục xe: đổi XT01 thành xe 64A (61C-121.27 – Trần Ngọc Lợi), xác định là xe chở mủ tạp và vật tư (NM BL-LT → CP) – tự cập nhật khi Phòng PT&QLKCN mở Điều hành SX; “XT01” giữ làm mã phụ nên chuyến đã nhập vẫn nhận đúng tài xế.",
+  "Xe có loại “chở vật tư / tải thùng” luôn tính lương thời gian (tối đa 1 công/ngày), không tính lương sản phẩm mủ nước dù số nội bộ có đuôi A; dữ liệu cân ZEN của xe 64A tách thành phiếu xe chở mủ tạp, vật tư."
  ],
  "history": [
+  {
+   "version": "V22.428",
+   "date": "2026-11-28",
+   "notes": [
+    "Danh mục xe: đổi XT01 thành xe 64A (61C-121.27 – Trần Ngọc Lợi), xác định là xe chở mủ tạp và vật tư (NM BL-LT → CP) – tự cập nhật khi Phòng PT&QLKCN mở Điều hành SX; “XT01” giữ làm mã phụ nên chuyến đã nhập vẫn nhận đúng tài xế.",
+    "Xe có loại “chở vật tư / tải thùng” luôn tính lương thời gian (tối đa 1 công/ngày), không tính lương sản phẩm mủ nước dù số nội bộ có đuôi A; dữ liệu cân ZEN của xe 64A tách thành phiếu xe chở mủ tạp, vật tư."
+   ]
+  },
   {
    "version": "V22.427",
    "date": "2026-11-28",
