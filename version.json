@@ -1,10 +1,17 @@
 {
- "version": "V22.424",
+ "version": "V22.425",
  "date": "2026-11-28",
  "notes": [
-  "Sổ Nhập liệu hằng ngày & lũy kế CN (Excel): thêm sheet “Kg mủ tạp theo ngày” ngay sau sheet Kg mủ nước; sheet Nhập liệu hằng ngày thêm cột Khối lượng mủ (kg); sheet Tổng hợp lũy kế CN thêm cột Số chuyến mủ tạp và Kg mủ tạp."
+  "Điều hành sản xuất › Danh mục: nút “Xuất file dữ liệu danh mục (Excel – 10 nhóm)” — Nhân sự, Phương tiện, Máy móc, Vật tư, Sản phẩm PE, BOM, Định mức công việc, Tiền lương, KPI, Quy trình phê duyệt; lấy dữ liệu đang có trong chương trình, phần chưa có để dòng nền vàng cần bổ sung; có sheet Mục lục liên kết và tình trạng từng nhóm."
  ],
  "history": [
+  {
+   "version": "V22.425",
+   "date": "2026-11-28",
+   "notes": [
+    "Điều hành sản xuất › Danh mục: nút “Xuất file dữ liệu danh mục (Excel – 10 nhóm)” — Nhân sự, Phương tiện, Máy móc, Vật tư, Sản phẩm PE, BOM, Định mức công việc, Tiền lương, KPI, Quy trình phê duyệt; lấy dữ liệu đang có trong chương trình, phần chưa có để dòng nền vàng cần bổ sung; có sheet Mục lục liên kết và tình trạng từng nhóm."
+   ]
+  },
   {
    "version": "V22.424",
    "date": "2026-11-28",
