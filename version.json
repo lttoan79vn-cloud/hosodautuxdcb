@@ -1,10 +1,17 @@
 {
- "version": "V22.435",
- "date": "2026-11-28",
+ "version": "V22.436",
+ "date": "2026-11-29",
  "notes": [
-  "Điều hành sản xuất chuyển sang kho riêng dieuhanhsanxuat – địa chỉ https://lttoan79vn-cloud.github.io/dieuhanhsanxuat/ (đăng nhập riêng, chỉ tài khoản có quyền mục Sản xuất). Địa chỉ tạm …/hosodautuxdcb/dieuhanhsx/ và nút “↗ Trang riêng” trong PHR tự chuyển sang địa chỉ mới; mục Điều hành sản xuất trong PHR vẫn chạy song song."
+  "Điều hành sản xuất – thêm 6 chức năng mới (phân tích từ bản mẫu PHR Production Management V1+): 📊 Tổng quan điều hành (chỉ số, biểu đồ theo ngày, cảnh báo); 🛠 Cơ khí – yêu cầu, lệnh sửa chữa theo trạng thái Chờ duyệt → Đang thực hiện → Chờ nghiệm thu → Hoàn thành, chi phí vật tư + nhân công + gia công ngoài, cảnh báo quá hạn, đưa vào số thực hiện SCTX; 🏭 Xưởng PE – lệnh sản xuất theo ca: kế hoạch, thực tế, phế phẩm, nguyên liệu tiêu hao, % hoàn thành, đối chiếu với sản lượng nhập kho; 📦 Kho vật tư – phiếu nhập, xuất, thu hồi gắn lệnh công việc, tồn kho, cảnh báo dưới tồn tối thiểu; ✅ Trung tâm phê duyệt; 📈 Báo cáo & KPI (13 chỉ tiêu, kế hoạch, diễn biến 6 tháng). Danh mục thêm Máy móc, thiết bị (chu kỳ bảo trì) và Vật tư kho. Xuất Excel từng mục. Cần cập nhật Code.gs V22.436."
  ],
  "history": [
+  {
+   "version": "V22.436",
+   "date": "2026-11-29",
+   "notes": [
+    "Điều hành sản xuất – thêm 6 chức năng mới (phân tích từ bản mẫu PHR Production Management V1+): 📊 Tổng quan điều hành (chỉ số, biểu đồ theo ngày, cảnh báo); 🛠 Cơ khí – yêu cầu, lệnh sửa chữa theo trạng thái Chờ duyệt → Đang thực hiện → Chờ nghiệm thu → Hoàn thành, chi phí vật tư + nhân công + gia công ngoài, cảnh báo quá hạn, đưa vào số thực hiện SCTX; 🏭 Xưởng PE – lệnh sản xuất theo ca: kế hoạch, thực tế, phế phẩm, nguyên liệu tiêu hao, % hoàn thành, đối chiếu với sản lượng nhập kho; 📦 Kho vật tư – phiếu nhập, xuất, thu hồi gắn lệnh công việc, tồn kho, cảnh báo dưới tồn tối thiểu; ✅ Trung tâm phê duyệt; 📈 Báo cáo & KPI (13 chỉ tiêu, kế hoạch, diễn biến 6 tháng). Danh mục thêm Máy móc, thiết bị (chu kỳ bảo trì) và Vật tư kho. Xuất Excel từng mục. Cần cập nhật Code.gs V22.436."
+   ]
+  },
   {
    "version": "V22.435",
    "date": "2026-11-28",
