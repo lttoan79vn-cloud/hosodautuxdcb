@@ -1,10 +1,17 @@
 {
- "version": "V22.430",
+ "version": "V22.431",
  "date": "2026-11-28",
  "notes": [
-  "Xe chở mủ tạp, vật tư 64A (XT01): thêm tuyến vận chuyển 2 chiều NM Bố Lá – Ly Tâm → NM Cuaparis và NM Cuaparis → NM Bố Lá – Ly Tâm — nút chọn tuyến khi nhập chuyến; dữ liệu cân ZEN tại NM Cuaparis ghi tuyến đi, tại NM Bố Lá ghi tuyến về; chuyến giữa 2 nhà máy (mủ tạp hoặc vật tư) đều tính vào dòng “V/c mủ tạp, vật tư tuyến NM BL-LT ⇄ NM CP”, nhiên liệu tách theo từng chiều."
+  "Xe chở mủ tạp, vật tư 64A (XT01): chỉ tính tuyến NM Bố Lá – Ly Tâm → NM Cuaparis, 1 chuyến gồm cả đi và về = 10 lít/chuyến; bỏ tuyến ngược Cuaparis → NM BL-LT; dòng cân của xe tại NM Bố Lá không tính thêm chuyến (có ghi chú ở phiếu)."
  ],
  "history": [
+  {
+   "version": "V22.431",
+   "date": "2026-11-28",
+   "notes": [
+    "Xe chở mủ tạp, vật tư 64A (XT01): chỉ tính tuyến NM Bố Lá – Ly Tâm → NM Cuaparis, 1 chuyến gồm cả đi và về = 10 lít/chuyến; bỏ tuyến ngược Cuaparis → NM BL-LT; dòng cân của xe tại NM Bố Lá không tính thêm chuyến (có ghi chú ở phiếu)."
+   ]
+  },
   {
    "version": "V22.430",
    "date": "2026-11-28",
