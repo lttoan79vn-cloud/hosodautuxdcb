@@ -1,10 +1,17 @@
 {
- "version": "V22.432",
+ "version": "V22.433",
  "date": "2026-11-28",
  "notes": [
-  "Xe chở mủ tạp, vật tư 64A (XT01): khi lấy phiếu cân ZEN hoặc đọc file Phụ lục 3, chương trình dò xe theo mã xe, mã cân 64A/XT01 (kể cả dạng “1-XT01”, “64A-2”) và biển số 61C-121.27; sau khi lấy hiện thông báo rõ: đã tìm thấy bao nhiêu dòng cân theo ngày, nhà máy, tài xế, số chuyến được tính – hoặc cảnh báo không tìm thấy kèm cách xử lý (lấy thêm A02, nhập tay chuyến, kiểm tra Danh mục xe/tài xế)."
+  "Tách Điều hành sản xuất thành trang riêng tại …/hosodautuxdcb/dieuhanhsx/: đăng nhập bằng tài khoản PHR (dùng chung phiên trên cùng trình duyệt), dùng chung máy chủ, dữ liệu Google Drive của Admin và phân quyền mục Sản xuất; có đủ 5 mục chức năng, cài được như ứng dụng trên điện thoại, tự báo khi có phiên bản mới. Cùng một mã nguồn với mục Điều hành sản xuất trong PHR (vẫn giữ song song); trong PHR có thêm nút “↗ Trang riêng”."
  ],
  "history": [
+  {
+   "version": "V22.433",
+   "date": "2026-11-28",
+   "notes": [
+    "Tách Điều hành sản xuất thành trang riêng tại …/hosodautuxdcb/dieuhanhsx/: đăng nhập bằng tài khoản PHR (dùng chung phiên trên cùng trình duyệt), dùng chung máy chủ, dữ liệu Google Drive của Admin và phân quyền mục Sản xuất; có đủ 5 mục chức năng, cài được như ứng dụng trên điện thoại, tự báo khi có phiên bản mới. Cùng một mã nguồn với mục Điều hành sản xuất trong PHR (vẫn giữ song song); trong PHR có thêm nút “↗ Trang riêng”."
+   ]
+  },
   {
    "version": "V22.432",
    "date": "2026-11-28",
