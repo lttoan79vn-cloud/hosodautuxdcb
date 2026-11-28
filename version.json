@@ -1,10 +1,19 @@
 {
- "version": "V22.425",
+ "version": "V22.426",
  "date": "2026-11-28",
  "notes": [
-  "Điều hành sản xuất › Danh mục: nút “Xuất file dữ liệu danh mục (Excel – 10 nhóm)” — Nhân sự, Phương tiện, Máy móc, Vật tư, Sản phẩm PE, BOM, Định mức công việc, Tiền lương, KPI, Quy trình phê duyệt; lấy dữ liệu đang có trong chương trình, phần chưa có để dòng nền vàng cần bổ sung; có sheet Mục lục liên kết và tình trạng từng nhóm."
+  "Xe tải thùng XT01 (61C-121.27 – Trần Ngọc Lợi): nhận diện trên phần mềm cân ZEN theo số nội bộ 64A (Bảng phân xe tài xế); khi lấy từ ZEN, các dòng cân của xe này tách thành phiếu riêng “xe tải thùng”, mỗi dòng = 1 chuyến mủ tạp/vật tư (cân tại NM Cuaparis = từ NM Bố Lá – Ly Tâm), tài xế theo Danh mục › Xe, lương thời gian tối đa 1 công/ngày, số chuyến tính nhiên liệu.",
+  "Danh mục › Xe thêm cột “Mã trên phần mềm cân” để gắn mã cân khác với mã xe."
  ],
  "history": [
+  {
+   "version": "V22.426",
+   "date": "2026-11-28",
+   "notes": [
+    "Xe tải thùng XT01 (61C-121.27 – Trần Ngọc Lợi): nhận diện trên phần mềm cân ZEN theo số nội bộ 64A (Bảng phân xe tài xế); khi lấy từ ZEN, các dòng cân của xe này tách thành phiếu riêng “xe tải thùng”, mỗi dòng = 1 chuyến mủ tạp/vật tư (cân tại NM Cuaparis = từ NM Bố Lá – Ly Tâm), tài xế theo Danh mục › Xe, lương thời gian tối đa 1 công/ngày, số chuyến tính nhiên liệu.",
+    "Danh mục › Xe thêm cột “Mã trên phần mềm cân” để gắn mã cân khác với mã xe."
+   ]
+  },
   {
    "version": "V22.425",
    "date": "2026-11-28",
