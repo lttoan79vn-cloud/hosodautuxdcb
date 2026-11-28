@@ -1,10 +1,17 @@
 {
- "version": "V22.434",
+ "version": "V22.435",
  "date": "2026-11-28",
  "notes": [
-  "Điều hành sản xuất (trang riêng): màn hình đăng nhập riêng, nhận diện khác PHR; phiên đăng nhập độc lập – đăng nhập, thoát ở Điều hành SX không ảnh hưởng chương trình PHR và ngược lại. Chỉ tài khoản đã được cấp quyền mục Sản xuất mới vào được, chưa có quyền thì có thông báo nhờ Admin cấp. Chuẩn bị kho riêng cho Điều hành SX; mục Điều hành sản xuất trong PHR vẫn chạy song song."
+  "Điều hành sản xuất chuyển sang kho riêng dieuhanhsanxuat – địa chỉ https://lttoan79vn-cloud.github.io/dieuhanhsanxuat/ (đăng nhập riêng, chỉ tài khoản có quyền mục Sản xuất). Địa chỉ tạm …/hosodautuxdcb/dieuhanhsx/ và nút “↗ Trang riêng” trong PHR tự chuyển sang địa chỉ mới; mục Điều hành sản xuất trong PHR vẫn chạy song song."
  ],
  "history": [
+  {
+   "version": "V22.435",
+   "date": "2026-11-28",
+   "notes": [
+    "Điều hành sản xuất chuyển sang kho riêng dieuhanhsanxuat – địa chỉ https://lttoan79vn-cloud.github.io/dieuhanhsanxuat/ (đăng nhập riêng, chỉ tài khoản có quyền mục Sản xuất). Địa chỉ tạm …/hosodautuxdcb/dieuhanhsx/ và nút “↗ Trang riêng” trong PHR tự chuyển sang địa chỉ mới; mục Điều hành sản xuất trong PHR vẫn chạy song song."
+   ]
+  },
   {
    "version": "V22.434",
    "date": "2026-11-28",
